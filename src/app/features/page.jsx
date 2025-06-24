@@ -20,7 +20,7 @@ function HeroSection() {
       <Container>
         <div className="text-center">
           <Heading as="h1" className="text-4xl md:text-5xl">
-            Powerful Call Tracking, Simplified asdsadsadsadsadsadsadsadsadsadsa
+            Powerful Call Tracking, Simplified
           </Heading>
           <Lead className="mx-auto mt-6 max-w-3xl text-lg">
             CallGauge delivers enterprise-grade call tracking features at a
