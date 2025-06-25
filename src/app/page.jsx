@@ -40,18 +40,25 @@ function Hero() {
           }
         />
         <div className="pt-16 pb-24 sm:pt-24 sm:pb-32 md:pt-32 md:pb-48">
-          <h1 className="font-display text-6xl/[0.9] font-medium tracking-tight text-balance text-gray-950 sm:text-8xl/[0.8] md:text-8xl/[0.8]">
-            The scalable call tracking platform built for growth.
+          <h1 className="font-display text-6xl/[0.9] font-medium tracking-tight text-balance text-gray-950 sm:text-8xl/[1] md:text-8xl/[1]">
+            Call tracking powered by AI to boost every business.
           </h1>
-          <p className="mt-8 max-w-lg text-xl/7 font-medium text-gray-950/75 sm:text-2xl/8">
-            Maximize ROI with CallGauge — just $0.50 per phone number compared
-            to $3.00 at competitors.
+          <p className="mt-8 max-w-lg text-xl/7 font-medium text-gray-950/75 sm:text-xl/8">
+            Track every phone call, text, form and chat in one place-maximize
+            every lead and grow faster in a price that you won’t find anywhere
+            else, just $0.5 per number.
           </p>
           <div className="mt-12 flex flex-col gap-x-6 gap-y-4 sm:flex-row">
-            <Button href="#">Get started</Button>
-            <Button variant="secondary" href="/pricing">
-              See pricing
+            <Button href="#">Sign up free</Button>
+            <Button variant="secondary" href="#">
+              Watch a demo
             </Button>
+            {/*<Button variant="secondary" href="/pricing">*/}
+            {/*  See pricing*/}
+            {/*</Button>*/}
+          </div>
+          <div className="mt-3 ml-2 text-sm text-red-500 italic">
+            *No credit card needed
           </div>
         </div>
       </Container>
@@ -64,7 +71,7 @@ function FeatureSection() {
     <div className="overflow-hidden">
       <Container className="pb-24">
         <Heading as="h2" className="max-w-3xl">
-          Your complete call tracking solution at industry-low pricing.
+          Offering complete call tracking solution at industry-low pricing.
         </Heading>
         <Screenshot
           width={1216}
@@ -86,11 +93,14 @@ function BentoSection() {
         Attribute inbound calls and optimize your marketing.
       </Heading>
 
-      <div className="mt-10 grid grid-cols-1 gap-4 sm:mt-16 lg:grid-cols-6 lg:grid-rows-2">
+      <div className="mt-10 grid gap-4 sm:mt-16 md:grid-cols-2 lg:grid-cols-3">
         <BentoCard
           eyebrow="Source Tracking"
-          title="See the source of inbound calls"
-          description="Attribute inbound calls to specific campaigns with dynamic number insertion and easy call routing."
+          title="Inbound Calls, Attributed"
+          description="Identify the source of every phone call.
+                Uncover your best leads and amplify results.
+                Dynamic number insertion (DNI)
+                Rout and record your phone calls seamlessly."
           graphic={
             <div className="relative h-80">
               <Image src="/screenshots/dummy2.png" fill alt="" />
@@ -98,12 +108,16 @@ function BentoSection() {
             // <div className="h-80 bg-[url(/screenshots/dummy2.png)] bg-[size:786px_486px] bg-[left_-80px_top_-112px] bg-no-repeat" />
           }
           fade={['bottom']}
-          className="max-lg:rounded-t-4xl lg:col-span-3 lg:rounded-tl-4xl"
+          className="max-lg:rounded-t-4xl lg:rounded-tl-4xl"
         />
+
         <BentoCard
           eyebrow="Lead Insights"
-          title="Learn how you’re getting leads"
-          description="Understand which marketing channels drive calls and double down on what works best."
+          title="Manage Clients, Effortlessly"
+          description=" Bill your clients, per-call seamlessly.
+                           Offer real-time access to clients.
+                           Client invoicing, automated.
+                           Hassle-free white labeling"
           graphic={
             // <div className="absolute inset-0 bg-[url(/screenshots/dummy2.png)] bg-[size:786px_486px] bg-[left_-80px_top_-112px] bg-no-repeat" />
             <div className="relative h-80">
@@ -111,7 +125,23 @@ function BentoSection() {
             </div>
           }
           fade={['bottom']}
-          className="lg:col-span-3 lg:rounded-tr-4xl"
+          className="lg:rounded-tr-4xl"
+        />
+        <BentoCard
+          eyebrow="Lead Insights"
+          title="Everything call-related, Handled"
+          description="Call whisper & call recording.
+                        SMS, voicemail and call management.
+                        AI transcription & summaries.
+                        All call-related operations streamlined."
+          graphic={
+            // <div className="absolute inset-0 bg-[url(/screenshots/dummy2.png)] bg-[size:786px_486px] bg-[left_-80px_top_-112px] bg-no-repeat" />
+            <div className="relative h-80">
+              <Image src="/screenshots/dummy2.png" fill alt="" />
+            </div>
+          }
+          fade={['bottom']}
+          className="lg:rounded-tr-4xl"
         />
         <BentoCard
           eyebrow="Setup"
@@ -122,21 +152,21 @@ function BentoSection() {
               <Keyboard highlighted={['LeftCommand', 'LeftShift', 'D']} />
             </div>
           }
-          className="lg:col-span-2 lg:rounded-bl-4xl"
+          className="lg:rounded-bl-4xl"
         />
         <BentoCard
           eyebrow="Scale"
           title="Track 6x more numbers"
           description="Grow faster with disruptive pricing—track more campaigns without increasing your budget."
           graphic={<LogoCluster />}
-          className="lg:col-span-2"
+          className=""
         />
         <BentoCard
           eyebrow="Global Reach"
           title="Process over 1M calls yearly"
           description="CallGauge supports growing businesses and agencies worldwide with unmatched scalability."
           graphic={<Map />}
-          className="max-lg:rounded-b-4xl lg:col-span-2 lg:rounded-br-4xl"
+          className="max-lg:rounded-b-4xl lg:rounded-br-4xl"
         />
       </div>
     </Container>
