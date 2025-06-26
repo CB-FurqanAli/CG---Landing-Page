@@ -88,19 +88,14 @@ function FeatureSection() {
 function BentoSection() {
   return (
     <Container>
-      <Subheading>Call Attribution</Subheading>
-      <Heading as="h3" className="mt-2 max-w-3xl">
-        Attribute inbound calls and optimize your marketing.
-      </Heading>
-
       <div className="mt-10 grid gap-4 sm:mt-16 md:grid-cols-2 lg:grid-cols-3">
         <BentoCard
           eyebrow="Source Tracking"
           title="Inbound Calls, Attributed"
-          description="Identify the source of every phone call.
-                Uncover your best leads and amplify results.
-                Dynamic number insertion (DNI)
-                Rout and record your phone calls seamlessly."
+          bullets="Identify the source of every phone call."
+          bullets1="Uncover your best leads and amplify results."
+          bullets2="Dynamic number insertion (DNI)"
+          bullets3="Rout and record your phone calls seamlessly."
           graphic={
             <div className="relative h-80">
               <Image src="/screenshots/dummy2.png" fill alt="" />
@@ -114,10 +109,10 @@ function BentoSection() {
         <BentoCard
           eyebrow="Lead Insights"
           title="Manage Clients, Effortlessly"
-          description=" Bill your clients, per-call seamlessly.
-                           Offer real-time access to clients.
-                           Client invoicing, automated.
-                           Hassle-free white labeling"
+          bullets="Bill your clients, per-call seamlessly."
+          bullets1="Offer real-time access to clients."
+          bullets2="Client invoicing, automated."
+          bullets3="Hassle-free white labeling."
           graphic={
             // <div className="absolute inset-0 bg-[url(/screenshots/dummy2.png)] bg-[size:786px_486px] bg-[left_-80px_top_-112px] bg-no-repeat" />
             <div className="relative h-80">
@@ -130,10 +125,10 @@ function BentoSection() {
         <BentoCard
           eyebrow="Lead Insights"
           title="Everything call-related, Handled"
-          description="Call whisper & call recording.
-                        SMS, voicemail and call management.
-                        AI transcription & summaries.
-                        All call-related operations streamlined."
+          bullets="Call whisper & call recording."
+          bullets1="SMS, voicemail and call management."
+          bullets2="AI transcription & summaries."
+          bullets3="All call-related operations streamlined."
           graphic={
             // <div className="absolute inset-0 bg-[url(/screenshots/dummy2.png)] bg-[size:786px_486px] bg-[left_-80px_top_-112px] bg-no-repeat" />
             <div className="relative h-80">
