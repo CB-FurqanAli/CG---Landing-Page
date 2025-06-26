@@ -40,8 +40,8 @@ function Hero() {
             </Link>
           }
         />
-        <div className="pt-16 pb-24 sm:pt-24 sm:pb-32 md:pt-32 md:pb-48">
-          <h1 className="font-display text-6xl/[0.9] font-medium tracking-tight text-balance text-gray-950 sm:text-8xl/[1] md:text-8xl/[1]">
+        <div className="py-16 md:py-24">
+          <h1 className="font-display text-6xl/[0.9] font-medium tracking-tight text-balance text-gray-950 sm:text-8xl/[1] md:text-7xl/[1]">
             Call tracking powered by AI to boost every business.
           </h1>
           <p className="mt-8 max-w-lg text-xl/7 font-medium text-gray-950/75 sm:text-xl/8">
@@ -58,9 +58,9 @@ function Hero() {
             {/*  See pricing*/}
             {/*</Button>*/}
           </div>
-          <div className="mt-3 ml-2 text-sm text-red-500 italic">
+          <p className="mt-3 text-sm font-medium text-red-500 italic">
             *No credit card needed
-          </div>
+          </p>
         </div>
       </Container>
     </div>
