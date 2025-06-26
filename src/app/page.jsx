@@ -1,4 +1,5 @@
 import { BentoCard } from '@/components/bento-card'
+import { Bullets } from '@/components/bullets'
 import { Button } from '@/components/button'
 import { Container } from '@/components/container'
 import { FAQSection } from '@/components/FAQSection' // Import the new component
@@ -89,7 +90,7 @@ function BentoSection() {
   return (
     <Container>
       <div className="mt-10 grid gap-4 sm:mt-16 md:grid-cols-2 lg:grid-cols-3">
-        <BentoCard
+        <Bullets
           eyebrow="Source Tracking"
           title="Inbound Calls, Attributed"
           bullets="Identify the source of every phone call."
@@ -106,7 +107,7 @@ function BentoSection() {
           className="max-lg:rounded-t-4xl lg:rounded-tl-4xl"
         />
 
-        <BentoCard
+        <Bullets
           eyebrow="Lead Insights"
           title="Manage Clients, Effortlessly"
           bullets="Bill your clients, per-call seamlessly."
@@ -122,7 +123,7 @@ function BentoSection() {
           fade={['bottom']}
           className="lg:rounded-tr-4xl"
         />
-        <BentoCard
+        <Bullets
           eyebrow="Lead Insights"
           title="Everything call-related, Handled"
           bullets="Call whisper & call recording."

@@ -4,12 +4,16 @@ import { clsx } from 'clsx'
 import { motion } from 'framer-motion'
 import { Subheading } from './text'
 
-export function BentoCard({
+export function Bullets({
   dark = false,
   className = '',
   eyebrow,
   title,
   description,
+  bullets,
+  bullets1,
+  bullets2,
+  bullets3,
   graphic,
   fade = [],
 }) {
@@ -45,6 +49,30 @@ export function BentoCard({
         <p className="mt-2 max-w-[600px] text-sm/6 text-gray-600 group-data-dark:text-gray-400">
           {description}
         </p>
+        <ul
+          role="list"
+          className="mt-2 max-w-[600px] list-disc text-sm/6 text-gray-600 group-data-dark:text-gray-400"
+        >
+          <li>{bullets}</li>
+        </ul>
+        <ul
+          role="list"
+          className="mt-2 max-w-[600px] list-disc text-sm/6 text-gray-600 group-data-dark:text-gray-400"
+        >
+          <li>{bullets1}</li>
+        </ul>
+        <ul
+          role="list"
+          className="mt-2 max-w-[600px] list-disc text-sm/6 text-gray-600 group-data-dark:text-gray-400"
+        >
+          <li>{bullets2}</li>
+        </ul>
+        <ul
+          role="list"
+          className="mt-2 max-w-[600px] list-disc text-sm/6 text-gray-600 group-data-dark:text-gray-400"
+        >
+          <li>{bullets3}</li>
+        </ul>
       </div>
     </motion.div>
   )
