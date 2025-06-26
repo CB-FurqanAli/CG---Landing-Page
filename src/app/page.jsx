@@ -173,16 +173,20 @@ function DarkBentoSection() {
     <div className="mx-2 mt-2 rounded-4xl bg-gray-900 py-32">
       <Container>
         <Subheading dark>Client Management & Phone Operations</Subheading>
-        <Heading as="h3" dark className="mt-2 max-w-3xl">
-          Manage clients and handle all things phone effortlessly.
+        <Heading as="h3" dark className="mt-2 max-w-4xl">
+          Who should use Call Gauge Pro?
         </Heading>
+        <p className="mt-4 text-lg text-white">
+          If you are in the need of call tracking and attribution, you have
+          found your savior.{' '}
+        </p>
 
         <div className="mt-10 grid grid-cols-1 gap-4 sm:mt-16 lg:grid-cols-6 lg:grid-rows-2">
           <BentoCard
             dark
             eyebrow="Client Billing"
-            title="Effortlessly bill clients per call"
-            description="Automate client invoicing and charge on a pay-per-call basis with real-time access."
+            title="High volume businesses."
+            description="Cut your costs exponentially with our guaranteed low prices."
             graphic={
               // <div className="h-80 bg-[url(/screenshots/dummy2.png)] bg-[size:851px_344px] bg-no-repeat" />
 
@@ -198,24 +202,24 @@ function DarkBentoSection() {
           <BentoCard
             dark
             eyebrow="White Labeling"
-            title="White label on your URL"
-            description="Deliver a first-class experience with your branding and a custom domain."
+            title="Marketing agencies and SEO agencies."
+            description="Efficiently manage your clients and invoice them seamlessly."
             graphic={<LogoTimeline />}
             className="z-10 overflow-visible! lg:col-span-2 lg:rounded-tr-4xl"
           />
           <BentoCard
             dark
             eyebrow="Phone Features"
-            title="Call recording & whisper"
-            description="Use call recording, whisper messages, and AI transcription to optimize performance."
+            title="Lead generation companies."
+            description="Flourish your lead-gen business to a higher level."
             graphic={<LinkedAvatars />}
             className="lg:col-span-2 lg:rounded-bl-4xl"
           />
           <BentoCard
             dark
             eyebrow="SMS & Voicemail"
-            title="Streamline phone operations"
-            description="Manage SMS, voicemail, and calls with automated missed call notifications."
+            title="Local businesses."
+            description="Experiment with more marketing strategies while keeping your costs minimum."
             graphic={
               // <div className="h-80 bg-[url(/screenshots/dummy2.png)] bg-[size:851px_344px] bg-no-repeat" />
               <div className="relative h-80">
