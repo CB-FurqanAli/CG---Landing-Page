@@ -230,6 +230,18 @@ function DarkBentoSection() {
             className="max-lg:rounded-b-4xl lg:col-span-4 lg:rounded-br-4xl"
           />
         </div>
+
+        <div className="mt-12 flex flex-col gap-x-6 gap-y-4 sm:flex-row">
+          <button className="rounded-xl bg-gradient-to-r from-blue-500 to-purple-600 px-8 py-4 text-lg font-semibold text-white transition-all duration-300 hover:scale-105 hover:from-blue-600 hover:to-purple-700 hover:shadow-xl focus:ring-4 focus:ring-purple-500/30 focus:outline-none active:scale-95">
+            Start for free today
+          </button>
+          <button className="rounded-xl border border-slate-500 bg-gradient-to-r from-slate-600 to-slate-700 px-8 py-4 text-lg font-semibold text-white transition-all duration-300 hover:scale-105 hover:from-slate-500 hover:to-slate-600 hover:shadow-xl focus:ring-4 focus:ring-slate-500/30 focus:outline-none active:scale-95">
+            Watch a demo
+          </button>
+        </div>
+        <p className="mt-4 text-sm font-medium text-red-400 italic">
+          *No credit card needed
+        </p>
       </Container>
     </div>
   )
