@@ -1,7 +1,7 @@
 export const InvocForresterBanner = () => {
   return (
     <div className="flex min-h-screen items-center justify-center bg-gray-100 p-8">
-      <div className="w-full max-w-6xl">
+      <div className="w-full max-w-7xl">
         {/* Main Banner Container */}
         <div className="relative flex items-center justify-between rounded-3xl bg-linear-115 from-[#fff1be] from-28% via-[#ee87cb] via-70% to-[#b060ff] p-12 sm:bg-linear-145">
           {/* Left Content */}
@@ -14,22 +14,28 @@ export const InvocForresterBanner = () => {
               with the matchless prices, allowing you to monitor more campaigns,
               websites and clients – without limitations!
             </p>
-            <button className="flex items-center gap-2 rounded-lg bg-yellow-400 px-6 py-3 font-semibold text-black transition-colors duration-200 hover:bg-yellow-500">
-              Start for free
-              <svg
-                className="h-4 w-4"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M9 5l7 7-7 7"
-                />
-              </svg>
-            </button>
+
+            <div className="mt-12 flex flex-col gap-x-6 gap-y-4 sm:flex-row">
+              <button className="flex items-center gap-2 rounded-lg bg-yellow-400 px-6 py-3 font-semibold text-black transition-colors duration-200 hover:bg-yellow-500">
+                Start for free
+                <svg
+                  className="h-4 w-4"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M9 5l7 7-7 7"
+                  />
+                </svg>
+              </button>
+              <button className="rounded-xl border border-slate-500 bg-gradient-to-r from-[#FBCCC5] to-[#B767F4] px-6 py-3 text-lg font-semibold transition-all duration-300 hover:shadow-xl focus:ring-4 focus:ring-slate-500/30 focus:outline-none active:scale-95">
+                Watch a demo
+              </button>
+            </div>
           </div>
 
           {/* Right Side - Report Preview */}
