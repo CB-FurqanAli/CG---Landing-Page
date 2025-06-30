@@ -98,7 +98,7 @@ function BentoSection() {
           bullets2="Dynamic number insertion (DNI)"
           bullets3="Rout and record your phone calls seamlessly."
           fade={['bottom']}
-          className="max-lg:rounded-t-4xl lg:rounded-tl-4xl"
+          className="bg-[#FAC5C6] max-lg:rounded-t-4xl"
         />
 
         <Bullets
@@ -108,7 +108,7 @@ function BentoSection() {
           bullets2="Client invoicing, automated."
           bullets3="Hassle-free white labeling."
           fade={['bottom']}
-          className="lg:rounded-tr-4xl"
+          className="bg-[#FBCFC5] max-lg:rounded-tr-4xl"
         />
         <Bullets
           title="Call operations, handled"
@@ -117,7 +117,7 @@ function BentoSection() {
           bullets2="AI transcription & summaries."
           bullets3="All call-related operations streamlined."
           fade={['bottom']}
-          className="lg:rounded-tr-4xl"
+          className="bg-[#FDE0C1] max-lg:rounded-tr-4xl"
         />
         <BentoCard
           eyebrow="Setup"
