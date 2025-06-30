@@ -2,9 +2,10 @@ import { BentoCard } from '@/components/bento-card'
 import { Bullets } from '@/components/bullets'
 import { Button } from '@/components/button'
 import { Container } from '@/components/container'
-import { FAQSection } from '@/components/FAQSection' // Import the new component
+import { FAQSection } from '@/components/FAQSection'
 import { Footer } from '@/components/footer'
 import { Gradient } from '@/components/gradient'
+import { InvocForresterBanner } from '@/components/invoc'
 import { Keyboard } from '@/components/keyboard'
 import { Link } from '@/components/link'
 import { LinkedAvatars } from '@/components/linked-avatars'
@@ -91,51 +92,30 @@ function BentoSection() {
     <Container>
       <div className="mt-10 grid gap-4 sm:mt-16 md:grid-cols-2 lg:grid-cols-3">
         <Bullets
-          eyebrow="Source Tracking"
           title="Inbound Calls, Attributed"
           bullets="Identify the source of every phone call."
           bullets1="Uncover your best leads and amplify results."
           bullets2="Dynamic number insertion (DNI)"
           bullets3="Rout and record your phone calls seamlessly."
-          graphic={
-            <div className="relative h-80">
-              <Image src="/screenshots/dummy2.png" fill alt="" />
-            </div>
-            // <div className="h-80 bg-[url(/screenshots/dummy2.png)] bg-[size:786px_486px] bg-[left_-80px_top_-112px] bg-no-repeat" />
-          }
           fade={['bottom']}
           className="max-lg:rounded-t-4xl lg:rounded-tl-4xl"
         />
 
         <Bullets
-          eyebrow="Lead Insights"
           title="Manage Clients, Effortlessly"
           bullets="Bill your clients, per-call seamlessly."
           bullets1="Offer real-time access to clients."
           bullets2="Client invoicing, automated."
           bullets3="Hassle-free white labeling."
-          graphic={
-            // <div className="absolute inset-0 bg-[url(/screenshots/dummy2.png)] bg-[size:786px_486px] bg-[left_-80px_top_-112px] bg-no-repeat" />
-            <div className="relative h-80">
-              <Image src="/screenshots/dummy2.png" fill alt="" />
-            </div>
-          }
           fade={['bottom']}
           className="lg:rounded-tr-4xl"
         />
         <Bullets
-          eyebrow="Lead Insights"
-          title="Everything call-related, Handled"
+          title="Call operations, handled"
           bullets="Call whisper & call recording."
           bullets1="SMS, voicemail and call management."
           bullets2="AI transcription & summaries."
           bullets3="All call-related operations streamlined."
-          graphic={
-            // <div className="absolute inset-0 bg-[url(/screenshots/dummy2.png)] bg-[size:786px_486px] bg-[left_-80px_top_-112px] bg-no-repeat" />
-            <div className="relative h-80">
-              <Image src="/screenshots/dummy2.png" fill alt="" />
-            </div>
-          }
           fade={['bottom']}
           className="lg:rounded-tr-4xl"
         />
@@ -259,6 +239,9 @@ export default function Home() {
         <div className="bg-linear-to-b from-white from-50% to-gray-100 py-10 sm:py-20 md:py-24 lg:py-32">
           <FeatureSection />
           <BentoSection />
+        </div>
+        <div>
+          <InvocForresterBanner />
         </div>
         <DarkBentoSection />
         <FAQSection />
