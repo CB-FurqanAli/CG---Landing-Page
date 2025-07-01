@@ -92,15 +92,24 @@ function BentoSection() {
     <Container>
       <div className="mt-10 grid gap-4 sm:mt-16 md:grid-cols-2 lg:grid-cols-3">
         <Bullets
+          title="Call operations, handled"
+          bullets="Call whisper & call recording."
+          bullets1="SMS, voicemail and call management."
+          bullets2="AI transcription & summaries."
+          bullets3="All call-related operations streamlined."
+          fade={['bottom']}
+          className="bg-[#FDE0C1] max-lg:rounded-tr-4xl"
+        />
+
+        <Bullets
           title="Inbound Calls, Attributed"
           bullets="Identify the source of every phone call."
           bullets1="Uncover your best leads and amplify results."
           bullets2="Dynamic number insertion (DNI)"
           bullets3="Rout and record your phone calls seamlessly."
           fade={['bottom']}
-          className="bg-[#FAC5C6] max-lg:rounded-t-4xl"
+          className="bg-[#DF80D9] max-lg:rounded-t-4xl"
         />
-
         <Bullets
           title="Manage Clients, Effortlessly"
           bullets="Bill your clients, per-call seamlessly."
@@ -110,15 +119,7 @@ function BentoSection() {
           fade={['bottom']}
           className="bg-[#FBCFC5] max-lg:rounded-tr-4xl"
         />
-        <Bullets
-          title="Call operations, handled"
-          bullets="Call whisper & call recording."
-          bullets1="SMS, voicemail and call management."
-          bullets2="AI transcription & summaries."
-          bullets3="All call-related operations streamlined."
-          fade={['bottom']}
-          className="bg-[#FDE0C1] max-lg:rounded-tr-4xl"
-        />
+
         <BentoCard
           eyebrow="Setup"
           title="Easy call routing & recording"
