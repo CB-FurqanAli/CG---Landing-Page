@@ -25,7 +25,7 @@ const steps = [
   },
 ]
 
-export default function HowToGetStarted() {
+export default function WhyChoose() {
   return (
     <section className="bg-gray-50 py-16">
       <div className="mb-12 text-center">

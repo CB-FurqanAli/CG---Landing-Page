@@ -17,7 +17,7 @@ import { Navbar } from '@/components/navbar'
 import { Screenshot } from '@/components/screenshot'
 import { Testimonials } from '@/components/testimonials'
 import { Heading, Subheading } from '@/components/text'
-import HowToGetStarted from '@/components/why-choose'
+import WhyChoose from '@/components/why-choose'
 import { ChevronRightIcon } from '@heroicons/react/16/solid'
 import Image from 'next/image'
 
@@ -246,7 +246,7 @@ export default function Home() {
           <InvocForresterBanner />
         </div>
         <div>
-          <HowToGetStarted />
+          <WhyChoose />
         </div>
         {/*<DarkBentoSection />*/}
         <FAQSection />
