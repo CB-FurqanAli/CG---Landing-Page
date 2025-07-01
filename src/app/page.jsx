@@ -17,6 +17,7 @@ import { Navbar } from '@/components/navbar'
 import { Screenshot } from '@/components/screenshot'
 import { Testimonials } from '@/components/testimonials'
 import { Heading, Subheading } from '@/components/text'
+import WhoShould from '@/components/who-should '
 import WhyChoose from '@/components/why-choose'
 import { ChevronRightIcon } from '@heroicons/react/16/solid'
 import Image from 'next/image'
@@ -244,6 +245,9 @@ export default function Home() {
         </div>
         <div>
           <InvocForresterBanner />
+        </div>
+        <div>
+          <WhoShould />
         </div>
         <div>
           <WhyChoose />
