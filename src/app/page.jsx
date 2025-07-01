@@ -1,3 +1,4 @@
+import AllFeatures from '@/components/all-features'
 import { BentoCard } from '@/components/bento-card'
 import { Bullets } from '@/components/bullets'
 import { Button } from '@/components/button'
@@ -73,7 +74,7 @@ function Hero() {
 function FeatureSection() {
   return (
     <div className="overflow-hidden">
-      <Container className="pb-24">
+      <Container className="pb-16">
         <Heading as="h2" className="max-w-3xl">
           Offering complete call tracking solution at industry-low pricing.
         </Heading>
@@ -92,7 +93,7 @@ function FeatureSection() {
 function BentoSection() {
   return (
     <Container>
-      <div className="mt-10 grid gap-4 sm:mt-16 md:grid-cols-2 lg:grid-cols-3">
+      <div className="grid gap-4 sm:mt-16 md:grid-cols-2 lg:grid-cols-3">
         <Bullets
           title="Call operations, handled"
           bullets="Call whisper & call recording."
@@ -251,6 +252,9 @@ export default function Home() {
         </div>
         <div>
           <WhyChoose />
+        </div>
+        <div className="my-10">
+          <AllFeatures />
         </div>
         {/*<DarkBentoSection />*/}
         <FAQSection />

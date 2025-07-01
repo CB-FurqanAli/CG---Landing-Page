@@ -16,7 +16,7 @@ export const InvocForresterBanner = () => {
             </p>
 
             <div className="mt-12 flex flex-col gap-x-6 gap-y-4 sm:flex-row">
-              <button className="flex items-center gap-2 rounded-lg bg-yellow-400 px-6 py-3 font-semibold text-black transition-colors duration-200 hover:bg-yellow-500">
+              <button className="flex items-center gap-2 rounded-xl border border-[#F0B100] bg-yellow-400 px-6 py-3 text-lg font-semibold text-black transition-colors duration-200 hover:bg-yellow-500">
                 Start for free
                 <svg
                   className="h-4 w-4"
@@ -32,7 +32,7 @@ export const InvocForresterBanner = () => {
                   />
                 </svg>
               </button>
-              <button className="rounded-xl border border-slate-500 bg-gradient-to-r from-[#FBCCC5] to-[#B767F4] px-6 py-3 text-lg font-semibold transition-all duration-300 hover:shadow-xl focus:ring-4 focus:ring-slate-500/30 focus:outline-none active:scale-95">
+              <button className="border- rounded-xl border border-[#DE85DB] bg-gradient-to-r from-[#FBCCC5] to-[#B767F4] px-6 py-3 text-lg font-semibold transition-colors duration-200 hover:bg-gradient-to-r hover:from-[#F9C1C7] hover:to-[#DB7EDD]">
                 Watch a demo
               </button>
             </div>
