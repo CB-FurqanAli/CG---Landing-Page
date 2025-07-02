@@ -1,4 +1,3 @@
-import AllFeatures from '@/components/all-features'
 import { BentoCard } from '@/components/bento-card'
 import { Bullets } from '@/components/bullets'
 import { Button } from '@/components/button'
@@ -6,18 +5,20 @@ import { Container } from '@/components/container'
 import { FAQSection } from '@/components/FAQSection'
 import { Footer } from '@/components/footer'
 import { Gradient } from '@/components/gradient'
-import { InvocForresterBanner } from '@/components/invoc'
+import AllFeatures from '@/components/home/all-features'
+import { TrackMoreNumbers } from '@/components/home/track-more-numbers'
 import { Keyboard } from '@/components/keyboard'
 import { Link } from '@/components/link'
 import { LogoCloud } from '@/components/logo-cloud'
 import { LogoCluster } from '@/components/logo-cluster'
+
+import WhoShould from '@/components/home/who-should '
+import WhyChoose from '@/components/home/why-choose'
 import { Map } from '@/components/map'
 import { Navbar } from '@/components/navbar'
 import { Screenshot } from '@/components/screenshot'
 import { Testimonials } from '@/components/testimonials'
 import { Heading } from '@/components/text'
-import WhoShould from '@/components/who-should '
-import WhyChoose from '@/components/why-choose'
 import { ChevronRightIcon } from '@heroicons/react/16/solid'
 
 export const metadata = {
@@ -242,7 +243,7 @@ export default function Home() {
           <BentoSection />
         </div>
         <div>
-          <InvocForresterBanner />
+          <TrackMoreNumbers />
         </div>
         <div>
           <WhoShould />

@@ -115,3 +115,49 @@ export const additionalFeatures = [
       'Whenever a call is completed, send its details with recording link via email to one or multiple recipients. ',
   },
 ]
+export const integrations = [
+  {
+    name: 'Clean USA and Canadian phone number.',
+    icon: 'https://cdn-icons-png.flaticon.com/512/906/906361.png',
+  },
+  {
+    name: 'AI powered Call tracking and Analytics.',
+    icon: 'https://cdn-icons-png.flaticon.com/512/906/906361.png',
+  },
+  {
+    name: 'SMS & Call forwarding.',
+    icon: 'https://cdn-icons-png.flaticon.com/512/5968/5968520.png',
+  },
+  {
+    name: 'Inbound call tracking.',
+    icon: 'https://cdn-icons-png.flaticon.com/512/2111/2111615.png',
+  },
+  {
+    name: 'Effortless client management.',
+    icon: 'https://cdn-icons-png.flaticon.com/512/5968/5968872.png',
+  },
+  {
+    name: 'Free call recording.',
+    icon: 'https://cdn-icons-png.flaticon.com/512/5968/5968840.png',
+  },
+  {
+    name: 'Call whispering.',
+    icon: 'https://cdn-icons-png.flaticon.com/512/888/888879.png',
+  },
+  {
+    name: 'Missed call notifications',
+    icon: 'https://cdn-icons-png.flaticon.com/512/5968/5968789.png',
+  },
+  {
+    name: 'AI powered call transcriptions and summaries.',
+    icon: 'https://cdn-icons-png.flaticon.com/512/5968/5968789.png',
+  },
+  {
+    name: 'Fully automated reporting system.',
+    icon: 'https://cdn-icons-png.flaticon.com/512/5968/5968789.png',
+  },
+  {
+    name: 'And a lot more…..',
+    icon: 'https://cdn-icons-png.flaticon.com/512/5968/5968789.png',
+  },
+]

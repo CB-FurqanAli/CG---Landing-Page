@@ -1,4 +1,4 @@
-export const InvocForresterBanner = () => {
+export const TrackMoreNumbers = () => {
   return (
     <div className="flex items-center justify-center bg-gray-100 p-8">
       <div className="w-full max-w-7xl">
