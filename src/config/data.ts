@@ -18,7 +18,12 @@ export const coreFeatures = [
     description:
       'Dynamic number insertion allows you to track the online source of every call automatically. ',
     image: '/screenshots/coming-soon.png',
-    badge: 'NEW',
+  },
+  {
+    title: 'White labeling ',
+    description:
+      'Make Call Gauge Pro truly yours by adding your own brand and custom URL.',
+    image: '/screenshots/coming-soon.png',
   },
   {
     title: 'Client Portal',
@@ -88,11 +93,6 @@ export const additionalFeatures = [
   {
     title: 'Spam blocking ',
     description: 'Block all the calls from spam numbers and robots. ',
-  },
-  {
-    title: 'White labeling ',
-    description:
-      'Make Call Gauge Pro truly yours by adding your own brand and custom URL.',
   },
   {
     title: 'Voicemails notifications',

@@ -30,7 +30,7 @@ export default function CoreFeatures() {
 
                   <Link
                     href={'#'}
-                    className="border- inline-flex items-center gap-2 rounded-xl border border-[#DE85DB] bg-gradient-to-r from-[#FBCCC5] to-[#B767F4] px-6 py-3 text-lg font-semibold transition-colors duration-200 hover:bg-gradient-to-r hover:from-[#F9C1C7] hover:to-[#DB7EDD]"
+                    className="mt-6 inline-flex items-center gap-2 rounded-xl border border-[#DE85DB] bg-gradient-to-r from-[#FBCCC5] to-[#B767F4] px-6 py-3 text-lg font-semibold transition-colors duration-200 hover:bg-gradient-to-r hover:from-[#F9C1C7] hover:to-[#DB7EDD]"
                   >
                     View details
                   </Link>
