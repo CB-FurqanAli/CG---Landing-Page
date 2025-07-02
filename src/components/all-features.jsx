@@ -47,9 +47,9 @@ const integrations = [
 
 export default function AllFeatures() {
   return (
-    <section className="bg-[#0B0820] px-4 py-16 text-white">
+    <section className="bg-gray-100 px-4 py-16 text-white">
       <div className="mx-auto max-w-6xl text-center">
-        <h2 className="mb-12 text-3xl font-bold sm:text-4xl">
+        <h2 className="mb-12 text-3xl font-bold text-black sm:text-4xl">
           We offer all the features you need in a call tracking software at
           lowest possible prices.
         </h2>
@@ -76,7 +76,7 @@ export default function AllFeatures() {
           <button className="flex items-center gap-2 rounded-md border border-[#F15E16] bg-[#F15E16] px-6 py-3 text-lg font-medium text-black text-white transition-colors duration-200 hover:bg-[#d44f10]">
             View interactive Demo
           </button>
-          <button className="text-md flex items-center gap-1 font-medium text-white">
+          <button className="text-md flex items-center gap-1 font-medium text-red-500 italic">
             No credit card needed.
           </button>
         </div>

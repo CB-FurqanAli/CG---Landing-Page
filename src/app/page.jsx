@@ -9,19 +9,16 @@ import { Gradient } from '@/components/gradient'
 import { InvocForresterBanner } from '@/components/invoc'
 import { Keyboard } from '@/components/keyboard'
 import { Link } from '@/components/link'
-import { LinkedAvatars } from '@/components/linked-avatars'
 import { LogoCloud } from '@/components/logo-cloud'
 import { LogoCluster } from '@/components/logo-cluster'
-import { LogoTimeline } from '@/components/logo-timeline'
 import { Map } from '@/components/map'
 import { Navbar } from '@/components/navbar'
 import { Screenshot } from '@/components/screenshot'
 import { Testimonials } from '@/components/testimonials'
-import { Heading, Subheading } from '@/components/text'
+import { Heading } from '@/components/text'
 import WhoShould from '@/components/who-should '
 import WhyChoose from '@/components/why-choose'
 import { ChevronRightIcon } from '@heroicons/react/16/solid'
-import Image from 'next/image'
 
 export const metadata = {
   description:
@@ -153,84 +150,84 @@ function BentoSection() {
   )
 }
 
-function DarkBentoSection() {
-  return (
-    <div className="mx-2 mt-2 rounded-4xl bg-gray-900 py-32">
-      <Container>
-        <Subheading dark>Client Management & Phone Operations</Subheading>
-        <Heading as="h3" dark className="mt-2 max-w-4xl">
-          Who should use Call Gauge Pro?
-        </Heading>
-        <p className="mt-4 text-lg text-white">
-          If you are in the need of call tracking and attribution, you have
-          found your savior.{' '}
-        </p>
-
-        <div className="mt-10 grid grid-cols-1 gap-4 sm:mt-16 lg:grid-cols-6 lg:grid-rows-2">
-          <BentoCard
-            dark
-            eyebrow="Client Billing"
-            title="High volume businesses."
-            description="Cut your costs exponentially with our guaranteed low prices."
-            graphic={
-              // <div className="h-80 bg-[url(/screenshots/dummy2.png)] bg-[size:851px_344px] bg-no-repeat" />
-
-              <div className="relative h-80">
-                <Image src="/screenshots/dummy2.png" fill alt="" />
-              </div>
-
-              // <div className="h-80 bg-[url(/screenshots/networking.png)] bg-[size:851px_344px] bg-no-repeat" />
-            }
-            fade={['top']}
-            className="max-lg:rounded-t-4xl lg:col-span-4 lg:rounded-tl-4xl"
-          />
-          <BentoCard
-            dark
-            eyebrow="White Labeling"
-            title="Marketing agencies and SEO agencies."
-            description="Efficiently manage your clients and invoice them seamlessly."
-            graphic={<LogoTimeline />}
-            className="z-10 overflow-visible! lg:col-span-2 lg:rounded-tr-4xl"
-          />
-          <BentoCard
-            dark
-            eyebrow="Phone Features"
-            title="Lead generation companies."
-            description="Flourish your lead-gen business to a higher level."
-            graphic={<LinkedAvatars />}
-            className="lg:col-span-2 lg:rounded-bl-4xl"
-          />
-          <BentoCard
-            dark
-            eyebrow="SMS & Voicemail"
-            title="Local businesses."
-            description="Experiment with more marketing strategies while keeping your costs minimum."
-            graphic={
-              // <div className="h-80 bg-[url(/screenshots/dummy2.png)] bg-[size:851px_344px] bg-no-repeat" />
-              <div className="relative h-80">
-                <Image src="/screenshots/dummy2.png" fill alt="" />
-              </div>
-            }
-            fade={['top']}
-            className="max-lg:rounded-b-4xl lg:col-span-4 lg:rounded-br-4xl"
-          />
-        </div>
-
-        <div className="mt-12 flex flex-col gap-x-6 gap-y-4 sm:flex-row">
-          <button className="rounded-xl bg-gradient-to-r from-blue-500 to-purple-600 px-8 py-4 text-lg font-semibold text-white transition-all duration-300 hover:scale-105 hover:from-blue-600 hover:to-purple-700 hover:shadow-xl focus:ring-4 focus:ring-purple-500/30 focus:outline-none active:scale-95">
-            Start for free today
-          </button>
-          <button className="rounded-xl border border-slate-500 bg-gradient-to-r from-slate-600 to-slate-700 px-8 py-4 text-lg font-semibold text-white transition-all duration-300 hover:scale-105 hover:from-slate-500 hover:to-slate-600 hover:shadow-xl focus:ring-4 focus:ring-slate-500/30 focus:outline-none active:scale-95">
-            Watch a demo
-          </button>
-        </div>
-        <p className="mt-4 text-sm font-medium text-red-400 italic">
-          *No credit card needed
-        </p>
-      </Container>
-    </div>
-  )
-}
+// function DarkBentoSection() {
+//   return (
+//     <div className="mx-2 mt-2 rounded-4xl bg-gray-900 py-32">
+//       <Container>
+//         <Subheading dark>Client Management & Phone Operations</Subheading>
+//         <Heading as="h3" dark className="mt-2 max-w-4xl">
+//           Who should use Call Gauge Pro?
+//         </Heading>
+//         <p className="mt-4 text-lg text-white">
+//           If you are in the need of call tracking and attribution, you have
+//           found your savior.{' '}
+//         </p>
+//
+//         <div className="mt-10 grid grid-cols-1 gap-4 sm:mt-16 lg:grid-cols-6 lg:grid-rows-2">
+//           <BentoCard
+//             dark
+//             eyebrow="Client Billing"
+//             title="High volume businesses."
+//             description="Cut your costs exponentially with our guaranteed low prices."
+//             graphic={
+//               // <div className="h-80 bg-[url(/screenshots/dummy2.png)] bg-[size:851px_344px] bg-no-repeat" />
+//
+//               <div className="relative h-80">
+//                 <Image src="/screenshots/dummy2.png" fill alt="" />
+//               </div>
+//
+//               // <div className="h-80 bg-[url(/screenshots/networking.png)] bg-[size:851px_344px] bg-no-repeat" />
+//             }
+//             fade={['top']}
+//             className="max-lg:rounded-t-4xl lg:col-span-4 lg:rounded-tl-4xl"
+//           />
+//           <BentoCard
+//             dark
+//             eyebrow="White Labeling"
+//             title="Marketing agencies and SEO agencies."
+//             description="Efficiently manage your clients and invoice them seamlessly."
+//             graphic={<LogoTimeline />}
+//             className="z-10 overflow-visible! lg:col-span-2 lg:rounded-tr-4xl"
+//           />
+//           <BentoCard
+//             dark
+//             eyebrow="Phone Features"
+//             title="Lead generation companies."
+//             description="Flourish your lead-gen business to a higher level."
+//             graphic={<LinkedAvatars />}
+//             className="lg:col-span-2 lg:rounded-bl-4xl"
+//           />
+//           <BentoCard
+//             dark
+//             eyebrow="SMS & Voicemail"
+//             title="Local businesses."
+//             description="Experiment with more marketing strategies while keeping your costs minimum."
+//             graphic={
+//               // <div className="h-80 bg-[url(/screenshots/dummy2.png)] bg-[size:851px_344px] bg-no-repeat" />
+//               <div className="relative h-80">
+//                 <Image src="/screenshots/dummy2.png" fill alt="" />
+//               </div>
+//             }
+//             fade={['top']}
+//             className="max-lg:rounded-b-4xl lg:col-span-4 lg:rounded-br-4xl"
+//           />
+//         </div>
+//
+//         <div className="mt-12 flex flex-col gap-x-6 gap-y-4 sm:flex-row">
+//           <button className="rounded-xl bg-gradient-to-r from-blue-500 to-purple-600 px-8 py-4 text-lg font-semibold text-white transition-all duration-300 hover:scale-105 hover:from-blue-600 hover:to-purple-700 hover:shadow-xl focus:ring-4 focus:ring-purple-500/30 focus:outline-none active:scale-95">
+//             Start for free today
+//           </button>
+//           <button className="rounded-xl border border-slate-500 bg-gradient-to-r from-slate-600 to-slate-700 px-8 py-4 text-lg font-semibold text-white transition-all duration-300 hover:scale-105 hover:from-slate-500 hover:to-slate-600 hover:shadow-xl focus:ring-4 focus:ring-slate-500/30 focus:outline-none active:scale-95">
+//             Watch a demo
+//           </button>
+//         </div>
+//         <p className="mt-4 text-sm font-medium text-red-400 italic">
+//           *No credit card needed
+//         </p>
+//       </Container>
+//     </div>
+//   )
+// }
 
 export default function Home() {
   return (
@@ -240,7 +237,7 @@ export default function Home() {
         <Container className="mt-10">
           <LogoCloud />
         </Container>
-        <div className="bg-linear-to-b from-white from-50% to-gray-100 py-10 sm:py-20 md:py-24 lg:py-32">
+        <div className="bg-linear-to-b from-white from-50% to-gray-100 py-10 sm:py-20 md:py-24 lg:py-24">
           <FeatureSection />
           <BentoSection />
         </div>

@@ -1,6 +1,6 @@
 export const InvocForresterBanner = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-gray-100 p-8">
+    <div className="flex items-center justify-center bg-gray-100 p-8">
       <div className="w-full max-w-7xl">
         {/* Main Banner Container */}
         <div className="relative flex items-center justify-between rounded-3xl bg-linear-115 from-[#fff1be] from-28% via-[#ee87cb] via-70% to-[#b060ff] p-12 sm:bg-linear-145">
