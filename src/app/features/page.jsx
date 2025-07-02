@@ -28,17 +28,25 @@ function HeroSection() {
             workflow, gain deeper insights, and boost ROI—all in one platform.
           </Lead>
           <div className="mt-10 flex justify-center gap-4">
-            <Button href="#" size="lg" variant="primary">
-              Start Free Trial
-            </Button>
-            <Button
-              href="#demo"
-              variant="outline"
-              className="inline-flex items-center gap-2"
-            >
-              <PlayIcon className="size-4" />
-              Watch Demo
-            </Button>
+            <button className="flex items-center gap-2 rounded-xl border border-[#F0B100] bg-yellow-400 px-6 py-3 text-lg font-semibold text-black transition-colors duration-200 hover:bg-yellow-500">
+              Start for free
+              <svg
+                className="h-4 w-4"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M9 5l7 7-7 7"
+                />
+              </svg>
+            </button>
+            <button className="border- rounded-xl border border-[#DE85DB] bg-gradient-to-r from-[#FBCCC5] to-[#B767F4] px-6 py-3 text-lg font-semibold transition-colors duration-200 hover:bg-gradient-to-r hover:from-[#F9C1C7] hover:to-[#DB7EDD]">
+              Watch a demo
+            </button>
           </div>
         </div>
       </Container>
