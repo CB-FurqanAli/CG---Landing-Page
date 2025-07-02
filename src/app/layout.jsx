@@ -27,6 +27,7 @@ export default function RootLayout({ children }) {
           type="image/<generated>"
           sizes="<generated>"
         />
+        <title></title>
       </head>
       <body className="text-gray-950 antialiased">{children}</body>
     </html>
