@@ -18,31 +18,35 @@ export const coreFeatures = [
     description:
       'Dynamic number insertion allows you to track the online source of every call automatically. ',
     image: '/screenshots/coming-soon.png',
+    learnMoreHref: '/features/call-flows',
   },
   {
     title: 'White labeling ',
     description:
       'Make Call Gauge Pro truly yours by adding your own brand and custom URL.',
     image: '/screenshots/coming-soon.png',
+    learnMoreHref: '/features/call-flows',
   },
   {
     title: 'Client Portal',
     description:
       'Empower your clients by providing them with their own login to view calls & data.',
     image: '/screenshots/coming-soon.png',
+    learnMoreHref: '/features/call-flows',
   },
   {
     title: 'AI call summaries ',
     description:
       'Transcribe your calls and get AI based one sentence summaries + bullet points for calls. ',
     image: '/screenshots/coming-soon.png',
-    badge: 'NEW',
+    learnMoreHref: '/features/call-flows',
   },
   {
     title: 'Automations ',
     description:
       'Send automated SMS messages or emails when calls got completed. Or step ahead by Zapier. ',
     image: '/screenshots/coming-soon.png',
+    learnMoreHref: '/features/call-flows',
   },
 ]
 

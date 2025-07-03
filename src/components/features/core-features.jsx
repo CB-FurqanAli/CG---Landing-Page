@@ -1,14 +1,13 @@
 import { Container } from '@/components/container'
 import { Link } from '@/components/link'
-import { Heading, Subheading } from '@/components/text'
-import { additionalFeatures, coreFeatures } from '@/config/data'
+import { Heading } from '@/components/text'
+import { coreFeatures } from '@/config/data'
 import Image from 'next/image'
 
 export default function CoreFeatures() {
   return (
     <div className="bg-gray-50 py-24">
       <Container>
-        <Subheading className="text-center">Core Features</Subheading>
         <Heading as="h2" className="mt-2 text-center text-3xl md:text-4xl">
           Everything You Need to Master Call Tracking
         </Heading>
@@ -18,7 +17,7 @@ export default function CoreFeatures() {
           <div className="py-16" key={index}>
             <Container>
               <div
-                className={`grid grid-cols-1 items-center gap-12 lg:grid-cols-2 lg:flex-row-reverse`}
+                className={`ml-32 grid max-w-7xl grid-cols-1 items-center gap-12 lg:grid-cols-2 lg:flex-row-reverse`}
               >
                 <div>
                   <div className="relative flex items-start gap-x-2">
@@ -38,10 +37,10 @@ export default function CoreFeatures() {
                 <div className="relative">
                   <Image
                     src={feature.image}
-                    width={750}
-                    height={750}
+                    width={400}
+                    height={400}
                     alt={feature.title}
-                    className="w-full rounded-xl object-cover shadow-lg transition-transform duration-300 hover:scale-105"
+                    className="max-w-xl rounded-xl object-cover shadow-lg transition-transform duration-300 hover:scale-105"
                   />
                 </div>
               </div>
@@ -49,28 +48,6 @@ export default function CoreFeatures() {
           </div>
         )
       })}
-    </div>
-  )
-}
-function AdditionalFeatures() {
-  return (
-    <div className="py-24">
-      <Container>
-        <Subheading className="text-center">Additional Tools</Subheading>
-        <Heading as="h2" className="mt-2 text-center text-3xl md:text-4xl">
-          Comprehensive Features for Every Need
-        </Heading>
-        <div className="mt-16 grid grid-cols-1 gap-x-8 gap-y-12 sm:grid-cols-2 lg:grid-cols-3">
-          {additionalFeatures.map((feature, index) => (
-            <div key={index} className="group">
-              <h3 className="text-xl font-semibold text-gray-900 transition-colors group-hover:text-pink-600">
-                {feature.title}
-              </h3>
-              <p className="mt-2 text-gray-600">{feature.description}</p>
-            </div>
-          ))}
-        </div>
-      </Container>
     </div>
   )
 }
