@@ -1,7 +1,7 @@
 import { Button } from '@/components/button'
 import { Container } from '@/components/container'
-import AdditionalFeatures from '@/components/features/additional-features'
 import CoreFeatures from '@/components/features/core-features'
+import MyTry from '@/components/features/my-try'
 import { Footer } from '@/components/footer'
 import { GradientBackground } from '@/components/gradient'
 import { Navbar } from '@/components/navbar'
@@ -158,7 +158,9 @@ export default function Features() {
       <HeroSection />
       <CoreFeatures />
       <DemoSection />
-      <AdditionalFeatures />
+      {/*<AdditionalCards />*/}
+      {/*<AdditionalFeatures />*/}
+      <MyTry />
       <CTASection />
       <Footer />
     </main>
