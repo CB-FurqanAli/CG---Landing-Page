@@ -1,8 +1,8 @@
 import { BentoCard } from '@/components/bento-card'
 import { Button } from '@/components/button'
 import { Container } from '@/components/container'
+import AdditionalFeatures from '@/components/features/additional-features'
 import CoreFeatures from '@/components/features/core-features'
-import MyTry from '@/components/features/my-try'
 import { Footer } from '@/components/footer'
 import { GradientBackground } from '@/components/gradient'
 import { LogoCluster } from '@/components/logo-cluster'
@@ -170,9 +170,7 @@ export default function Features() {
       <div className="">
         <BentoCard graphic={<LogoCluster />} className=" " />
       </div>
-      {/*<AdditionalCards />*/}
-      {/*<AdditionalFeatures />*/}
-      <MyTry />
+      <AdditionalFeatures />
       <CTASection />
       <Footer />
     </main>
