@@ -1,9 +1,11 @@
+import { BentoCard } from '@/components/bento-card'
 import { Button } from '@/components/button'
 import { Container } from '@/components/container'
 import CoreFeatures from '@/components/features/core-features'
 import MyTry from '@/components/features/my-try'
 import { Footer } from '@/components/footer'
 import { GradientBackground } from '@/components/gradient'
+import { LogoCluster } from '@/components/logo-cluster'
 import { Navbar } from '@/components/navbar'
 import { Heading, Lead, Subheading } from '@/components/text'
 import { CheckIcon, PlayIcon } from '@heroicons/react/16/solid'
@@ -148,6 +150,13 @@ function CTASection() {
   )
 }
 
+function Cluster() {
+  return (
+    <div>
+      <LogoCluster />
+    </div>
+  )
+}
 export default function Features() {
   return (
     <main className="overflow-hidden">
@@ -158,6 +167,9 @@ export default function Features() {
       <HeroSection />
       <CoreFeatures />
       <DemoSection />
+      <div className="">
+        <BentoCard graphic={<LogoCluster />} className=" " />
+      </div>
       {/*<AdditionalCards />*/}
       {/*<AdditionalFeatures />*/}
       <MyTry />
