@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 export default function CoreFeatures() {
   return (
-    <div className="bg-gray-50 py-24">
+    <div className="bg-gray-50">
       <Container>
         <Heading as="h2" className="mt-2 text-center text-3xl md:text-4xl">
           Everything You Need to Master Call Tracking

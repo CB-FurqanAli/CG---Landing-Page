@@ -1,6 +1,6 @@
 export default function AsdDsa() {
   return (
-    <div className="mx-auto grid max-w-7xl grid-cols-1 gap-5 md:grid-cols-3">
+    <div className="mx-auto my-20 grid max-w-7xl grid-cols-1 gap-5 md:grid-cols-3">
       <div className="min-h-[340px]">
         <div className="flex items-center gap-1">
           <div>
