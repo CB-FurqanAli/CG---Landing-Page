@@ -109,8 +109,13 @@ export default function Features() {
       </Container>
       <HeroSection />
 
-      <AppAsd />
-      <AsdDsa />
+      <div>
+        <AppAsd />
+      </div>
+      <div>
+        <AsdDsa />
+      </div>
+
       <CoreFeatures />
       <div className="">
         <div className="">
