@@ -2,13 +2,13 @@ import { BentoCard } from '@/components/bento-card'
 import { Button } from '@/components/button'
 import { Container } from '@/components/container'
 import AdditionalFeatures from '@/components/features/additional-features'
+import AppAsd from '@/components/features/asd'
 import CoreFeatures from '@/components/features/core-features'
 import { Footer } from '@/components/footer'
 import { GradientBackground } from '@/components/gradient'
 import { LogoCluster } from '@/components/logo-cluster'
 import { Navbar } from '@/components/navbar'
 import { Heading, Lead, Subheading } from '@/components/text'
-import { CheckIcon, PlayIcon } from '@heroicons/react/16/solid'
 
 export const metadata = {
   title: 'Features',
@@ -49,64 +49,6 @@ function HeroSection() {
             <button className="rounded-xl border border-[#DE85DB] bg-gradient-to-r from-[#FBCCC5] to-[#B767F4] px-6 py-3 text-lg font-semibold transition-colors duration-200 hover:bg-gradient-to-r hover:from-[#F9C1C7] hover:to-[#DB7EDD]">
               Watch a demo
             </button>
-          </div>
-        </div>
-      </Container>
-    </div>
-  )
-}
-
-function DemoSection() {
-  return (
-    <div
-      className="mx-2 my-24 rounded-4xl bg-gray-900 bg-[url(/dot-texture.svg)] pt-72 pb-24 text-white lg:pt-36"
-      id="demo"
-    >
-      <Container>
-        <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-2">
-          <div>
-            <Heading as="h2" className="text-3xl text-white md:text-4xl">
-              Maximize Efficiency, Minimize Costs
-            </Heading>
-            <p className="mt-6 text-lg leading-relaxed text-gray-300">
-              CallGauge eliminates the complexity of call tracking while
-              delivering premium features at budget-friendly prices. Watch our
-              6-minute demo to see how we save you time, money, and effort.
-            </p>
-            <ul className="mt-6 space-y-3 text-gray-200">
-              <li className="flex items-center gap-2">
-                <CheckIcon className="size-5 text-pink-600" /> Affordable
-                pricing
-              </li>
-              <li className="flex items-center gap-2">
-                <CheckIcon className="size-5 text-pink-600" /> Seamless
-                attribution
-              </li>
-              <li className="flex items-center gap-2">
-                <CheckIcon className="size-5 text-pink-600" /> Automated
-                reporting
-              </li>
-            </ul>
-            <Button
-              className="mt-8 inline-flex items-center gap-2"
-              href="/demo"
-            >
-              <PlayIcon className="size-5" />
-              Watch Demo Now
-            </Button>
-            <p className="mt-2 text-sm text-gray-400">No sign-up required</p>
-          </div>
-          <div className="relative aspect-video overflow-hidden rounded-xl bg-gray-800 shadow-xl">
-            {/* <div className="absolute inset-0 h-auto backdrop-blur-xs"></div> */}
-            {/* <img
-              src="/screenshots/dummy2.png"
-              alt="Demo preview"
-              className="h-full w-full object-cover"
-            /> */}
-            <video src="/demo/demo-video.mp4" controls></video>
-            {/* <div className="absolute inset-0 flex items-center justify-center">
-              <PlayIcon className="size-16 cursor-pointer text-gray-700 opacity-80 transition-opacity hover:opacity-100" />
-            </div> */}
           </div>
         </div>
       </Container>
@@ -165,10 +107,16 @@ export default function Features() {
         <Navbar />
       </Container>
       <HeroSection />
+
+      <AppAsd />
+
       <CoreFeatures />
-      <DemoSection />
       <div className="">
-        <BentoCard graphic={<LogoCluster />} className=" " />
+        <div className="">
+          <div>
+            <BentoCard graphic={<LogoCluster />} className=" " />
+          </div>
+        </div>
       </div>
       <AdditionalFeatures />
       <CTASection />
