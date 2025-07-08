@@ -1,7 +1,6 @@
 import { BentoCard } from '@/components/bento-card'
 import { Container } from '@/components/container'
 import { Keyboard } from '@/components/keyboard'
-import { LogoCluster } from '@/components/logo-cluster'
 import { Map } from '@/components/map'
 import { Heading } from '@/components/text'
 
@@ -28,7 +27,7 @@ export default function MyTry() {
         <BentoCard
           title="Call whisper "
           description="Get valuable context of the caller even before the conversation begins!"
-          graphic={<LogoCluster />}
+          graphic={<Map />}
           className=""
         />
         {/*3*/}

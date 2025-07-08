@@ -1,4 +1,3 @@
-import { BentoCard } from '@/components/bento-card'
 import { Bullets } from '@/components/bullets'
 import { Button } from '@/components/button'
 import { Container } from '@/components/container'
@@ -7,14 +6,11 @@ import { Footer } from '@/components/footer'
 import { Gradient } from '@/components/gradient'
 import AllFeatures from '@/components/home/all-features'
 import { TrackMoreNumbers } from '@/components/home/track-more-numbers'
-import { Keyboard } from '@/components/keyboard'
 import { Link } from '@/components/link'
 import { LogoCloud } from '@/components/logo-cloud'
-import { LogoCluster } from '@/components/logo-cluster'
 
 import WhoShould from '@/components/home/who-should '
 import WhyChoose from '@/components/home/why-choose'
-import { Map } from '@/components/map'
 import { Navbar } from '@/components/navbar'
 import { Screenshot } from '@/components/screenshot'
 import { Testimonials } from '@/components/testimonials'
@@ -119,32 +115,6 @@ function BentoSection() {
           bullets3="Hassle-free white labeling."
           fade={['bottom']}
           className="bg-[#FBCFC5] max-lg:rounded-tr-4xl"
-        />
-
-        <BentoCard
-          eyebrow="Setup"
-          title="Easy call routing & recording"
-          description="Set up hundreds of numbers in minutes with call recording and routing to streamline operations."
-          graphic={
-            <div className="flex size-full pt-10 pl-10">
-              <Keyboard highlighted={['LeftCommand', 'LeftShift', 'D']} />
-            </div>
-          }
-          className="lg:rounded-bl-4xl"
-        />
-        <BentoCard
-          eyebrow="Scale"
-          title="Track 6x more numbers"
-          description="Grow faster with disruptive pricing—track more campaigns without increasing your budget."
-          graphic={<LogoCluster />}
-          className=""
-        />
-        <BentoCard
-          eyebrow="Global Reach"
-          title="Process over 1M calls yearly"
-          description="CallGauge supports growing businesses and agencies worldwide with unmatched scalability."
-          graphic={<Map />}
-          className="max-lg:rounded-b-4xl lg:rounded-br-4xl"
         />
       </div>
     </Container>
