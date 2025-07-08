@@ -3,6 +3,7 @@ import { Button } from '@/components/button'
 import { Container } from '@/components/container'
 import AdditionalFeatures from '@/components/features/additional-features'
 import AppAsd from '@/components/features/asd'
+import AsdDsa from '@/components/features/asd2'
 import CoreFeatures from '@/components/features/core-features'
 import { Footer } from '@/components/footer'
 import { GradientBackground } from '@/components/gradient'
@@ -109,7 +110,7 @@ export default function Features() {
       <HeroSection />
 
       <AppAsd />
-
+      <AsdDsa />
       <CoreFeatures />
       <div className="">
         <div className="">
