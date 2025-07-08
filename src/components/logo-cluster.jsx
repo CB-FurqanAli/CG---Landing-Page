@@ -61,7 +61,7 @@ function Tooltip({
 }) {
   const getPositionClasses = () => {
     const baseClasses =
-      'absolute z-10 bg-black text-white rounded-lg shadow-xl overflow-hidden min-w-[200px]'
+      'absolute z-10 bg-linear-115 from-[#fff1be] from-28% via-[#ee87cb] via-70% to-[#b060ff] text-black rounded-lg shadow-xl overflow-hidden min-w-[200px]'
 
     switch (position) {
       case 'top':
@@ -137,9 +137,7 @@ function Tooltip({
         >
           <div className="px-4 py-3">
             <h3 className="mb-1 text-sm font-semibold">{title}</h3>
-            <p className="text-xs leading-relaxed text-gray-300">
-              {description}
-            </p>
+            <p className="text-xs leading-relaxed text-black">{description}</p>
           </div>
           <div className={getArrowClasses()} />
         </motion.div>
