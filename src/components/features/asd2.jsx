@@ -1,6 +1,6 @@
 export default function AsdDsa() {
   return (
-    <div className="mx-auto mt-20 mb-30 grid max-w-7xl grid-cols-1 gap-5 md:grid-cols-3">
+    <div className="mx-auto mt-20 mb-30 grid w-full max-w-7xl grid-cols-1 gap-5 md:grid-cols-3">
       <div className="">
         <div className="flex items-center gap-1">
           <div>
@@ -12,14 +12,12 @@ export default function AsdDsa() {
             />
           </div>
           <h3 className="w-[358px] rounded-tl-lg rounded-tr-lg bg-[#F2F5E4] px-3 py-4 text-xl font-semibold text-gray-900">
-            Drive more leads
+            Call tracking numbers
           </h3>
         </div>
         <p className="text-md h-full max-h-[190px] w-[410px] rounded-tl-lg rounded-br-lg rounded-bl-lg bg-[#F2F5E4] px-5 py-3 leading-relaxed font-medium text-gray-900">
-          Get granular attribution down to the keyword to fully understand how
-          your campaigns drive conversions over the phone. With clear visibility
-          of customer intent and lead quality, you can optimize every campaign
-          to drive more leads online and over the phone.
+          Track countless phone numbers in just a few minutes at a price that
+          nobody had ever offered!
         </p>
       </div>
 
@@ -36,14 +34,12 @@ export default function AsdDsa() {
             />
           </div>
           <h3 className="w-[358px] rounded-tl-lg rounded-tr-lg bg-[#F2F5E4] px-3 py-4 text-xl font-semibold text-gray-900">
-            Drive more leads
+            Dynamic number insertion (DNI)
           </h3>
         </div>
         <p className="text-md h-full max-h-[190px] w-[410px] rounded-tl-lg rounded-br-lg rounded-bl-lg bg-[#F2F5E4] px-5 py-3 leading-relaxed font-medium text-gray-900">
-          Get granular attribution down to the keyword to fully understand how
-          your campaigns drive conversions over the phone. With clear visibility
-          of customer intent and lead quality, you can optimize every campaign
-          to drive more leads online and over the phone.
+          Dynamic number insertion allows you to track the online source of
+          every call automatically.
         </p>
       </div>
 
@@ -58,13 +54,12 @@ export default function AsdDsa() {
             />
           </div>
           <h3 className="w-[358px] rounded-tl-lg rounded-tr-lg bg-[#F2F5E4] px-3 py-4 text-xl font-semibold text-gray-900">
-            Drive more leads
+            White labeling
           </h3>
         </div>
         <p className="text-md h-full max-h-[190px] w-[410px] rounded-tl-lg rounded-br-lg rounded-bl-lg bg-[#F2F5E4] px-5 py-3 leading-relaxed font-medium text-gray-900">
-          Get granular attribution down to the keyword to fully understand how
-          your campaigns drive conversions over the phone. With clear visibility
-          .
+          Make Call Gauge Pro truly yours by adding your own brand and custom
+          URL.
         </p>
       </div>
     </div>

@@ -7,14 +7,12 @@ export default function AppAsd() {
           <div className="space-y-8">
             <div className="space-y-6">
               <h2 className="text-3xl leading-tight font-bold text-gray-900 sm:text-4xl">
-                Complete multi-channel attribution
+                Call flows
               </h2>
               <p className="max-w-xl text-base leading-relaxed text-gray-600 sm:text-lg">
-                Get attribution for every conversion your marketing campaigns
-                drive over the phone. Whether the call originates from search,
-                social, your website, or virtually any other channel, you can
-                see the full digital-to-phone call path and know exactly what’s
-                driving the best leads.
+                Decide the steps which you want your calls to flow with.
+                Greetings, call forwarding, multi-ringing, round robin & so much
+                more!
               </p>
             </div>
           </div>
