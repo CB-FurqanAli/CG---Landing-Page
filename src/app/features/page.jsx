@@ -5,8 +5,10 @@ import AdditionalFeatures from '@/components/features/additional-features'
 import AutomationsCards from '@/components/features/automations-cards'
 import { default as CallFlowsCard } from '@/components/features/call-flows-card'
 import CallTrackingCards from '@/components/features/call-tracking-cards'
+import ClientPortalCards from '@/components/features/client-portal-cards'
 import CoreFeatures from '@/components/features/core-features'
 import DynamicNumberCard from '@/components/features/dynamic-number-card'
+import WhiteLabelingCard from '@/components/features/white-labeling-card'
 import { Footer } from '@/components/footer'
 import { GradientBackground } from '@/components/gradient'
 import { LogoCluster } from '@/components/logo-cluster'
@@ -95,13 +97,6 @@ function CTASection() {
   )
 }
 
-function Cluster() {
-  return (
-    <div>
-      <LogoCluster />
-    </div>
-  )
-}
 export default function Features() {
   return (
     <main className="overflow-hidden">
@@ -124,14 +119,15 @@ export default function Features() {
         <CallTrackingCards />
       </div>
 
+      <WhiteLabelingCard />
+      <ClientPortalCards />
+
       <CoreFeatures />
-      <div className="">
-        <div className="">
-          <div>
-            <BentoCard graphic={<LogoCluster />} className=" " />
-          </div>
-        </div>
+
+      <div>
+        <BentoCard graphic={<LogoCluster />} className=" " />
       </div>
+
       <AdditionalFeatures />
       <CTASection />
       <Footer />
