@@ -11,11 +11,11 @@ export default function AsdDsa() {
               className="feature-card-icon"
             />
           </div>
-          <h3 className="w-[358px] rounded-tl-lg rounded-tr-lg bg-[#F2F5E4] p-3 text-xl font-semibold text-gray-900">
+          <h3 className="w-[358px] rounded-tl-lg rounded-tr-lg bg-[#F2F5E4] px-3 py-4 text-xl font-semibold text-gray-900">
             Drive more leads
           </h3>
         </div>
-        <p className="text-md h-full max-h-[190px] w-[410px] rounded-tl-lg rounded-br-lg rounded-bl-lg bg-[#F2F5E4] p-4 leading-relaxed font-medium text-gray-900">
+        <p className="text-md h-full max-h-[190px] w-[410px] rounded-tl-lg rounded-br-lg rounded-bl-lg bg-[#F2F5E4] px-5 py-3 leading-relaxed font-medium text-gray-900">
           Get granular attribution down to the keyword to fully understand how
           your campaigns drive conversions over the phone. With clear visibility
           of customer intent and lead quality, you can optimize every campaign
@@ -35,11 +35,11 @@ export default function AsdDsa() {
               className="feature-card-icon"
             />
           </div>
-          <h3 className="w-[358px] rounded-tl-lg rounded-tr-lg bg-[#F2F5E4] p-3 text-xl font-semibold text-gray-900">
+          <h3 className="w-[358px] rounded-tl-lg rounded-tr-lg bg-[#F2F5E4] px-3 py-4 text-xl font-semibold text-gray-900">
             Drive more leads
           </h3>
         </div>
-        <p className="text-md h-full max-h-[190px] w-[410px] rounded-tl-lg rounded-br-lg rounded-bl-lg bg-[#F2F5E4] p-4 leading-relaxed font-medium text-gray-900">
+        <p className="text-md h-full max-h-[190px] w-[410px] rounded-tl-lg rounded-br-lg rounded-bl-lg bg-[#F2F5E4] px-5 py-3 leading-relaxed font-medium text-gray-900">
           Get granular attribution down to the keyword to fully understand how
           your campaigns drive conversions over the phone. With clear visibility
           of customer intent and lead quality, you can optimize every campaign
@@ -57,11 +57,11 @@ export default function AsdDsa() {
               className="feature-card-icon"
             />
           </div>
-          <h3 className="w-[358px] rounded-tl-lg rounded-tr-lg bg-[#F2F5E4] p-3 text-xl font-semibold text-gray-900">
+          <h3 className="w-[358px] rounded-tl-lg rounded-tr-lg bg-[#F2F5E4] px-3 py-4 text-xl font-semibold text-gray-900">
             Drive more leads
           </h3>
         </div>
-        <p className="text-md max-[410px] h-full max-h-[190px] rounded-tl-lg rounded-br-lg rounded-bl-lg bg-[#F2F5E4] p-4 leading-relaxed font-medium text-gray-900">
+        <p className="text-md h-full max-h-[190px] w-[410px] rounded-tl-lg rounded-br-lg rounded-bl-lg bg-[#F2F5E4] px-5 py-3 leading-relaxed font-medium text-gray-900">
           Get granular attribution down to the keyword to fully understand how
           your campaigns drive conversions over the phone. With clear visibility
           .
