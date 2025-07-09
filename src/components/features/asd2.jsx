@@ -15,10 +15,19 @@ export default function AsdDsa() {
             Call tracking numbers
           </h3>
         </div>
-        <p className="text-md h-full max-h-[190px] w-[410px] rounded-tl-lg rounded-br-lg rounded-bl-lg bg-[#F2F5E4] px-5 py-3 leading-relaxed font-medium text-gray-900">
-          Track countless phone numbers in just a few minutes at a price that
-          nobody had ever offered!
-        </p>
+
+        <div className="h-full max-h-[190px] w-[410px] rounded-tl-lg rounded-br-lg rounded-bl-lg bg-[#F2F5E4] px-5 py-3 leading-relaxed">
+          <p className="text-md font-medium text-gray-900">
+            Track countless phone numbers in just a few minutes at a price that
+            nobody had ever offered!
+          </p>
+          <a
+            href={'#'}
+            className="mt-6 inline-flex items-center gap-2 rounded-xl border border-[#DE85DB] bg-gradient-to-r from-[#FBCCC5] to-[#B767F4] px-6 py-3 text-lg font-semibold transition-colors duration-200 hover:bg-gradient-to-r hover:from-[#F9C1C7] hover:to-[#DB7EDD]"
+          >
+            View details
+          </a>
+        </div>
       </div>
 
       {/*2nd*/}
@@ -37,10 +46,19 @@ export default function AsdDsa() {
             Dynamic number insertion (DNI)
           </h3>
         </div>
-        <p className="text-md h-full max-h-[190px] w-[410px] rounded-tl-lg rounded-br-lg rounded-bl-lg bg-[#F2F5E4] px-5 py-3 leading-relaxed font-medium text-gray-900">
-          Dynamic number insertion allows you to track the online source of
-          every call automatically.
-        </p>
+
+        <div className="h-full max-h-[190px] w-[410px] rounded-tl-lg rounded-br-lg rounded-bl-lg bg-[#F2F5E4] px-5 py-3 leading-relaxed">
+          <p className="text-md font-medium text-gray-900">
+            Dynamic number insertion allows you to track the online source of
+            every call automatically.
+          </p>
+          <a
+            href={'#'}
+            className="mt-6 inline-flex items-center gap-2 rounded-xl border border-[#DE85DB] bg-gradient-to-r from-[#FBCCC5] to-[#B767F4] px-6 py-3 text-lg font-semibold transition-colors duration-200 hover:bg-gradient-to-r hover:from-[#F9C1C7] hover:to-[#DB7EDD]"
+          >
+            View details
+          </a>
+        </div>
       </div>
 
       <div className="">
@@ -57,10 +75,19 @@ export default function AsdDsa() {
             White labeling
           </h3>
         </div>
-        <p className="text-md h-full max-h-[190px] w-[410px] rounded-tl-lg rounded-br-lg rounded-bl-lg bg-[#F2F5E4] px-5 py-3 leading-relaxed font-medium text-gray-900">
-          Make Call Gauge Pro truly yours by adding your own brand and custom
-          URL.
-        </p>
+
+        <div className="h-full max-h-[190px] w-[410px] rounded-tl-lg rounded-br-lg rounded-bl-lg bg-[#F2F5E4] px-5 py-3 leading-relaxed">
+          <p className="text-md font-medium text-gray-900">
+            Make Call Gauge Pro truly yours by adding your own brand and custom
+            URL.
+          </p>
+          <a
+            href={'#'}
+            className="mt-6 inline-flex items-center gap-2 rounded-xl border border-[#DE85DB] bg-gradient-to-r from-[#FBCCC5] to-[#B767F4] px-6 py-3 text-lg font-semibold transition-colors duration-200 hover:bg-gradient-to-r hover:from-[#F9C1C7] hover:to-[#DB7EDD]"
+          >
+            View details
+          </a>
+        </div>
       </div>
     </div>
   )

@@ -1,3 +1,5 @@
+import { Link } from '@/components/link'
+
 export default function AppAsd() {
   return (
     <div className="bg-white">
@@ -14,6 +16,12 @@ export default function AppAsd() {
                 Greetings, call forwarding, multi-ringing, round robin & so much
                 more!
               </p>
+              <Link
+                href={'#'}
+                className="mt-6 inline-flex items-center gap-2 rounded-xl border border-[#DE85DB] bg-gradient-to-r from-[#FBCCC5] to-[#B767F4] px-6 py-3 text-lg font-semibold transition-colors duration-200 hover:bg-gradient-to-r hover:from-[#F9C1C7] hover:to-[#DB7EDD]"
+              >
+                View details
+              </Link>
             </div>
           </div>
 
@@ -32,25 +40,19 @@ export default function AppAsd() {
 
               {/* Top Left Card */}
               <div className="absolute top-6 left-6 w-40 rounded-lg bg-white p-4 shadow-md sm:w-44">
-                <h3 className="mb-2 text-sm font-medium text-gray-600">
-                  Conversion Rate
-                </h3>
+                <h3 className="text-md mb-2 font-medium">Greetings</h3>
                 <div className="text-2xl font-bold text-gray-900">33%</div>
               </div>
 
               {/* Top Right Card */}
               <div className="absolute top-6 right-6 w-40 rounded-lg bg-white p-4 shadow-md sm:w-44">
-                <h3 className="mb-2 text-sm font-medium text-gray-600">
-                  Conversion Rate
-                </h3>
+                <h3 className="text-md mb-2 font-medium">Round robin</h3>
                 <div className="text-2xl font-bold text-gray-900">33%</div>
               </div>
 
               {/* Bottom Center Card */}
               <div className="absolute bottom-0.5 left-1/2 w-40 -translate-x-1/2 transform rounded-lg bg-white p-4 shadow-md sm:w-44">
-                <h3 className="mb-2 text-sm font-medium text-gray-600">
-                  Conversion Rate
-                </h3>
+                <h3 className="text-md mb-2 font-medium">Multi ringing</h3>
                 <div className="text-2xl font-bold text-gray-900">33%</div>
               </div>
             </div>
