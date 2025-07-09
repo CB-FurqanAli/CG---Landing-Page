@@ -1,4 +1,4 @@
-export default function AsdDsa() {
+export default function AutomationsCards() {
   return (
     <div className="mx-auto mt-20 mb-30 grid w-full max-w-7xl grid-cols-1 gap-5 md:grid-cols-3">
       <div className="">

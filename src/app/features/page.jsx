@@ -2,9 +2,11 @@ import { BentoCard } from '@/components/bento-card'
 import { Button } from '@/components/button'
 import { Container } from '@/components/container'
 import AdditionalFeatures from '@/components/features/additional-features'
-import AppAsd from '@/components/features/asd'
-import AsdDsa from '@/components/features/asd2'
+import AutomationsCards from '@/components/features/automations-cards'
+import { default as CallFlowsCard } from '@/components/features/call-flows-card'
+import CallTrackingCards from '@/components/features/call-tracking-cards'
 import CoreFeatures from '@/components/features/core-features'
+import DynamicNumberCard from '@/components/features/dynamic-number-card'
 import { Footer } from '@/components/footer'
 import { GradientBackground } from '@/components/gradient'
 import { LogoCluster } from '@/components/logo-cluster'
@@ -110,16 +112,16 @@ export default function Features() {
       <HeroSection />
 
       <div>
-        <AppAsd />
+        <CallFlowsCard />
       </div>
       <div>
-        <AsdDsa />
+        <AutomationsCards />
       </div>
       <div>
-        <AppAsd />
+        <DynamicNumberCard />
       </div>
       <div>
-        <AsdDsa />
+        <CallTrackingCards />
       </div>
 
       <CoreFeatures />
