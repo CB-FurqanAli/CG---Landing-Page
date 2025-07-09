@@ -2,12 +2,10 @@ import { BentoCard } from '@/components/bento-card'
 import { Button } from '@/components/button'
 import { Container } from '@/components/container'
 import AdditionalFeatures from '@/components/features/additional-features'
-import AutomationsCards from '@/components/features/automations-cards'
 import { default as CallFlowsCard } from '@/components/features/call-flows-card'
-import CallTrackingCards from '@/components/features/call-tracking-cards'
-import ClientPortalCards from '@/components/features/client-portal-cards'
 import CoreFeatures from '@/components/features/core-features'
 import DynamicNumberCard from '@/components/features/dynamic-number-card'
+import FeatureCards from '@/components/features/feature-cards'
 import WhiteLabelingCard from '@/components/features/white-labeling-card'
 import { Footer } from '@/components/footer'
 import { GradientBackground } from '@/components/gradient'
@@ -97,6 +95,78 @@ function CTASection() {
   )
 }
 
+function AutoMations() {
+  return (
+    <div className="mx-auto mb-30 grid max-w-7xl grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+      <FeatureCards
+        title="Automations"
+        description="Send automated SMS messages or emails when calls got completed. Or step ahead by Zapier."
+        icon="https://cdn.prod.website-files.com/5d82e225060d003d65ddae98/6799aa8fb9830683d5eb4f37_horizontal-bar-chart.svg"
+      />
+
+      <FeatureCards
+        title="Call recording"
+        description="Easily record every call, replay them anytime you want to and even download mp3 files for easy sharing!"
+        icon="https://cdn.prod.website-files.com/5d82e225060d003d65ddae98/6799aa8fd2f07ac6bafd28e0_dollar-hand-holding.svg"
+      />
+
+      <FeatureCards
+        title="Call whisper"
+        description="Get valuable context of the caller even before the conversation begins!"
+        icon="https://cdn.prod.website-files.com/5d82e225060d003d65ddae98/6799aa8fc3aab2b7fdbae39d_money-trend-up.svg"
+      />
+    </div>
+  )
+}
+
+function CallTrackingNumbers() {
+  return (
+    <div className="mx-auto mb-30 grid max-w-7xl grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+      <FeatureCards
+        title="Call tracking numbers"
+        description="Track countless phone numbers in just a few minutes at a price that nobody had ever offered!"
+        icon="https://cdn.prod.website-files.com/5d82e225060d003d65ddae98/6799aa8fb9830683d5eb4f37_horizontal-bar-chart.svg"
+      />
+
+      <FeatureCards
+        title="Voicemails"
+        description="Route your calls directly to voicemail or let it ring for a few times."
+        icon="https://cdn.prod.website-files.com/5d82e225060d003d65ddae98/6799aa8fd2f07ac6bafd28e0_dollar-hand-holding.svg"
+      />
+
+      <FeatureCards
+        title="Port in numbers"
+        description="Transfer all your current numbers to our app easily."
+        icon="https://cdn.prod.website-files.com/5d82e225060d003d65ddae98/6799aa8fc3aab2b7fdbae39d_money-trend-up.svg"
+      />
+    </div>
+  )
+}
+
+function ClientPortal() {
+  return (
+    <div className="mx-auto mb-30 grid max-w-7xl grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+      <FeatureCards
+        title="Client Portal"
+        description="Empower your clients by providing them with their own login to view calls & data"
+        icon="https://cdn.prod.website-files.com/5d82e225060d003d65ddae98/6799aa8fb9830683d5eb4f37_horizontal-bar-chart.svg"
+      />
+
+      <FeatureCards
+        title="Pay per call"
+        description="Start billing your clients for qualified calls, based on performance and get paid."
+        icon="https://cdn.prod.website-files.com/5d82e225060d003d65ddae98/6799aa8fd2f07ac6bafd28e0_dollar-hand-holding.svg"
+      />
+
+      <FeatureCards
+        title="Spam blocking"
+        description="Block all the calls from spam numbers and robots."
+        icon="https://cdn.prod.website-files.com/5d82e225060d003d65ddae98/6799aa8fc3aab2b7fdbae39d_money-trend-up.svg"
+      />
+    </div>
+  )
+}
+
 export default function Features() {
   return (
     <main className="overflow-hidden">
@@ -109,18 +179,17 @@ export default function Features() {
       <div>
         <CallFlowsCard />
       </div>
-      <div>
-        <AutomationsCards />
-      </div>
+
+      <AutoMations />
       <div>
         <DynamicNumberCard />
       </div>
-      <div>
-        <CallTrackingCards />
-      </div>
+
+      <CallTrackingNumbers />
 
       <WhiteLabelingCard />
-      <ClientPortalCards />
+
+      <ClientPortal />
 
       <CoreFeatures />
 
