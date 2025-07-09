@@ -12,14 +12,14 @@ export default function AsdDsa() {
             />
           </div>
           <h3 className="w-[358px] rounded-tl-lg rounded-tr-lg bg-[#F2F5E4] px-3 py-4 text-xl font-semibold text-gray-900">
-            Call tracking numbers
+            Automations
           </h3>
         </div>
 
         <div className="h-full max-h-[190px] w-[410px] rounded-tl-lg rounded-br-lg rounded-bl-lg bg-[#F2F5E4] px-5 py-3 leading-relaxed">
           <p className="text-md font-medium text-gray-900">
-            Track countless phone numbers in just a few minutes at a price that
-            nobody had ever offered!
+            Send automated SMS messages or emails when calls got completed. Or
+            step ahead by Zapier.
           </p>
           <a
             href={'#'}
@@ -43,14 +43,14 @@ export default function AsdDsa() {
             />
           </div>
           <h3 className="w-[358px] rounded-tl-lg rounded-tr-lg bg-[#F2F5E4] px-3 py-4 text-xl font-semibold text-gray-900">
-            Dynamic number insertion (DNI)
+            Call recording
           </h3>
         </div>
 
         <div className="h-full max-h-[190px] w-[410px] rounded-tl-lg rounded-br-lg rounded-bl-lg bg-[#F2F5E4] px-5 py-3 leading-relaxed">
           <p className="text-md font-medium text-gray-900">
-            Dynamic number insertion allows you to track the online source of
-            every call automatically.
+            Easily record every call, replay them anytime you want to and even
+            download mp3 files for easy sharing!
           </p>
           <a
             href={'#'}
@@ -72,14 +72,14 @@ export default function AsdDsa() {
             />
           </div>
           <h3 className="w-[358px] rounded-tl-lg rounded-tr-lg bg-[#F2F5E4] px-3 py-4 text-xl font-semibold text-gray-900">
-            White labeling
+            Call whisper
           </h3>
         </div>
 
         <div className="h-full max-h-[190px] w-[410px] rounded-tl-lg rounded-br-lg rounded-bl-lg bg-[#F2F5E4] px-5 py-3 leading-relaxed">
           <p className="text-md font-medium text-gray-900">
-            Make Call Gauge Pro truly yours by adding your own brand and custom
-            URL.
+            Get valuable context of the caller even before the conversation
+            begins!
           </p>
           <a
             href={'#'}

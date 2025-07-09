@@ -28,7 +28,7 @@ export default function AppAsd() {
           {/* Right Dashboard Mockup */}
           <div className="relative">
             {/* Dashboard Box */}
-            <div className="relative overflow-hidden rounded-3xl bg-green-200 px-4 py-32 sm:px-10 sm:py-44">
+            <div className="relative overflow-hidden rounded-3xl bg-[#F0B100] px-4 py-32 sm:px-10 sm:py-44">
               {/* Representative Image */}
               <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transform">
                 <img
@@ -39,17 +39,17 @@ export default function AppAsd() {
               </div>
 
               {/* Top Left Card */}
-              <div className="absolute top-6 left-6 w-40 rounded-lg bg-white p-4 shadow-md sm:w-44">
+              <div className="absolute top-6 left-6 w-40 rounded-lg bg-[#F2F5E4] p-4 shadow-md sm:w-44">
                 <h3 className="text-md mb-2 font-medium">Greetings</h3>
               </div>
 
               {/* Top Right Card */}
-              <div className="absolute top-6 right-6 w-40 rounded-lg bg-white p-4 shadow-md sm:w-44">
+              <div className="absolute top-6 right-6 w-40 rounded-lg bg-[#F2F5E4] p-4 shadow-md sm:w-44">
                 <h3 className="text-md mb-2 font-medium">Round robin</h3>
               </div>
 
               {/* Bottom Center Card */}
-              <div className="absolute bottom-0.5 left-1/2 w-40 -translate-x-1/2 transform rounded-lg bg-white p-4 shadow-md sm:w-44">
+              <div className="absolute bottom-0.5 left-1/2 w-40 -translate-x-1/2 transform rounded-lg bg-[#F2F5E4] p-4 shadow-md sm:w-44">
                 <h3 className="text-md mb-2 font-medium">Multi ringing</h3>
               </div>
             </div>
