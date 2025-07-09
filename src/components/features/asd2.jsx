@@ -1,31 +1,21 @@
 export default function AsdDsa() {
   return (
-    <div className="mx-auto my-20 grid max-w-7xl grid-cols-1 gap-5 md:grid-cols-3">
-      <div className="min-h-[340px]">
+    <div className="mx-auto mt-20 mb-30 grid max-w-7xl grid-cols-1 gap-5 md:grid-cols-3">
+      <div className="">
         <div className="flex items-center gap-1">
           <div>
-            <svg
-              className="h-12 w-12 text-green-700"
-              viewBox="0 0 24 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M3 3h18v18H3V3z"
-                stroke="currentColor"
-                stroke-width="2"
-                fill="none"
-              />
-              <path d="M8 12h8" stroke="currentColor" stroke-width="2" />
-              <path d="M8 8h8" stroke="currentColor" stroke-width="2" />
-              <path d="M8 16h8" stroke="currentColor" stroke-width="2" />
-            </svg>
+            <img
+              src="https://cdn.prod.website-files.com/5d82e225060d003d65ddae98/6799aa8fb9830683d5eb4f37_horizontal-bar-chart.svg"
+              loading="lazy"
+              alt=""
+              className="feature-card-icon"
+            />
           </div>
           <h3 className="w-[358px] rounded-tl-lg rounded-tr-lg bg-[#F2F5E4] p-3 text-xl font-semibold text-gray-900">
             Drive more leads
           </h3>
         </div>
-        <p className="text-md h-full max-h-[190px] w-[410px] rounded-br-lg rounded-bl-lg bg-[#F2F5E4] p-4 leading-relaxed font-medium text-gray-900">
+        <p className="text-md h-full max-h-[190px] w-[410px] rounded-tl-lg rounded-br-lg rounded-bl-lg bg-[#F2F5E4] p-4 leading-relaxed font-medium text-gray-900">
           Get granular attribution down to the keyword to fully understand how
           your campaigns drive conversions over the phone. With clear visibility
           of customer intent and lead quality, you can optimize every campaign
@@ -35,35 +25,21 @@ export default function AsdDsa() {
 
       {/*2nd*/}
 
-      <div className="min-h-[340px]">
+      <div className="">
         <div className="flex items-center gap-1">
           <div>
-            <svg
-              className="h-12 w-12 text-green-700"
-              viewBox="0 0 24 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"
-                stroke="currentColor"
-                stroke-width="2"
-                fill="none"
-              />
-              <path
-                d="M9.5 8.5C9.5 7.67 10.17 7 11 7h2c.83 0 1.5.67 1.5 1.5S13.83 10 13 10h-2c-.83 0-1.5.67-1.5 1.5S9.17 13 10 13h2c.83 0 1.5.67 1.5 1.5S12.83 16 12 16h-2c-.83 0-1.5-.67-1.5-1.5"
-                stroke="currentColor"
-                stroke-width="2"
-                fill="none"
-              />
-              <path d="M12 6v2m0 8v2" stroke="currentColor" stroke-width="2" />
-            </svg>
+            <img
+              src="https://cdn.prod.website-files.com/5d82e225060d003d65ddae98/6799aa8fd2f07ac6bafd28e0_dollar-hand-holding.svg"
+              loading="lazy"
+              alt=""
+              className="feature-card-icon"
+            />
           </div>
           <h3 className="w-[358px] rounded-tl-lg rounded-tr-lg bg-[#F2F5E4] p-3 text-xl font-semibold text-gray-900">
             Drive more leads
           </h3>
         </div>
-        <p className="text-md h-full max-h-[190px] w-[410px] rounded-br-lg rounded-bl-lg bg-[#F2F5E4] p-4 leading-relaxed font-medium text-gray-900">
+        <p className="text-md h-full max-h-[190px] w-[410px] rounded-tl-lg rounded-br-lg rounded-bl-lg bg-[#F2F5E4] p-4 leading-relaxed font-medium text-gray-900">
           Get granular attribution down to the keyword to fully understand how
           your campaigns drive conversions over the phone. With clear visibility
           of customer intent and lead quality, you can optimize every campaign
@@ -71,34 +47,21 @@ export default function AsdDsa() {
         </p>
       </div>
 
-      <div className="min-h-[340px]">
+      <div className="">
         <div className="flex items-center gap-1">
           <div>
-            <svg
-              className="h-12 w-12 text-green-700"
-              viewBox="0 0 24 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path d="M12 2v20" stroke="currentColor" stroke-width="2" />
-              <path
-                d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"
-                stroke="currentColor"
-                stroke-width="2"
-              />
-              <path
-                d="M7 17l3 3-3 3"
-                stroke="currentColor"
-                stroke-width="2"
-                fill="none"
-              />
-            </svg>
+            <img
+              src="https://cdn.prod.website-files.com/5d82e225060d003d65ddae98/6799aa8fc3aab2b7fdbae39d_money-trend-up.svg"
+              loading="lazy"
+              alt=""
+              className="feature-card-icon"
+            />
           </div>
           <h3 className="w-[358px] rounded-tl-lg rounded-tr-lg bg-[#F2F5E4] p-3 text-xl font-semibold text-gray-900">
             Drive more leads
           </h3>
         </div>
-        <p className="text-md max-[410px] h-full max-h-[190px] rounded-br-lg rounded-bl-lg bg-[#F2F5E4] p-4 leading-relaxed font-medium text-gray-900">
+        <p className="text-md max-[410px] h-full max-h-[190px] rounded-tl-lg rounded-br-lg rounded-bl-lg bg-[#F2F5E4] p-4 leading-relaxed font-medium text-gray-900">
           Get granular attribution down to the keyword to fully understand how
           your campaigns drive conversions over the phone. With clear visibility
           .
