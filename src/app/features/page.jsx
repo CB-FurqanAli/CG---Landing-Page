@@ -115,6 +115,12 @@ export default function Features() {
       <div>
         <AsdDsa />
       </div>
+      <div>
+        <AppAsd />
+      </div>
+      <div>
+        <AsdDsa />
+      </div>
 
       <CoreFeatures />
       <div className="">
