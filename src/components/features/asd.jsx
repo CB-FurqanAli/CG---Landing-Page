@@ -4,21 +4,21 @@ export default function AppAsd() {
   return (
     <div className="bg-white">
       <div className="container mx-auto px-4 py-20">
-        <div className="mx-auto grid max-w-7xl grid-cols-1 items-center gap-12 lg:grid-cols-2">
+        <div className="mx-auto grid max-w-7xl grid-cols-1 items-center gap-12 rounded-3xl bg-linear-115 from-[#fff1be] from-28% via-[#ee87cb] via-70% to-[#b060ff] p-12 sm:bg-linear-145 lg:grid-cols-2">
           {/* Left Content */}
           <div className="space-y-8">
             <div className="space-y-6">
-              <h2 className="text-3xl leading-tight font-bold text-gray-900 sm:text-4xl">
+              <h2 className="text-3xl leading-tight font-bold sm:text-4xl">
                 Call flows
               </h2>
-              <p className="max-w-xl text-base leading-relaxed text-gray-600 sm:text-lg">
+              <p className="max-w-xl text-base leading-relaxed sm:text-lg">
                 Decide the steps which you want your calls to flow with.
                 Greetings, call forwarding, multi-ringing, round robin & so much
                 more!
               </p>
               <Link
                 href={'#'}
-                className="mt-6 inline-flex items-center gap-2 rounded-xl border border-[#DE85DB] bg-gradient-to-r from-[#FBCCC5] to-[#B767F4] px-6 py-3 text-lg font-semibold transition-colors duration-200 hover:bg-gradient-to-r hover:from-[#F9C1C7] hover:to-[#DB7EDD]"
+                className="text-md mt-6 inline-flex items-center rounded-xl border border-[#DE85DB] bg-gradient-to-r from-[#FBCCC5] to-[#B767F4] px-6 py-2 font-semibold transition-colors duration-200 hover:bg-gradient-to-r hover:from-[#F9C1C7] hover:to-[#DB7EDD]"
               >
                 View details
               </Link>
