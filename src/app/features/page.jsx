@@ -6,6 +6,7 @@ import { default as CallFlowsCard } from '@/components/features/call-flows-card'
 import CoreFeatures from '@/components/features/core-features'
 import DynamicNumberCard from '@/components/features/dynamic-number-card'
 import FeatureCards from '@/components/features/feature-cards'
+import BlogCards from '@/components/features/mytry'
 import WhiteLabelingCard from '@/components/features/white-labeling-card'
 import { Footer } from '@/components/footer'
 import { GradientBackground } from '@/components/gradient'
@@ -190,6 +191,8 @@ export default function Features() {
       <WhiteLabelingCard />
 
       <ClientPortal />
+
+      <BlogCards />
 
       <CoreFeatures />
 
