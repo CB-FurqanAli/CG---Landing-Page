@@ -5,7 +5,7 @@ const blogPosts = [
     description:
       'We live in a world obsessed with digital clicks, ad clicks, link clicks, and email opens. But there’s one conversion channel that still gets overlooked…',
     image:
-      'https://images.unsplash.com/photo-1526779259212-939e64788e3c?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZnJlZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D', // Replace with local path or CDN
+      'https://images.unsplash.com/photo-1526779259212-939e64788e3c?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZnJlZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D',
   },
   {
     title: '10 Best Real Estate Cold Calling Scripts',
@@ -30,7 +30,7 @@ export default function BlogCards() {
             <img
               src={post.image}
               alt={post.title}
-              className="h-full w-full object-cover"
+              className="h-full w-full rounded-2xl object-cover"
             />
           </div>
 

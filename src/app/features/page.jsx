@@ -2,6 +2,7 @@ import { BentoCard } from '@/components/bento-card'
 import { Button } from '@/components/button'
 import { Container } from '@/components/container'
 import AdditionalFeatures from '@/components/features/additional-features'
+import BlogAsd from '@/components/features/asd'
 import { default as CallFlowsCard } from '@/components/features/call-flows-card'
 import CoreFeatures from '@/components/features/core-features'
 import DynamicNumberCard from '@/components/features/dynamic-number-card'
@@ -193,7 +194,7 @@ export default function Features() {
       <ClientPortal />
 
       <BlogCards />
-
+      <BlogAsd />
       <CoreFeatures />
 
       <div>
