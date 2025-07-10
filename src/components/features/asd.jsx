@@ -28,43 +28,45 @@ const blogPosts = [
 
 export default function BlogAsd() {
   return (
-    <div className="mx-auto my-48 grid max-w-7xl grid-cols-1 gap-10 px-4 sm:grid-cols-2 lg:grid-cols-3">
-      {blogPosts.map((post, index) => (
-        <div
-          key={index}
-          className="flex h-full max-w-xs flex-col justify-between rounded-3xl bg-white p-4 shadow-xl transition hover:shadow-2xl"
-        >
-          {/* Image */}
-          <img
-            src={post.image}
-            alt={post.title}
-            className="mx-auto mb-4 rounded-xl"
-          />
+    <div className="flex items-center justify-center px-4">
+      <div className="mx-auto mb-48 grid max-w-7xl grid-cols-1 gap-20 px-4 sm:grid-cols-2 lg:grid-cols-3">
+        {blogPosts.map((post, index) => (
+          <div
+            key={index}
+            className="flex h-full max-w-xs flex-col justify-between rounded-3xl bg-white p-4 shadow-xl transition hover:shadow-2xl"
+          >
+            {/* Image */}
+            <img
+              src={post.image}
+              alt={post.title}
+              className="mx-auto mb-4 rounded-xl"
+            />
 
-          {/* Content */}
-          <div className="flex flex-grow flex-col">
-            {/* Title */}
-            <h3 className="text-md mb-2 leading-snug font-semibold text-gray-900">
-              {post.title}
-            </h3>
+            {/* Content */}
+            <div className="flex flex-grow flex-col">
+              {/* Title */}
+              <h3 className="text-md mb-2 leading-snug font-semibold text-gray-900">
+                {post.title}
+              </h3>
 
-            {/* Description */}
-            <p className="mb-6 line-clamp-3 px-2 text-sm text-gray-600">
-              {post.description}
-            </p>
+              {/* Description */}
+              <p className="mb-6 line-clamp-3 px-2 text-sm text-gray-600">
+                {post.description}
+              </p>
 
-            {/* Button (sticks to bottom) */}
-            <div className="mt-auto text-right">
-              <a
-                href="#"
-                className="text-md inline-flex items-center rounded-xl border border-[#DE85DB] bg-gradient-to-r from-[#FBCCC5] to-[#B767F4] px-6 py-2 font-semibold transition-colors duration-200 hover:from-[#F9C1C7] hover:to-[#DB7EDD]"
-              >
-                View details
-              </a>
+              {/* Button (sticks to bottom) */}
+              <div className="mt-auto text-right">
+                <a
+                  href="#"
+                  className="text-md inline-flex items-center rounded-xl border border-[#DE85DB] bg-gradient-to-r from-[#FBCCC5] to-[#B767F4] px-6 py-2 font-semibold transition-colors duration-200 hover:from-[#F9C1C7] hover:to-[#DB7EDD]"
+                >
+                  View details
+                </a>
+              </div>
             </div>
           </div>
-        </div>
-      ))}
+        ))}
+      </div>
     </div>
   )
 }
