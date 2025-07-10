@@ -35,19 +35,17 @@ export default function BlogCards() {
           </div>
 
           {/* Content Right */}
-          <div className="flex h-68 flex-col justify-between px-12 py-8">
-            {/* Title */}
-            <h3 className="text-md leading-snug font-semibold text-gray-900">
-              {post.title}
-            </h3>
+          <div className="flex flex-1 flex-col justify-between px-12 py-8">
+            {/* Top Content */}
+            <div>
+              <h3 className="text-md pb-3 leading-snug font-semibold text-gray-900">
+                {post.title}
+              </h3>
+              <p className="text-sm text-gray-600">{post.description}</p>
+            </div>
 
-            {/* Description */}
-            <p className="line-clamp-3 text-sm text-gray-600">
-              {post.description}
-            </p>
-
-            {/* Icon */}
-            <div className="mt-4 self-end">
+            {/* Button aligned at bottom */}
+            <div className="text-right">
               <a
                 href="#"
                 className="text-md mt-6 inline-flex w-fit items-center rounded-xl border border-[#DE85DB] bg-gradient-to-r from-[#FBCCC5] to-[#B767F4] px-6 py-2 font-semibold transition-colors duration-200 hover:from-[#F9C1C7] hover:to-[#DB7EDD]"
