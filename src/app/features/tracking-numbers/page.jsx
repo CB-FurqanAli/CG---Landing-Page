@@ -19,14 +19,13 @@ function HeroSection() {
       <Container>
         <div className="text-center">
           <Heading as="h1" className="text-4xl text-gray-900 md:text-5xl">
-            Scalable Call Tracking Numbers
+            Call tracking numbers
           </Heading>
           <Lead className="mx-auto mt-6 max-w-3xl text-lg text-gray-600">
-            Track as many phone numbers as your business needs—hundreds or
-            thousands—without the high costs. CallGauge offers local, toll-free,
-            and vanity numbers at unbeatable prices, built for agencies and
-            growing companies.
+            With Call Gauge track countless phone numbers in just a few minutest
+            at a price that nobody had ever offered!
           </Lead>
+          <p className="px-2 text-red-400">Try Call Gauge Pro for free!</p>
           <div className="mt-10 flex justify-center gap-4">
             <Button className="w-full sm:w-auto" href="#">
               Get Started Free

@@ -1,12 +1,10 @@
 import { Button } from '@/components/button'
 import { Container } from '@/components/container'
-import BlogAsd from '@/components/features/asd'
-import BlogAsd2 from '@/components/features/asd2'
 import { default as CallFlowsCard } from '@/components/features/call-flows-card'
+import CustomGreetingsCards from '@/components/features/custom-greetings-cards'
 import DynamicNumberCard from '@/components/features/dynamic-number-card'
 import FeatureCards from '@/components/features/feature-cards'
-import BlogCards from '@/components/features/mytry'
-import BlogCards2 from '@/components/features/mytry2'
+import ReportingCards from '@/components/features/reporting-cards'
 import WhiteLabelingCard from '@/components/features/white-labeling-card'
 import { Footer } from '@/components/footer'
 import { GradientBackground } from '@/components/gradient'
@@ -126,6 +124,7 @@ function CallTrackingNumbers() {
         title="Call tracking numbers"
         description="Track countless phone numbers in just a few minutes at a price that nobody had ever offered!"
         icon="https://cdn.prod.website-files.com/5d82e225060d003d65ddae98/6799aa8fb9830683d5eb4f37_horizontal-bar-chart.svg"
+        link="features/tracking-numbers"
       />
 
       <FeatureCards
@@ -167,6 +166,90 @@ function ClientPortal() {
   )
 }
 
+function Reporting() {
+  return (
+    <div className="flex items-center justify-center px-4">
+      <div className="mx-auto grid max-w-7xl grid-cols-1 gap-20 px-4 sm:grid-cols-2 lg:grid-cols-3">
+        <ReportingCards
+          title="Reporting & Analytics"
+          description="Instantly get the important details of your calls, right from your dashboard."
+          image="https://images.unsplash.com/photo-1526779259212-939e64788e3c?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZnJlZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D"
+        />
+        <ReportingCards
+          title="Press 1 to connect"
+          description="Get rid of robotic spam calls by asking the customer to press 1 in order to connect call."
+          image="https://images.unsplash.com/photo-1526779259212-939e64788e3c?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZnJlZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D"
+        />
+        <ReportingCards
+          title="SMS forwarding"
+          description="Inbound messages can be forwarded to any number."
+          image="https://images.unsplash.com/photo-1526779259212-939e64788e3c?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZnJlZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D"
+        />
+      </div>
+    </div>
+  )
+}
+
+function VoiceMails() {
+  return (
+    <div className="flex items-center justify-center px-4">
+      <div className="mx-auto grid max-w-7xl grid-cols-1 gap-20 px-4 sm:grid-cols-2 lg:grid-cols-3">
+        <ReportingCards
+          title="Voicemails notifications"
+          description="Instantly notify anyone with voicemail recordings embedded in it."
+          image="https://images.unsplash.com/photo-1526779259212-939e64788e3c?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZnJlZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D"
+        />
+        <ReportingCards
+          title="Missed call notification"
+          description="Whenever a call is missed, instantly send notifications so, you can follow up right away."
+          image="https://images.unsplash.com/photo-1526779259212-939e64788e3c?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZnJlZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D"
+        />
+        <ReportingCards
+          title="Missed call notification"
+          description="Whenever a call is missed, instantly send notifications so, you can follow up right away."
+          image="https://images.unsplash.com/photo-1526779259212-939e64788e3c?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZnJlZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D"
+        />
+      </div>
+    </div>
+  )
+}
+
+function CustomGreeting() {
+  return (
+    <div className="mx-auto my-48 grid max-w-7xl gap-10 px-4 sm:grid-cols-1 lg:grid-cols-2">
+      <CustomGreetingsCards
+        title="AI call summaries"
+        description="Transcribe your calls and get AI based one sentence summaries + bullet points for calls."
+        image="https://images.unsplash.com/photo-1526779259212-939e64788e3c?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZnJlZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D"
+      />
+
+      <CustomGreetingsCards
+        title="Custom greetings "
+        description="Customize greetings by using text-to-speech option or upload an mp3 audio."
+        image="https://images.unsplash.com/photo-1526779259212-939e64788e3c?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZnJlZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D"
+      />
+    </div>
+  )
+}
+
+function EmailCall() {
+  return (
+    <div className="mx-auto my-48 grid max-w-7xl gap-10 px-4 sm:grid-cols-1 lg:grid-cols-2">
+      <CustomGreetingsCards
+        title="Email call details"
+        description="Whenever a call is completed, send its details with recording link via email to one or multiple recipients."
+        image="https://images.unsplash.com/photo-1526779259212-939e64788e3c?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZnJlZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D"
+      />
+
+      <CustomGreetingsCards
+        title="Auto-reports"
+        description="Send reports to your team or clients via email automatically."
+        image="https://images.unsplash.com/photo-1526779259212-939e64788e3c?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZnJlZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D"
+      />
+    </div>
+  )
+}
+
 export default function Features() {
   return (
     <main className="overflow-hidden">
@@ -191,11 +274,15 @@ export default function Features() {
 
       <ClientPortal />
 
-      <BlogCards />
-      <BlogAsd />
+      <div>
+        <CustomGreeting />
+        <Reporting />
+      </div>
 
-      <BlogCards2 />
-      <BlogAsd2 />
+      <div>
+        <EmailCall />
+        <VoiceMails />
+      </div>
 
       {/*<div className="mt-48">*/}
       {/*  <CoreFeatures />*/}
