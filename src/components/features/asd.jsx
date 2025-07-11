@@ -48,16 +48,6 @@ export default function BlogAsd() {
               <p className="mb-6 line-clamp-3 text-sm text-gray-600">
                 {post.description}
               </p>
-
-              {/* Button (sticks to bottom) */}
-              <div className="mt-auto text-right">
-                <a
-                  href="#"
-                  className="text-md inline-flex items-center rounded-xl border border-[#DE85DB] bg-gradient-to-r from-[#FBCCC5] to-[#B767F4] px-6 py-2 font-semibold transition-colors duration-200 hover:from-[#F9C1C7] hover:to-[#DB7EDD]"
-                >
-                  View details
-                </a>
-              </div>
             </div>
           </div>
         ))}
