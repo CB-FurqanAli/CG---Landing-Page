@@ -1,15 +1,15 @@
 const blogPosts = [
   {
-    title: 'Reporting & Analytics ',
+    title: 'Voicemails notifications  ',
     description:
-      'Instantly get the important details of your calls, right from your dashboard. ',
+      'Instantly notify anyone with voicemail recordings embedded in it.',
     image:
       'https://images.unsplash.com/photo-1526779259212-939e64788e3c?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZnJlZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D',
   },
   {
-    title: 'Press 1 to connect ',
+    title: 'Missed call notification',
     description:
-      'Get rid of robotic spam calls by asking the customer to press 1 in order to connect call. ',
+      'Whenever a call is missed, instantly send notifications so, you can follow up right away.',
     image:
       'https://images.unsplash.com/photo-1526779259212-939e64788e3c?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZnJlZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D',
   },
@@ -21,7 +21,7 @@ const blogPosts = [
   },
 ]
 
-export default function BlogAsd() {
+export default function BlogAsd2() {
   return (
     <div className="flex items-center justify-center px-4">
       <div className="mx-auto grid max-w-7xl grid-cols-1 gap-20 px-4 sm:grid-cols-2 lg:grid-cols-3">

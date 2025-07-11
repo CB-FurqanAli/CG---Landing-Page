@@ -3,11 +3,13 @@ import { Button } from '@/components/button'
 import { Container } from '@/components/container'
 import AdditionalFeatures from '@/components/features/additional-features'
 import BlogAsd from '@/components/features/asd'
+import BlogAsd2 from '@/components/features/asd2'
 import { default as CallFlowsCard } from '@/components/features/call-flows-card'
 import CoreFeatures from '@/components/features/core-features'
 import DynamicNumberCard from '@/components/features/dynamic-number-card'
 import FeatureCards from '@/components/features/feature-cards'
 import BlogCards from '@/components/features/mytry'
+import BlogCards2 from '@/components/features/mytry2'
 import WhiteLabelingCard from '@/components/features/white-labeling-card'
 import { Footer } from '@/components/footer'
 import { GradientBackground } from '@/components/gradient'
@@ -195,7 +197,12 @@ export default function Features() {
 
       <BlogCards />
       <BlogAsd />
-      <CoreFeatures />
+
+      <BlogCards2 />
+      <BlogAsd2 />
+      <div className="mt-48">
+        <CoreFeatures />
+      </div>
 
       <div>
         <BentoCard graphic={<LogoCluster />} className=" " />
