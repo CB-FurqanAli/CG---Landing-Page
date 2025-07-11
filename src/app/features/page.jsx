@@ -1,7 +1,5 @@
-import { BentoCard } from '@/components/bento-card'
 import { Button } from '@/components/button'
 import { Container } from '@/components/container'
-import AdditionalFeatures from '@/components/features/additional-features'
 import BlogAsd from '@/components/features/asd'
 import BlogAsd2 from '@/components/features/asd2'
 import { default as CallFlowsCard } from '@/components/features/call-flows-card'
@@ -12,7 +10,6 @@ import BlogCards2 from '@/components/features/mytry2'
 import WhiteLabelingCard from '@/components/features/white-labeling-card'
 import { Footer } from '@/components/footer'
 import { GradientBackground } from '@/components/gradient'
-import { LogoCluster } from '@/components/logo-cluster'
 import { Navbar } from '@/components/navbar'
 import { Heading, Lead, Subheading } from '@/components/text'
 
@@ -204,11 +201,11 @@ export default function Features() {
       {/*  <CoreFeatures />*/}
       {/*</div>*/}
 
-      <div className="mt-48">
-        <BentoCard graphic={<LogoCluster />} className=" " />
-      </div>
+      {/*<div className="mt-48">*/}
+      {/*  <BentoCard graphic={<LogoCluster />} className=" " />*/}
+      {/*</div>*/}
 
-      <AdditionalFeatures />
+      {/*<AdditionalFeatures />*/}
       <CTASection />
       <Footer />
     </main>
