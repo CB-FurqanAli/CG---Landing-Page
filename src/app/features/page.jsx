@@ -5,7 +5,6 @@ import AdditionalFeatures from '@/components/features/additional-features'
 import BlogAsd from '@/components/features/asd'
 import BlogAsd2 from '@/components/features/asd2'
 import { default as CallFlowsCard } from '@/components/features/call-flows-card'
-import CoreFeatures from '@/components/features/core-features'
 import DynamicNumberCard from '@/components/features/dynamic-number-card'
 import FeatureCards from '@/components/features/feature-cards'
 import BlogCards from '@/components/features/mytry'
@@ -200,11 +199,12 @@ export default function Features() {
 
       <BlogCards2 />
       <BlogAsd2 />
-      <div className="mt-48">
-        <CoreFeatures />
-      </div>
 
-      <div>
+      {/*<div className="mt-48">*/}
+      {/*  <CoreFeatures />*/}
+      {/*</div>*/}
+
+      <div className="mt-48">
         <BentoCard graphic={<LogoCluster />} className=" " />
       </div>
 

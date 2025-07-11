@@ -14,8 +14,9 @@ const blogPosts = [
       'https://images.unsplash.com/photo-1526779259212-939e64788e3c?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZnJlZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D',
   },
   {
-    title: 'SMS forwarding ',
-    description: 'Inbound messages can be forwarded to any number.',
+    title: 'Missed call notification',
+    description:
+      'Whenever a call is missed, instantly send notifications so, you can follow up right away.',
     image:
       'https://images.unsplash.com/photo-1526779259212-939e64788e3c?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZnJlZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D',
   },
