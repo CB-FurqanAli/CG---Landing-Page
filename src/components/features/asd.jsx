@@ -1,26 +1,21 @@
 const blogPosts = [
   {
-    title: 'Turn Callers Into Customers: 5 Tips for Converting Callers',
-    date: 'May 15, 2025',
+    title: 'Reporting & Analytics ',
     description:
-      'We live in a world obsessed with digital clicks, ad clicks, link clicks, and email opens. But there’s one conversion channel that still gets overlooked…',
+      'Instantly get the important details of your calls, right from your dashboard. ',
     image:
       'https://images.unsplash.com/photo-1526779259212-939e64788e3c?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZnJlZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D',
   },
   {
-    title: '10 Best Real Estate Cold Calling Scripts',
-    date: 'May 8, 2025',
+    title: 'Press 1 to connect ',
     description:
-      'Let’s be real for a second, cold calling can feel intimidating. There’s that little voice in your head asking, “What if they hang up? What if…',
+      'Get rid of robotic spam calls by asking the customer to press 1 in order to connect call. ',
     image:
       'https://images.unsplash.com/photo-1526779259212-939e64788e3c?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZnJlZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D',
   },
   {
-    title:
-      'What is Enterprise Sales? A Complete Guide to Enterprise Sales Mastery',
-    date: 'May 1, 2025',
-    description:
-      'Enterprise sales is a complex, long-cycle process that involves selling high-value solutions to large organizations. In this guide, we break it down…',
+    title: 'SMS forwarding ',
+    description: 'Inbound messages can be forwarded to any number.',
     image:
       'https://images.unsplash.com/photo-1526779259212-939e64788e3c?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZnJlZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D',
   },

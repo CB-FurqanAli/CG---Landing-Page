@@ -1,17 +1,17 @@
 const blogPosts = [
   {
-    title: 'Turn Callers Into Customers: 5 Tips for Converting Callers',
+    title: 'AI call summaries ',
     date: 'May 15, 2025',
     description:
-      'We live in a world obsessed with digital clicks, ad clicks, link clicks, and email opens. But there’s one conversion channel that still gets overlooked…',
+      'Transcribe your calls and get AI based one sentence summaries + bullet points for calls.',
     image:
       'https://images.unsplash.com/photo-1526779259212-939e64788e3c?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZnJlZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D',
   },
   {
-    title: '10 Best Real Estate Cold Calling Scripts',
+    title: 'Custom greetings ',
     date: 'May 8, 2025',
     description:
-      'Let’s be real for a second, cold calling can feel intimidating. There’s that little voice in your head asking, “What if they hang up? What if…',
+      'Customize greetings by using text-to-speech option or upload an mp3 audio. ',
     image:
       'https://images.unsplash.com/photo-1526779259212-939e64788e3c?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZnJlZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D',
   },
@@ -38,7 +38,7 @@ export default function BlogCards() {
           <div className="flex flex-1 flex-col justify-between px-12 py-8">
             {/* Top Content */}
             <div>
-              <h3 className="text-md pb-3 leading-snug font-semibold text-gray-900">
+              <h3 className="text-md pb-3 leading-snug font-semibold">
                 {post.title}
               </h3>
               <p className="text-sm text-gray-600">{post.description}</p>
