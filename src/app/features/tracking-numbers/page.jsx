@@ -77,22 +77,23 @@ function TrackingNumbersContent() {
 
           <div className="mt-8 space-y-5 leading-relaxed text-gray-700 sm:text-lg">
             <p>
-              <strong>Call tracking phone numbers</strong> are unique numbers
-              used to measure the effectiveness of your marketing campaigns.
-              They allow you to track exactly which campaigns bring in the most
-              leads.
+              <strong>Call tracking phone numbers</strong> those unique numbers
+              which are assigned to measure the effectiveness of your marketing
+              campaign.
             </p>
             <p>
-              Assign a dedicated number to each channel — Google Ads, social
-              media, websites, or print ads — and know exactly what’s working.
-              When a customer calls a tracking number, it gets linked to its
-              original source automatically.
+              Usually, businesses assign different tracking number to each
+              marketing campaign. By attaching a unique number to each channel
+              such as Google Ads, social media, print ads or website, you can
+              easily know which marketing campaign is generating most leads.
+              When a customer dials a tracking number, it got linked to its
+              source automatically.
             </p>
           </div>
 
           <div className="mt-8 space-y-3">
             <p className="cursor-pointer text-lg text-blue-600 italic hover:underline">
-              Want to set up a call tracking number for your business today?
+              Want to setup call tracking number for your business now?
             </p>
             <p className="cursor-pointer text-lg font-semibold text-red-600 hover:underline">
               Try Call Gauge Pro — It&#39;s Free!
