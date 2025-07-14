@@ -100,18 +100,19 @@ function AutoMations() {
         title="Automations"
         description="Send automated SMS messages or emails when calls got completed. Or step ahead by Zapier."
         icon="https://cdn.prod.website-files.com/5d82e225060d003d65ddae98/6799aa8fb9830683d5eb4f37_horizontal-bar-chart.svg"
+        link="#"
       />
-
       <FeatureCards
         title="Call recording"
         description="Easily record every call, replay them anytime you want to and even download mp3 files for easy sharing!"
         icon="https://cdn.prod.website-files.com/5d82e225060d003d65ddae98/6799aa8fd2f07ac6bafd28e0_dollar-hand-holding.svg"
+        link="#"
       />
-
       <FeatureCards
         title="Call whisper"
         description="Get valuable context of the caller even before the conversation begins!"
         icon="https://cdn.prod.website-files.com/5d82e225060d003d65ddae98/6799aa8fc3aab2b7fdbae39d_money-trend-up.svg"
+        link="#"
       />
     </div>
   )
@@ -131,12 +132,13 @@ function CallTrackingNumbers() {
         title="Voicemails"
         description="Route your calls directly to voicemail or let it ring for a few times."
         icon="https://cdn.prod.website-files.com/5d82e225060d003d65ddae98/6799aa8fd2f07ac6bafd28e0_dollar-hand-holding.svg"
+        link="#"
       />
-
       <FeatureCards
         title="Port in numbers"
         description="Transfer all your current numbers to our app easily."
         icon="https://cdn.prod.website-files.com/5d82e225060d003d65ddae98/6799aa8fc3aab2b7fdbae39d_money-trend-up.svg"
+        link="#"
       />
     </div>
   )
@@ -149,18 +151,20 @@ function ClientPortal() {
         title="Client Portal"
         description="Empower your clients by providing them with their own login to view calls & data"
         icon="https://cdn.prod.website-files.com/5d82e225060d003d65ddae98/6799aa8fb9830683d5eb4f37_horizontal-bar-chart.svg"
+        link="#"
       />
 
       <FeatureCards
         title="Pay per call"
         description="Start billing your clients for qualified calls, based on performance and get paid."
         icon="https://cdn.prod.website-files.com/5d82e225060d003d65ddae98/6799aa8fd2f07ac6bafd28e0_dollar-hand-holding.svg"
+        link="#"
       />
-
       <FeatureCards
         title="Spam blocking"
         description="Block all the calls from spam numbers and robots."
         icon="https://cdn.prod.website-files.com/5d82e225060d003d65ddae98/6799aa8fc3aab2b7fdbae39d_money-trend-up.svg"
+        link="#"
       />
     </div>
   )
@@ -222,7 +226,6 @@ function CustomGreeting() {
         description="Transcribe your calls and get AI based one sentence summaries + bullet points for calls."
         image="https://images.unsplash.com/photo-1526779259212-939e64788e3c?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZnJlZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D"
       />
-
       <CustomGreetingsCards
         title="Custom greetings "
         description="Customize greetings by using text-to-speech option or upload an mp3 audio."
@@ -240,7 +243,6 @@ function EmailCall() {
         description="Whenever a call is completed, send its details with recording link via email to one or multiple recipients."
         image="https://images.unsplash.com/photo-1526779259212-939e64788e3c?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZnJlZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D"
       />
-
       <CustomGreetingsCards
         title="Auto-reports"
         description="Send reports to your team or clients via email automatically."
@@ -284,15 +286,6 @@ export default function Features() {
         <VoiceMails />
       </div>
 
-      {/*<div className="mt-48">*/}
-      {/*  <CoreFeatures />*/}
-      {/*</div>*/}
-
-      {/*<div className="mt-48">*/}
-      {/*  <BentoCard graphic={<LogoCluster />} className=" " />*/}
-      {/*</div>*/}
-
-      {/*<AdditionalFeatures />*/}
       <CTASection />
       <Footer />
     </main>

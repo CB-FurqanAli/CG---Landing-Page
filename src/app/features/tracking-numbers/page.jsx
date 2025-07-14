@@ -36,7 +36,7 @@ function HeroSection() {
               Get Started Free
             </Button>
             <p className="mt-2 font-semibold text-red-600">
-              *no credit card required{' '}
+              *no credit card required
             </p>
             {/*<Button*/}
             {/*  href="#demo"*/}
@@ -50,6 +50,57 @@ function HeroSection() {
         </div>
       </Container>
     </div>
+  )
+}
+
+function TrackingNumbersContent() {
+  return (
+    <section className="bg-white py-20">
+      <div className="container mx-auto grid max-w-7xl grid-cols-1 gap-12 px-6 md:grid-cols-2 md:items-center">
+        {/* Left: Image */}
+        <div className="w-full">
+          <img
+            src="https://www.whatconverts.com/wp-content/uploads/2025/05/call-tracking-story-img.png"
+            alt="From Basic Call Tracking to Complete Marketing Attribution"
+            className=""
+          />
+        </div>
+
+        {/* Right: Text Content */}
+        <div>
+          <h2 className="text-3xl font-bold text-green-700 sm:text-4xl">
+            What Are Call Tracking Numbers?
+          </h2>
+          <p className="mt-3 text-xl text-green-600">
+            And how they help your marketing strategy succeed
+          </p>
+
+          <div className="mt-8 space-y-5 leading-relaxed text-gray-700 sm:text-lg">
+            <p>
+              <strong>Call tracking phone numbers</strong> are unique numbers
+              used to measure the effectiveness of your marketing campaigns.
+              They allow you to track exactly which campaigns bring in the most
+              leads.
+            </p>
+            <p>
+              Assign a dedicated number to each channel — Google Ads, social
+              media, websites, or print ads — and know exactly what’s working.
+              When a customer calls a tracking number, it gets linked to its
+              original source automatically.
+            </p>
+          </div>
+
+          <div className="mt-8 space-y-3">
+            <p className="cursor-pointer text-lg text-blue-600 italic hover:underline">
+              Want to set up a call tracking number for your business today?
+            </p>
+            <p className="cursor-pointer text-lg font-semibold text-red-600 hover:underline">
+              Try Call Gauge Pro — It's Free!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
   )
 }
 
@@ -296,6 +347,8 @@ export default function ScalableCallTrackingNumbers() {
         <Navbar />
       </Container>
       <HeroSection />
+      <TrackingNumbersContent />
+
       <CoreFeatures />
       <DemoSection />
       <AdditionalFeatures />
