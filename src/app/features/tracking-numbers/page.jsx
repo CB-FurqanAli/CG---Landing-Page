@@ -18,26 +18,34 @@ function HeroSection() {
     <div className="relative py-24">
       <Container>
         <div className="text-center">
-          <Heading as="h1" className="text-4xl text-gray-900 md:text-5xl">
+          <Heading as="h1" className="text-4xl md:text-5xl">
             Call tracking numbers
           </Heading>
           <Lead className="mx-auto mt-6 max-w-3xl text-lg text-gray-600">
             With Call Gauge track countless phone numbers in just a few minutest
             at a price that nobody had ever offered!
           </Lead>
-          <p className="px-2 text-red-400">Try Call Gauge Pro for free!</p>
+          <h2 className="mt-20 text-3xl font-semibold md:text-4xl">
+            Try Call Gauge Pro today
+          </h2>
+          <Lead className="mx-auto mt-6 max-w-3xl text-lg text-gray-600">
+            You will get $15 for free in your account to test our platform!
+          </Lead>
           <div className="mt-10 flex justify-center gap-4">
             <Button className="w-full sm:w-auto" href="#">
               Get Started Free
             </Button>
-            <Button
-              href="#demo"
-              variant="outline"
-              className="inline-flex items-center gap-2 border-gray-300 text-gray-700 transition-all duration-300 hover:bg-gray-100"
-            >
-              <PlayIcon className="size-4" />
-              Watch Demo
-            </Button>
+            <p className="mt-2 font-semibold text-red-600">
+              *no credit card required{' '}
+            </p>
+            {/*<Button*/}
+            {/*  href="#demo"*/}
+            {/*  variant="outline"*/}
+            {/*  className="inline-flex items-center gap-2 border-gray-300 text-gray-700 transition-all duration-300 hover:bg-gray-100"*/}
+            {/*>*/}
+            {/*  <PlayIcon className="size-4" />*/}
+            {/*  Watch Demo*/}
+            {/*</Button>*/}
           </div>
         </div>
       </Container>
