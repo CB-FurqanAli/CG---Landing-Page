@@ -95,7 +95,7 @@ function TrackingNumbersContent() {
               Want to set up a call tracking number for your business today?
             </p>
             <p className="cursor-pointer text-lg font-semibold text-red-600 hover:underline">
-              Try Call Gauge Pro — It s Free!
+              Try Call Gauge Pro — It&#39;s Free!
             </p>
           </div>
         </div>
