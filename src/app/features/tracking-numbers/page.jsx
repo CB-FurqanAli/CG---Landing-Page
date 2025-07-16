@@ -134,19 +134,27 @@ function TrackingIntroduction() {
             </p>
 
             <ul className="mt-16 grid list-none grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3">
-              <li className="flex items-center space-x-4 rounded-2xl bg-gradient-to-br from-[#1B1A33] to-[#2C2A42] px-5 py-5 text-white shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)] hover:from-[#3E3D4D] hover:to-[#373646]">
+              <li className="flex items-center space-x-4 rounded-2xl bg-[#F0B100] px-5 py-5 text-white shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
                 <span>Location of the caller.</span>
               </li>
 
-              <li className="flex items-center space-x-4 rounded-2xl bg-gradient-to-br from-[#1B1A33] to-[#2C2A42] px-5 py-5 text-white shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)] hover:from-[#3E3D4D] hover:to-[#373646]">
+              <li className="flex items-center space-x-4 rounded-2xl bg-[#F0B100] px-5 py-5 text-white shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
                 <span>How long were they stay engaged on the phone call?</span>
               </li>
 
-              <li className="flex items-center space-x-4 rounded-2xl bg-gradient-to-br from-[#1B1A33] to-[#2C2A42] px-5 py-5 text-white shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)] hover:from-[#3E3D4D] hover:to-[#373646]">
+              <li className="flex items-center space-x-4 rounded-2xl bg-[#F0B100] px-5 py-5 text-white shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
                 <span>Which Ad or campaign they were derived from? </span>
               </li>
             </ul>
           </div>
+        </div>
+        <div className="mx-auto mt-16 max-w-4xl text-center text-lg leading-relaxed text-gray-600">
+          <p className="my-2">
+            You can assign tracking numbers to your website, social media,
+            mobile Ads and even to printed materials. Whether the call comes
+            from your mobile service or main business line, you will get the
+            information about what inspired the conversation.
+          </p>
         </div>
       </div>
     </section>
