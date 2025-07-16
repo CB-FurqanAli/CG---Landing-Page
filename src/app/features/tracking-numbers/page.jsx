@@ -32,20 +32,15 @@ function HeroSection() {
             You will get $15 for free in your account to test our platform!
           </Lead>
           <div className="mt-10 flex justify-center gap-4">
-            <Button className="w-full sm:w-auto" href="#">
+            <a
+              href={'#'}
+              className="text-md inline-flex items-center rounded-xl border border-[#DE85DB] bg-gradient-to-r from-[#FBCCC5] to-[#B767F4] px-6 py-2 font-semibold transition-colors duration-200 hover:bg-gradient-to-r hover:from-[#F9C1C7] hover:to-[#DB7EDD]"
+            >
               Get Started Free
-            </Button>
+            </a>
             <p className="mt-2 font-semibold text-red-600">
               *no credit card required
             </p>
-            {/*<Button*/}
-            {/*  href="#demo"*/}
-            {/*  variant="outline"*/}
-            {/*  className="inline-flex items-center gap-2 border-gray-300 text-gray-700 transition-all duration-300 hover:bg-gray-100"*/}
-            {/*>*/}
-            {/*  <PlayIcon className="size-4" />*/}
-            {/*  Watch Demo*/}
-            {/*</Button>*/}
           </div>
         </div>
       </Container>
@@ -68,10 +63,10 @@ function TrackingNumbersContent() {
 
         {/* Right: Text Content */}
         <div>
-          <h2 className="text-3xl font-bold text-green-700 sm:text-4xl">
+          <h2 className="text-3xl font-bold text-[#DF80D9] sm:text-4xl">
             What Are Call Tracking Numbers?
           </h2>
-          <p className="mt-3 text-xl text-green-600">
+          <p className="mt-3 text-xl text-[#F0B100]">
             And how they help your marketing strategy succeed
           </p>
 
@@ -100,6 +95,28 @@ function TrackingNumbersContent() {
             </p>
           </div>
         </div>
+      </div>
+    </section>
+  )
+}
+function TrackingIntroduction() {
+  return (
+    <section className="mx-auto max-w-7xl bg-white px-6 py-20 md:grid-cols-2 md:items-center">
+      <h2 className="text-center text-3xl font-bold sm:text-4xl">
+        Introduction
+      </h2>
+      <div className="mx-auto mt-10 max-w-2xl">
+        <p className="my-2 text-lg leading-relaxed text-gray-600">
+          Gone are the days when you used to pick your ringing phone without
+          knowing if it is a new lead or a returning customer. Say hello to
+          smarter conversations. With call tracking, every call tells a story
+          about who is calling and from where?{' '}
+        </p>
+        <p className="mt-4 text-lg leading-relaxed text-gray-600">
+          Even you can have insights about which ad or campaign caught their
+          attention and generated a lead. So, in future you can measure and
+          optimize your marketing efforts accordingly.{' '}
+        </p>
       </div>
     </section>
   )
@@ -349,7 +366,7 @@ export default function ScalableCallTrackingNumbers() {
       </Container>
       <HeroSection />
       <TrackingNumbersContent />
-
+      <TrackingIntroduction />
       <CoreFeatures />
       <DemoSection />
       <AdditionalFeatures />
