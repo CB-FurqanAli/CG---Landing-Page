@@ -102,21 +102,52 @@ function TrackingNumbersContent() {
 function TrackingIntroduction() {
   return (
     <section className="mx-auto max-w-7xl bg-white px-6 py-20 md:grid-cols-2 md:items-center">
-      <h2 className="text-center text-3xl font-bold sm:text-4xl">
-        Introduction
-      </h2>
-      <div className="mx-auto mt-10 max-w-4xl">
-        <p className="my-2 text-lg leading-relaxed text-gray-600">
-          Gone are the days when you used to pick your ringing phone without
-          knowing if it is a new lead or a returning customer. Say hello to
-          smarter conversations. With call tracking, every call tells a story
-          about who is calling and from where?{' '}
-        </p>
-        <p className="mt-4 text-lg leading-relaxed text-gray-600">
-          Even you can have insights about which ad or campaign caught their
-          attention and generated a lead. So, in future you can measure and
-          optimize your marketing efforts accordingly.{' '}
-        </p>
+      <div>
+        <div>
+          <h2 className="text-center text-3xl font-bold sm:text-4xl">
+            Introduction
+          </h2>
+          <div className="mx-auto mt-10 max-w-4xl text-center text-lg leading-relaxed text-gray-600">
+            <p className="my-2">
+              Gone are the days when you used to pick your ringing phone without
+              knowing if it is a new lead or a returning customer. Say hello to
+              smarter conversations. With call tracking, every call tells a
+              story about who is calling and from where?{' '}
+            </p>
+            <p className="mt-4">
+              Even you can have insights about which ad or campaign caught their
+              attention and generated a lead. So, in future you can measure and
+              optimize your marketing efforts accordingly.{' '}
+            </p>
+          </div>
+        </div>
+
+        <div className="mt-32">
+          <h2 className="text-center text-3xl font-bold sm:text-4xl">
+            What is a call tracking number?
+          </h2>
+
+          <div className="mx-auto mt-10 max-w-7xl text-center text-lg leading-relaxed text-gray-600">
+            <p className="mx-auto my-2 max-w-4xl">
+              A tracking phone number is not just a number for receiving calls,
+              instead it’s a great tool to get informed about:
+            </p>
+
+            <ul className="mt-16 grid list-none grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3">
+              <li className="flex items-center space-x-4 rounded-2xl bg-gradient-to-br from-[#1B1A33] to-[#2C2A42] px-5 py-5 text-white shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)] hover:from-[#3E3D4D] hover:to-[#373646]">
+                <span>Location of the caller.</span>
+              </li>
+
+              <li className="flex items-center space-x-4 rounded-2xl bg-gradient-to-br from-[#1B1A33] to-[#2C2A42] px-5 py-5 text-white shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)] hover:from-[#3E3D4D] hover:to-[#373646]">
+                <span>How long were they stay engaged on the phone call?</span>
+              </li>
+
+              <li className="flex items-center space-x-4 rounded-2xl bg-gradient-to-br from-[#1B1A33] to-[#2C2A42] px-5 py-5 text-white shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)] hover:from-[#3E3D4D] hover:to-[#373646]">
+                <span>Which Ad or campaign they were derived from? </span>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </section>
   )
