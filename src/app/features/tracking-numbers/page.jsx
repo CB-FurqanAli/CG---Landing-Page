@@ -105,7 +105,7 @@ function TrackingIntroduction() {
       <h2 className="text-center text-3xl font-bold sm:text-4xl">
         Introduction
       </h2>
-      <div className="mx-auto mt-10 max-w-2xl">
+      <div className="mx-auto mt-10 max-w-4xl">
         <p className="my-2 text-lg leading-relaxed text-gray-600">
           Gone are the days when you used to pick your ringing phone without
           knowing if it is a new lead or a returning customer. Say hello to
