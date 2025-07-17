@@ -25,7 +25,7 @@ function HeroSection() {
             With Call Gauge track countless phone numbers in just a few minutest
             at a price that nobody had ever offered!
           </Lead>
-          <h2 className="mt-20 text-3xl font-semibold md:text-4xl">
+          <h2 className="mt-20 text-2xl font-semibold md:text-3xl">
             Try Call Gauge Pro today
           </h2>
           <Lead className="mx-auto mt-6 max-w-3xl text-lg text-gray-600">
@@ -278,8 +278,8 @@ function TrackingIntroduction() {
               ROI.
             </h2>
 
-            <div className="mt-8 grid grid-cols-1 gap-6 text-lg text-white sm:grid-cols-2 md:grid-cols-3">
-              <ul className="list-disc rounded-2xl bg-[#F0B100] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
+            <div className="mt-8 grid grid-cols-1 gap-6 text-lg text-gray-600 sm:grid-cols-2 md:grid-cols-3">
+              <ul className="list-disc rounded-2xl bg-[#FDDBC2] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
                 <li className="text-left">
                   Identify the areas where your best customers are calling from.
                 </li>
@@ -291,7 +291,7 @@ function TrackingIntroduction() {
                 </li>
               </ul>
 
-              <ul className="list-disc rounded-2xl bg-[#F0B100] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
+              <ul className="list-disc rounded-2xl bg-[#FDDBC2] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
                 <li className="text-left">
                   Reduce your telephone cost by using automated answering
                   messages.
@@ -302,7 +302,7 @@ function TrackingIntroduction() {
                 <li className="text-left">Set up conference calls easily.</li>
               </ul>
 
-              <ul className="list-disc rounded-2xl bg-[#F0B100] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
+              <ul className="list-disc rounded-2xl bg-[#FDDBC2] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
                 <li className="text-left">
                   Direct your customers to the relevant agent based on the
                   product or service.
