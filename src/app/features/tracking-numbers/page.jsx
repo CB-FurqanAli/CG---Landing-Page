@@ -813,10 +813,10 @@ export default function ScalableCallTrackingNumbers() {
       <HeroSection />
       <TrackingNumbersContent />
       <TrackingIntroduction />
-      <CoreFeatures />
-      <DemoSection />
-      <AdditionalFeatures />
-      <CTASection />
+      {/*<CoreFeatures />*/}
+      {/*<DemoSection />*/}
+      {/*<AdditionalFeatures />*/}
+      {/*<CTASection />*/}
       <Footer />
     </main>
   )
