@@ -260,6 +260,7 @@ function TrackingIntroduction() {
         </div>
 
         {/*What are the benefits of call tracking?*/}
+
         <div className="mt-32">
           <h2 className="text-center text-3xl font-bold sm:text-4xl">
             What are the benefits of call tracking?
@@ -311,6 +312,167 @@ function TrackingIntroduction() {
                   Track your conversations with customers to improve customer
                   services.
                 </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        {/*How paid search optimized by using call tracking numbers?*/}
+
+        <div className="mt-32">
+          <h2 className="text-center text-3xl font-bold sm:text-4xl">
+            How paid search optimized by using call tracking numbers?
+          </h2>
+          <div className="mt-10 text-center text-lg leading-relaxed text-gray-600">
+            <p className="mx-auto my-2 max-w-4xl">
+              Now businesses can maximize the impact of their paid search
+              campaigns by pairing them up with call tracking phone numbers. By
+              assigning unique tracking numbers to each campaign, ads or keyword
+              groups you can:
+            </p>
+            <div className="mt-16 grid grid-cols-1 gap-6 text-white sm:grid-cols-2 md:grid-cols-3">
+              <ul className="list-disc rounded-2xl bg-[#EF8BCB] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
+                <li className="text-left">
+                  Cut out expenses where they are wasted.
+                </li>
+                <li className="text-left">
+                  Discover which keywords generate most calls via online ads.
+                </li>
+              </ul>
+
+              <ul className="list-disc rounded-2xl bg-[#EF8BCB] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
+                <li className="text-left">
+                  Increase sales opportunities by effectively segmenting target
+                  markets and hence resulting in increased ROI.
+                </li>
+              </ul>
+
+              <ul className="list-disc rounded-2xl bg-[#EF8BCB] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
+                <li className="text-left">
+                  Shift budgets to the most effective campaigns from less
+                  effective ones.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="mx-auto mt-16 max-w-4xl text-center text-lg leading-relaxed text-gray-600">
+            <p className="my-2">
+              In nutshell, call tracking is data-driven marketing at its finest.
+            </p>
+          </div>
+        </div>
+
+        {/*Grow your business with call tracking.*/}
+
+        <div className="mt-32">
+          <h2 className="text-center text-3xl font-bold sm:text-4xl">
+            Grow your business with call tracking.
+          </h2>
+          <div className="mt-10 text-center text-lg leading-relaxed text-gray-600">
+            <p className="mx-auto my-2 max-w-4xl">
+              Businesses can use call tracking to analyze phone calls across
+              every touch point of customer interaction which includes the
+              following:
+            </p>
+            <div className="mt-16 grid grid-cols-1 gap-6 text-white sm:grid-cols-2 md:grid-cols-3">
+              <ul className="list-disc rounded-2xl bg-[#EF8BCB] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
+                <li className="text-left">Ads on your website.</li>
+                <li className="text-left">A sales coupon and promotions.</li>
+              </ul>
+
+              <ul className="list-disc rounded-2xl bg-[#EF8BCB] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
+                <li className="text-left">
+                  Information you share on trade shows.
+                </li>
+              </ul>
+              <ul className="list-disc rounded-2xl bg-[#EF8BCB] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
+                <li className="text-left">Lead generation forms.</li>
+              </ul>
+            </div>
+          </div>
+          <div className="mx-auto mt-16 max-w-4xl text-center text-lg leading-relaxed text-gray-600">
+            <p className="my-2">
+              With all the above information, businesses can design the
+              marketing strategies according to what suits them best and can
+              increase their ROI.
+            </p>
+          </div>
+        </div>
+
+        {/*What you need to see call tracking in action?*/}
+
+        <div className="mt-32">
+          <h2 className="text-center text-3xl font-bold sm:text-4xl">
+            What you need to see call tracking in action?
+          </h2>
+          <div className="mt-10 text-center text-lg leading-relaxed text-gray-600">
+            <p className="mx-auto my-2 max-w-4xl">
+              It’s really very simple to get started with call tracking. Here’s
+              what you’ll need:
+            </p>
+            <div className="mt-16 grid grid-cols-1 gap-6 text-white sm:grid-cols-2 md:grid-cols-3">
+              <ul className="list-disc rounded-2xl bg-[#EF8BCB] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
+                <li className="text-left">
+                  <strong>A computer or laptop</strong> to access your call
+                  tracking dashboard and manage your campaigns.
+                </li>
+              </ul>
+
+              <ul className="list-disc rounded-2xl bg-[#EF8BCB] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
+                <li className="text-left">
+                  <strong>A Call Gauge Pro account</strong> to sign up and then
+                  set up multiple call tracking phone numbers to start
+                  monitoring performance of the phone calls.
+                </li>
+              </ul>
+
+              <ul className="list-disc rounded-2xl bg-[#EF8BCB] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
+                <li className="text-left">
+                  <strong> A mobile phone</strong> to receive and test incoming
+                  phone calls if needed.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        {/*Setting up local and toll free tracking phone numbers.*/}
+
+        <div className="mt-32">
+          <h2 className="text-center text-3xl font-bold sm:text-4xl">
+            Setting up local and toll free tracking phone numbers.
+          </h2>
+
+          <div className="mt-10 text-center leading-relaxed">
+            <p className="mx-auto my-2 max-w-4xl text-lg text-gray-600">
+              After creating the account, now it’s time to set up local and toll
+              free tracking numbers according to your marketing needs.
+            </p>
+            <p className="mx-auto my-2 max-w-4xl text-lg text-gray-600">
+              You can do it in no time by using Call Gauge pro. With a wide
+              range of area codes, you can find a number which will align with
+              your business location or customer base.
+            </p>
+            <h2 className="mt-8 text-xl font-semibold">
+              You can use these numbers to:
+            </h2>
+
+            <div className="mt-8 grid grid-cols-1 gap-6 text-lg text-gray-600 sm:grid-cols-2 md:grid-cols-3">
+              <ul className="list-disc rounded-2xl bg-[#FDDBC2] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
+                <li className="text-left">
+                  Measure effectiveness of landing pages and lead forms of your
+                  website.
+                </li>
+              </ul>
+
+              <ul className="list-disc rounded-2xl bg-[#FDDBC2] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
+                <li className="text-left">
+                  Track calls from specific marketing channels.
+                </li>
+              </ul>
+
+              <ul className="list-disc rounded-2xl bg-[#FDDBC2] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
+                <li className="text-left">Test new marketing campaigns.</li>
               </ul>
             </div>
           </div>
