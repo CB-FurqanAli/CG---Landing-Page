@@ -25,7 +25,7 @@ function HeroSection() {
             With Call Gauge track countless phone numbers in just a few minutest
             at a price that nobody had ever offered!
           </Lead>
-          <h2 className="mt-20 text-2xl font-semibold md:text-3xl">
+          <h2 className="mt-20 text-2xl font-semibold text-[#B867F9] md:text-3xl">
             Try Call Gauge Pro today
           </h2>
           <Lead className="mx-auto mt-6 max-w-3xl text-lg text-gray-600">
@@ -221,7 +221,7 @@ function TrackingIntroduction() {
             </p>
 
             <div className="mt-16 grid grid-cols-1 gap-6 text-white sm:grid-cols-2 md:grid-cols-3">
-              <ul className="list-disc rounded-2xl bg-[#F0B100] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
+              <ul className="list-disc rounded-2xl bg-[#EF8BCB] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
                 <li className="text-left">
                   Identify which of your campaigns is most efficient.
                 </li>
@@ -230,7 +230,7 @@ function TrackingIntroduction() {
                 </li>
               </ul>
 
-              <ul className="list-disc rounded-2xl bg-[#F0B100] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
+              <ul className="list-disc rounded-2xl bg-[#EF8BCB] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
                 <li className="text-left">
                   Route your calls to the relevant team member automatically.
                 </li>
@@ -239,7 +239,7 @@ function TrackingIntroduction() {
                 </li>
               </ul>
 
-              <ul className="list-disc rounded-2xl bg-[#F0B100] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
+              <ul className="list-disc rounded-2xl bg-[#EF8BCB] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
                 <li className="text-left">
                   Learn who your best customers are.
                 </li>
