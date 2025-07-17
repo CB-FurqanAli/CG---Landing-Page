@@ -331,7 +331,7 @@ function TrackingIntroduction() {
               groups you can:
             </p>
             <div className="mt-16 grid grid-cols-1 gap-6 text-white sm:grid-cols-2 md:grid-cols-3">
-              <ul className="list-disc rounded-2xl bg-[#EF8BCB] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
+              <ul className="list-disc rounded-2xl bg-[#B564FB] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
                 <li className="text-left">
                   Cut out expenses where they are wasted.
                 </li>
@@ -340,14 +340,14 @@ function TrackingIntroduction() {
                 </li>
               </ul>
 
-              <ul className="list-disc rounded-2xl bg-[#EF8BCB] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
+              <ul className="list-disc rounded-2xl bg-[#B564FB] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
                 <li className="text-left">
                   Increase sales opportunities by effectively segmenting target
                   markets and hence resulting in increased ROI.
                 </li>
               </ul>
 
-              <ul className="list-disc rounded-2xl bg-[#EF8BCB] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
+              <ul className="list-disc rounded-2xl bg-[#B564FB] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
                 <li className="text-left">
                   Shift budgets to the most effective campaigns from less
                   effective ones.
@@ -375,17 +375,17 @@ function TrackingIntroduction() {
               following:
             </p>
             <div className="mt-16 grid grid-cols-1 gap-6 text-white sm:grid-cols-2 md:grid-cols-3">
-              <ul className="list-disc rounded-2xl bg-[#EF8BCB] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
+              <ul className="list-disc rounded-2xl bg-[#F0B100] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
                 <li className="text-left">Ads on your website.</li>
                 <li className="text-left">A sales coupon and promotions.</li>
               </ul>
 
-              <ul className="list-disc rounded-2xl bg-[#EF8BCB] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
+              <ul className="list-disc rounded-2xl bg-[#F0B100] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
                 <li className="text-left">
                   Information you share on trade shows.
                 </li>
               </ul>
-              <ul className="list-disc rounded-2xl bg-[#EF8BCB] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
+              <ul className="list-disc rounded-2xl bg-[#F0B100] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
                 <li className="text-left">Lead generation forms.</li>
               </ul>
             </div>
@@ -475,6 +475,92 @@ function TrackingIntroduction() {
                 <li className="text-left">Test new marketing campaigns.</li>
               </ul>
             </div>
+          </div>
+        </div>
+
+        {/*Make your callers feel valued and track every touch point*/}
+
+        <div className="mt-32">
+          <h2 className="text-center text-3xl font-bold sm:text-4xl">
+            Make your callers feel valued and track every touch point
+          </h2>
+
+          <div className="mt-10 text-center leading-relaxed">
+            <p className="mx-auto my-2 max-w-4xl text-lg text-gray-600">
+              By using Call Gauge Pro, you can personalize every phone call with
+              custom greetings and smart routing. Even if the call volume of
+              your business is quite high you can still make every customer feel
+              special.
+            </p>
+            <p className="mx-auto my-2 max-w-4xl text-lg text-gray-600">
+              Want to know how many people called after seeing your Instagram
+              ad? Or which landing page of your website derived most calls? Call
+              Gauge Pro is the call tracking software that connects all the dots
+              for you, so you can:
+            </p>
+
+            <div className="mt-8 grid grid-cols-1 gap-6 text-lg text-gray-600 sm:grid-cols-2 md:grid-cols-3">
+              <ul className="list-disc rounded-2xl bg-[#B564FB] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
+                <li className="text-left">
+                  Track online to offline conversation.
+                </li>
+              </ul>
+
+              <ul className="list-disc rounded-2xl bg-[#B564FB] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
+                <li className="text-left">
+                  Measure the performance of specific channel.
+                </li>
+              </ul>
+
+              <ul className="list-disc rounded-2xl bg-[#B564FB] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
+                <li className="text-left">Improve your campaign targeting.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        {/*Use toll-free numbers in your call tracking strategy*/}
+
+        <div className="mt-32">
+          <h2 className="text-center text-3xl font-bold sm:text-4xl">
+            Use toll-free numbers in your call tracking strategy
+          </h2>
+          <div className="mt-10 text-center text-lg leading-relaxed text-gray-600">
+            <p className="mx-auto my-2 max-w-4xl">
+              Even if your business mostly uses local numbers, adding toll-free
+              numbers in your call tracking strategy can enhance your advantage
+              over your competitors because toll-free numbers can:
+            </p>
+            <div className="mt-16 grid grid-cols-1 gap-6 text-white sm:grid-cols-2 md:grid-cols-3">
+              <ul className="list-disc rounded-2xl bg-[#EF8BCB] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
+                <li className="text-left">
+                  Help your customers across regions to contact you.{' '}
+                </li>
+              </ul>
+
+              <ul className="list-disc rounded-2xl bg-[#EF8BCB] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
+                <li className="text-left">
+                  Increase the credibility of your brand and professionalism.
+                </li>
+              </ul>
+              <ul className="list-disc rounded-2xl bg-[#EF8BCB] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
+                <li className="text-left">
+                  Make it easier for you to stand out among your competitors.{' '}
+                </li>
+                <li className="text-left">
+                  Be helpful and effective in national campaigns or digital ads.{' '}
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="mx-auto mt-16 max-w-4xl text-center text-lg leading-relaxed text-gray-600">
+            <p className="my-2">
+              In social media platforms local area codes may be restricted and
+              can be less effective, so toll-free tracking numbers can be of
+              great importance. If your business handles a high volume calls,
+              the added ease and nationwide reach of toll-free tracking numbers
+              can be a real game changer and the cost is worth the return.
+            </p>
           </div>
         </div>
       </div>
