@@ -173,11 +173,11 @@ function TrackingIntroduction() {
 
               <div className="mt-8 space-y-5 leading-relaxed text-gray-700 sm:text-lg">
                 <p>
-                  <strong>In call tracking</strong>, unique local phone numbers
-                  and toll free numbers are attached to specific marketing
-                  sources. When someone fills out a form, clicks an ad or call
-                  from a website, the number that appears to them is attached to
-                  that specific channel.
+                  In call tracking, unique local phone numbers and toll free
+                  numbers are attached to specific marketing sources. When
+                  someone fills out a form, clicks an ad or call from a website,
+                  the number that appears to them is attached to that specific
+                  channel.
                 </p>
                 <p>
                   These specific numbers appear on the caller ID when they
@@ -331,7 +331,7 @@ function TrackingIntroduction() {
               groups you can:
             </p>
             <div className="mt-16 grid grid-cols-1 gap-6 text-white sm:grid-cols-2 md:grid-cols-3">
-              <ul className="list-disc rounded-2xl bg-[#B564FB] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
+              <ul className="list-disc rounded-2xl bg-[#b483e6] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
                 <li className="text-left">
                   Cut out expenses where they are wasted.
                 </li>
@@ -476,6 +476,18 @@ function TrackingIntroduction() {
               </ul>
             </div>
           </div>
+
+          <div className="mt-20 flex justify-center gap-4">
+            <a
+              href={'#'}
+              className="text-md inline-flex items-center rounded-xl border border-[#DE85DB] bg-gradient-to-r from-[#FBCCC5] to-[#B767F4] px-6 py-2 font-semibold transition-colors duration-200 hover:bg-gradient-to-r hover:from-[#F9C1C7] hover:to-[#DB7EDD]"
+            >
+              Get Started Free
+            </a>
+            <p className="mt-2 font-semibold text-red-600">
+              *no credit card required
+            </p>
+          </div>
         </div>
 
         {/*Make your callers feel valued and track every touch point*/}
@@ -499,7 +511,7 @@ function TrackingIntroduction() {
               for you, so you can:
             </p>
 
-            <div className="mt-8 grid grid-cols-1 gap-6 text-lg text-gray-600 sm:grid-cols-2 md:grid-cols-3">
+            <div className="mt-8 grid grid-cols-1 gap-6 text-lg text-white sm:grid-cols-2 md:grid-cols-3">
               <ul className="list-disc rounded-2xl bg-[#B564FB] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
                 <li className="text-left">
                   Track online to offline conversation.
