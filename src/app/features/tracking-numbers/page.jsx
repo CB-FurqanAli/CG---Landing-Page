@@ -87,10 +87,10 @@ function TrackingNumbersContent() {
           </div>
 
           <div className="mt-8 space-y-3">
-            <p className="cursor-pointer text-lg text-blue-600 italic hover:underline">
+            <p className="text-lg text-blue-600 italic">
               Want to setup call tracking number for your business now?
             </p>
-            <p className="cursor-pointer text-lg font-semibold text-red-600 hover:underline">
+            <p className="text-lg font-semibold text-red-600">
               Try Call Gauge Pro — It&#39;s Free!
             </p>
           </div>
@@ -187,10 +187,10 @@ function TrackingIntroduction() {
               </div>
 
               <div className="mt-8 space-y-3">
-                <p className="cursor-pointer text-lg text-blue-600 italic hover:underline">
+                <p className="text-lg text-blue-600 italic">
                   Want to setup call tracking number for your business now?
                 </p>
-                <p className="cursor-pointer text-lg font-semibold text-red-600 hover:underline">
+                <p className="text-lg font-semibold text-red-600">
                   Try Call Gauge Pro — It&#39;s Free!
                 </p>
               </div>
@@ -475,9 +475,13 @@ function TrackingIntroduction() {
                 <li className="text-left">Test new marketing campaigns.</li>
               </ul>
             </div>
+
+            <h2 className="mt-16 text-xl font-semibold">
+              Setting up local and toll free tracking phone numbers.
+            </h2>
           </div>
 
-          <div className="mt-20 flex justify-center gap-4">
+          <div className="mt-12 flex justify-center gap-4">
             <a
               href={'#'}
               className="text-md inline-flex items-center rounded-xl border border-[#DE85DB] bg-gradient-to-r from-[#FBCCC5] to-[#B767F4] px-6 py-2 font-semibold transition-colors duration-200 hover:bg-gradient-to-r hover:from-[#F9C1C7] hover:to-[#DB7EDD]"
