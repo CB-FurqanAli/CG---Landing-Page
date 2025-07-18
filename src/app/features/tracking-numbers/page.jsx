@@ -194,6 +194,17 @@ function TrackingIntroduction() {
                   Try Call Gauge Pro — It&#39;s Free!
                 </p>
               </div>
+              <div className="mt-8 flex justify-center gap-4">
+                <a
+                  href={'#'}
+                  className="text-md inline-flex items-center rounded-xl border border-[#DE85DB] bg-gradient-to-r from-[#FBCCC5] to-[#B767F4] px-6 py-2 font-semibold transition-colors duration-200 hover:bg-gradient-to-r hover:from-[#F9C1C7] hover:to-[#DB7EDD]"
+                >
+                  Get Started Free
+                </a>
+                <p className="mt-2 font-semibold text-red-600">
+                  *no credit card required
+                </p>
+              </div>
             </div>
 
             {/* Right: Text Content */}
@@ -477,7 +488,7 @@ function TrackingIntroduction() {
             </div>
 
             <h2 className="mt-16 text-xl font-semibold">
-              Setting up local and toll free tracking phone numbers.
+              Try Call Gauge Pro today and start tracking your calls smartly!
             </h2>
           </div>
 
