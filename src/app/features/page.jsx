@@ -266,14 +266,13 @@ export default function Features() {
       </div>
 
       <AutoMations />
+
       <div>
         <DynamicNumberCard />
       </div>
 
       <CallTrackingNumbers />
-
       <WhiteLabelingCard />
-
       <ClientPortal />
 
       <div>
