@@ -170,14 +170,6 @@ function CallFlowIntroduction() {
                   10 to 50 sec.
                 </p>
               </div>
-              <div className="mt-8 space-y-3">
-                <p className="text-lg text-blue-600 italic">
-                  Want to setup call flow for your business?
-                </p>
-                <p className="text-lg font-semibold text-red-600">
-                  Try Call Gauge Pro — It&#39;s Free!
-                </p>
-              </div>
             </div>
           </div>
         </div>
@@ -273,15 +265,6 @@ function CallFlowIntroduction() {
                   the text message to client or employee and not the caller.
                 </p>
               </div>
-
-              <div className="mt-8 space-y-3">
-                <p className="text-lg text-blue-600 italic">
-                  Want to setup call flow for your business?
-                </p>
-                <p className="text-lg font-semibold text-red-600">
-                  Try Call Gauge Pro — It&#39;s Free!
-                </p>
-              </div>
             </div>
           </div>
         </div>
@@ -312,14 +295,6 @@ function CallFlowIntroduction() {
                 <p>
                   This email gets sent as soon as the call ends. So keep your
                   clients, employees, team mates or relevant person informed.
-                </p>
-              </div>
-              <div className="mt-8 space-y-3">
-                <p className="text-lg text-blue-600 italic">
-                  Want to setup call flow for your business?
-                </p>
-                <p className="text-lg font-semibold text-red-600">
-                  Try Call Gauge Pro — It&#39;s Free!
                 </p>
               </div>
             </div>
