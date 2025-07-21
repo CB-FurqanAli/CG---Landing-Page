@@ -114,6 +114,14 @@ function CallFlowIntroduction() {
                   the call gets connected.
                 </p>
               </div>
+              <div className="mt-8 space-y-3">
+                <p className="text-lg text-blue-600 italic">
+                  Want to setup call flow for your business now
+                </p>
+                <p className="text-lg font-semibold text-red-600">
+                  Try Call Gauge Pro — It&#39;s Free!
+                </p>
+              </div>
             </div>
 
             {/* Right: Text Content */}
@@ -162,6 +170,14 @@ function CallFlowIntroduction() {
                   would ring for 20 sec before moving to the next step if not
                   answered, but you can of course customize this delay between
                   10 to 50 sec.
+                </p>
+              </div>
+              <div className="mt-8 space-y-3">
+                <p className="text-lg text-blue-600 italic">
+                  Want to setup call flow for your business now
+                </p>
+                <p className="text-lg font-semibold text-red-600">
+                  Try Call Gauge Pro — It&#39;s Free!
                 </p>
               </div>
             </div>
@@ -268,17 +284,6 @@ function CallFlowIntroduction() {
                   Try Call Gauge Pro — It&#39;s Free!
                 </p>
               </div>
-              <div className="mt-8 flex justify-center gap-4">
-                <a
-                  href={'#'}
-                  className="text-md inline-flex items-center rounded-xl border border-[#DE85DB] bg-gradient-to-r from-[#FBCCC5] to-[#B767F4] px-6 py-2 font-semibold transition-colors duration-200 hover:bg-gradient-to-r hover:from-[#F9C1C7] hover:to-[#DB7EDD]"
-                >
-                  Get Started Free
-                </a>
-                <p className="mt-2 font-semibold text-red-600">
-                  *no credit card required
-                </p>
-              </div>
             </div>
           </div>
         </div>
@@ -309,6 +314,14 @@ function CallFlowIntroduction() {
                 <p>
                   This email gets sent as soon as the call ends. So keep your
                   clients, employees, team mates or relevant person informed.
+                </p>
+              </div>
+              <div className="mt-8 space-y-3">
+                <p className="text-lg text-blue-600 italic">
+                  Want to setup call flow for your business now
+                </p>
+                <p className="text-lg font-semibold text-red-600">
+                  Try Call Gauge Pro — It&#39;s Free!
                 </p>
               </div>
             </div>
