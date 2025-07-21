@@ -27,7 +27,7 @@ function HeroSection() {
           <Lead className="mx-auto mt-6 max-w-3xl text-lg text-gray-600">
             Want to automate and streamline your business’s call flow? Call
             Gauge Pro provides all the tools you need to create a smooth,
-            efficient and hassle free setup
+            efficient and hassle free setup.
           </Lead>
           <div className="mt-10 flex justify-center gap-4">
             <a
@@ -88,7 +88,7 @@ function CallFlowIntroduction() {
 
         {/*Customized greetings*/}
         <div className="mt-40">
-          <div className="mb-16 text-center text-3xl font-bold text-[#E281D5] sm:text-4xl">
+          <div className="mb-16 text-center text-3xl font-bold sm:text-4xl">
             The following are the features which we are currently offering in
             our call flow setup.
           </div>
@@ -114,26 +114,6 @@ function CallFlowIntroduction() {
                   the call gets connected.
                 </p>
               </div>
-
-              <div className="mt-8 space-y-3">
-                <p className="text-lg text-blue-600 italic">
-                  Want to setup call tracking number for your business now?
-                </p>
-                <p className="text-lg font-semibold text-red-600">
-                  Try Call Gauge Pro — It&#39;s Free!
-                </p>
-              </div>
-              <div className="mt-8 flex justify-center gap-4">
-                <a
-                  href={'#'}
-                  className="text-md inline-flex items-center rounded-xl border border-[#DE85DB] bg-gradient-to-r from-[#FBCCC5] to-[#B767F4] px-6 py-2 font-semibold transition-colors duration-200 hover:bg-gradient-to-r hover:from-[#F9C1C7] hover:to-[#DB7EDD]"
-                >
-                  Get Started Free
-                </a>
-                <p className="mt-2 font-semibold text-red-600">
-                  *no credit card required
-                </p>
-              </div>
             </div>
 
             {/* Right: Text Content */}
@@ -152,7 +132,6 @@ function CallFlowIntroduction() {
         <div className="mt-40">
           <div className="grid grid-cols-1 gap-12 md:grid-cols-2 md:items-center">
             {/* Left: Image */}
-
             <div className="w-full">
               <img
                 src="https://cdn.prod.website-files.com/5d82e225060d003d65ddae98/6799a27b9dac8826f2df2067_call-tracking-fs_4.webp"
@@ -183,26 +162,6 @@ function CallFlowIntroduction() {
                   would ring for 20 sec before moving to the next step if not
                   answered, but you can of course customize this delay between
                   10 to 50 sec.
-                </p>
-              </div>
-
-              <div className="mt-8 space-y-3">
-                <p className="text-lg text-blue-600 italic">
-                  Want to setup call tracking number for your business now?
-                </p>
-                <p className="text-lg font-semibold text-red-600">
-                  Try Call Gauge Pro — It&#39;s Free!
-                </p>
-              </div>
-              <div className="mt-8 flex justify-center gap-4">
-                <a
-                  href={'#'}
-                  className="text-md inline-flex items-center rounded-xl border border-[#DE85DB] bg-gradient-to-r from-[#FBCCC5] to-[#B767F4] px-6 py-2 font-semibold transition-colors duration-200 hover:bg-gradient-to-r hover:from-[#F9C1C7] hover:to-[#DB7EDD]"
-                >
-                  Get Started Free
-                </a>
-                <p className="mt-2 font-semibold text-red-600">
-                  *no credit card required
                 </p>
               </div>
             </div>
@@ -303,7 +262,7 @@ function CallFlowIntroduction() {
 
               <div className="mt-8 space-y-3">
                 <p className="text-lg text-blue-600 italic">
-                  Want to setup call tracking number for your business now?
+                  Want to setup call flow for your business now
                 </p>
                 <p className="text-lg font-semibold text-red-600">
                   Try Call Gauge Pro — It&#39;s Free!
@@ -403,7 +362,7 @@ function CallFlowIntroduction() {
 
               <div className="mt-8 space-y-3">
                 <p className="text-lg text-blue-600 italic">
-                  Want to setup call tracking number for your business now?
+                  Want to setup call flow for your business now
                 </p>
                 <p className="text-lg font-semibold text-red-600">
                   Try Call Gauge Pro — It&#39;s Free!
@@ -420,6 +379,116 @@ function CallFlowIntroduction() {
                   *no credit card required
                 </p>
               </div>
+            </div>
+          </div>
+        </div>
+        {/*Additional features & settings:*/}
+
+        <div className="mt-40">
+          {/*Section Title*/}
+          <h2 className="text-center text-3xl font-bold text-[#DF80D9] sm:text-4xl">
+            Additional features & settings:
+          </h2>
+          <p className="mx-auto my-8 max-w-3xl text-center text-lg leading-relaxed text-gray-700">
+            There are some additional features and settings in call flow setup
+            which gives you full control and customization over your call
+            handling experience.
+          </p>
+
+          {/*Feature Cards Grid */}
+          <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+            {/*Feature 1 */}
+
+            <div className="rounded-2xl bg-[#B564FB] p-6 text-white shadow-lg">
+              <h3 className="mb-2 text-xl font-semibold">
+                ✅ Press 1 to connect:
+              </h3>
+              <p>
+                Get rid of spam and robo-calls by our last feature of “Press 1
+                to connect”. When you enable this feature, the callers must
+                press 1 to get the call connected. But we recommend using this
+                feature only when you are experiencing too many spam calls.
+              </p>
+            </div>
+
+            {/*Feature 2 */}
+            <div className="rounded-2xl bg-[#F39FCA] p-6 text-white shadow-lg">
+              <h3 className="mb-2 text-xl font-semibold">
+                🎭 Caller ID customization:
+              </h3>
+              <p>
+                You can choose Call Gauge Pro number to be displayed instead of
+                caller’s number to the recipient. By doing this agents and
+                clients can save and recognize the number- hence they know
+                before answering about what kind of call is coming through.
+              </p>
+            </div>
+
+            {/*Feature 3 */}
+            <div className="rounded-2xl bg-[#EF8BCB] p-6 text-white shadow-lg">
+              <h3 className="mb-2 text-xl font-semibold">
+                🔒 Call recording and Pre-call whisper:
+              </h3>
+              <p>
+                With this you can automatically record calls, which later on can
+                be used to monitor quality, train agents and improve first-call
+                resolution. Furthermore pre-call whisper message can be
+                activated to give your team quick context before answering the
+                phone call.
+              </p>
+            </div>
+
+            {/*Feature 4 */}
+            <div className="rounded-2xl bg-[#F0B100] p-6 text-white shadow-lg">
+              <h3 className="mb-2 text-xl font-semibold">📩 SMS forwarding:</h3>
+              <p>
+                You can forward SMS to any other number by just one click, so
+                you never miss a message.
+              </p>
+            </div>
+          </div>
+          <p className="mx-auto my-12 max-w-3xl text-center text-lg leading-relaxed text-gray-700">
+            All these features are available on call flow settings page and can
+            be toggled ON/OFF easily, giving you a flexible control over your
+            calls.
+          </p>
+        </div>
+
+        {/*Want to setup a call flow for your business?*/}
+        <div className="mt-40">
+          <h2 className="text-center text-3xl font-bold sm:text-4xl">
+            Want to setup a call flow for your business?
+          </h2>
+          <div className="mx-auto mt-10 max-w-4xl text-center text-lg leading-relaxed text-gray-600">
+            <p className="my-2">
+              By using Call Gauge Pro, you can get a phone number in just a few
+              clicks and can get started with our above mentioned features to
+              experience full control over your call flows. You can add more
+              numbers and call flows according to your needs.
+            </p>
+            <p className="mt-4">
+              Whether you are lead generation expert looking to route and
+              maximize call volume or a contact center aiming to streamline
+              inbound calls, our call flow makes its super easy for you.
+            </p>
+          </div>
+
+          <div className="mx-auto max-w-4xl text-center">
+            <div className="mt-8 space-y-3">
+              <p className="text-lg text-blue-600 italic">
+                Try Call Gauge Pro today and start managing your calls smartly!
+              </p>
+            </div>
+            <div className="mt-8 flex justify-center gap-4">
+              <a
+                href={'#'}
+                className="text-md inline-flex items-center rounded-xl border border-[#DE85DB] bg-gradient-to-r from-[#FBCCC5] to-[#B767F4] px-6 py-2 font-semibold transition-colors duration-200 hover:bg-gradient-to-r hover:from-[#F9C1C7] hover:to-[#DB7EDD]"
+              >
+                Start for free
+              </a>
+              <p className="mt-2 font-semibold text-red-600">
+                *no credit card required
+              </p>
             </div>
           </div>
         </div>
