@@ -5,41 +5,40 @@ import { Heading } from '@/components/text'
 import { ChevronDownIcon } from '@heroicons/react/16/solid'
 import { useState } from 'react'
 
-export function CallFlowFaqs() {
+export function VoiceMailFaqs() {
   const [openIndex, setOpenIndex] = useState(null)
 
   const faqs = [
     {
-      question: 'What is a Call Flow? ',
+      question: 'Can I customize voicemail greetings?',
       answer:
-        'A call flow is a step by step predefined path that a call follows in your business. It tracks and manages the inbound calls and often involves steps like, Greetings, Call forwarding, Call recording, voicemails and much more. ',
-    },
-    {
-      question: 'Why call flow is important for my business? ',
-      answer:
-        'Call flows are very important for a business as it ensure that every call is handled efficiently and properly, routed to the right person or department. It provides consistent customer experience. They are helpful in reducing missed calls, improving response time and increasing customer satisfaction level. ',
-    },
-    {
-      question: 'Can I customize my call flow? ',
-      answer:
-        'Yes, you can fully customize call flows according to your business needs. You can add different steps which you think are necessary for your business and can skip others altogether. ',
-    },
-    {
-      question: 'How many numbers can I add to one call flow? ',
-      answer:
-        'You can add as many numbers as you want to a single call flow. It would be easy and time saving rather create a new call flow for every number every time. ',
+        'Yes, you can either use our text-to-speech option to create a professional greeting or you can also upload your own audio file to give it a personalized touch.',
     },
     {
       question:
-        'Am I bound by law to let the caller know about call recording? ',
+        'Can I choose the duration after which the call goes to voicemail?',
       answer:
-        'It depends on the law of the state and country you live in. But it’s better to let the caller know about recording the call by playing a disclaimer message about this.',
+        'Absolutely! You can not only choose the number of seconds after which your call will go on voicemail but you can forward all of your calls directly to the voicemail if needed.',
     },
     {
-      question:
-        'Can I create different call flows for different campaigns and numbers? ',
+      question: 'Where can I listen to my voicemail?',
       answer:
-        'Yes, you can create as many call flows as you want. Different call flows can be easily created for different campaigns and numbers. ',
+        'All your voicemails are stored in an organized manner on Voicemails page in your Call Gauge Pro account. You can listen them back or can download and share with whoever you want to.',
+    },
+    {
+      question: 'Will I be notified about a voicemail?',
+      answer:
+        'Yes, Call Gauge Pro sends an SMS notification with voicemail recording link to any number you choose.',
+    },
+    {
+      question: 'Can I turn voicemail feature off if I want to?',
+      answer:
+        'Yes off course! It’s up to you. If you don’t want it you can simply disable it with just a few clicks.',
+    },
+    {
+      question: 'How long are the voicemails stored in my account?',
+      answer:
+        'Voicemails are normally stored indefinitely by default, unless you choose to delete them.',
     },
   ]
 
