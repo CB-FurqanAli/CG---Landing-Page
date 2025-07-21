@@ -114,7 +114,7 @@ function CallFlowIntroduction() {
               </div>
               <div className="mt-8 space-y-3">
                 <p className="text-lg text-blue-600 italic">
-                  Want to setup call flow for your business now
+                  Want to setup call flow for your business?
                 </p>
                 <p className="text-lg font-semibold text-red-600">
                   Try Call Gauge Pro — It&#39;s Free!
@@ -172,7 +172,7 @@ function CallFlowIntroduction() {
               </div>
               <div className="mt-8 space-y-3">
                 <p className="text-lg text-blue-600 italic">
-                  Want to setup call flow for your business now
+                  Want to setup call flow for your business?
                 </p>
                 <p className="text-lg font-semibold text-red-600">
                   Try Call Gauge Pro — It&#39;s Free!
@@ -276,7 +276,7 @@ function CallFlowIntroduction() {
 
               <div className="mt-8 space-y-3">
                 <p className="text-lg text-blue-600 italic">
-                  Want to setup call flow for your business now
+                  Want to setup call flow for your business?
                 </p>
                 <p className="text-lg font-semibold text-red-600">
                   Try Call Gauge Pro — It&#39;s Free!
@@ -316,7 +316,7 @@ function CallFlowIntroduction() {
               </div>
               <div className="mt-8 space-y-3">
                 <p className="text-lg text-blue-600 italic">
-                  Want to setup call flow for your business now
+                  Want to setup call flow for your business?
                 </p>
                 <p className="text-lg font-semibold text-red-600">
                   Try Call Gauge Pro — It&#39;s Free!
@@ -373,7 +373,7 @@ function CallFlowIntroduction() {
 
               <div className="mt-8 space-y-3">
                 <p className="text-lg text-blue-600 italic">
-                  Want to setup call flow for your business now
+                  Want to setup call flow for your business?
                 </p>
                 <p className="text-lg font-semibold text-red-600">
                   Try Call Gauge Pro — It&#39;s Free!
@@ -409,20 +409,6 @@ function CallFlowIntroduction() {
           {/*Feature Cards Grid */}
           <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {/*Feature 1 */}
-
-            <div className="rounded-2xl bg-[#B564FB] p-6 text-white shadow-lg">
-              <h3 className="mb-2 text-xl font-semibold">
-                ✅ Press 1 to connect:
-              </h3>
-              <p>
-                Get rid of spam and robo-calls by our last feature of “Press 1
-                to connect”. When you enable this feature, the callers must
-                press 1 to get the call connected. But we recommend using this
-                feature only when you are experiencing too many spam calls.
-              </p>
-            </div>
-
-            {/*Feature 2 */}
             <div className="rounded-2xl bg-[#F39FCA] p-6 text-white shadow-lg">
               <h3 className="mb-2 text-xl font-semibold">
                 🎭 Caller ID customization:
@@ -432,6 +418,19 @@ function CallFlowIntroduction() {
                 caller’s number to the recipient. By doing this agents and
                 clients can save and recognize the number- hence they know
                 before answering about what kind of call is coming through.
+              </p>
+            </div>
+
+            {/*Feature 2 */}
+            <div className="rounded-2xl bg-[#B564FB] p-6 text-white shadow-lg">
+              <h3 className="mb-2 text-xl font-semibold">
+                ✅ Press 1 to connect:
+              </h3>
+              <p>
+                Get rid of spam and robo-calls by our last feature of “Press 1
+                to connect”. When you enable this feature, the callers must
+                press 1 to get the call connected. But we recommend using this
+                feature only when you are experiencing too many spam calls.
               </p>
             </div>
 

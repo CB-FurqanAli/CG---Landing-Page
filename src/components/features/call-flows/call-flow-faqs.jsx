@@ -25,12 +25,6 @@ export function CallFlowFaqs() {
         'Yes, you can fully customize call flows according to your business needs. You can add different steps which you think are necessary for your business and can skip others altogether. ',
     },
     {
-      question:
-        'Can I create different call flows for different campaigns and numbers? ',
-      answer:
-        'Yes, you can create as many call flows as you want. Different call flows can be easily created for different campaigns and numbers. ',
-    },
-    {
       question: 'How many numbers can I add to one call flow? ',
       answer:
         'You can add as many numbers as you want to a single call flow. It would be easy and time saving rather create a new call flow for every number every time. ',
@@ -40,6 +34,12 @@ export function CallFlowFaqs() {
         'Am I bound by law to let the caller know about call recording? ',
       answer:
         'It depends on the law of the state and country you live in. But it’s better to let the caller know about recording the call by playing a disclaimer message about this.',
+    },
+    {
+      question:
+        'Can I create different call flows for different campaigns and numbers? ',
+      answer:
+        'Yes, you can create as many call flows as you want. Different call flows can be easily created for different campaigns and numbers. ',
     },
   ]
 
@@ -54,16 +54,16 @@ export function CallFlowFaqs() {
 
   return (
     <Container className="py-24">
-      <Heading as="h3" className="mt-2 max-w-3xl">
-        Everything you need to know about Call Flow.
+      <Heading as="h3" className="mx-auto mt-2 max-w-3xl text-center">
+        Call Flow FAQs
       </Heading>
-      <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-2">
+      <div className="mt-20 grid grid-cols-1 gap-8 md:grid-cols-2">
         {/* Left Column */}
         <div className="space-y-4">
           {leftColumnFaqs.map((faq, index) => (
             <div
               key={index}
-              className="rounded-xl bg-white shadow-md transition-all duration-300 hover:shadow-lg"
+              className="rounded-xl bg-white shadow-md transition-all duration-300 hover:bg-[#FDE0C1] hover:shadow-lg"
             >
               <button
                 onClick={() => toggleFAQ(index, 'left')}
@@ -101,7 +101,7 @@ export function CallFlowFaqs() {
           {rightColumnFaqs.map((faq, index) => (
             <div
               key={index}
-              className="rounded-xl bg-white shadow-md transition-all duration-300 hover:shadow-lg"
+              className="rounded-xl bg-white shadow-md transition-all duration-300 hover:bg-[#FDE0C1] hover:shadow-lg"
             >
               <button
                 onClick={() => toggleFAQ(index, 'right')}
