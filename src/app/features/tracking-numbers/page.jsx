@@ -37,7 +37,7 @@ function HeroSection() {
               Get Started Free
             </a>
             <p className="mt-2 font-semibold text-red-600">
-              *no credit card required
+              *No credit card required
             </p>
           </div>
         </div>
