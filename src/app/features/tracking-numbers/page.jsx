@@ -29,7 +29,7 @@ function HeroSection() {
           <Lead className="mx-auto mt-6 max-w-3xl text-lg text-gray-600">
             You will get $15 for free in your account to test our platform!
           </Lead>
-          <div className="mt-10 flex justify-center gap-4">
+          <div className="mt-10 gap-4">
             <a
               href={'#'}
               className="text-md inline-flex items-center rounded-xl border border-[#DE85DB] bg-gradient-to-r from-[#FBCCC5] to-[#B767F4] px-6 py-2 font-semibold transition-colors duration-200 hover:bg-gradient-to-r hover:from-[#F9C1C7] hover:to-[#DB7EDD]"
