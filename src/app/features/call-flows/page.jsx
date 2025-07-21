@@ -424,7 +424,7 @@ function CallFlowIntroduction() {
             </div>
 
             {/*Feature 4 */}
-            <div className="rounded-2xl bg-[#F0B100] p-6 text-white shadow-lg">
+            <div className="col-start-2 rounded-2xl bg-[#F0B100] p-6 text-white shadow-lg">
               <h3 className="mb-2 text-xl font-semibold">📩 SMS forwarding:</h3>
               <p>
                 You can forward SMS to any other number by just one click, so
