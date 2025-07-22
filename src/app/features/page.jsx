@@ -106,7 +106,7 @@ function AutoMations() {
         title="Call recording"
         description="Easily record every call, replay them anytime you want to and even download mp3 files for easy sharing!"
         icon="https://cdn.prod.website-files.com/5d82e225060d003d65ddae98/6799aa8fd2f07ac6bafd28e0_dollar-hand-holding.svg"
-        link="#"
+        link="features/call-recording"
       />
       <FeatureCards
         title="Call whisper"
