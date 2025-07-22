@@ -53,8 +53,11 @@ export function VoiceMailFaqs() {
 
   return (
     <Container className="py-24">
-      <Heading as="h3" className="mx-auto mt-2 max-w-3xl text-center">
-        Call Flow FAQs
+      <Heading
+        as="h3"
+        className="mx-auto mt-2 max-w-3xl text-center text-pink-300"
+      >
+        Voicemail FAQs
       </Heading>
       <div className="my-20 grid grid-cols-1 gap-8 md:grid-cols-2">
         {/* Left Column */}

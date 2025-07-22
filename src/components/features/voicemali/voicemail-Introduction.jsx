@@ -49,7 +49,8 @@ export default function VoiceMailIntroduction() {
               </div>
               <div className="mt-8 space-y-3">
                 <p className="text-lg text-blue-600 italic">
-                  Want to setup call flow for your business?
+                  Want to create voicemail recording setup for your business
+                  now?
                 </p>
                 <p className="text-lg font-semibold text-red-600">
                   Try Call Gauge Pro — It&#39;s Free!
@@ -86,7 +87,7 @@ export default function VoiceMailIntroduction() {
 
             <div>
               <h2 className="text-3xl font-bold text-[#DF80D9] sm:text-4xl">
-                Organized voicemail:
+                Organized voicemails:
               </h2>
               <div className="mt-8 space-y-5 leading-relaxed text-gray-700 sm:text-lg">
                 <p>
