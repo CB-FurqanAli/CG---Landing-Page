@@ -56,7 +56,7 @@ export function CallFlowFaqs() {
     <Container className="py-24">
       <Heading
         as="h3"
-        className="mx-auto mt-2 max-w-3xl text-center text-pink-300"
+        className="mx-auto mt-2 max-w-3xl text-center text-pink-400"
       >
         Call Flow FAQs
       </Heading>
