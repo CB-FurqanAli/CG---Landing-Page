@@ -175,8 +175,6 @@ export default function CallWhisperingIntroduction() {
               <p className="text-sm">✅ 14-day money back guarantee</p>
             </div>
           </div>
-
-          <div className="absolute top-1/2 left-1/2 -z-10 h-[300px] w-[500px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-white/5 blur-3xl"></div>
         </section>
       </div>
     </section>

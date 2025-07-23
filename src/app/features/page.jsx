@@ -151,7 +151,7 @@ function ClientPortal() {
         title="Client Portal"
         description="Empower your clients by providing them with their own login to view calls & data"
         icon="https://cdn.prod.website-files.com/5d82e225060d003d65ddae98/6799aa8fb9830683d5eb4f37_horizontal-bar-chart.svg"
-        link="#"
+        link="features/client-management"
       />
 
       <FeatureCards

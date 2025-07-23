@@ -22,7 +22,7 @@ function HeroSection() {
           </Heading>
           <Lead className="mx-auto mt-6 max-w-3xl text-lg text-gray-600">
             Want to set up call recording for your business?
-            <strong>Call Gauge AI </strong> is the solution to all your worries
+            <strong> Call Gauge AI </strong> is the solution to all your worries
             regarding call recording whether you are a sole operator or managing
             a big enterprise.
           </Lead>
