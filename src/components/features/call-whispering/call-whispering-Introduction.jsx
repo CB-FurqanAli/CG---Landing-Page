@@ -159,7 +159,7 @@ export default function CallWhisperingIntroduction() {
         <section className="relative isolate overflow-hidden rounded-2xl bg-linear-115 from-[#fff1be] from-28% via-[#ee87cb] via-70% to-[#b060ff] py-16 sm:bg-linear-145 sm:py-20">
           <div className="mx-auto max-w-4xl px-6 text-center">
             <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">
-              Set up call whispering for your business phone numbers
+              Set up call whispering for your business phone numbers now !
             </h2>
             <p className="mt-4 text-lg">
               Start a trial — no credit card required.
