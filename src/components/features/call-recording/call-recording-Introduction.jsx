@@ -105,7 +105,7 @@ export default function CallRecordingIntroduction() {
             If you want it to be simple then:
           </h2>
           <div className="mt-8 grid grid-cols-1 gap-6 text-white sm:grid-cols-2 md:grid-cols-3">
-            <ul className="flex list-disc items-center rounded-2xl bg-[#EF8BCB] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
+            <ul className="list-disc rounded-2xl bg-[#EF8BCB] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
               <li className="text-left">Forward the call.</li>
             </ul>
 
@@ -122,7 +122,7 @@ export default function CallRecordingIntroduction() {
               If you are in a mood to do it in a fancy way then:
             </h2>
             <div className="mt-8 grid grid-cols-1 gap-6 text-white sm:grid-cols-2 md:grid-cols-3">
-              <ul className="flex list-disc items-center rounded-2xl bg-[#B564FB] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
+              <ul className="list-disc rounded-2xl bg-[#B564FB] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
                 <li className="text-left">Add custom greetings.</li>
                 <li className="text-left">Add voicemail settings.</li>
               </ul>

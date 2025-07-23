@@ -112,7 +112,7 @@ function AutoMations() {
         title="Call whisper"
         description="Get valuable context of the caller even before the conversation begins!"
         icon="https://cdn.prod.website-files.com/5d82e225060d003d65ddae98/6799aa8fc3aab2b7fdbae39d_money-trend-up.svg"
-        link="#"
+        link="features/call-whispering"
       />
     </div>
   )
