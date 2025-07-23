@@ -490,6 +490,31 @@ export default function TrackingIntroduction() {
           </div>
         </div>
       </div>
+
+      <div className="mt-40">
+        <section className="relative isolate overflow-hidden rounded-2xl bg-linear-115 from-[#fff1be] from-28% via-[#ee87cb] via-70% to-[#b060ff] py-16 sm:bg-linear-145 sm:py-20">
+          <div className="mx-auto max-w-4xl px-6 text-center">
+            <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">
+              Set up call tracking for your business phone numbers now !
+            </h2>
+            <p className="mt-4 text-lg">
+              Start a trial — no credit card required.
+            </p>
+
+            <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row sm:gap-6">
+              <a
+                href="#"
+                className="rounded-xl bg-[#F15E16] px-6 py-3 text-base font-semibold text-white shadow-lg transition hover:bg-orange-600"
+              >
+                Start a Free Trial
+              </a>
+              <p className="text-sm">✅ 14-day money back guarantee</p>
+            </div>
+          </div>
+
+          <div className="absolute top-1/2 left-1/2 -z-10 h-[300px] w-[500px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-white/5 blur-3xl"></div>
+        </section>
+      </div>
     </section>
   )
 }

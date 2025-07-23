@@ -25,7 +25,7 @@ function HeroSection() {
             Pro’s feature of call whispering messages.
           </Lead>
           <h2 className="mt-20 text-2xl font-semibold text-[#B867F9] md:text-3xl">
-            Try Call Gauge Pro today
+            Try Call Gauge AI today
           </h2>
           <Lead className="mx-auto mt-6 max-w-3xl text-lg text-gray-600">
             You will get $15 for free in your account to test our platform!

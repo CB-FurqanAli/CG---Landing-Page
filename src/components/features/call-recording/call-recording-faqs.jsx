@@ -17,13 +17,13 @@ export function CallRecordingFaqs() {
     {
       question: 'How can I notify the caller that the call is being recorded? ',
       answer:
-        'You can add a custom voice message at the start of the call to let the caller know that the call is going to be recorded by using Call Gauge Pro’s text-to-speech or upload an audio file option. ',
+        'You can add a custom voice message at the start of the call to let the caller know that the call is going to be recorded by using Call Gauge AI ’s text-to-speech or upload an audio file option. ',
     },
     {
       question:
         'How much it costs to enable inbound and outbound call recording? ',
       answer:
-        'Call Gauge Pro offers free inbound and outbound call recording feature which makes it stand out among other call tracking solutions as most of them do charge for call recording. ',
+        'Call Gauge AI  offers free inbound and outbound call recording feature which makes it stand out among other call tracking solutions as most of them do charge for call recording. ',
     },
     {
       question: 'Where are all the call recordings stored? ',

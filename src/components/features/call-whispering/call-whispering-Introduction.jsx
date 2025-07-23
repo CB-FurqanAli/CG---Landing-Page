@@ -79,7 +79,7 @@ export default function CallWhisperingIntroduction() {
           </h2>
           <div className="mt-10 text-center text-lg leading-relaxed text-gray-600">
             <p className="mx-auto my-2 max-w-4xl">
-              Call Gauge Pro lets you to purchase as many numbers as you want at
+              Call Gauge AI lets you to purchase as many numbers as you want at
               only $0.5 per number. You can manage these numbers and can add
               call whispering on each number at such an affordable price.
             </p>

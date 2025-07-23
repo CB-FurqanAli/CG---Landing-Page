@@ -23,7 +23,7 @@ export default function CallRecordingIntroduction() {
                 <p>
                   If you are in search of a call tracking software to create a
                   call recording setup for your business, you have reached your
-                  destination. Call Gauge Pro makes it extremely simple for you
+                  destination. Call Gauge AI makes it extremely simple for you
                   to capture every conversation on autopilot with no complicated
                   setup and no tech worries.
                 </p>
@@ -59,10 +59,10 @@ export default function CallRecordingIntroduction() {
             Step 1: Sign Up:
           </h2>
           <p className="mx-auto my-8 max-w-3xl text-center text-lg leading-relaxed text-gray-700">
-            First of all you have to create a Call Gauge Pro account which will
+            First of all you have to create a Call Gauge AI account which will
             take only about a few seconds. You will get your first business
             phone number free so you can start working. From the point when you
-            are set up, Call Gauge Pro will start its work by recording every
+            are set up, Call Gauge AI will start its work by recording every
             conversation automatically leaving you with no worries.
           </p>
 
@@ -185,7 +185,7 @@ export default function CallRecordingIntroduction() {
               <div className="mt-8 space-y-5 leading-relaxed text-gray-700 sm:text-lg">
                 <p>
                   You have successfully integrated “Call recording” feature in
-                  your call flow. Call Gauge Pro will now record the calls and
+                  your call flow. Call Gauge AI will now record the calls and
                   you can listen, download and share these with whoever you want
                   to.
                 </p>
@@ -210,6 +210,31 @@ export default function CallRecordingIntroduction() {
             </div>
           </div>
         </div>
+      </div>
+
+      <div className="mt-40">
+        <section className="relative isolate overflow-hidden rounded-2xl bg-linear-115 from-[#fff1be] from-28% via-[#ee87cb] via-70% to-[#b060ff] py-16 sm:bg-linear-145 sm:py-20">
+          <div className="mx-auto max-w-4xl px-6 text-center">
+            <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">
+              Set up call recording for your business phone numbers now !
+            </h2>
+            <p className="mt-4 text-lg">
+              Start a trial — no credit card required.
+            </p>
+
+            <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row sm:gap-6">
+              <a
+                href="#"
+                className="rounded-xl bg-[#F15E16] px-6 py-3 text-base font-semibold text-white shadow-lg transition hover:bg-orange-600"
+              >
+                Start a Free Trial
+              </a>
+              <p className="text-sm">✅ 14-day money back guarantee</p>
+            </div>
+          </div>
+
+          <div className="absolute top-1/2 left-1/2 -z-10 h-[300px] w-[500px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-white/5 blur-3xl"></div>
+        </section>
       </div>
     </section>
   )

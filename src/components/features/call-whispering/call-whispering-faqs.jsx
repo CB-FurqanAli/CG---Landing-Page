@@ -22,7 +22,7 @@ export function CallWhisperingFaqs() {
     {
       question: 'Can I use call recording and call whispering together? ',
       answer:
-        'Yes! Call Gauge Pro supports both features at the same time seamlessly to ensure full context and performance tracking. ',
+        'Yes! Call Gauge AI  supports both features at the same time seamlessly to ensure full context and performance tracking. ',
     },
     {
       question: 'Does call whispering reduce spam calls?',
