@@ -158,7 +158,7 @@ function ClientPortal() {
         title="Pay per call"
         description="Start billing your clients for qualified calls, based on performance and get paid."
         icon="https://cdn.prod.website-files.com/5d82e225060d003d65ddae98/6799aa8fd2f07ac6bafd28e0_dollar-hand-holding.svg"
-        link="#"
+        link="features/pay-per-call"
       />
       <FeatureCards
         title="Spam blocking"
