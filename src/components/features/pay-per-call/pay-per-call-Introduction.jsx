@@ -230,7 +230,7 @@ export default function PayPerCallIntroduction() {
       </div>
 
       {/*To take full control of your call-based revenue by using Call Gauge AI’s pay per call billing feature. Sign up today for a free trial and get started!*/}
-      <div className="mt-40">
+      <div className="my-40">
         <section className="relative isolate overflow-hidden rounded-2xl bg-linear-115 from-[#fff1be] from-28% via-[#ee87cb] via-70% to-[#b060ff] py-16 sm:bg-linear-145 sm:py-20">
           <div className="mx-auto max-w-4xl px-6 text-center">
             <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">

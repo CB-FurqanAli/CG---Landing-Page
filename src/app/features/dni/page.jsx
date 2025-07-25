@@ -1,5 +1,5 @@
 import { Container } from '@/components/container'
-import PayPerCallIntroduction from '@/components/features/pay-per-call/pay-per-call-Introduction'
+import DniIntroduction from '@/components/features/dni-call/dni-Introduction'
 import { Footer } from '@/components/footer' // Using your updated Footer
 import { GradientBackground } from '@/components/gradient'
 import { Navbar } from '@/components/navbar'
@@ -17,11 +17,11 @@ function HeroSection() {
       <Container>
         <div className="text-center">
           <Heading as="h1" className="text-4xl md:text-5xl">
-            Pay per Call Feature
+            DNI Script
           </Heading>
           <Lead className="mx-auto mt-6 max-w-3xl text-lg text-gray-600">
-            Use Call Gauge AI and automatically invoice your clients for
-            qualified calls.
+            Installation guide of Call Gauge AI’s DNI JavaScript snippet on your
+            website
           </Lead>
           <h2 className="mt-16 text-2xl font-semibold text-[#B867F9] md:text-3xl">
             Try Call Gauge AI today
@@ -54,7 +54,7 @@ export default function ScalableCallTrackingNumbers() {
         <Navbar />
       </Container>
       <HeroSection />
-      <PayPerCallIntroduction />
+      <DniIntroduction />
       <Footer />
     </main>
   )
