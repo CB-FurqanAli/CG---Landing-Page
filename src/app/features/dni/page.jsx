@@ -17,7 +17,7 @@ function HeroSection() {
       <Container>
         <div className="text-center">
           <Heading as="h1" className="text-4xl md:text-5xl">
-            DNI Script5525
+            DNI Script
           </Heading>
           <Lead className="mx-auto mt-6 max-w-3xl text-lg text-gray-600">
             Installation guide of Call Gauge AI’s DNI JavaScript snippet on your
