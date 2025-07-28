@@ -55,7 +55,7 @@ export default function ScalableCallTrackingNumbers() {
       </Container>
       <HeroSection />
       <PayPerCallIntroduction />
-      <Footer />
+      <Footer />~
     </main>
   )
 }

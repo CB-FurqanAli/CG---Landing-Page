@@ -57,7 +57,7 @@ export default function DniIntroduction() {
               </p>
             </div>
             {/*2nd*/}
-            <div className="rounded-2xl bg-[#F0B100] p-6 text-white shadow-md transition hover:shadow-lg">
+            <div className="rounded-2xl bg-[#F0B100] p-6 shadow-md transition hover:shadow-lg">
               <div className="mb-4 flex items-center">
                 <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#F15E16] text-xl font-bold">
                   S
@@ -74,7 +74,7 @@ export default function DniIntroduction() {
               </p>
             </div>
             {/*3rd*/}
-            <div className="rounded-2xl bg-[#B564FB] p-6 text-white shadow-md transition hover:shadow-lg">
+            <div className="rounded-2xl bg-[#B564FB] p-6 shadow-md transition hover:shadow-lg">
               <div className="mb-4 flex items-center">
                 <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#F15E16] text-xl font-bold">
                   I
@@ -91,7 +91,7 @@ export default function DniIntroduction() {
               </p>
             </div>
             {/*4th*/}
-            <div className="rounded-2xl bg-[#EF8BCB] p-6 text-white shadow-md transition hover:shadow-lg">
+            <div className="rounded-2xl bg-[#EF8BCB] p-6 shadow-md transition hover:shadow-lg">
               <div className="mb-4 flex items-center">
                 <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#F15E16] text-xl font-bold">
                   B
@@ -106,10 +106,10 @@ export default function DniIntroduction() {
               </p>
             </div>
             {/*5th*/}
-            <div className="rounded-2xl bg-[#F0B100] p-6 text-white shadow-md transition hover:shadow-lg">
+            <div className="rounded-2xl bg-[#F0B100] p-6 shadow-md transition hover:shadow-lg">
               <div className="mb-4 flex items-center">
                 <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#F15E16] text-xl font-bold">
-                  I
+                  R
                 </div>
                 <h3 className="ml-4 text-xl font-semibold">Real-time data:</h3>
               </div>

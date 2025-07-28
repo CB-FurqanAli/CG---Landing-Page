@@ -52,63 +52,63 @@ export default function PayPerCallIntroduction() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 gap-10 md:grid-cols-2">
-            <div className="rounded-2xl bg-white p-6 shadow-md transition hover:shadow-lg">
+          <div className="grid grid-cols-1 gap-10 text-white md:grid-cols-2">
+            <div className="rounded-2xl bg-[#EF8BCB] p-6 shadow-md transition hover:shadow-lg">
               <div className="mb-4 flex items-center">
                 <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#F15E16] text-xl font-bold text-white">
                   S
                 </div>
-                <h3 className="ml-4 text-xl font-semibold text-gray-800">
+                <h3 className="ml-4 text-xl font-semibold">
                   Smooth Stripe integration:
                 </h3>
               </div>
-              <p className="text-gray-600">
+              <p>
                 Connect your Stripe account easily and start sending invoices to
                 your clients in an automated way. Payments will pool directly
                 into your Stripe account without any further delay.
               </p>
             </div>
 
-            <div className="rounded-2xl bg-white p-6 shadow-md transition hover:shadow-lg">
+            <div className="rounded-2xl bg-[#F0B100] p-6 shadow-md transition hover:shadow-lg">
               <div className="mb-4 flex items-center">
-                <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#F15E16] text-xl font-bold text-white">
+                <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#F15E16] text-xl font-bold">
                   A
                 </div>
-                <h3 className="ml-4 text-xl font-semibold text-gray-800">
+                <h3 className="ml-4 text-xl font-semibold">
                   Automated invoicing for Qualified calls:
                 </h3>
               </div>
-              <p className="text-gray-600">
+              <p>
                 Invoices are generated automatically and sent to your clients on
                 the basis of your call criteria. No manual work is required.
               </p>
             </div>
 
-            <div className="rounded-2xl bg-white p-6 shadow-md transition hover:shadow-lg">
+            <div className="rounded-2xl bg-[#B564FB] p-6 shadow-md transition hover:shadow-lg">
               <div className="mb-4 flex items-center">
-                <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#F15E16] text-xl font-bold text-white">
+                <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#F15E16] text-xl font-bold">
                   F
                 </div>
-                <h3 className="ml-4 text-xl font-semibold text-gray-800">
+                <h3 className="ml-4 text-xl font-semibold">
                   Flexible billing schedules:
                 </h3>
               </div>
-              <p className="text-gray-600">
+              <p>
                 You can choose a billing schedule that fits your cash flow
                 needs, weekly or monthly.
               </p>
             </div>
 
-            <div className="rounded-2xl bg-white p-6 shadow-md transition hover:shadow-lg">
+            <div className="rounded-2xl bg-[#EF8BCB] p-6 shadow-md transition hover:shadow-lg">
               <div className="mb-4 flex items-center">
-                <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#F15E16] text-xl font-bold text-white">
+                <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#F15E16] text-xl font-bold">
                   R
                 </div>
-                <h3 className="ml-4 text-xl font-semibold text-gray-800">
+                <h3 className="ml-4 text-xl font-semibold">
                   Set your billing rules:
                 </h3>
               </div>
-              <p className="text-gray-600">
+              <p>
                 You are the controller of the billing rules. If you want to bill
                 the calls that last longer than 2 minutes, you can do that
                 easily. You can set rules based on this call duration to ensure
@@ -116,16 +116,16 @@ export default function PayPerCallIntroduction() {
               </p>
             </div>
 
-            <div className="rounded-2xl bg-white p-6 shadow-md transition hover:shadow-lg">
+            <div className="rounded-2xl bg-[#F0B100] p-6 shadow-md transition hover:shadow-lg">
               <div className="mb-4 flex items-center">
-                <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#F15E16] text-xl font-bold text-white">
+                <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#F15E16] text-xl font-bold">
                   C
                 </div>
-                <h3 className="ml-4 text-xl font-semibold text-gray-800">
+                <h3 className="ml-4 text-xl font-semibold">
                   Client specific setup:
                 </h3>
               </div>
-              <p className="text-gray-600">
+              <p>
                 You can now assign specific numbers to particular clients and
                 can customize the billing rules per client or number. This is of
                 great importance for the agencies that handle multiple clients.
