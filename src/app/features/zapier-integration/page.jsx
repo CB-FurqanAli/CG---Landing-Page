@@ -17,12 +17,12 @@ function HeroSection() {
       <Container>
         <div className="text-center">
           <Heading as="h1" className="text-4xl md:text-5xl">
-            White Labeling Feature
+            Zapier Integration in Call Gauge AI
           </Heading>
           <Lead className="mx-auto mt-6 max-w-3xl text-lg text-gray-600">
-            Want a call tracking solution which you can brad as your own? With
-            Call Gauge AI you can white label the whole platform like custom
-            URL, colors, logo, interface and much more.
+            Need a call tracking software with Zapier integration? You have
+            reached your destination as Call Gauge AI offers free Zapier in its
+            Plans.
           </Lead>
           <h2 className="mt-16 text-2xl font-semibold text-[#B867F9] md:text-3xl">
             Try Call Gauge AI today

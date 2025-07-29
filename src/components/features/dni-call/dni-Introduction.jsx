@@ -32,7 +32,7 @@ export default function DniIntroduction() {
 
       {/*Advantages of DNI:*/}
       <div className="mt-32">
-        <div className="mx-auto max-w-7xl px-6">
+        <div className="px-6">
           <div className="my-16 text-center">
             <h2 className="text-4xl font-bold text-gray-900">
               Advantages of DNI:

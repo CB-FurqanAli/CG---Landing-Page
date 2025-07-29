@@ -95,18 +95,24 @@ function CTASection() {
 
 function AutoMations() {
   return (
-    <div className="mx-auto mb-30 grid max-w-5xl grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-2">
+    <div className="mx-auto mb-30 grid max-w-7xl grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
       <FeatureCards
-        title="Automations"
+        title="Zapier Integration"
         description="Send automated SMS messages or emails when calls got completed. Or step ahead by Zapier."
         icon="https://cdn.prod.website-files.com/5d82e225060d003d65ddae98/6799aa8fb9830683d5eb4f37_horizontal-bar-chart.svg"
-        link="#"
+        link="features/zapier-integration"
       />
       <FeatureCards
         title="Call recording"
         description="Easily record every call, replay them anytime you want to and even download mp3 files for easy sharing!"
         icon="https://cdn.prod.website-files.com/5d82e225060d003d65ddae98/6799aa8fd2f07ac6bafd28e0_dollar-hand-holding.svg"
         link="features/call-recording"
+      />
+      <FeatureCards
+        title="Call whisper"
+        description="Get valuable context of the caller even before the conversation begins!"
+        icon="https://cdn.prod.website-files.com/5d82e225060d003d65ddae98/6799aa8fc3aab2b7fdbae39d_money-trend-up.svg"
+        link="features/call-whispering"
       />
     </div>
   )
@@ -203,8 +209,8 @@ function VoiceMails() {
           image="https://images.unsplash.com/photo-1526779259212-939e64788e3c?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZnJlZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D"
         />
         <ReportingCards
-          title="Missed call notification"
-          description="Whenever a call is missed, instantly send notifications so, you can follow up right away."
+          title="Automations"
+          description="asdasdasdasdsad sada asd asd asd asd "
           image="https://images.unsplash.com/photo-1526779259212-939e64788e3c?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZnJlZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D"
         />
       </div>

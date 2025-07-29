@@ -90,7 +90,7 @@ export default function TrackingIntroduction() {
                   Want to setup call tracking number for your business now?
                 </p>
                 <p className="text-lg font-semibold text-red-600">
-                  Try Call Gauge Pro — It&#39;s Free!
+                  Try Call Gauge AI — It&#39;s Free!
                 </p>
               </div>
               <div className="mt-8 gap-4 text-center">
@@ -330,7 +330,7 @@ export default function TrackingIntroduction() {
 
               <ul className="list-disc rounded-2xl bg-[#EF8BCB] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
                 <li className="text-left">
-                  <strong>A Call Gauge Pro account</strong> to sign up and then
+                  <strong>A Call Gauge AI account</strong> to sign up and then
                   set up multiple call tracking phone numbers to start
                   monitoring performance of the phone calls.
                 </li>
@@ -387,7 +387,7 @@ export default function TrackingIntroduction() {
             </div>
 
             <h2 className="mt-16 text-xl font-semibold">
-              Try Call Gauge Pro today and start tracking your calls smartly!
+              Try Call Gauge AI today and start tracking your calls smartly!
             </h2>
           </div>
 
@@ -413,7 +413,7 @@ export default function TrackingIntroduction() {
 
           <div className="mt-10 text-center leading-relaxed">
             <p className="mx-auto my-2 max-w-4xl text-lg text-gray-600">
-              By using Call Gauge Pro, you can personalize every phone call with
+              By using Call Gauge AI, you can personalize every phone call with
               custom greetings and smart routing. Even if the call volume of
               your business is quite high you can still make every customer feel
               special.
