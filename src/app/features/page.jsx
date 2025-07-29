@@ -95,7 +95,7 @@ function CTASection() {
 
 function AutoMations() {
   return (
-    <div className="mx-auto mb-30 grid max-w-7xl grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+    <div className="mx-auto mb-30 grid max-w-5xl grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-2">
       <FeatureCards
         title="Automations"
         description="Send automated SMS messages or emails when calls got completed. Or step ahead by Zapier."
@@ -107,12 +107,6 @@ function AutoMations() {
         description="Easily record every call, replay them anytime you want to and even download mp3 files for easy sharing!"
         icon="https://cdn.prod.website-files.com/5d82e225060d003d65ddae98/6799aa8fd2f07ac6bafd28e0_dollar-hand-holding.svg"
         link="features/call-recording"
-      />
-      <FeatureCards
-        title="Call whisper"
-        description="Get valuable context of the caller even before the conversation begins!"
-        icon="https://cdn.prod.website-files.com/5d82e225060d003d65ddae98/6799aa8fc3aab2b7fdbae39d_money-trend-up.svg"
-        link="features/call-whispering"
       />
     </div>
   )
