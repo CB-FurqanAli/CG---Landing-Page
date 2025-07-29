@@ -66,10 +66,10 @@ export default function WhiteLabelingIntroduction() {
           </div>
         </div>
 
-        <div className="mx-auto my-10 max-w-4xl rounded-md border-l-4 border-blue-400 bg-blue-50 p-4 shadow-sm">
+        <div className="mx-auto my-10 max-w-4xl rounded-md border-l-4 border-pink-400 bg-pink-50 p-4 shadow-sm">
           <div className="flex items-start gap-3">
-            <div className="text-sm text-blue-700">
-              <strong className="block font-medium text-blue-800">
+            <div className="text-sm text-pink-700">
+              <strong className="block font-medium text-pink-800">
                 Need help?{' '}
               </strong>
               Our friendly and professional support team is here to assist you.
