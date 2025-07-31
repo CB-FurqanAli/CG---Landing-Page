@@ -44,17 +44,21 @@ function Hero() {
           </h1>
           <div className="mx-auto mt-8 max-w-xl text-center text-xl/7 font-medium text-gray-950/75 sm:text-xl/8">
             <p>
-              With CallGauge AI, you can intelligently track every phone call,
-              text message, web form, and live chat — all from a single, unified
-              dashboard.
+              With <strong>CallGauge AI </strong>, you can intelligently track
+              every{' '}
+              <strong>
+                phone call, text message, web form, and live chat{' '}
+              </strong>{' '}
+              — all from a single, unified dashboard.
             </p>
             <p>
-              Leverage the power of artificial intelligence to capture, analyze,
-              and optimize every customer interaction.
+              Leverage the power of <strong>artificial intelligence </strong> to
+              capture, analyze, and optimize every customer interaction.
             </p>
             <p>
-              Turn more leads into revenue and grow faster — all for just $0.50
-              per number, the most affordable rate in the industry.
+              Turn more leads into revenue and grow faster — all for just{' '}
+              <strong>$0.50 per number </strong>, the most affordable rate in
+              the industry.
             </p>
           </div>
           <div className="mt-12 flex flex-col justify-center gap-x-6 gap-y-4 sm:flex-row">
