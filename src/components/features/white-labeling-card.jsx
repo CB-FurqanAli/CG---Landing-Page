@@ -9,11 +9,11 @@ export default function WhiteLabelingCard() {
           <div className="space-y-8">
             <div className="space-y-6">
               <h2 className="text-3xl leading-tight font-bold sm:text-4xl">
-                White labeling
+                🌐 White Labeling
               </h2>
               <p className="max-w-xl text-base leading-relaxed sm:text-lg">
-                Make Call Gauge Pro truly yours by adding your own brand and
-                custom URL.
+                Customize the platform with your branding and domain for a
+                seamless client experience.
               </p>
               <Link
                 href={'features/white-labeling'}

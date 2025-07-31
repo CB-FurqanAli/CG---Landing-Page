@@ -39,11 +39,11 @@ export default function DynamicNumberCard() {
           <div className="space-y-8">
             <div className="space-y-6">
               <h2 className="text-3xl leading-tight font-bold sm:text-4xl">
-                Dynamic number insertion (DNI)
+                🔁 Dynamic Number Insertion (DNI)
               </h2>
               <p className="max-w-xl text-base leading-relaxed sm:text-lg">
-                Dynamic number insertion allows you to track the online source
-                of every call automatically.
+                Track the online source of every call with dynamic, source-based
+                number swapping.
               </p>
               <div className="text-right">
                 <Link
