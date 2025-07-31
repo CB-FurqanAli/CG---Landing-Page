@@ -30,11 +30,11 @@ export default function WhoShould() {
     <section className="bg-white py-20">
       <div className="mx-auto max-w-6xl px-4 text-center">
         <h2 className="mb-4 text-4xl font-extrabold text-gray-900">
-          Who Should Use Call Gauge AI?
+          Who Is CallGauge AI For?
         </h2>
         <p className="mx-auto mb-16 max-w-2xl text-gray-600">
-          Tailored for ambitious teams and businesses looking to track, analyze,
-          and improve call-based performance.
+          Built for businesses that rely on calls—and want smarter, AI-powered
+          ways to track and grow.
         </p>
 
         <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 md:grid-cols-4">
