@@ -38,16 +38,26 @@ function Hero() {
             </Link>
           }
         />
-        <div className="py-16 md:py-24">
-          <h1 className="font-display text-6xl/[0.9] font-medium tracking-tight text-balance text-gray-950 sm:text-8xl/[1] md:text-7xl/[1]">
-            Call tracking powered by AI to boost every business.
+        <div className="py-16 text-center md:py-24">
+          <h1 className="font-display text-4xl/[0.9] font-medium tracking-tight text-balance text-gray-950 sm:text-8xl/[1] md:text-7xl/[1]">
+            AI-Powered Call Tracking That Supercharge Your Business
           </h1>
-          <p className="mt-8 max-w-lg text-xl/7 font-medium text-gray-950/75 sm:text-xl/8">
-            Track every phone call, text, form and chat in one place-maximize
-            every lead and grow faster in a price that you won’t find anywhere
-            else, just $0.5 per number.
-          </p>
-          <div className="mt-12 flex flex-col gap-x-6 gap-y-4 sm:flex-row">
+          <div className="mx-auto mt-8 max-w-xl text-center text-xl/7 font-medium text-gray-950/75 sm:text-xl/8">
+            <p>
+              With CallGauge AI, you can intelligently track every phone call,
+              text message, web form, and live chat — all from a single, unified
+              dashboard.
+            </p>
+            <p>
+              Leverage the power of artificial intelligence to capture, analyze,
+              and optimize every customer interaction.
+            </p>
+            <p>
+              Turn more leads into revenue and grow faster — all for just $0.50
+              per number, the most affordable rate in the industry.
+            </p>
+          </div>
+          <div className="mt-12 flex flex-col justify-center gap-x-6 gap-y-4 sm:flex-row">
             <Button href="#">Sign up free</Button>
             <Button variant="secondary" href="#">
               Watch a demo
