@@ -29,10 +29,10 @@ export default function WhoShould() {
   return (
     <section className="bg-white py-20">
       <div className="mx-auto max-w-6xl px-4 text-center">
-        <h2 className="mb-4 text-4xl font-extrabold text-gray-900">
+        <h2 className="mb-4 text-4xl font-extrabold">
           Who Is CallGauge AI For?
         </h2>
-        <p className="mx-auto mb-16 max-w-2xl text-gray-600">
+        <p className="mx-auto mb-16 max-w-2xl">
           Built for businesses that rely on calls—and want smarter, AI-powered
           ways to track and grow.
         </p>
@@ -58,7 +58,7 @@ export default function WhoShould() {
               <h3 className="mb-2 text-lg font-semibold text-gray-800">
                 {item.title}
               </h3>
-              <p className="text-sm text-gray-600">{item.description}</p>
+              <p className="text-sm">{item.description}</p>
             </div>
           ))}
         </div>
