@@ -7,7 +7,7 @@ export const TrackMoreNumbers = () => {
           {/* Left Content */}
           <div className="z-10 max-w-2xl">
             <h1 className="mb-6 text-4xl leading-tight font-bold">
-              Track 7x More Numbers—Stay Within Budget
+              Track 6x More Numbers—Stay Within Budget
             </h1>
             <p className="mb-8 text-lg font-medium">
               <strong>CallGauge AI</strong> redefines call tracking by offering

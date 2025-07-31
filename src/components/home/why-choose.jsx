@@ -1,21 +1,19 @@
-import { Info, LogOut, Plus } from 'lucide-react'
-
 export default function WhyChoose() {
   const features = [
     {
-      icon: <LogOut className="h-8 w-8 text-blue-500" />,
+      // icon: <LogOut className="h-8 w-8 text-blue-500" />,
       title: '💸 Unbeatable Pricing',
       description:
         'Track numbers for just $0.50 each—while others charge up to $3.00.',
     },
     {
-      icon: <Info className="h-8 w-8 text-blue-500" />,
+      // icon: <Info className="h-8 w-8 text-blue-500" />,
       title: '⚡ Effortless Setup',
       description:
         'Start tracking calls in minutes with AI-powered automation.',
     },
     {
-      icon: <Plus className="h-8 w-8 text-blue-500" />,
+      // icon: <Plus className="h-8 w-8 text-blue-500" />,
       title: '👥 Client Access & Billing',
       description:
         'Give clients their own dashboards and bill per qualified call.',
