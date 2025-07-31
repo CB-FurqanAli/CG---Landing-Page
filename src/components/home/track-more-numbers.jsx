@@ -7,12 +7,16 @@ export const TrackMoreNumbers = () => {
           {/* Left Content */}
           <div className="z-10 max-w-2xl">
             <h1 className="mb-6 text-4xl leading-tight font-bold">
-              Track 7x more numbers without escalating your budget
+              Track 7x More Numbers—Stay Within Budget
             </h1>
             <p className="mb-8 text-lg font-medium">
-              Call Gauge pro is designed to transform the Call tracking industry
-              with the matchless prices, allowing you to monitor more campaigns,
-              websites and clients – without limitations!
+              <strong>CallGauge AI</strong> redefines call tracking by offering
+              industry-low pricing that lets you scale without limits. Monitor
+              more campaigns, support more clients, and cover more
+              websites—without stretching your budget.
+              <br />
+              Experience call tracking freedom with no hidden fees, no caps, and
+              just <strong> $0.50 per number</strong>.
             </p>
 
             <div className="mt-12 flex flex-col gap-x-6 gap-y-4 sm:flex-row">

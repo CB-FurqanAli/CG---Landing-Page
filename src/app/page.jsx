@@ -83,7 +83,7 @@ function FeatureSection() {
   return (
     <div className="overflow-hidden">
       <Container className="pb-16">
-        <Heading as="h2" className="max-w-3xl">
+        <Heading as="h2" className="mx-auto max-w-3xl">
           All-in-One AI Call Tracking Suite
         </Heading>
         <h3 className="mt-12 text-center text-lg font-medium">
