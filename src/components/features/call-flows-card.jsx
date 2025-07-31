@@ -7,12 +7,11 @@ export default function CallFlowsCard() {
           <div className="space-y-8">
             <div className="space-y-6">
               <h2 className="text-3xl leading-tight font-bold sm:text-4xl">
-                Call flows
+                Call Flows
               </h2>
               <p className="max-w-xl text-base leading-relaxed sm:text-lg">
-                Decide the steps which you want your calls to flow with.
-                Greetings, call forwarding, multi-ringing, round robin & so much
-                more!
+                Control how every call is handled—add greetings, forward to
+                teams, use round-robin or multi-ring logic, and more.
               </p>
               <a
                 href={'features/call-flows'}

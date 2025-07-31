@@ -23,7 +23,7 @@ function HeroSection() {
       <Container>
         <div className="text-center">
           <Heading as="h1" className="text-4xl md:text-5xl">
-            ⚙️ CallGauge AI – Core Features
+            CallGauge AI – Core Features
           </Heading>
           <Lead className="mx-auto mt-6 max-w-3xl text-lg">
             Built with AI at its core, CallGauge AI helps you track, analyze,
@@ -96,20 +96,21 @@ function AutoMations() {
   return (
     <div className="mx-auto mb-30 grid max-w-7xl grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
       <FeatureCards
-        title="Zapier Integration"
-        description="Send automated SMS messages or emails when calls got completed. Or step ahead by Zapier."
-        icon="https://cdn.prod.website-files.com/5d82e225060d003d65ddae98/6799aa8fb9830683d5eb4f37_horizontal-bar-chart.svg"
-        link="features/zapier-integration"
-      />
-      <FeatureCards
-        title="Call recording"
-        description="Easily record every call, replay them anytime you want to and even download mp3 files for easy sharing!"
+        title="🔊 Call Recording"
+        description="Automatically record every call, replay anytime, and download MP3 files for sharing."
         icon="https://cdn.prod.website-files.com/5d82e225060d003d65ddae98/6799aa8fd2f07ac6bafd28e0_dollar-hand-holding.svg"
         link="features/call-recording"
       />
       <FeatureCards
-        title="Call whisper"
-        description="Get valuable context of the caller even before the conversation begins!"
+        title="⚡ Zapier Integration"
+        description="Connect CallGauge AI to 5,000+ apps and trigger automated workflows instantly."
+        icon="https://cdn.prod.website-files.com/5d82e225060d003d65ddae98/6799aa8fb9830683d5eb4f37_horizontal-bar-chart.svg"
+        link="features/zapier-integration"
+      />
+
+      <FeatureCards
+        title="📣 Call Whisper"
+        description="Hear caller details before the conversation starts for better context."
         icon="https://cdn.prod.website-files.com/5d82e225060d003d65ddae98/6799aa8fc3aab2b7fdbae39d_money-trend-up.svg"
         link="features/call-whispering"
       />
