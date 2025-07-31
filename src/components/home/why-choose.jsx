@@ -4,21 +4,21 @@ export default function WhyChoose() {
   const features = [
     {
       icon: <LogOut className="h-8 w-8 text-blue-500" />,
-      title: 'Unbeatable Prices.',
+      title: '💸 Unbeatable Pricing',
       description:
-        'Pay $0.4 per phone number where our competitors are offering it at $3.00.',
+        'Track numbers for just $0.50 each—while others charge up to $3.00.',
     },
     {
       icon: <Info className="h-8 w-8 text-blue-500" />,
-      title: 'Effortless Tracking.',
+      title: '⚡ Effortless Setup',
       description:
-        'Start tracking countless phone numbers only in a few minutes.',
+        'Start tracking calls in minutes with AI-powered automation.',
     },
     {
       icon: <Plus className="h-8 w-8 text-blue-500" />,
-      title: 'Build your clientele.',
+      title: '👥 Client Access & Billing',
       description:
-        'Offers you to empower your clients with their own login and charge them on pay-per call basis.',
+        'Give clients their own dashboards and bill per qualified call.',
     },
   ]
 
@@ -26,7 +26,7 @@ export default function WhyChoose() {
     <section className="bg-linear-115 from-[#fff1be] from-28% via-[#ee87cb] via-70% to-[#b060ff] p-12 sm:bg-linear-145">
       <div className="mb-12 text-center">
         <h2 className="text-3xl font-bold sm:text-4xl">
-          Why choose Call Gauge Pro?
+          Why Choose CallGauge AI?
         </h2>
       </div>
       <div className="mx-auto grid max-w-6xl grid-cols-1 gap-8 px-4 sm:px-6 md:grid-cols-3 lg:px-8">
