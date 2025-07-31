@@ -23,12 +23,11 @@ function HeroSection() {
       <Container>
         <div className="text-center">
           <Heading as="h1" className="text-4xl md:text-5xl">
-            Powerful Call Tracking, Simplified~
+            ⚙️ CallGauge AI – Core Features
           </Heading>
           <Lead className="mx-auto mt-6 max-w-3xl text-lg">
-            CallGauge delivers enterprise-grade call tracking features at a
-            fraction of the cost of competitors like CallRail. Streamline your
-            workflow, gain deeper insights, and boost ROI—all in one platform.
+            Built with AI at its core, CallGauge AI helps you track, analyze,
+            and automate every call-driven interaction with ease.
           </Lead>
           <div className="mt-10 flex justify-center gap-4">
             <button className="flex items-center gap-2 rounded-xl border border-[#F0B100] bg-yellow-400 px-6 py-3 text-lg font-semibold text-black transition-colors duration-200 hover:bg-yellow-500">
