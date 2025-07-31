@@ -1,18 +1,26 @@
 const steps = [
   {
-    title: 'High volume businesses',
+    title: '🔁 High-Volume Businesses',
+    description:
+      'Track thousands of calls efficiently with intelligent automation.',
     img: 'https://www.salestrail.io/hubfs/step-1.png',
   },
   {
-    title: 'Lead generation companies',
+    title: '🎯 Lead Generation Teams',
+    description:
+      'Optimize every lead with AI-powered call scoring and attribution.',
     img: 'https://www.salestrail.io/hubfs/step-2.png',
   },
   {
-    title: 'Marketing & SEO agencies',
+    title: '📈 Marketing & SEO Agencies',
+    description:
+      'Offer clients smart tracking, reporting, and call insights—automated.',
     img: 'https://www.salestrail.io/hubfs/step-3.png',
   },
   {
-    title: 'Local businesses',
+    title: '🏪 Local Service Providers',
+    description:
+      'Capture more calls, reduce missed opportunities, and grow affordably.',
     img: 'https://www.salestrail.io/hubfs/step-4.png',
   },
 ]
@@ -22,7 +30,7 @@ export default function WhoShould() {
     <section className="bg-white py-20">
       <div className="mx-auto max-w-6xl px-4 text-center">
         <h2 className="mb-4 text-4xl font-extrabold text-gray-900">
-          Who Should Use <span className="text-[#DF80D9]">Call Gauge Pro?</span>
+          Who Should Use Call Gauge AI?
         </h2>
         <p className="mx-auto mb-16 max-w-2xl text-gray-600">
           Tailored for ambitious teams and businesses looking to track, analyze,
@@ -50,9 +58,7 @@ export default function WhoShould() {
               <h3 className="mb-2 text-lg font-semibold text-gray-800">
                 {item.title}
               </h3>
-              <p className="text-sm text-gray-600">
-                Perfect for enhancing call tracking and conversion analysis.
-              </p>
+              <p className="text-sm text-gray-600">{item.description}</p>
             </div>
           ))}
         </div>
