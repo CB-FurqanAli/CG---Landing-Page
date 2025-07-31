@@ -84,7 +84,7 @@ function FeatureSection() {
     <div className="overflow-hidden">
       <Container className="pb-16">
         <Heading as="h2" className="max-w-3xl">
-          Offering complete call tracking solution at industry-low pricing.
+          All-in-One AI Call Tracking Suite
         </Heading>
         <Screenshot
           width={1216}
@@ -101,32 +101,35 @@ function FeatureSection() {
 function BentoSection() {
   return (
     <Container>
+      <h3 className="my-8 text-center text-lg font-medium">
+        Smarter, faster, and more affordable than anything else.{' '}
+      </h3>
       <div className="grid gap-4 sm:mt-16 md:grid-cols-2 lg:grid-cols-3">
         <Bullets
-          title="Call operations, handled"
-          bullets="Call whisper & call recording."
-          bullets1="SMS, voicemail and call management."
-          bullets2="AI transcription & summaries."
-          bullets3="All call-related operations streamlined."
+          title="AI Attribution & Call Intelligence "
+          bullets="Instantly identify where your calls come from "
+          bullets1="Use Dynamic Number Insertion (DNI) to connect campaigns to calls "
+          bullets2="AI-powered call transcription and summaries "
+          bullets3="Know which leads convert — and why "
           fade={['bottom']}
           className="bg-[#FDE0C1] max-lg:rounded-tr-4xl"
         />
 
         <Bullets
-          title="Inbound Calls, Attributed"
-          bullets="Identify the source of every phone call."
-          bullets1="Uncover your best leads and amplify results."
-          bullets2="Dynamic number insertion (DNI)"
-          bullets3="Rout and record your phone calls seamlessly."
+          title="Streamlined Call Operations "
+          bullets="Call Whisper, Call Recording, Voicemail, and SMS in one place "
+          bullets1="Automate call routing and follow-ups "
+          bullets2="Manage missed calls with instant alerts "
+          bullets3="Seamless AI transcription for every call "
           fade={['bottom']}
           className="bg-[#DF80D9] max-lg:rounded-t-4xl"
         />
         <Bullets
-          title="Manage Clients, Effortlessly"
-          bullets="Bill your clients, per-call seamlessly."
-          bullets1="Offer real-time access to clients."
-          bullets2="Client invoicing, automated."
-          bullets3="Hassle-free white labeling."
+          title="Effortless Client Management "
+          bullets="Give clients real-time dashboards with white-label access "
+          bullets1="Automate client billing with our Pay-Per-Call model "
+          bullets2="Handle 10x more accounts without extra workload "
+          bullets3="Build trust with branded portals and reporting "
           fade={['bottom']}
           className="bg-[#FBCFC5] max-lg:rounded-tr-4xl"
         />
