@@ -90,7 +90,7 @@ export default function CallFlowIntroduction() {
           </div>
         </div>
 
-        {/*Call forwarding*/}
+        {/* Smart Call Forwarding*/}
         <div className="mt-40">
           <div className="grid grid-cols-1 gap-12 md:grid-cols-2 md:items-center">
             {/* Left: Image */}
@@ -107,58 +107,73 @@ export default function CallFlowIntroduction() {
 
             <div>
               <h2 className="text-3xl font-bold text-[#DF80D9] sm:text-4xl">
-                Call forwarding:
+                🔁 Smart Call Forwarding
               </h2>
               <div className="mt-8 space-y-5 leading-relaxed text-gray-700 sm:text-lg">
                 <p>
-                  Call forwarding is often the most important step of call flow
-                  setup. Call Gauge Pro makes it incredibly simple for you to
-                  incorporate it in you call flow. Call forwarding lets you to
-                  forward the incoming call to any number of your choice, it can
-                  be: your sales team, any other specific department, your
-                  client or any other destination.
+                  Send calls to the right destination in seconds — whether it’s
+                  your sales rep, support desk, or a client’s number. With AI
+                  logic, you control:
                 </p>
-                <p>
-                  You have full control over calls, where you want them to be
-                  forwarded and how long they would ring. By default, calls
-                  would ring for 20 sec before moving to the next step if not
-                  answered, but you can of course customize this delay between
-                  10 to 50 sec.
+
+                <div>
+                  <ul className="list-inside list-disc space-y-2 text-gray-700">
+                    <li>
+                      <strong>Who gets the call</strong>
+                    </li>
+                    <li>
+                      <strong>
+                        How long it rings (customizable 10–50 sec){' '}
+                      </strong>
+                    </li>
+                    <li>
+                      <strong>What happens if no one picks up</strong>
+                    </li>
+                  </ul>
+                </div>
+
+                <p className="text-gray-500">
+                  CallGauge AI ensures your calls never go unanswered or
+                  misrouted.
                 </p>
               </div>
             </div>
           </div>
         </div>
 
-        {/*Voicemail setup*/}
+        {/* AI Voicemail Routing*/}
         <div className="mt-40">
           <div className="grid grid-cols-1 gap-12 md:grid-cols-2 md:items-center">
             {/* Left: Image */}
             <div>
               <h2 className="text-3xl font-bold text-[#DF80D9] sm:text-4xl">
-                Voicemail setup:
+                📩 AI Voicemail Routing
               </h2>
 
               <div className="mt-8 space-y-5 leading-relaxed text-gray-700 sm:text-lg">
                 <p>
-                  With Call Gauge Pro’s built-in voicemail feature, you will
-                  never miss a message. If a call isn’t answered due to any
-                  reason you can route a caller to voicemail setup using either
-                  text-to-speech or a custom audio file (WAV/MP3).
+                  If a call isn’t answered, direct it to a voicemail powered by:
                 </p>
-                <p>
-                  All your voicemails would be saved and easily accessible
-                  within your account. An SMS with the voicemail recording would
-                  be sent to any number of your choice, this could be you, your
-                  client, or any of your team member handling call backs.
+                <div>
+                  <ul className="list-inside list-disc space-y-2 text-gray-700">
+                    <li>
+                      <strong>Text-to-Speech</strong>
+                    </li>
+                    <li>Or your custom audio recording</li>
+                  </ul>
+                </div>
+
+                <p className="text-gray-500">
+                  Voicemails are saved in your dashboard and instantly sent via
+                  SMS to a number you choose (you, a team member, or your
+                  client).
                 </p>
               </div>
 
               <div className="mt-4 space-y-3">
                 <p className="text-lg italic">
-                  <strong className="text-red-600">Note:</strong> You can skip
-                  call forwarding and can direct your callers to voicemails if
-                  that suits you better.
+                  <strong className="text-red-600">Note:</strong> ✔️ Skip
+                  forwarding entirely and go straight to voicemail if preferred.
                 </p>
               </div>
               <div className="mt-8 gap-4 text-center">
@@ -186,7 +201,7 @@ export default function CallFlowIntroduction() {
           </div>
         </div>
 
-        {/*Send Missed Call Texts:*/}
+        {/*Missed Call Texts – Automated*/}
         <div className="mt-40">
           <div className="grid grid-cols-1 gap-12 md:grid-cols-2 md:items-center">
             {/* Left: Image */}
@@ -203,54 +218,60 @@ export default function CallFlowIntroduction() {
             {/* Right: Text Content */}
             <div>
               <h2 className="text-3xl font-bold text-[#DF80D9] sm:text-4xl">
-                Send Missed Call Texts:
+                📲 Missed Call Texts – Automated
               </h2>
               <div className="mt-8 space-y-5 leading-relaxed text-gray-700 sm:text-lg">
                 <p>
-                  If your call is not answered and you have used call forwarding
-                  then Call Gauge Pro will detect it and send automated text to
-                  keep the communication flowing. This is a powerful tool which
-                  lets your to notify your clients, employees and even callers
-                  that they have missed a call. By using this feature you can
-                  inform your caller to adopt an alternative way to contact you
-                  or push them to fill a form.
+                  Don’t let missed calls become missed opportunities. CallGauge
+                  AI automatically sends a <strong>custom SMS</strong> if a
+                  forwarded call isn’t answered.
+                  <br />
+                  <br />
+                  This keeps communication flowing and gives you the chance to:
                 </p>
-                <p>
-                  At the bottom of this module you can see an option “Include
-                  caller number in the text”. This would be useful while sending
-                  the text message to client or employee and not the caller.
+
+                <div>
+                  <ul className="list-inside list-disc space-y-2 text-gray-700">
+                    <li>Notify a lead</li>
+                    <li>Redirect them to a form</li>
+                    <li>Alert your team/client</li>
+                  </ul>
+                </div>
+
+                <p className="text-gray-500">
+                  🔧 Optional setting: “Include caller number in message” for
+                  added context.
                 </p>
               </div>
             </div>
           </div>
         </div>
 
-        {/*Email notifications & automations*/}
+        {/*Email Notifications & Automations*/}
         <div className="mt-40">
           <div className="grid grid-cols-1 gap-12 md:grid-cols-2 md:items-center">
             {/* Left: Image */}
             <div>
               <h2 className="text-3xl font-bold text-[#DF80D9] sm:text-4xl">
-                Email notifications & automations:
+                📧 Email Notifications & Automations
               </h2>
 
               <div className="mt-8 space-y-5 leading-relaxed text-gray-700 sm:text-lg">
                 <p>
-                  Stay well informed with Call Gauge Pro’s another outstanding
-                  feature “Email notifications & automations”. These real-time
-                  reports will email you whenever a qualified customer call will
-                  reach your business call flow.
+                  Stay instantly informed when qualified calls come through.
                 </p>
-                <p>
-                  To get informed only about meaningful interactions, we offer
-                  you to apply filter “Only send email if the call is over X
-                  seconds”. By default it is set to “90 seconds” but it is
-                  flexible to fit your needs. Hence helping you to avoid
-                  robo-calls, spams or unqualified leads.
-                </p>
-                <p>
-                  This email gets sent as soon as the call ends. So keep your
-                  clients, employees, team mates or relevant person informed.
+                <div>
+                  <ul className="list-inside list-disc space-y-2 text-gray-700">
+                    <li>Get real-time email alerts after each call</li>
+                    <li>
+                      Apply filters like “Only send if call duration is greater
+                      than X seconds” (default: 90s)
+                    </li>
+                  </ul>
+                </div>
+                <p className="text-gray-500">
+                  This helps you avoid alerts for spam, bots, or unqualified
+                  leads, keeping your inbox focused and useful.
                 </p>
               </div>
             </div>
@@ -267,7 +288,7 @@ export default function CallFlowIntroduction() {
           </div>
         </div>
 
-        {/*Multi-ringing setup*/}
+        {/*Multi-Ringing*/}
         <div className="mt-40">
           <div className="grid grid-cols-1 gap-12 md:grid-cols-2 md:items-center">
             {/* Left: Image */}
@@ -284,22 +305,23 @@ export default function CallFlowIntroduction() {
             {/* Right: Text Content */}
             <div>
               <h2 className="text-3xl font-bold text-[#DF80D9] sm:text-4xl">
-                Multi-ringing setup:
+                🔔 Multi-Ringing
               </h2>
               <div className="mt-8 space-y-5 leading-relaxed text-gray-700 sm:text-lg">
                 <p>
-                  Lastly Call Gauge Pro offers multi-ringing feature which
-                  enables you to ring multiple phone numbers at the same time
-                  and first one pick up gets the call. This will be helpful in
-                  reducing the customer waiting time and ensures that someone is
-                  always there to answer the call. So, more customers can be
-                  dealt as it would take less time to answer the call.
+                  Speed up response times and reduce dropped calls by ringing up
+                  to <strong>10 numbers simultaneously</strong>
+                  <br />
+                  The first person to answer gets the call — perfect for:
                 </p>
-                <p>
-                  This feature is also best when it comes to lead distribution
-                  among clients in the same vertical. Up to 10 numbers can be
-                  added in this module.
-                </p>
+
+                <div>
+                  <ul className="list-inside list-disc space-y-2 text-gray-700">
+                    <li>Distributed teams</li>
+                    <li>Lead distribution among clients</li>
+                    <li>High-priority inbound calls</li>
+                  </ul>
+                </div>
               </div>
 
               <div className="mt-8 space-y-3">
@@ -324,8 +346,8 @@ export default function CallFlowIntroduction() {
             </div>
           </div>
         </div>
-        {/*Additional features & settings:*/}
 
+        {/*Additional features & settings:*/}
         <div className="mt-40">
           {/*Section Title*/}
           <h2 className="text-center text-3xl font-bold text-[#DF80D9] sm:text-4xl">
