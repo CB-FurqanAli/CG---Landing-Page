@@ -364,78 +364,89 @@ export default function CallFlowIntroduction() {
             {/*Feature 1 */}
             <div className="rounded-2xl bg-[#F39FCA] p-6 text-white shadow-lg">
               <h3 className="mb-2 text-xl font-semibold">
-                🎭 Caller ID customization:
+                🕵 Caller ID Customization
               </h3>
               <p>
-                You can choose Call Gauge Pro number to be displayed instead of
-                caller’s number to the recipient. By doing this agents and
-                clients can save and recognize the number- hence they know
-                before answering about what kind of call is coming through.
+                Show your <strong> CallGauge number </strong> instead of the
+                caller’s — so recipients know it a business call and can
+                prioritize it accordingly.
               </p>
             </div>
 
             {/*Feature 2 */}
             <div className="rounded-2xl bg-[#B564FB] p-6 text-white shadow-lg">
               <h3 className="mb-2 text-xl font-semibold">
-                ✅ Press 1 to connect:
+                ✅ “Press 1 to Connect” Anti-Spam Filter
               </h3>
               <p>
-                Get rid of spam and robo-calls by our last feature of “Press 1
-                to connect”. When you enable this feature, the callers must
-                press 1 to get the call connected. But we recommend using this
-                feature only when you are experiencing too many spam calls.
+                Block bots and robocalls by enabling a confirmation prompt.
+                Great for businesses receiving high volumes of spam traffic.
               </p>
             </div>
 
             {/*Feature 3 */}
             <div className="rounded-2xl bg-[#EF8BCB] p-6 text-white shadow-lg">
               <h3 className="mb-2 text-xl font-semibold">
-                🔒 Call recording and Pre-call whisper:
+                🔒 Call Recording + Pre-Call Whisper
               </h3>
-              <p>
-                With this you can automatically record calls, which later on can
-                be used to monitor quality, train agents and improve first-call
-                resolution. Furthermore pre-call whisper message can be
-                activated to give your team quick context before answering the
-                phone call.
-              </p>
+              <div>
+                <ul className="list-inside list-disc space-y-2">
+                  <li>
+                    Record calls automatically for training, quality control,
+                    and compliance.
+                  </li>
+                  <li>
+                    Add a pre-call whisper so agents get brief context before
+                    picking up.
+                  </li>
+                </ul>
+              </div>
             </div>
 
             {/*Feature 4 */}
             <div className="col-start-2 rounded-2xl bg-[#F0B100] p-6 text-white shadow-lg">
-              <h3 className="mb-2 text-xl font-semibold">📩 SMS forwarding:</h3>
+              <h3 className="mb-2 text-xl font-semibold">📲 SMS Forwarding</h3>
               <p>
-                You can forward SMS to any other number by just one click, so
-                you never miss a message.
+                Never miss a message. Instantly forward received texts to
+                another number with just one toggle.
               </p>
             </div>
           </div>
-          <p className="mx-auto my-12 max-w-3xl text-center text-lg leading-relaxed text-gray-700">
-            All these features are available on call flow settings page and can
-            be toggled ON/OFF easily, giving you a flexible control over your
-            calls.
-          </p>
+          <div className="mx-auto mt-32 mb-12 max-w-3xl text-center text-lg leading-relaxed text-gray-700">
+            <h2 className="text-center text-3xl font-bold sm:text-4xl">
+              🔧 Total Flexibility at Your Fingertips
+            </h2>
+            <div className="mx-auto mt-10 max-w-4xl text-center text-lg leading-relaxed text-gray-600">
+              <p className="my-2">
+                Every feature can be toggled ON or OFF in your call flow
+                settings. Build flows that match your exact business needs — and
+                change them anytime.
+              </p>
+              <p className="mt-4">
+                Whether your running a{' '}
+                <strong> lead gen agency, client services firm</strong>, or
+                <strong>inbound contact center</strong>, CallGauge AI helps you
+                optimize every step of your communication funnel.
+              </p>
+            </div>
+          </div>
         </div>
 
         {/*Want to setup a call flow for your business?*/}
         <div className="mt-40">
           <h2 className="text-center text-3xl font-bold sm:text-4xl">
-            Want to setup a call flow for your business?
+            Ready to Build Smarter Call Flows?
           </h2>
           <div className="mx-auto mt-10 max-w-4xl text-center text-lg leading-relaxed text-gray-600">
             <p className="my-2">
-              By using Call Gauge Pro, you can get a phone number in just a few
-              clicks and can get started with our above mentioned features to
-              experience full control over your call flows. You can add more
-              numbers and call flows according to your needs.
+              With <strong> CallGauge AI </strong>, you can launch your first
+              smart call flow in just a few clicks.
             </p>
             <p className="mt-4">
-              Whether you are lead generation expert looking to route and
-              maximize call volume or a contact center aiming to streamline
-              inbound calls, our call flow makes its super easy for you.
+              Add as many numbers or flows as needed — and manage everything
+              from one intelligent dashboard.
             </p>
           </div>
-
           <div className="mx-auto max-w-4xl text-center">
             <div className="mt-8 space-y-3">
               <p className="text-lg text-blue-600 italic">
