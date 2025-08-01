@@ -14,56 +14,58 @@ export default function CallFlowIntroduction() {
             </h2>
             <div className="mx-auto mt-10 max-w-4xl text-center text-lg leading-relaxed text-gray-600">
               <p className="my-2">
-                Call flow is a process which involves many steps and directs how
-                inbound phone calls would be handled in your business. Call
-                Gauge Pro lets you set up your call flow in a way you want it to
-                be. There are several options that you can choose like,
-                customized greetings, call forwarding, voicemails,
-                multi-ringing, missed call notifications, call recording, etc.
+                A <strong>call flow </strong> is the blueprint for how incoming
+                calls are managed within your business — from the first greeting
+                to the final action. With <strong> CallGauge AI </strong>, you
+                don’t just build a call flow — you{' '}
+                <strong> orchestrate an intelligent call experience </strong>{' '}
+                that adapts to your business goals and enhances every customer
+                interaction.
               </p>
               <p className="mt-4">
-                Call flow automation can help small businesses route inbound
-                phone calls, missed calls management and creating a better
-                customer experience. Because of this you can easily manage
-                leads, track call activity and send automated texts and email
-                notifications when a call is missed.
-              </p>
-              <p className="mt-4">
-                With Call Gauge Pro’s visual call flow builder, you can
-                customize each step easily. Your inbound phone call will follow
-                those steps which you will choose. Mostly our users use 2-5
-                steps to manage their phone calls in an efficient manner.{' '}
+                Whether you want to greet callers, forward calls, send
+                follow-ups, or handle missed calls — our intuitive{' '}
+                <strong> visual call flow builder </strong> makes it all fast,
+                flexible, and fully AI-powered.
               </p>
             </div>
           </div>
         </div>
 
-        {/*Customized greetings*/}
+        {/*Customized Greetings*/}
         <div className="mt-40">
           <div className="mb-16 text-center text-3xl font-bold sm:text-4xl">
-            The following are the features which we are currently offering in
-            our call flow setup.
+            AI-Enhanced Features of CallGauge Call Flows
           </div>
 
           <div className="grid grid-cols-1 gap-12 md:grid-cols-2 md:items-center">
             {/* Left: Image */}
             <div>
-              <h2 className="text-3xl font-bold text-[#DF80D9] sm:text-4xl">
-                Customized greetings:
-              </h2>
+              <div className="item-center flex text-3xl font-bold sm:text-4xl">
+                <h2>🎙</h2>
+                <h2 className="text-[#DF80D9]">Customized Greetings</h2>
+              </div>
 
               <div className="mt-8 space-y-5 leading-relaxed text-gray-700 sm:text-lg">
                 <p>
-                  Take a professional start by adding a customized greetings
-                  which will be played before a call is connected. There are two
-                  options i.e. text to speech or upload your own audio file
-                  (WAV/ MP3).
+                  Make every call feel professional from the start. Add a
+                  tailored greeting using either:
                 </p>
-                <p>
-                  This feature is perfect when you want to let your customers
-                  know that call is going to be recorded or while sharing a
-                  quick announcement. So, a brief message would be played before
-                  the call gets connected.
+
+                <div>
+                  <ul className="list-inside list-disc space-y-2 text-gray-700">
+                    <li>
+                      <strong>AI Text-to-Speech</strong>
+                    </li>
+                    <li>
+                      Or upload your own <strong> WAV/MP3 audio file </strong>
+                    </li>
+                  </ul>
+                </div>
+
+                <p className="text-gray-500">
+                  Perfect for compliance messages, branding, or quick
+                  announcements before the call connects.
                 </p>
               </div>
               <div className="mt-8 space-y-3">

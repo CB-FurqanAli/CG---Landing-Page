@@ -18,15 +18,16 @@ function HeroSection() {
       <Container>
         <div className="text-center">
           <Heading as="h1" className="text-4xl text-gray-900 md:text-5xl">
-            Advanced Call Flows
+            Advanced Call Flows – Powered by Smart Automation
           </Heading>
           <h2 className="mt-8 text-xl font-medium md:text-2xl">
-            A feature, made simpler for you
+            Simplify how your business handles calls — with the intelligence of
+            CallGauge AI
           </h2>
           <Lead className="mx-auto mt-6 max-w-3xl text-lg text-gray-600">
-            Want to automate and streamline your business’s call flow? Call
-            Gauge Pro provides all the tools you need to create a smooth,
-            efficient and hassle free setup.
+            From routing and voicemails to automated texts and analytics, create
+            seamless call journeys that boost responsiveness, lead conversion,
+            and customer satisfaction.
           </Lead>
           <div className="mt-10 gap-4">
             <a
