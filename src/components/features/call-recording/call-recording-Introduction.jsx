@@ -15,17 +15,31 @@ export default function CallRecordingIntroduction() {
           <div className="grid grid-cols-1 gap-12 md:grid-cols-2 md:items-center">
             {/* Left: Image */}
             <div>
-              <h2 className="text-3xl font-bold text-[#DF80D9] sm:text-4xl">
-                Call recording made easier
+              <h2 className="text-3xl font-bold text-gray-800 sm:text-4xl">
+                CAI-Enhanced Call Recording, Made Simpler
               </h2>
 
-              <div className="mt-8 space-y-5 leading-relaxed text-gray-700 sm:text-lg">
+              <div className="mt-8 space-y-5 leading-relaxed text-gray-600 sm:text-lg">
                 <p>
-                  If you are in search of a call tracking software to create a
-                  call recording setup for your business, you have reached your
-                  destination. Call Gauge AI makes it extremely simple for you
-                  to capture every conversation on autopilot with no complicated
-                  setup and no tech worries.
+                  Searching for a{' '}
+                  <strong> smart call tracking platform </strong> to record your
+                  everyday business calls effortlessly? You’ve reached your
+                  destination!
+                  <br />
+                  <br />
+                  <strong> CallGauge AI </strong> automates the entire call
+                  recording process by intelligently capturing every interaction
+                  without the need of manual intervention.
+                  <br />
+                  <br />
+                  Our <strong> AI-enhanced call recording feature </strong>{' '}
+                  ensures clarity, compliance and accessibility so you can{' '}
+                  <strong>
+                    {' '}
+                    focus on important conversations while we take care of the
+                    tech{' '}
+                  </strong>
+                  .
                 </p>
                 <p>
                   Let&#39;s walk you through how call recording setup works:

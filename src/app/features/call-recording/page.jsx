@@ -18,13 +18,20 @@ function HeroSection() {
       <Container>
         <div className="text-center">
           <Heading as="h1" className="text-4xl text-gray-900 md:text-5xl">
-            Call Recording
+            Call Recording Enhanced by AI Precision
           </Heading>
+          <h2 className="my-3 text-xl font-semibold">
+            Effortless, Reliable and Compliant Call Recording Feature for Every
+            Business Size.
+          </h2>
           <Lead className="mx-auto mt-6 max-w-3xl text-lg text-gray-600">
-            Want to set up call recording for your business?
-            <strong> Call Gauge AI </strong> is the solution to all your worries
-            regarding call recording whether you are a sole operator or managing
-            a big enterprise.
+            Whether you&#39;re a sole operator or running a large-scale
+            enterprise,
+            <strong> CallGauge AI’s </strong> simplified call recording feature
+            with <strong> AI-driven automation, </strong> ensures that you never
+            miss a valuable conversation. There are no technical headaches or
+            complex setups. Seamless and high-quality recordings just at your
+            fingertips.
           </Lead>
           <div className="mt-10 gap-4">
             <a
