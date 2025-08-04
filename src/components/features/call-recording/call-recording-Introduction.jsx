@@ -41,9 +41,6 @@ export default function CallRecordingIntroduction() {
                   </strong>
                   .
                 </p>
-                <p>
-                  Let&#39;s walk you through how call recording setup works:
-                </p>
               </div>
               <div className="mt-8 space-y-3">
                 <p className="text-lg text-blue-600 italic">
@@ -54,7 +51,6 @@ export default function CallRecordingIntroduction() {
                 </p>
               </div>
             </div>
-
             {/* Right: Text Content */}
             <div className="w-full">
               <img
@@ -68,16 +64,23 @@ export default function CallRecordingIntroduction() {
         </div>
 
         {/*Step 1: Sign Up:*/}
-        <div className="mt-40">
+        <div className="mt-28">
+          <div className="mb-16 text-center text-xl font-semibold sm:text-2xl">
+            Let&#39;s walk you through how call recording setup works:
+          </div>
+
           <h2 className="text-center text-3xl font-bold text-[#DF80D9] sm:text-4xl">
-            Step 1: Sign Up:
+            Step 1: Quick & Easy Sign Up:
           </h2>
           <p className="mx-auto my-8 max-w-3xl text-center text-lg leading-relaxed text-gray-700">
             First of all you have to create a Call Gauge AI account which will
-            take only about a few seconds. You will get your first business
-            phone number free so you can start working. From the point when you
-            are set up, Call Gauge AI will start its work by recording every
-            conversation automatically leaving you with no worries.
+            take only about a few seconds. We’ll provide you with a free
+            business phone number so you can get started instantly.
+            <br />
+            From the moment when you are set up, our{' '}
+            <strong> AI enriched system </strong> will start its work by
+            recording every conversation automatically leaving you with no
+            worries.
           </p>
 
           <h2 className="text-center text-xl font-semibold sm:text-2xl">
@@ -86,7 +89,7 @@ export default function CallRecordingIntroduction() {
           <div className="mt-8 grid grid-cols-1 gap-6 text-white sm:grid-cols-2 md:grid-cols-3">
             <ul className="flex list-disc items-center rounded-2xl bg-[#F0B100] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
               <li className="text-left">
-                Listen the recordings right after the call ends.{' '}
+                Listen the recordings right after the call ends.
               </li>
             </ul>
 
@@ -96,7 +99,7 @@ export default function CallRecordingIntroduction() {
             <ul className="flex list-disc items-center rounded-2xl bg-[#F0B100] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
               <li className="text-left">
                 Share the calls with anyone you want like clients, employees and
-                teammates.{' '}
+                teammates.
               </li>
             </ul>
           </div>
@@ -105,48 +108,157 @@ export default function CallRecordingIntroduction() {
         {/*Step 2: Get a Phone number and Build your call flow:*/}
         <div className="mt-40">
           <h2 className="text-center text-3xl font-bold text-[#DF80D9] sm:text-4xl">
-            Step 2: Get a Phone number and Build your call flow:
+            Step 2: Get a Business Number & Design Your Call Flow
           </h2>
-          <p className="mx-auto my-8 max-w-3xl text-center text-lg leading-relaxed text-gray-700">
-            Once you have signed in, pick your phone number of your choice or
-            you can simply port your number in. We offer you first business
-            phone number free. Next you are required to create a call flow, a
-            way which your clients’ call will follow. This is adventurous as you
-            can choose all the steps of call flow according to your needs.
+          <p className="mx-auto my-8 max-w-3xl text-center text-lg leading-relaxed text-gray-600">
+            Once you signed in, choose a new phone number or{' '}
+            <strong> port in your existing number</strong>—your first number is
+            always free.
+            <br />
+            Now, design your <strong> customized AI-powered call flow</strong>:
           </p>
           {/*1st*/}
-          <h2 className="text-center text-xl font-semibold sm:text-2xl">
-            If you want it to be simple then:
-          </h2>
-          <div className="mt-8 grid grid-cols-1 gap-6 text-white sm:grid-cols-2 md:grid-cols-3">
-            <ul className="list-disc rounded-2xl bg-[#EF8BCB] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
-              <li className="text-left">Forward the call.</li>
-            </ul>
+          <div>
+            <h2 className="mt-12 text-center text-xl font-semibold sm:text-2xl">
+              Simple Flow:
+            </h2>
+            <div className="mx-auto mt-12 flex max-w-3xl items-center justify-center gap-4 rounded-full bg-gradient-to-r from-blue-50 to-purple-100 py-8">
+              <div className="flex items-center gap-2 rounded-full bg-white px-6 py-3 shadow-md">
+                <span className="font-semibold text-blue-600">
+                  Forward Call
+                </span>
+              </div>
 
-            <ul className="flex list-disc items-center rounded-2xl bg-[#EF8BCB] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
-              <li className="text-left">Record the audio.</li>
-            </ul>
-            <ul className="flex list-disc items-center rounded-2xl bg-[#EF8BCB] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
-              <li className="text-left">Finished.</li>
-            </ul>
+              <div className="text-2xl text-gray-500">➜</div>
+
+              <div className="flex items-center gap-2 rounded-full bg-white px-6 py-3 shadow-md">
+                <span className="font-semibold text-purple-600">Record</span>
+              </div>
+
+              <div className="text-2xl text-gray-500">➜</div>
+
+              <div className="flex items-center gap-2 rounded-full bg-white px-6 py-3 shadow-md">
+                <span className="font-semibold text-green-600">Done</span>
+              </div>
+            </div>
           </div>
           {/*2nd */}
           <div>
             <h2 className="mt-12 text-center text-xl font-semibold sm:text-2xl">
-              If you are in a mood to do it in a fancy way then:
+              Advanced Flow with AI Automation:
+            </h2>
+            <div className="mx-auto mt-8 flex max-w-4xl flex-wrap items-center justify-center gap-4 rounded-full bg-gradient-to-r from-blue-50 to-purple-100 py-8">
+              <div className="flex items-center gap-2 rounded-full bg-white px-6 py-3 shadow-md">
+                <span className="text-sm font-semibold text-blue-600 sm:text-base">
+                  AI Voice Greeting
+                </span>
+              </div>
+
+              <div className="text-2xl text-gray-500">➜</div>
+
+              <div className="flex items-center gap-2 rounded-full bg-white px-6 py-3 shadow-md">
+                <span className="text-sm font-semibold text-indigo-600 sm:text-base">
+                  Smart Routing
+                </span>
+              </div>
+
+              <div className="text-2xl text-gray-500">➜</div>
+
+              <div className="flex items-center gap-2 rounded-full bg-white px-6 py-3 shadow-md">
+                <span className="text-sm font-semibold text-purple-600 sm:text-base">
+                  Voicemail Settings
+                </span>
+              </div>
+
+              <div className="text-2xl text-gray-500">➜</div>
+
+              <div className="flex items-center gap-2 rounded-full bg-white px-6 py-3 shadow-md">
+                <span className="text-sm font-semibold text-green-600 sm:text-base">
+                  SMS After Call
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <h2 className="mt-12 text-center text-xl font-semibold sm:text-2xl">
+              Advanced Flow with AI Automation:
             </h2>
             <div className="mt-8 grid grid-cols-1 gap-6 text-white sm:grid-cols-2 md:grid-cols-3">
               <ul className="list-disc rounded-2xl bg-[#B564FB] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
-                <li className="text-left">Add custom greetings.</li>
-                <li className="text-left">Add voicemail settings.</li>
+                <li className="text-left">
+                  Add personalized greetings with AI voice synthesis.
+                </li>
+                <li className="text-left">
+                  Enable smart call routing & forwarding.
+                </li>
               </ul>
 
               <ul className="flex list-disc items-center rounded-2xl bg-[#B564FB] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
-                <li className="text-left">Set call forwarding.</li>
+                <li className="text-left">Configure voicemail settings.</li>
               </ul>
               <ul className="flex list-disc items-center rounded-2xl bg-[#B564FB] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
-                <li className="text-left">Trigger SMS notifications</li>
+                <li className="text-left">
+                  Trigger automated SMS alerts after the call is ended.
+                </li>
               </ul>
+            </div>
+
+            <p className="mx-auto mt-8 max-w-3xl text-center text-lg leading-relaxed text-gray-600">
+              Our AI enhanced call recording feature optimizes these flows in
+              real-time to{' '}
+              <strong>
+                {' '}
+                reduce call drop-offs and hence improve customer experience
+              </strong>
+              .
+            </p>
+          </div>
+        </div>
+
+        {/*Step 3: Enable Call Recording*/}
+        <div className="mt-40">
+          <div className="mx-auto max-w-7xl px-6">
+            <div className="my-16 text-center">
+              <h2 className="text-4xl font-bold text-gray-900">
+                Step 3: Enable Call Recording
+              </h2>
+              <p className="mx-auto mt-8 max-w-3xl text-center text-lg leading-relaxed text-gray-600">
+                The last step is to turn on the call recording feature and by
+                clicking just a single checkbox, you can enable call recording
+                for all inbound and outbound calls.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 gap-10 text-white md:grid-cols-2">
+              <div className="rounded-2xl bg-[#EF8BCB] p-6 shadow-md transition hover:shadow-lg">
+                <div className="mb-4 flex items-center">
+                  <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#F15E16] text-xl font-bold text-white">
+                    P
+                  </div>
+                  <h3 className="ml-4 text-xl font-semibold">Pro Tip:</h3>
+                </div>
+                <p>
+                  Add an AI-generated pre-call notification to inform your
+                  callers about the fact that the conversation is being
+                  recorded.
+                </p>
+              </div>
+
+              <div className="rounded-2xl bg-[#F0B100] p-6 shadow-md transition hover:shadow-lg">
+                <div className="mb-4 flex items-center">
+                  <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#F15E16] text-xl font-bold">
+                    C
+                  </div>
+                  <h3 className="ml-4 text-xl font-semibold">
+                    CallGauge AI&#39;s compliance assistant:
+                  </h3>
+                </div>
+                <p>
+                  helps ensure you meet local recording laws by providing
+                  region-based consent suggestions.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -167,62 +279,47 @@ export default function CallRecordingIntroduction() {
           </Container>
         </div>
 
-        {/*Step 3: Turn on Call Recording:*/}
-        <div className="mt-32">
-          <div className="mb-12">
-            <h2 className="text-center text-3xl font-bold text-[#DF80D9] sm:text-4xl">
-              Step 3: Turn on Call Recording:
-            </h2>
-            <p className="mx-auto my-8 max-w-3xl text-center text-lg leading-relaxed text-gray-700">
-              Last step is to turn on the call recording by clicking the check
-              box. It would be better if you write a message to let your caller
-              know about the fact that call would be recorded. This depends upon
-              the laws where you are operating, if it’s mandatory to let the
-              caller know then you have to.
-            </p>
+        {/*AI-Enhanced Call Recording: Always On, Always Accessible*/}
+
+        <div>
+          <h2 className="mt-16 text-center text-4xl font-bold">
+            AI-Enhanced Call Recording: Always On, Always Accessible
+          </h2>
+
+          <p className="mx-auto mt-8 max-w-3xl text-center text-lg leading-relaxed text-gray-600">
+            Congratulations! Your <strong> AI-enhanced Call Recording </strong>{' '}
+            is now ready to use. Every call will be automatically recorded,
+            securely stored and easily accessible from your{' '}
+            <strong> Call Logs</strong>.
+          </p>
+
+          <div className="mt-8 grid grid-cols-1 gap-6 text-white sm:grid-cols-2 md:grid-cols-3">
+            <ul className="list-disc rounded-2xl bg-[#B564FB] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
+              <li className="text-left">
+                Search through recordings by keywords or caller ID (thanks to AI
+                transcription indexing).
+              </li>
+            </ul>
+
+            <ul className="flex list-disc items-center rounded-2xl bg-[#B564FB] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
+              <li className="text-left">
+                Download, share, or review recordings anytime, anywhere.
+              </li>
+            </ul>
+            <ul className="flex list-disc items-center rounded-2xl bg-[#B564FB] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
+              <li className="text-left">No storage limits. No hidden fees.</li>
+            </ul>
           </div>
 
-          <div className="grid grid-cols-1 gap-12 md:grid-cols-2 md:items-center">
-            {/* Left: Image */}
-            <div className="w-full">
-              <img
-                src="https://cdn.prod.website-files.com/5d82e225060d003d65ddae98/679a8b95e178179bada0d823_call-tracking-fs_3.webp"
-                loading="lazy"
-                alt="Activate call analytics data in your martech tools with Invoca integrations"
-                className="feature-set_image"
-              />
-            </div>
-
-            {/* Right: Text Content */}
-
-            <div>
-              <div className="mt-8 space-y-5 leading-relaxed text-gray-700 sm:text-lg">
-                <p>
-                  You have successfully integrated “Call recording” feature in
-                  your call flow. Call Gauge AI will now record the calls and
-                  you can listen, download and share these with whoever you want
-                  to.
-                </p>
-                <p>
-                  Ready to try this feature out? Click on the button given below
-                  to sign up for a 7 day’s free trial and see it yourself how it
-                  works.
-                </p>
-              </div>
-
-              <div className="mt-8 gap-4 text-center">
-                <a
-                  href={'#'}
-                  className="text-md inline-flex items-center rounded-xl border border-[#DE85DB] bg-gradient-to-r from-[#FBCCC5] to-[#B767F4] px-6 py-2 font-semibold transition-colors duration-200 hover:bg-gradient-to-r hover:from-[#F9C1C7] hover:to-[#DB7EDD]"
-                >
-                  Start a 7 day trial
-                </a>
-                <p className="mt-2 font-semibold text-red-600">
-                  Risk free for 14 days.
-                </p>
-              </div>
-            </div>
-          </div>
+          <p className="mx-auto mt-8 max-w-3xl text-center text-lg leading-relaxed text-gray-600">
+            Our AI enhanced call recording feature optimizes these flows in
+            real-time to{' '}
+            <strong>
+              {' '}
+              reduce call drop-offs and hence improve customer experience
+            </strong>
+            .
+          </p>
         </div>
       </div>
 
