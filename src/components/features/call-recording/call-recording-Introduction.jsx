@@ -16,7 +16,7 @@ export default function CallRecordingIntroduction() {
             {/* Left: Image */}
             <div>
               <h2 className="text-3xl font-bold text-gray-800 sm:text-4xl">
-                CAI-Enhanced Call Recording, Made Simpler
+                AI-Enhanced Call Recording, Made Simpler
               </h2>
 
               <div className="mt-8 space-y-5 leading-relaxed text-gray-600 sm:text-lg">
@@ -143,42 +143,42 @@ export default function CallRecordingIntroduction() {
             </div>
           </div>
           {/*2nd */}
-          <div>
-            <h2 className="mt-12 text-center text-xl font-semibold sm:text-2xl">
-              Advanced Flow with AI Automation:
-            </h2>
-            <div className="mx-auto mt-8 flex max-w-4xl flex-wrap items-center justify-center gap-4 rounded-full bg-gradient-to-r from-blue-50 to-purple-100 py-8">
-              <div className="flex items-center gap-2 rounded-full bg-white px-6 py-3 shadow-md">
-                <span className="text-sm font-semibold text-blue-600 sm:text-base">
-                  AI Voice Greeting
-                </span>
-              </div>
+          {/*<div>*/}
+          {/*  <h2 className="mt-12 text-center text-xl font-semibold sm:text-2xl">*/}
+          {/*    Advanced Flow with AI Automation:*/}
+          {/*  </h2>*/}
+          {/*  <div className="mx-auto mt-8 flex max-w-4xl flex-wrap items-center justify-center gap-4 rounded-full bg-gradient-to-r from-blue-50 to-purple-100 py-8">*/}
+          {/*    <div className="flex items-center gap-2 rounded-full bg-white px-6 py-3 shadow-md">*/}
+          {/*      <span className="text-sm font-semibold text-blue-600 sm:text-base">*/}
+          {/*        AI Voice Greeting*/}
+          {/*      </span>*/}
+          {/*    </div>*/}
 
-              <div className="text-2xl text-gray-500">➜</div>
+          {/*    <div className="text-2xl text-gray-500">➜</div>*/}
 
-              <div className="flex items-center gap-2 rounded-full bg-white px-6 py-3 shadow-md">
-                <span className="text-sm font-semibold text-indigo-600 sm:text-base">
-                  Smart Routing
-                </span>
-              </div>
+          {/*    <div className="flex items-center gap-2 rounded-full bg-white px-6 py-3 shadow-md">*/}
+          {/*      <span className="text-sm font-semibold text-indigo-600 sm:text-base">*/}
+          {/*        Smart Routing*/}
+          {/*      </span>*/}
+          {/*    </div>*/}
 
-              <div className="text-2xl text-gray-500">➜</div>
+          {/*    <div className="text-2xl text-gray-500">➜</div>*/}
 
-              <div className="flex items-center gap-2 rounded-full bg-white px-6 py-3 shadow-md">
-                <span className="text-sm font-semibold text-purple-600 sm:text-base">
-                  Voicemail Settings
-                </span>
-              </div>
+          {/*    <div className="flex items-center gap-2 rounded-full bg-white px-6 py-3 shadow-md">*/}
+          {/*      <span className="text-sm font-semibold text-purple-600 sm:text-base">*/}
+          {/*        Voicemail Settings*/}
+          {/*      </span>*/}
+          {/*    </div>*/}
 
-              <div className="text-2xl text-gray-500">➜</div>
+          {/*    <div className="text-2xl text-gray-500">➜</div>*/}
 
-              <div className="flex items-center gap-2 rounded-full bg-white px-6 py-3 shadow-md">
-                <span className="text-sm font-semibold text-green-600 sm:text-base">
-                  SMS After Call
-                </span>
-              </div>
-            </div>
-          </div>
+          {/*    <div className="flex items-center gap-2 rounded-full bg-white px-6 py-3 shadow-md">*/}
+          {/*      <span className="text-sm font-semibold text-green-600 sm:text-base">*/}
+          {/*        SMS After Call*/}
+          {/*      </span>*/}
+          {/*    </div>*/}
+          {/*  </div>*/}
+          {/*</div>*/}
 
           <div>
             <h2 className="mt-12 text-center text-xl font-semibold sm:text-2xl">
@@ -310,16 +310,6 @@ export default function CallRecordingIntroduction() {
               <li className="text-left">No storage limits. No hidden fees.</li>
             </ul>
           </div>
-
-          <p className="mx-auto mt-8 max-w-3xl text-center text-lg leading-relaxed text-gray-600">
-            Our AI enhanced call recording feature optimizes these flows in
-            real-time to{' '}
-            <strong>
-              {' '}
-              reduce call drop-offs and hence improve customer experience
-            </strong>
-            .
-          </p>
         </div>
       </div>
 
