@@ -37,7 +37,7 @@ function HeroSection() {
             </strong>
             .
           </Lead>
-          <h2 className="mt-20 text-2xl font-semibold text-[#B867F9] md:text-3xl">
+          <h2 className="mt-20 text-2xl font-semibold md:text-3xl">
             Try Call Gauge AI today
           </h2>
           <Lead className="mx-auto mt-6 max-w-3xl text-lg text-gray-600">

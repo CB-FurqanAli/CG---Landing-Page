@@ -113,7 +113,7 @@ export default function CallWhisperingIntroduction() {
         {/*How to Set Up Call Whispering with CallGauge AI*/}
         <div className="mx-auto mt-28 max-w-7xl rounded-2xl bg-white bg-linear-115 from-[#fff1be] from-28% via-[#ee87cb] via-70% to-[#b060ff] p-6 shadow-lg sm:bg-linear-145">
           <h2 className="my-8 text-center text-3xl font-bold sm:text-4xl">
-            🔊 How to Set Up Call Whispering with CallGauge AI
+            How to Set Up Call Whispering with CallGauge AI
           </h2>
 
           <div className="mx-auto my-8 max-w-4xl text-center text-lg leading-relaxed">
@@ -165,6 +165,49 @@ export default function CallWhisperingIntroduction() {
 
         {/*How to set up call whispering:*/}
       </div>
+
+      {/*AI-Powered Benefits You’ll LoveAI-Powered Benefits You’ll Love*/}
+      <div className="mt-32">
+        <h2 className="text-center text-3xl font-bold sm:text-4xl">
+          AI-Powered Benefits You’ll Love
+        </h2>
+        <div className="mt-10 leading-relaxed text-gray-600">
+          <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+            {/*Feature 1 */}
+            <div className="rounded-2xl bg-[#DF80D8] p-6 text-white shadow-lg">
+              <h3 className="mb-2 text-xl font-semibold">
+                AI Text-to-Speech Whispering
+              </h3>
+              <p>Easily generate natural-sounding whispers.</p>
+            </div>
+
+            {/*Feature 2 */}
+            <div className="rounded-2xl bg-[#DF80D8] p-6 text-white shadow-lg">
+              <h3 className="mb-2 text-xl font-semibold">
+                Customizable for Each Number
+              </h3>
+              <p>Tailor messages for campaigns, products, or clients.</p>
+            </div>
+
+            {/*Feature 3 */}
+            <div className="rounded-2xl bg-[#DF80D8] p-6 text-white shadow-lg">
+              <h3 className="mb-2 text-xl font-semibold">
+                Real-Time Caller Insights
+              </h3>
+              <p>Instant context before every call.</p>
+            </div>
+
+            {/*Feature 4 */}
+            <div className="col-2 rounded-2xl bg-[#DF80D8] p-6 text-white shadow-lg">
+              <h3 className="mb-2 text-xl font-semibold">
+                No Additional Cost Per Whisper
+              </h3>
+              <p>Included in all CallGauge AI plans.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/*Who should use Call Whispering feature:*/}
       <div className="mt-40">
         {/*Section Title*/}
@@ -207,8 +250,13 @@ export default function CallWhisperingIntroduction() {
         <section className="relative isolate overflow-hidden rounded-2xl bg-linear-115 from-[#fff1be] from-28% via-[#ee87cb] via-70% to-[#b060ff] py-16 sm:bg-linear-145 sm:py-20">
           <div className="mx-auto max-w-4xl px-6 text-center">
             <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">
-              Set up call whispering for your business phone numbers now !
+              Ready to Whisper Smartly?
             </h2>
+
+            <p className="mx-auto mt-4 max-w-2xl px-6 text-lg">
+              Experience the power of <strong> Call Whispering </strong> to
+              elevate your inbound call management.
+            </p>
             <p className="mt-4 text-lg">
               Start a trial — no credit card required.
             </p>
