@@ -7,7 +7,7 @@ import { Navbar } from '@/components/navbar'
 import { Heading, Lead } from '@/components/text'
 
 export const metadata = {
-  title: 'Scalable Call Tracking Numbers',
+  title: 'Call Whispering with CallGauge AI',
   description:
     'Monitor hundreds or thousands of phone numbers without breaking the bank. Get local, toll-free, or vanity numbers with the industry’s most competitive pricing—perfect for agencies and businesses of all sizes.',
 }
@@ -18,11 +18,24 @@ function HeroSection() {
       <Container>
         <div className="text-center">
           <Heading as="h1" className="text-4xl md:text-5xl">
-            Call whispering feature
+            Call Whispering with CallGauge AI
           </Heading>
+
+          <h2 className="mt-10 text-xl leading-tight font-semibold">
+            Equip Your Team with Instant Caller Insights Before Every
+            Conversation
+          </h2>
           <Lead className="mx-auto mt-6 max-w-3xl text-lg text-gray-600">
-            Give your team context before every call instantly with Call Gauge
-            Pro’s feature of call whispering messages.
+            Supercharge your team&#39;s efficiency with{' '}
+            <strong> Call Whispering messages</strong>— a smart feature by
+            <strong> CallGauge AI </strong> that provides real-time context
+            about every incoming call. Give your team the information they need
+            to{' '}
+            <strong>
+              {' '}
+              personalize conversations and close more deals faster{' '}
+            </strong>
+            .
           </Lead>
           <h2 className="mt-20 text-2xl font-semibold text-[#B867F9] md:text-3xl">
             Try Call Gauge AI today
