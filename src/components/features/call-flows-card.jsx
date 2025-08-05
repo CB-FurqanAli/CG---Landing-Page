@@ -38,7 +38,8 @@ export default function CallFlowsCard() {
                     x2="100%"
                     y2="100%"
                   >
-                    <stop offset="0%" stopColor="#ff9500" stopOpacity="1" />
+                    <stop offset="5%" stopColor="#fff1be" stopOpacity="1" />
+                    <stop offset="40%" stopColor="#BB69F6" stopOpacity="1" />
                     <stop offset="100%" stopColor="#ff6b00" stopOpacity="1" />
                   </linearGradient>
                   <linearGradient
@@ -257,12 +258,12 @@ export default function CallFlowsCard() {
                   <path d="M230 80 Q255 95 280 105" />
                 </g>
 
-                <g transform="translate(80, 150)">
+                <g transform="translate(80, 154)">
                   <rect
                     x="0"
                     y="0"
                     width="240"
-                    height="120"
+                    height="100"
                     rx="15"
                     fill="rgba(255,255,255,0.1)"
                     stroke="white"
@@ -281,10 +282,10 @@ export default function CallFlowsCard() {
                     <path d="M8 12 Q15 8 22 12 Q15 18 8 12" fill="white" />
                     <text
                       x="15"
-                      y="35"
+                      y="40"
                       textAnchor="middle"
                       fill="white"
-                      fontSize="8"
+                      fontSize="10"
                     >
                       Greetings
                     </text>
@@ -308,10 +309,10 @@ export default function CallFlowsCard() {
                     <polygon points="22,12 20,10 20,14" fill="white" />
                     <text
                       x="15"
-                      y="35"
+                      y="40"
                       textAnchor="middle"
                       fill="white"
-                      fontSize="8"
+                      fontSize="10"
                     >
                       Round Robin
                     </text>
@@ -352,10 +353,10 @@ export default function CallFlowsCard() {
                     />
                     <text
                       x="15"
-                      y="35"
+                      y="40"
                       textAnchor="middle"
                       fill="white"
-                      fontSize="8"
+                      fontSize="10"
                     >
                       Multi Ring
                     </text>
@@ -378,10 +379,10 @@ export default function CallFlowsCard() {
                     />
                     <text
                       x="15"
-                      y="35"
+                      y="40"
                       textAnchor="middle"
                       fill="white"
-                      fontSize="8"
+                      fontSize="10"
                     >
                       Forward
                     </text>

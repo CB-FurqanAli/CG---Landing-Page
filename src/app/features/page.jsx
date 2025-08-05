@@ -177,17 +177,17 @@ function Reporting() {
         <ReportingCards
           title="📊 Reporting & Analytics"
           description="Track performance metrics in real time with clean, AI-powered dashboards."
-          image="https://images.unsplash.com/photo-1526779259212-939e64788e3c?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZnJlZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D"
+          image="/feature-page/Reporting -Analytics.jpeg"
         />
         <ReportingCards
           title="🔄 Press-1 Filtering"
           description="Block spam by requiring callers to press 1 before connecting."
-          image="https://images.unsplash.com/photo-1526779259212-939e64788e3c?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZnJlZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D"
+          image="/feature-page/Press-1.jfif"
         />
         <ReportingCards
           title="💬 SMS Forwarding"
           description="Forward incoming text messages to any phone number you choose."
-          image="https://images.unsplash.com/photo-1526779259212-939e64788e3c?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZnJlZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D"
+          image="/feature-page/sms-forwarding.jfif"
         />
       </div>
     </div>

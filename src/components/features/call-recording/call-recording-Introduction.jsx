@@ -7,7 +7,7 @@ export default function CallRecordingIntroduction() {
       <div>
         {/*Call recording made easier*/}
         <div className="mt-4">
-          <div className="mb-16 text-center text-3xl font-bold text-[#E281D5] sm:text-4xl">
+          <div className="mb-16 text-center text-3xl font-semibold sm:text-4xl">
             There will be a diagram regarding call recording and its steps
             floating around in circle.
           </div>
@@ -64,12 +64,12 @@ export default function CallRecordingIntroduction() {
         </div>
 
         {/*Step 1: Sign Up:*/}
-        <div className="mt-28">
-          <div className="mb-16 text-center text-xl font-semibold sm:text-2xl">
+        <div className="mt-32">
+          <div className="mb-20 text-center text-xl font-semibold sm:text-2xl">
             Let&#39;s walk you through how call recording setup works:
           </div>
 
-          <h2 className="text-center text-3xl font-bold text-[#DF80D9] sm:text-4xl">
+          <h2 className="text-center text-3xl font-semibold sm:text-4xl">
             Step 1: Quick & Easy Sign Up:
           </h2>
           <p className="mx-auto my-8 max-w-3xl text-center text-lg leading-relaxed text-gray-700">
@@ -107,7 +107,7 @@ export default function CallRecordingIntroduction() {
 
         {/*Step 2: Get a Phone number and Build your call flow:*/}
         <div className="mt-40">
-          <h2 className="text-center text-3xl font-bold text-[#DF80D9] sm:text-4xl">
+          <h2 className="text-center text-3xl font-semibold sm:text-4xl">
             Step 2: Get a Business Number & Design Your Call Flow
           </h2>
           <p className="mx-auto my-8 max-w-3xl text-center text-lg leading-relaxed text-gray-600">

@@ -5,8 +5,8 @@ export default function CustomGreetingsCards({ description, title, image }) {
       <div className="w-40 flex-shrink-0 sm:w-60">
         <img
           src={image}
-          alt={title || 'Card image'}
-          className="h-full w-full rounded-2xl object-cover"
+          alt={title ? `${title}` : 'Card image'}
+          className="h-full w-full rounded-2xl object-cover p-2"
         />
       </div>
 
