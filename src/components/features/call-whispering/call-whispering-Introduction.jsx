@@ -57,15 +57,15 @@ export default function CallWhisperingIntroduction() {
           <h2 className="text-center text-3xl font-bold sm:text-4xl">
             Why Use Call Whispering?
           </h2>
-          <div className="mt-10 text-center text-lg leading-relaxed text-gray-600">
-            <p className="mx-auto my-2 max-w-4xl">
+          <div className="mt-10 leading-relaxed text-gray-600">
+            <p className="mx-auto my-2 max-w-4xl text-center text-lg">
               Incorporating <strong> Call Whispering </strong> into your call
               flows can transform how your team handles inbound calls. Here’s
               how:
             </p>
             <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
               {/*Feature 1 */}
-              <div className="rounded-2xl bg-[#EF8BCB] p-6 text-white shadow-lg">
+              <div className="rounded-2xl bg-[#B564FB] p-6 text-white shadow-lg">
                 <h3 className="mb-2 text-xl font-semibold">
                   Reduces Confusion
                 </h3>
@@ -73,7 +73,7 @@ export default function CallWhisperingIntroduction() {
               </div>
 
               {/*Feature 2 */}
-              <div className="rounded-2xl bg-[#EF8BCB] p-6 text-white shadow-lg">
+              <div className="rounded-2xl bg-[#B564FB] p-6 text-white shadow-lg">
                 <h3 className="mb-2 text-xl font-semibold">
                   Enhances Personalization
                 </h3>
@@ -81,7 +81,7 @@ export default function CallWhisperingIntroduction() {
               </div>
 
               {/*Feature 3 */}
-              <div className="rounded-2xl bg-[#EF8BCB] p-6 text-white shadow-lg">
+              <div className="rounded-2xl bg-[#B564FB] p-6 text-white shadow-lg">
                 <h3 className="mb-2 text-xl font-semibold">
                   Speeds Up Lead Qualification
                 </h3>
@@ -89,14 +89,14 @@ export default function CallWhisperingIntroduction() {
               </div>
 
               {/*Feature 4 */}
-              <div className="col-2 rounded-2xl bg-[#EF8BCB] p-6 text-white shadow-lg">
+              <div className="col-2 rounded-2xl bg-[#B564FB] p-6 text-white shadow-lg">
                 <h3 className="mb-2 text-xl font-semibold">
                   Increases Conversion Rates
                 </h3>
                 <p>Better conversations lead to better outcomes.</p>
               </div>
             </div>
-            <div className="mx-auto mt-16 max-w-4xl">
+            <div className="mx-auto mt-16 max-w-4xl text-center text-lg">
               <p>
                 Whether you run a sales team, a support desk or manage client
                 campaigns,{' '}
@@ -109,11 +109,17 @@ export default function CallWhisperingIntroduction() {
             </div>
           </div>
         </div>
+
         {/*How to Set Up Call Whispering with CallGauge AI*/}
         <div className="mx-auto mt-28 max-w-7xl rounded-2xl bg-white bg-linear-115 from-[#fff1be] from-28% via-[#ee87cb] via-70% to-[#b060ff] p-6 shadow-lg sm:bg-linear-145">
           <h2 className="my-8 text-center text-3xl font-bold sm:text-4xl">
             🔊 How to Set Up Call Whispering with CallGauge AI
           </h2>
+
+          <div className="mx-auto my-8 max-w-4xl text-center text-lg leading-relaxed">
+            Setting up <strong> Call Whispering </strong> is simple, scalable
+            and cost-effective with <strong> CallGauge AI </strong>:
+          </div>
 
           <div className="mx-auto max-w-4xl px-6">
             <ol className="list-inside list-decimal space-y-6 text-gray-700">
@@ -135,17 +141,10 @@ export default function CallWhisperingIntroduction() {
                 <strong>Add Your Custom Whisper Message:</strong>
                 <ul className="mt-2 ml-6 list-inside list-disc space-y-1">
                   <li>
-                    Click{' '}
-                    <code className="rounded bg-gray-100 px-1 py-0.5 text-sm">
-                      Edit Call Flow
-                    </code>
-                    .
+                    Click <strong> Edit Call Flow </strong>.
                   </li>
                   <li>
-                    Locate{' '}
-                    <code className="rounded bg-gray-100 px-1 py-0.5 text-sm">
-                      Pre-Call Whisper Message
-                    </code>{' '}
+                    Locate <strong> Pre-Call Whisper Message </strong>
                     on the right panel.
                   </li>
                   <li>
