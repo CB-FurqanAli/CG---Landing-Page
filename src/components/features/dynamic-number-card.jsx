@@ -118,6 +118,17 @@ export default function DynamicNumberCard() {
                     fill="url(#blueGradient)"
                     filter="url(#shadow)"
                   />
+                  <circle cx="75" cy="155" r="8" fill="white" opacity="0.9" />
+                  <text
+                    x="75"
+                    y="158"
+                    textAnchor="middle"
+                    fill="#1E40AF"
+                    fontSize="10"
+                    fontWeight="bold"
+                  >
+                    G
+                  </text>
 
                   <text
                     x="125"
@@ -169,10 +180,10 @@ export default function DynamicNumberCard() {
                     fill="url(#greenGradient)"
                     filter="url(#shadow)"
                   />
-                  <circle cx="75" cy="265" r="8" fill="white" opacity="0.9" />
+                  <circle cx="75" cy="270" r="8" fill="white" opacity="0.9" />
                   <text
                     x="75"
-                    y="270"
+                    y="273"
                     textAnchor="middle"
                     fill="#059669"
                     fontSize="10"
@@ -230,10 +241,10 @@ export default function DynamicNumberCard() {
                     fill="url(#purpleGradient)"
                     filter="url(#shadow)"
                   />
-                  <circle cx="75" cy="375" r="8" fill="white" opacity="0.9" />
+                  <circle cx="75" cy="380" r="8" fill="white" opacity="0.9" />
                   <text
                     x="75"
-                    y="380"
+                    y="382"
                     textAnchor="middle"
                     fill="#7C3AED"
                     fontSize="10"
@@ -291,10 +302,10 @@ export default function DynamicNumberCard() {
                     fill="url(#orangeGradient)"
                     filter="url(#shadow)"
                   />
-                  <circle cx="75" cy="485" r="8" fill="white" opacity="0.9" />
+                  <circle cx="75" cy="491" r="8" fill="white" opacity="0.9" />
                   <text
                     x="75"
-                    y="490"
+                    y="494"
                     textAnchor="middle"
                     fill="#D97706"
                     fontSize="10"

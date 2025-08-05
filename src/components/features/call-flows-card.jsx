@@ -38,8 +38,7 @@ export default function CallFlowsCard() {
                     x2="100%"
                     y2="100%"
                   >
-                    <stop offset="5%" stopColor="#fff1be" stopOpacity="1" />
-                    <stop offset="40%" stopColor="#BB69F6" stopOpacity="1" />
+                    <stop offset="5%" stopColor="" stopOpacity="1" />
                     <stop offset="100%" stopColor="#ff6b00" stopOpacity="1" />
                   </linearGradient>
                   <linearGradient
