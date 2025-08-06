@@ -275,9 +275,7 @@ export default function DniIntroduction() {
 
       {/*For Wix:*/}
       <div className="mt-16">
-        <h2 className="text-center text-3xl font-bold text-[#DF80D9] sm:text-4xl">
-          For Wix:
-        </h2>
+        <h2 className="text-center text-3xl font-bold sm:text-4xl">For Wix:</h2>
 
         <p className="mx-auto mt-6 max-w-4xl text-center text-lg leading-relaxed text-gray-600">
           Follow these steps to add code snippet in Wix.
@@ -322,7 +320,7 @@ export default function DniIntroduction() {
 
       {/*For Webflow:*/}
       <div className="mt-16">
-        <h2 className="text-center text-3xl font-bold text-[#DF80D9] sm:text-4xl">
+        <h2 className="text-center text-3xl font-bold sm:text-4xl">
           For Webflow:
         </h2>
 
@@ -367,7 +365,7 @@ export default function DniIntroduction() {
 
       {/*For Squarespace:*/}
       <div className="mt-16">
-        <h2 className="text-center text-3xl font-bold text-[#DF80D9] sm:text-4xl">
+        <h2 className="text-center text-3xl font-bold sm:text-4xl">
           For Squarespace:
         </h2>
 
