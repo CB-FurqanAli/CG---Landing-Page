@@ -66,7 +66,8 @@ export default function VoiceMailIntroduction() {
               <li>
                 <strong>Customizable Voicemail Greetings</strong>
                 <br />
-                Make a lasting first impression even when you're unavailable.
+                Make a lasting first impression even when you&#39;re
+                unavailable.
                 <ul className="mt-2 ml-6 list-inside list-disc space-y-1">
                   <li>
                     <strong> Text-to-Speech: </strong> Instantly generate a
