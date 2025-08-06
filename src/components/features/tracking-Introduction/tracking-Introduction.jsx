@@ -41,7 +41,6 @@ export default function TrackingIntroduction() {
             </div>
           </div>
         </div>
-
         {/*How Does Call Tracking Work?*/}
         <div className="mx-auto mt-28 max-w-6xl rounded-2xl bg-white bg-linear-115 from-[#fff1be] from-28% via-[#ee87cb] via-70% to-[#b060ff] p-6 shadow-lg sm:bg-linear-145">
           <h2 className="my-8 text-center text-3xl font-bold sm:text-4xl">
@@ -80,62 +79,214 @@ export default function TrackingIntroduction() {
             </ol>
           </div>
         </div>
-        {/*How does call tracking work?*/}
-        <div className="mt-48">
-          <div className="grid grid-cols-1 gap-12 md:grid-cols-2 md:items-center">
-            {/* Left: Image */}
-            <div>
-              <h2 className="text-3xl font-bold text-[#DF80D9] sm:text-4xl">
-                How does call tracking work?
+        {/*Key Benefits of Call Tracking Numbers*/}
+        <div className="mt-32">
+          <div className="px-6">
+            <div className="my-16 text-center">
+              <h2 className="text-4xl font-bold text-gray-900">
+                Key Benefits of Call Tracking Numbers
               </h2>
-
-              <div className="mt-8 space-y-5 leading-relaxed text-gray-700 sm:text-lg">
-                <p>
-                  In call tracking, unique local phone numbers and toll free
-                  numbers are attached to specific marketing sources. When
-                  someone fills out a form, clicks an ad or call from a website,
-                  the number that appears to them is attached to that specific
-                  channel.
-                </p>
-                <p>
-                  These specific numbers appear on the caller ID when they
-                  contact you and each call logged shows data like, location,
-                  call duration, time stamp, device type etc.
-                </p>
-              </div>
-
-              <div className="mt-8 space-y-3">
-                <p className="text-lg text-blue-600 italic">
-                  Want to setup call tracking number for your business now?
-                </p>
-                <p className="text-lg font-semibold text-red-600">
-                  Try Call Gauge AI — It&#39;s Free!
-                </p>
-              </div>
-              <div className="mt-8 gap-4 text-center">
-                <a
-                  href={'#'}
-                  className="text-md inline-flex items-center rounded-xl border border-[#DE85DB] bg-gradient-to-r from-[#FBCCC5] to-[#B767F4] px-6 py-2 font-semibold transition-colors duration-200 hover:bg-gradient-to-r hover:from-[#F9C1C7] hover:to-[#DB7EDD]"
-                >
-                  Get Started Free
-                </a>
-                <p className="mt-2 font-semibold text-red-600">
-                  *No credit card required
-                </p>
-              </div>
             </div>
 
-            {/* Right: Text Content */}
-            <div className="w-full">
-              <img
-                src="https://cdn.prod.website-files.com/5d82e225060d003d65ddae98/679a8b95e178179bada0d823_call-tracking-fs_3.webp"
-                loading="lazy"
-                alt="Activate call analytics data in your martech tools with Invoca integrations"
-                className="feature-set_image"
-              />
+            <div className="grid grid-cols-1 gap-10 text-white md:grid-cols-2">
+              {/*1st*/}
+              <div className="rounded-2xl bg-[#EF8BCB] p-6 shadow-md transition hover:shadow-lg">
+                <div className="mb-4 flex items-center">
+                  <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#F15E16] text-xl font-bold">
+                    C
+                  </div>
+                  <h3 className="ml-4 text-xl font-semibold">
+                    Campaign Performance Insights
+                  </h3>
+                </div>
+                <p>Know exactly which ads drive valuable phone calls.</p>
+              </div>
+              {/*2nd*/}
+              <div className="rounded-2xl bg-[#F0B100] p-6 shadow-md transition hover:shadow-lg">
+                <div className="mb-4 flex items-center">
+                  <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#F15E16] text-xl font-bold">
+                    O
+                  </div>
+                  <h3 className="ml-4 text-xl font-semibold">
+                    Optimize Marketing Spend
+                  </h3>
+                </div>
+                <p>
+                  Allocate budget to high-performing campaigns and cut wasteful
+                  spending.
+                </p>
+              </div>
+              {/*3rd*/}
+              <div className="rounded-2xl bg-[#B564FB] p-6 shadow-md transition hover:shadow-lg">
+                <div className="mb-4 flex items-center">
+                  <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#F15E16] text-xl font-bold">
+                    R
+                  </div>
+                  <h3 className="ml-4 text-xl font-semibold">
+                    Real-Time Analytics
+                  </h3>
+                </div>
+                <p>
+                  Access data on caller location, call duration and conversion
+                  trends instantly.
+                </p>
+              </div>
+              {/*4th*/}
+              <div className="rounded-2xl bg-[#EF8BCB] p-6 shadow-md transition hover:shadow-lg">
+                <div className="mb-4 flex items-center">
+                  <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#F15E16] text-xl font-bold">
+                    P
+                  </div>
+                  <h3 className="ml-4 text-xl font-semibold">
+                    Personalized Customer Experience
+                  </h3>
+                </div>
+                <p>
+                  Route calls based on source and greet callers with customized
+                  messages.
+                </p>
+              </div>
+              {/*5th*/}
+              <div className="mx-auto flex max-w-xl justify-center md:col-span-2">
+                <div className="rounded-2xl bg-[#F0B100] p-6 shadow-md transition hover:shadow-lg">
+                  <div className="mb-4 flex items-center">
+                    <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#F15E16] text-xl font-bold">
+                      M
+                    </div>
+                    <h3 className="ml-4 text-xl font-semibold">
+                      Maximized ROI
+                    </h3>
+                  </div>
+                  <p>
+                    Focus efforts on strategies that convert into leads,
+                    increasing your return on investment.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
+        {/*Use Cases: How Businesses Benefit from Call Tracking*/}
+        <div className="mt-32">
+          <h2 className="text-center text-3xl font-bold sm:text-4xl">
+            Use Cases: How Businesses Benefit from Call Tracking
+          </h2>
+
+          <p className="mx-auto mt-6 max-w-4xl text-center text-lg leading-relaxed text-gray-600">
+            Businesses across industries, leverage call tracking to enhance
+            their marketing strategies:
+          </p>
+
+          <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+            {/*Feature 1 */}
+            <div className="rounded-2xl bg-[#B564FB] p-6 text-white shadow-lg">
+              <h3 className="mb-2 text-xl font-semibold">
+                Advertising Agencies
+              </h3>
+              <p>
+                Prove ROI to clients by attributing calls to specific campaigns.
+              </p>
+            </div>
+
+            {/*Feature 2 */}
+            <div className="rounded-2xl bg-[#B564FB] p-6 text-white shadow-lg">
+              <h3 className="mb-2 text-xl font-semibold">Sales Teams</h3>
+              <p>Qualify leads faster with contextual data before answering.</p>
+            </div>
+
+            {/*Feature 3 */}
+            <div className="rounded-2xl bg-[#B564FB] p-6 text-white shadow-lg">
+              <h3 className="mb-2 text-xl font-semibold">Support Teams</h3>
+              <p>
+                Prioritize and route calls based on caller source and intent.
+              </p>
+            </div>
+            {/*Feature 4 */}
+            <div className="rounded-2xl bg-[#B564FB] p-6 text-white shadow-lg">
+              <h3 className="mb-2 text-xl font-semibold">
+                Multi-Location Businesses
+              </h3>
+              <p>Track regional campaigns by using local tracking numbers.</p>
+            </div>
+            {/*Feature 5 */}
+            <div className="rounded-2xl bg-[#B564FB] p-6 text-white shadow-lg">
+              <h3 className="mb-2 text-xl font-semibold">
+                E-commerce & Online Retailers
+              </h3>
+              <p>Analyze offline conversions from online ads.</p>
+            </div>
+          </div>
+        </div>
+        {/*Local & Toll-Free Tracking Numbers*/}
+        <div className="mt-32">
+          <h2 className="text-center text-3xl font-bold sm:text-4xl">
+            Local & Toll-Free Tracking Numbers
+          </h2>
+          <div className="mt-10 text-center text-lg leading-relaxed text-gray-600">
+            <p className="mx-auto my-2 max-w-4xl">
+              With CallGauge AI, you can purchase{' '}
+              <strong> local numbers </strong> that resonate with your target
+              audience’s area code or <strong> toll-free numbers </strong> to
+              establish a national presence. Both can be tracked effortlessly
+              to:
+            </p>
+            <div className="mt-16 grid grid-cols-1 gap-6 text-white sm:grid-cols-2 md:grid-cols-3">
+              <ul className="list-disc items-center rounded-2xl bg-[#EF8BCB] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
+                <li className="text-left">
+                  Increase customer trust and response rates.
+                </li>
+              </ul>
+
+              <ul className="flex list-disc items-center rounded-2xl bg-[#EF8BCB] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
+                <li className="text-left">
+                  Measure call activity across the regions.
+                </li>
+              </ul>
+
+              <ul className="flex list-disc items-center rounded-2xl bg-[#EF8BCB] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
+                <li className="text-left">
+                  Enhance the brand credibility in larger markets.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        {/*Boost Paid Search With AI Call Tracking*/}
+        <div className="mt-32">
+          <h2 className="text-center text-3xl font-bold sm:text-4xl">
+            Boost Paid Search With AI Call Tracking
+          </h2>
+          <div className="mt-10 text-center text-lg leading-relaxed text-gray-600">
+            <p className="mx-auto my-2 max-w-4xl">
+              By assigning unique AI-powered tracking numbers to specific{' '}
+              <strong> Google Ads campaigns, ad groups or keywords </strong>,
+              you can:
+            </p>
+            <div className="mt-16 grid grid-cols-1 gap-6 text-white sm:grid-cols-2 md:grid-cols-3">
+              <ul className="list-disc items-center rounded-2xl bg-[#F0B100] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
+                <li className="text-left">
+                  Identify which keywords generate actual phone leads.
+                </li>
+                <li className="text-left">
+                  Eliminate spending on low-performing ads.
+                </li>
+              </ul>
+
+              <ul className="flex list-disc items-center rounded-2xl bg-[#F0B100] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
+                <li className="text-left">
+                  Redirect budgets to high-converting campaigns.
+                </li>
+              </ul>
+
+              <ul className="flex list-disc items-center rounded-2xl bg-[#F0B100] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
+                <li className="text-left">
+                  Get deeper insights into customer intent and behavior.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        update
         {/*Why call tracking is essential?*/}
         <div className="mt-32">
           <h2 className="text-center text-3xl font-bold sm:text-4xl">

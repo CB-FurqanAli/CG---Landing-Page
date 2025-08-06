@@ -18,11 +18,17 @@ function HeroSection() {
       <Container>
         <div className="text-center">
           <Heading as="h1" className="text-4xl text-gray-900 md:text-5xl">
-            Voicemail feature
+            Voicemail Recording with CallGauge AI
           </Heading>
+          <h2 className="mt-10 text-xl font-semibold">
+            Capture Every Missed Call, Convert Every Missed Opportunity
+          </h2>
           <Lead className="mx-auto mt-6 max-w-3xl text-lg text-gray-600">
-            Want to create a voicemail recording setup with Call Gauge Pro
-            numbers? It’s truly simple and hassle free.
+            No business can answer every call every time. But with{' '}
+            <strong> CallGauge AI’s Voicemail Recording feature </strong>,
+            you’ll never lose a lead again. Seamlessly route unanswered calls to
+            a professional voicemail greeting and follow up fast with automated
+            notifications and AI-powered analytics.
           </Lead>
           <div className="mt-10 gap-4">
             <a
