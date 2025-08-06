@@ -24,36 +24,45 @@ export default function WhiteLabelingCard() {
             </div>
           </div>
 
-          {/* Right Dashboard Mockup */}
-          <div className="relative">
-            {/* Dashboard Box */}
-            <div className="relative overflow-hidden rounded-3xl bg-[#F0B100] px-4 py-32 sm:px-10 sm:py-44">
-              {/* Representative Image */}
-              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transform">
-                <img
-                  src="https://images.pexels.com/photos/5453830/pexels-photo-5453830.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop"
-                  alt="Customer service representative"
-                  className="h-64 w-64 rounded-xl object-cover shadow-xl"
-                />
-              </div>
-
-              {/* Top Left Card */}
-              <div className="absolute top-6 left-6 w-40 rounded-lg bg-[#F2F5E4] p-4 shadow-md sm:w-44">
-                <h3 className="text-md mb-2 font-medium">#</h3>
-              </div>
-
-              {/* Top Right Card */}
-              <div className="absolute top-6 right-6 w-40 rounded-lg bg-[#F2F5E4] p-4 shadow-md sm:w-44">
-                <h3 className="text-md mb-2 font-medium">#</h3>
-              </div>
-
-              {/* Bottom Center Card */}
-              <div className="absolute bottom-0.5 left-1/2 w-40 -translate-x-1/2 transform rounded-lg bg-[#F2F5E4] p-4 shadow-md sm:w-44">
-                <h3 className="text-md mb-2 font-medium">#</h3>
-              </div>
-            </div>
+          {/* Representative Image */}
+          <div className="">
+            <img
+              src="/feature-page/white-labeling.jfif"
+              alt="Customer service representative"
+              className="max-h-96 min-w-full rounded-xl object-cover shadow-xl"
+            />
           </div>
         </div>
+
+        {/*<div className="relative">*/}
+        {/*  /!* Dashboard Box *!/*/}
+        {/*  <div className="relative overflow-hidden rounded-3xl bg-[#F0B100] px-4 py-32 sm:px-10 sm:py-44">*/}
+        {/*    /!* Representative Image *!/*/}
+        {/*    <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transform">*/}
+        {/*      <img*/}
+        {/*          src="/feature-page/white-labeling.jfif"*/}
+        {/*          alt="Customer service representative"*/}
+        {/*          className="h-64 w-64 rounded-xl object-cover shadow-xl"*/}
+        {/*      />*/}
+        {/*    </div>*/}
+
+        {/*    /!* Top Left Card *!/*/}
+        {/*    <div className="absolute top-6 left-6 w-40 rounded-lg bg-[#F2F5E4] p-4 shadow-md sm:w-44">*/}
+        {/*      <h3 className="text-md mb-2 font-medium">#</h3>*/}
+        {/*    </div>*/}
+
+        {/*    /!* Top Right Card *!/*/}
+        {/*    <div className="absolute top-6 right-6 w-40 rounded-lg bg-[#F2F5E4] p-4 shadow-md sm:w-44">*/}
+        {/*      <h3 className="text-md mb-2 font-medium">#</h3>*/}
+        {/*    </div>*/}
+
+        {/*    /!* Bottom Center Card *!/*/}
+        {/*    <div*/}
+        {/*        className="absolute bottom-0.5 left-1/2 w-40 -translate-x-1/2 transform rounded-lg bg-[#F2F5E4] p-4 shadow-md sm:w-44">*/}
+        {/*      <h3 className="text-md mb-2 font-medium">#</h3>*/}
+        {/*    </div>*/}
+        {/*  </div>*/}
+        {/*</div>*/}
       </div>
     </div>
   )

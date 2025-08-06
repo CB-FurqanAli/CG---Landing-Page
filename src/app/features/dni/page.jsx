@@ -17,13 +17,24 @@ function HeroSection() {
       <Container>
         <div className="text-center">
           <Heading as="h1" className="text-4xl md:text-5xl">
-            DNI Script
+            Dynamic Number Insertion (DNI) Script Installation Guide — CallGauge
+            AI
           </Heading>
+          <h2 className="mt-10 text-xl font-semibold">
+            Track Every Call’s Source with Precision Using AI-Powered Dynamic
+            Number Insertion
+          </h2>
           <Lead className="mx-auto mt-6 max-w-3xl text-lg text-gray-600">
-            Installation guide of Call Gauge AI’s DNI JavaScript snippet on your
-            website
+            Want to know exactly which marketing channels are driving your
+            inbound calls?{' '}
+            <strong> CallGauge AI’s Dynamic Number Insertion (DNI) </strong>{' '}
+            makes it easy. By embedding a lightweight{' '}
+            <strong> JavaScript snippet </strong> into your website, you can
+            dynamically swap static phone numbers with unique tracking numbers
+            based on visitor traffic sources—giving you{' '}
+            <strong> accurate, real-time attribution </strong> for every call.
           </Lead>
-          <h2 className="mt-16 text-2xl font-semibold text-[#B867F9] md:text-3xl">
+          <h2 className="mt-16 text-2xl font-semibold md:text-3xl">
             Try Call Gauge AI today
           </h2>
           <Lead className="mx-auto mt-6 max-w-3xl text-lg text-gray-600">

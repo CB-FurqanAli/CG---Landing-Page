@@ -201,17 +201,17 @@ function VoiceMails() {
         <ReportingCards
           title="🔔 Voicemail Notifications"
           description="Receive instant alerts with embedded voicemail recordings for quick follow-ups."
-          image="https://images.unsplash.com/photo-1526779259212-939e64788e3c?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZnJlZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D"
+          image="/feature-page/voicemail-noti.png"
         />
         <ReportingCards
           title="📨 Missed Call Alerts"
           description="Never lose a lead—get notified instantly when a call is missed."
-          image="https://images.unsplash.com/photo-1526779259212-939e64788e3c?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZnJlZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D"
+          image="/feature-page/call-alerts.jfif"
         />
         <ReportingCards
           title="🛠️ Automations"
           description="Use AI and triggers to automate repetitive tasks across the call workflow."
-          image="https://images.unsplash.com/photo-1526779259212-939e64788e3c?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZnJlZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D"
+          image="feature-page/automations.jfif"
         />
       </div>
     </div>
@@ -229,7 +229,7 @@ function CustomGreeting() {
       <CustomGreetingsCards
         title="👋 Custom Greetings"
         description="Upload audio or use text-to-speech for professional greeting messages."
-        image="https://images.unsplash.com/photo-1526779259212-939e64788e3c?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZnJlZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D"
+        image="/feature-page/custom-greetings.jfif"
       />
     </div>
   )
@@ -241,12 +241,12 @@ function EmailCall() {
       <CustomGreetingsCards
         title="📤 Email Call Details"
         description="Send call recordings and data instantly via email to any recipient."
-        image="https://images.unsplash.com/photo-1526779259212-939e64788e3c?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZnJlZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D"
+        image="/feature-page/email-call.jpeg"
       />
       <CustomGreetingsCards
         title="📈 Auto-Reports"
         description="Send scheduled reports to clients or team members automatically."
-        image="https://images.unsplash.com/photo-1526779259212-939e64788e3c?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZnJlZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D"
+        image="/feature-page/auto-reports.png"
       />
     </div>
   )

@@ -4,38 +4,55 @@ import { Screenshot } from '@/components/screenshot'
 export default function DniIntroduction() {
   return (
     <section className="mx-auto max-w-7xl bg-white px-6 py-12 md:grid-cols-2 md:items-center">
-      {/*Introduction*/}
+      {/*What is DNI and Why Does It Matter?*/}
       <div>
         <div>
           <h2 className="text-center text-3xl font-bold sm:text-4xl">
-            Introduction
+            What is DNI and Why Does It Matter?
           </h2>
           <div className="mx-auto mt-10 max-w-4xl text-center text-lg leading-relaxed text-gray-600">
             <p className="my-2">
-              Call Gauge AI offers a powerful tool of Dynamic Number Insertion
-              (DNI) to help businesses track the original source of incoming
-              phone calls. By adding a simple JavaScript snippet to your
-              website, you can allow Call Gauge AI to automatically swap your
-              static phone number with a dynamic tracking phone number depending
-              upon each visitor’s traffic source.
+              <strong> Dynamic Number Insertion (DNI) </strong> is a powerful
+              call tracking technology that automatically displays a{' '}
+              <strong> unique tracking number </strong> to each website visitor
+              based on how they arrived at your site (Google Ads, organic
+              search, social media, referrals, etc.).
             </p>
             <p className="mt-4">
-              This feature allows you to attribute calls accurately to specific
-              marketing channels like Google Ads, organic search or social
-              media. Therefore giving you deeper insights about the campaign
-              performance and helping you out in making smarter marketing
-              decisions.
+              With CallGauge AI’s <strong> AI-enhanced DNI system </strong>, you
+              gain deeper visibility into campaign performance, enabling you to:
             </p>
+          </div>
+          <div className="mt-16 text-center text-lg leading-relaxed text-gray-600">
+            <div className="grid grid-cols-1 gap-6 text-white sm:grid-cols-2 md:grid-cols-3">
+              <ul className="list-disc rounded-2xl bg-[#EF8BCB] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
+                <li className="text-left">
+                  Attribute calls accurately to marketing efforts.
+                </li>
+              </ul>
+
+              <ul className="list-disc rounded-2xl bg-[#EF8BCB] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
+                <li className="text-left">
+                  Optimize ad expense for high-performing channels.
+                </li>
+              </ul>
+
+              <ul className="list-disc rounded-2xl bg-[#EF8BCB] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
+                <li className="text-left">
+                  Personalize customer interactions with localized numbers.
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
 
-      {/*Advantages of DNI:*/}
+      {/*Key Advantages of CallGauge AI’s DNI:*/}
       <div className="mt-32">
         <div className="px-6">
           <div className="my-16 text-center">
             <h2 className="text-4xl font-bold text-gray-900">
-              Advantages of DNI:
+              Key Advantages of CallGauge AI’s DNI:
             </h2>
           </div>
 
@@ -47,13 +64,12 @@ export default function DniIntroduction() {
                   A
                 </div>
                 <h3 className="ml-4 text-xl font-semibold">
-                  Advanced call tracking:
+                  Advanced Call Attribution
                 </h3>
               </div>
               <p>
-                Identify accurately which marketing efforts like Google Ads,
-                Social media, referral sources, and keywords are driving the
-                calls to your business.
+                Precisely identify which ads, keywords, campaigns, or referral
+                sources are driving calls to your business.
               </p>
             </div>
             {/*2nd*/}
@@ -63,61 +79,63 @@ export default function DniIntroduction() {
                   S
                 </div>
                 <h3 className="ml-4 text-xl font-semibold">
-                  Seamless integration into website:
+                  Seamless Website Integration
                 </h3>
               </div>
               <p>
-                The DNI script works without any glitch and difficulty with your
-                existing website and analytics tools. It requires minimal setup
-                and absolutely no disruption to your website’s design and
-                performance.
+                Our DNI script integrates smoothly with your existing website
+                without impacting design or performance. It’s lightweight, quick
+                to install, and compatible with major CMS platforms.
               </p>
             </div>
             {/*3rd*/}
             <div className="rounded-2xl bg-[#B564FB] p-6 shadow-md transition hover:shadow-lg">
               <div className="mb-4 flex items-center">
                 <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#F15E16] text-xl font-bold">
-                  I
+                  A
                 </div>
                 <h3 className="ml-4 text-xl font-semibold">
-                  Improved marketing insights:
+                  AI-Enhanced Marketing Insights
                 </h3>
               </div>
               <p>
-                It allows you to get deeper and improved insights of which
-                marketing strategies are performing with excellence. So, you can
-                divert your marketing expenses towards the top performing
-                strategies.
+                Unlock deeper marketing intelligence with real-time data on
+                visitor behavior and call conversions. Shift your marketing
+                spend towards top-performing strategies with confidence.
               </p>
             </div>
             {/*4th*/}
             <div className="rounded-2xl bg-[#EF8BCB] p-6 shadow-md transition hover:shadow-lg">
               <div className="mb-4 flex items-center">
                 <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#F15E16] text-xl font-bold">
-                  B
+                  P
                 </div>
                 <h3 className="ml-4 text-xl font-semibold">
-                  Better and personalized customer experience:
+                  Personalized Caller Experience
                 </h3>
               </div>
               <p>
-                It shows local and toll-free phone numbers based on visitor’s
-                location.
+                Automatically display local or toll-free numbers tailored to the
+                visitor’s geographic location for a more personalized touch.
               </p>
             </div>
             {/*5th*/}
-            <div className="rounded-2xl bg-[#F0B100] p-6 shadow-md transition hover:shadow-lg">
-              <div className="mb-4 flex items-center">
-                <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#F15E16] text-xl font-bold">
-                  R
+            <div className="mx-auto flex max-w-xl justify-center md:col-span-2">
+              <div className="rounded-2xl bg-[#F0B100] p-6 shadow-md transition hover:shadow-lg">
+                <div className="mb-4 flex items-center">
+                  <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#F15E16] text-xl font-bold">
+                    R
+                  </div>
+                  <h3 className="ml-4 text-xl font-semibold">
+                    Real-Time Analytics & Reporting
+                  </h3>
                 </div>
-                <h3 className="ml-4 text-xl font-semibold">Real-time data:</h3>
+                <p>
+                  Monitor call activity as it happens. React swiftly with
+                  data-driven decisions using CallGauge AI’s real-time tracking
+                  dashboard.
+                </p>
               </div>
-              <p>
-                It allows you to monitor customer behavior and call activity as
-                it happens. Therefore it makes you eligible to make fast and
-                informed decisions.
-              </p>
             </div>
           </div>
         </div>
@@ -391,22 +409,74 @@ export default function DniIntroduction() {
         </div>
       </div>
 
-      <div className="mx-auto my-10 max-w-4xl rounded-md border-l-4 border-yellow-400 bg-yellow-50 p-4 shadow-sm">
-        <div className="flex items-start gap-3">
-          <div>
-            <h2 className="mb-2 text-lg font-semibold text-red-600">
-              Endnote:
+      {/*<div className="mx-auto my-10 max-w-4xl rounded-md border-l-4 border-yellow-400 bg-yellow-50 p-4 shadow-sm">*/}
+      {/*  <div className="flex items-start gap-3">*/}
+      {/*    <div>*/}
+      {/*      <h2 className="mb-2 text-lg font-semibold text-red-600">*/}
+      {/*        Endnote:*/}
+      {/*      </h2>*/}
+      {/*      <p className="ml-4 text-sm leading-relaxed text-gray-700">*/}
+      {/*        By installing{' '}*/}
+      {/*        <span className="font-medium text-gray-900">*/}
+      {/*          Call Gauge AI’s JavaScript code snippet*/}
+      {/*        </span>{' '}*/}
+      {/*        to your site is such a simple and yet powerful tool to boost your*/}
+      {/*        marketing and customer services. You can use the above mentioned*/}
+      {/*        steps according to your platform and can add code snippet to start*/}
+      {/*        tracking calls in advanced manner.*/}
+      {/*      </p>*/}
+      {/*    </div>*/}
+      {/*  </div>*/}
+      {/*</div>*/}
+
+      {/*Why Install CallGauge AI’s DNI Script?*/}
+      <div className="mt-32">
+        <div className="mx-auto max-w-7xl px-6">
+          <div className="my-16 text-center">
+            <h2 className="text-4xl font-bold text-gray-900">
+              Why Install CallGauge AI’s DNI Script?
             </h2>
-            <p className="ml-4 text-sm leading-relaxed text-gray-700">
-              By installing{' '}
-              <span className="font-medium text-gray-900">
-                Call Gauge AI’s JavaScript code snippet
-              </span>{' '}
-              to your site is such a simple and yet powerful tool to boost your
-              marketing and customer services. You can use the above mentioned
-              steps according to your platform and can add code snippet to start
-              tracking calls in advanced manner.
+            <p className="mx-auto mt-8 max-w-4xl text-center text-lg leading-relaxed text-gray-600">
+              By deploying CallGauge AI’s DNI snippet, you could enable powerful
+              AI-driven call attribution on your website. Here’s how it benefits
+              your business:
             </p>
+          </div>
+
+          <div className="mt-16 text-center text-lg leading-relaxed text-gray-600">
+            <div className="grid grid-cols-1 gap-6 text-white sm:grid-cols-2 md:grid-cols-3">
+              <ul className="list-disc rounded-2xl bg-[#B564FB] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
+                <li className="text-left">
+                  Full visibility into{' '}
+                  <strong>
+                    {' '}
+                    which marketing campaigns drive actual calls.{' '}
+                  </strong>
+                </li>
+                <li className="text-left">
+                  <strong> Smarter marketing decisions </strong> based on
+                  real-time data.
+                </li>
+              </ul>
+
+              <ul className="list-disc rounded-2xl bg-[#B564FB] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
+                <li className="text-left">
+                  <strong> Effortless integration </strong> with no website
+                  disruption.
+                </li>
+                <li className="text-left">
+                  Localized numbers for{' '}
+                  <strong> enhanced customer experience</strong>.
+                </li>
+              </ul>
+
+              <ul className="list-disc rounded-2xl bg-[#B564FB] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
+                <li className="text-left">
+                  Works in sync with{' '}
+                  <strong> Google Ads, Analytics, CRMs, and more </strong>.
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
