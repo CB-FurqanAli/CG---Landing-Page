@@ -17,13 +17,27 @@ function HeroSection() {
       <Container>
         <div className="text-center">
           <Heading as="h1" className="text-4xl md:text-5xl">
-            Call tracking numbers
+            Call Tracking Numbers — Smart Call Analytics with CallGauge AI
           </Heading>
+
+          <h2 className="mt-10 text-xl font-semibold">
+            Track, Analyze and Optimize Every Phone Call Across All Your
+            Marketing Channels
+          </h2>
           <Lead className="mx-auto mt-6 max-w-3xl text-lg text-gray-600">
-            With Call Gauge track countless phone numbers in just a few minutest
-            at a price that nobody had ever offered!
+            Looking for a call tracking solution that scales with your business?
+            <strong> CallGauge AI </strong> enables you to track{' '}
+            <strong> unlimited phone numbers in minutes</strong> — at a fraction
+            of the price of other popular call tracking platforms. Whether
+            you’re running ads on Google, social media or offline campaigns,
+            <strong>
+              {' '}
+              dynamic call tracking numbers will bridge the gap between your
+              marketing spend and actual call conversions{' '}
+            </strong>
+            .
           </Lead>
-          <h2 className="mt-20 text-2xl font-semibold text-[#B867F9] md:text-3xl">
+          <h2 className="mt-20 text-2xl font-semibold md:text-3xl">
             Try Call Gauge Pro today
           </h2>
           <Lead className="mx-auto mt-6 max-w-3xl text-lg text-gray-600">
@@ -64,23 +78,24 @@ function TrackingNumbersContent() {
           <h2 className="text-3xl font-bold text-[#DF80D9] sm:text-4xl">
             What Are Call Tracking Numbers?
           </h2>
-          <p className="mt-3 text-xl text-[#F0B100]">
-            And how they help your marketing strategy succeed
-          </p>
 
           <div className="mt-8 space-y-5 leading-relaxed text-gray-700 sm:text-lg">
             <p>
-              <strong>Call tracking phone numbers</strong> those unique numbers
-              which are assigned to measure the effectiveness of your marketing
-              campaign.
+              <strong> Call tracking numbers </strong> are those unique phone
+              numbers which are assigned to specific marketing campaigns,
+              channels or assets. These numbers allow businesses to accurately
+              measure which sources like Google Ads, Facebook, website or even
+              print ads are generating the most inbound calls and qualified
+              leads.
             </p>
             <p>
-              Usually, businesses assign different tracking number to each
-              marketing campaign. By attaching a unique number to each channel
-              such as Google Ads, social media, print ads or website, you can
-              easily know which marketing campaign is generating most leads.
-              When a customer dials a tracking number, it got linked to its
-              source automatically.
+              When a customer dials a tracking number,{' '}
+              <strong>
+                {' '}
+                CallGauge AI automatically attributes the call to its
+                originating source{' '}
+              </strong>
+              , providing you with powerful insights into campaign performance.
             </p>
           </div>
 

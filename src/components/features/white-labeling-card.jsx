@@ -40,7 +40,7 @@ export default function WhiteLabelingCard() {
         {/*    /!* Representative Image *!/*/}
         {/*    <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transform">*/}
         {/*      <img*/}
-        {/*          src="/feature-page/white-labeling.jfif"*/}
+        {/*          src="/feature-page/zapier-integration.jfif"*/}
         {/*          alt="Customer service representative"*/}
         {/*          className="h-64 w-64 rounded-xl object-cover shadow-xl"*/}
         {/*      />*/}

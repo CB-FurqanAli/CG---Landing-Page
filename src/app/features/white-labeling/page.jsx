@@ -1,5 +1,5 @@
 import { Container } from '@/components/container'
-import ZapierIntegrationIntroduction from '@/components/features/white-labeling/zapier-integration-Introduction'
+import WhiteLabelingIntroduction from '@/components/features/white-labeling/white-labeling-Introduction'
 import { Footer } from '@/components/footer' // Using your updated Footer
 import { GradientBackground } from '@/components/gradient'
 import { Navbar } from '@/components/navbar'
@@ -55,7 +55,7 @@ export default function ScalableCallTrackingNumbers() {
         <Navbar />
       </Container>
       <HeroSection />
-      <ZapierIntegrationIntroduction />
+      <WhiteLabelingIntroduction />
       <Footer />
     </main>
   )

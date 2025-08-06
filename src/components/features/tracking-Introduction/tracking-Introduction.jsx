@@ -2,65 +2,84 @@ export default function TrackingIntroduction() {
   return (
     <section className="mx-auto max-w-7xl bg-white px-6 py-20 md:grid-cols-2 md:items-center">
       <div>
-        {/*Introduction*/}
-        <div>
-          <h2 className="text-center text-3xl font-bold sm:text-4xl">
-            Introduction
-          </h2>
-          <div className="mx-auto mt-10 max-w-4xl text-center text-lg leading-relaxed text-gray-600">
-            <p className="my-2">
-              Gone are the days when you used to pick your ringing phone without
-              knowing if it is a new lead or a returning customer. Say hello to
-              smarter conversations. With call tracking, every call tells a
-              story about who is calling and from where?
-            </p>
-            <p className="mt-4">
-              Even you can have insights about which ad or campaign caught their
-              attention and generated a lead. So, in future you can measure and
-              optimize your marketing efforts accordingly.
-            </p>
-          </div>
-        </div>
-
         {/*What is a call tracking number?*/}
-        <div className="mt-32">
+        <div className="mt-16">
           <h2 className="text-center text-3xl font-bold sm:text-4xl">
-            What is a call tracking number?
+            Why Call Tracking Matters?
           </h2>
           <div className="mt-10 text-center text-lg leading-relaxed text-gray-600">
             <p className="mx-auto my-2 max-w-4xl">
-              A tracking phone number is not just a number for receiving calls,
-              instead it’s a great tool to get informed about:
+              Gone are the days of guessing when you used to wonder about where
+              your leads are coming from.{' '}
+              <strong> With CallGauge AI’s call tracking numbers </strong>, you
+              can:
             </p>
             <div className="mt-16 grid grid-cols-1 gap-6 text-white sm:grid-cols-2 md:grid-cols-3">
-              <ul className="flex list-disc items-center rounded-2xl bg-[#F0B100] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
-                <li className="text-left">Location of the caller.</li>
-              </ul>
-
-              <ul className="flex list-disc items-center rounded-2xl bg-[#F0B100] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
+              <ul className="list-disc items-center rounded-2xl bg-[#F0B100] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
                 <li className="text-left">
-                  How long were they stay engaged on the phone call?
+                  Know <strong> who is calling, from where </strong> and{' '}
+                  <strong> why </strong>.
+                </li>
+                <li className="text-left">
+                  Identify which{' '}
+                  <strong> campaign, ad or keyword drove the call </strong>.
                 </li>
               </ul>
 
               <ul className="flex list-disc items-center rounded-2xl bg-[#F0B100] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
                 <li className="text-left">
-                  Which Ad or campaign they were derived from?
+                  Optimize your marketing spend based on real-time call data.
+                </li>
+              </ul>
+
+              <ul className="flex list-disc items-center rounded-2xl bg-[#F0B100] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
+                <li className="text-left">
+                  Route calls to the right team member smartly, for better
+                  conversions.
                 </li>
               </ul>
             </div>
           </div>
-
-          <div className="mx-auto mt-16 max-w-4xl text-center text-lg leading-relaxed text-gray-600">
-            <p className="my-2">
-              You can assign tracking numbers to your website, social media,
-              mobile Ads and even to printed materials. Whether the call comes
-              from your mobile service or main business line, you will get the
-              information about what inspired the conversation.
-            </p>
-          </div>
         </div>
 
+        {/*How Does Call Tracking Work?*/}
+        <div className="mx-auto mt-28 max-w-6xl rounded-2xl bg-white bg-linear-115 from-[#fff1be] from-28% via-[#ee87cb] via-70% to-[#b060ff] p-6 shadow-lg sm:bg-linear-145">
+          <h2 className="my-8 text-center text-3xl font-bold sm:text-4xl">
+            How Does Call Tracking Work?
+          </h2>
+
+          <div className="mx-auto my-6 max-w-4xl text-center text-lg leading-relaxed">
+            Here’s how CallGauge AI simplifies call tracking:
+          </div>
+
+          <div className="mx-auto max-w-4xl px-6">
+            <ol className="list-inside list-decimal space-y-4 text-gray-700">
+              <li>
+                Assign <strong> unique local or toll-free numbers </strong> to
+                your marketing campaigns.
+              </li>
+              <li>
+                When a user interacts with an ad or visits your website,
+                <strong> CallGauge AI </strong> dynamically displays the
+                corresponding tracking number.
+              </li>
+              <li>
+                Upon call, details such as{' '}
+                <strong>
+                  {' '}
+                  source, campaign, keyword, caller location, device type and
+                  more{' '}
+                </strong>{' '}
+                are captured automatically.
+              </li>
+              <li>
+                Real-time analytics can be accessed via{' '}
+                <strong> CallGauge AI’s </strong> dashboard for performance
+                insights.
+              </li>
+            </ol>
+          </div>
+        </div>
         {/*How does call tracking work?*/}
         <div className="mt-48">
           <div className="grid grid-cols-1 gap-12 md:grid-cols-2 md:items-center">
@@ -117,7 +136,6 @@ export default function TrackingIntroduction() {
             </div>
           </div>
         </div>
-
         {/*Why call tracking is essential?*/}
         <div className="mt-32">
           <h2 className="text-center text-3xl font-bold sm:text-4xl">
@@ -168,9 +186,7 @@ export default function TrackingIntroduction() {
             </p>
           </div>
         </div>
-
         {/*What are the benefits of call tracking?*/}
-
         <div className="mt-32">
           <h2 className="text-center text-3xl font-bold sm:text-4xl">
             What are the benefits of call tracking?
@@ -226,9 +242,7 @@ export default function TrackingIntroduction() {
             </div>
           </div>
         </div>
-
         {/*How paid search optimized by using call tracking numbers?*/}
-
         <div className="mt-32">
           <h2 className="text-center text-3xl font-bold sm:text-4xl">
             How paid search optimized by using call tracking numbers?
@@ -271,9 +285,7 @@ export default function TrackingIntroduction() {
             </p>
           </div>
         </div>
-
         {/*Grow your business with call tracking.*/}
-
         <div className="mt-32">
           <h2 className="text-center text-3xl font-bold sm:text-4xl">
             Grow your business with call tracking.
@@ -308,9 +320,7 @@ export default function TrackingIntroduction() {
             </p>
           </div>
         </div>
-
         {/*What you need to see call tracking in action?*/}
-
         <div className="mt-32">
           <h2 className="text-center text-3xl font-bold sm:text-4xl">
             What you need to see call tracking in action?
@@ -345,9 +355,7 @@ export default function TrackingIntroduction() {
             </div>
           </div>
         </div>
-
         {/*Setting up local and toll free tracking phone numbers.*/}
-
         <div className="mt-32">
           <h2 className="text-center text-3xl font-bold sm:text-4xl">
             Setting up local and toll free tracking phone numbers.
@@ -403,9 +411,7 @@ export default function TrackingIntroduction() {
             </p>
           </div>
         </div>
-
         {/*Make your callers feel valued and track every touch point*/}
-
         <div className="mt-32">
           <h2 className="text-center text-3xl font-bold sm:text-4xl">
             Make your callers feel valued and track every touch point
@@ -444,9 +450,7 @@ export default function TrackingIntroduction() {
             </div>
           </div>
         </div>
-
         {/*Use toll-free numbers in your call tracking strategy*/}
-
         <div className="my-32">
           <h2 className="text-center text-3xl font-bold sm:text-4xl">
             Use toll-free numbers in your call tracking strategy

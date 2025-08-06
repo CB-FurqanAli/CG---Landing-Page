@@ -155,31 +155,29 @@ export default function DniIntroduction() {
             </p>
           </div>
 
-          <div className="mt-16 text-center text-lg leading-relaxed text-gray-600">
-            <div className="grid grid-cols-1 gap-6 text-white sm:grid-cols-2 md:grid-cols-3">
-              <ul className="list-disc rounded-2xl bg-[#EF8BCB] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
-                <li className="text-left">
-                  Move to the “Numbers” page from the sidebar
-                </li>
-                <li className="text-left">
-                  Find the number pool you want to use and click on the code
-                  icon in that number pool under “Action” column.
-                </li>
-              </ul>
+          <div className="mt-16 grid grid-cols-1 gap-6 text-lg text-white sm:grid-cols-2 md:grid-cols-3">
+            <ul className="list-disc items-center rounded-2xl bg-[#EF8BCB] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
+              <li className="text-left">
+                Move to the “Numbers” page from the sidebar
+              </li>
+              <li className="text-left">
+                Find the number pool you want to use and click on the code icon
+                in that number pool under “Action” column.
+              </li>
+            </ul>
 
-              <ul className="list-disc rounded-2xl bg-[#EF8BCB] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
-                <li className="text-left">
-                  When you click on that icon, a popup containing your unique
-                  JavaScript code will appear
-                </li>
-              </ul>
+            <ul className="list-disc items-center rounded-2xl bg-[#EF8BCB] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
+              <li className="text-left">
+                When you click on that icon, a popup containing your unique
+                JavaScript code will appear
+              </li>
+            </ul>
 
-              <ul className="list-disc rounded-2xl bg-[#EF8BCB] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
-                <li className="text-left">
-                  From here you can copy your code snippet.{' '}
-                </li>
-              </ul>
-            </div>
+            <ul className="list-disc items-center rounded-2xl bg-[#EF8BCB] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
+              <li className="text-left">
+                From here you can copy your code snippet.{' '}
+              </li>
+            </ul>
           </div>
         </div>
       </div>

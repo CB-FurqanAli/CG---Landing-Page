@@ -1,5 +1,5 @@
 import { Container } from '@/components/container'
-import ZapierIntegrationIntroduction from '@/components/features/white-labeling/zapier-integration-Introduction'
+import ZapierIntegrationIntroduction from '@/components/features/zapier-integration/zapier-integration-Introduction'
 import { Footer } from '@/components/footer' // Using your updated Footer
 import { GradientBackground } from '@/components/gradient'
 import { Navbar } from '@/components/navbar'
