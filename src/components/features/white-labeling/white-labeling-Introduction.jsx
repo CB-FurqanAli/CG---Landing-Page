@@ -1,101 +1,105 @@
-import { Container } from '@/components/container'
-import { Screenshot } from '@/components/screenshot'
-
 export default function WhiteLabelingIntroduction() {
   return (
     <section className="mx-auto max-w-7xl bg-white px-6 py-12 md:grid-cols-2 md:items-center">
-      {/*Introduction*/}
+      {/*What is White Labeling in Call Tracking?*/}
       <div>
         <div>
           <h2 className="text-center text-3xl font-bold sm:text-4xl">
-            Introduction
+            What is White Labeling in Call Tracking?
           </h2>
           <div className="mx-auto mt-10 max-w-4xl text-center text-lg leading-relaxed text-gray-600">
-            <p className="my-2">
-              White labeling feature of Call Gauge AI allows you to brand our
-              call tracking solution as your own. By customizing the platform
-              with your own URL, logo and brand colors, you can seamlessly
-              create a more trustworthy experience for your customers and can
-              enhance your professional identity.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      {/*Benefits of Call Gauge AI’s white labeling feature:*/}
-      <div className="mt-32">
-        <h2 className="text-center text-3xl font-bold sm:text-4xl">
-          Benefits of Call Gauge AI’s white labeling feature:
-        </h2>
-        <p className="mx-auto mt-6 max-w-4xl text-center text-lg leading-relaxed text-gray-600">
-          You will gain the following benefits by using our white labeling
-          feature.
-        </p>
-        <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-          {/*Feature 1 */}
-          <div className="rounded-2xl bg-[#F0B100] p-6 text-white shadow-lg">
-            <h3 className="mb-2 text-xl font-semibold">Customizable Domain:</h3>
-            <p>
+            White labeling allows you to rebrand our{' '}
+            <strong>
               {' '}
-              you can use your own personal URL, so clients can interact with
-              your brand and this will enhance your credibility and authority.{' '}
-            </p>
+              CallGauge AI’s enterprise-level call tracking platform{' '}
+            </strong>{' '}
+            and deliver it under your own business identity. You’ll have a fully
+            functional SaaS product—
+            <strong>your logo, your domain, your client interface</strong>—while
+            CallGauge AI handles the backend technology, server infrastructure,
+            security and maintenance.
           </div>
 
-          {/*Feature 2 */}
-          <div className="rounded-2xl bg-[#F0B100] p-6 text-white shadow-lg">
-            <h3 className="mb-2 text-xl font-semibold">
-              Trusted and Secure experience:{' '}
-            </h3>
-            <p>
-              once DNS propagation got completed, we’ll install an SSL
-              certificate to make sure you have secure connection on your
-              domain.
-            </p>
-          </div>
+          <h2 className="mt-8 text-center text-xl font-semibold sm:text-2xl">
+            This feature is designed for:
+          </h2>
+          <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+            {/*Feature 1 */}
+            <div className="rounded-2xl bg-[#B564FB] p-6 text-white shadow-lg">
+              <h3 className="mb-2 text-xl font-semibold">Marketing Agencies</h3>
+              <p>wanting to scale services under their own name.</p>
+            </div>
 
-          {/*Feature 3 */}
-          <div className="rounded-2xl bg-[#F0B100] p-6 text-white shadow-lg">
-            <h3 className="mb-2 text-xl font-semibold">
-              Seamless Client Access:
-            </h3>
-            <p>
-              offers your clients a consistent experience under your own brand,
-              building trust and making your services truly integrated.
-            </p>
-          </div>
-        </div>
+            {/*Feature 2 */}
+            <div className="rounded-2xl bg-[#B564FB] p-6 text-white shadow-lg">
+              <h3 className="mb-2 text-xl font-semibold">Telecom Resellers</h3>
+              <p>looking to offer branded communication tools.</p>
+            </div>
 
-        <div className="mx-auto my-10 max-w-4xl rounded-md border-l-4 border-pink-400 bg-pink-50 p-4 shadow-sm">
-          <div className="flex items-start gap-3">
-            <div className="text-sm text-pink-700">
-              <strong className="block font-medium text-pink-800">
-                Need help?{' '}
-              </strong>
-              Our friendly and professional support team is here to assist you.
-              If you run into any setup issues just reach out and we’ll help
-              you.
+            {/*Feature 3 */}
+            <div className="rounded-2xl bg-[#B564FB] p-6 text-white shadow-lg">
+              <h3 className="mb-2 text-xl font-semibold">Software Providers</h3>
+              <p>expanding their product suite.</p>
+            </div>
+            {/*Feature 4 */}
+            <div className="col-2 rounded-2xl bg-[#B564FB] p-6 text-white shadow-lg">
+              <h3 className="mb-2 text-xl font-semibold">Enterprises</h3>
+              <p>managing multiple brands or client portals.</p>
             </div>
           </div>
         </div>
       </div>
 
-      {/*Here was a video explanation.*/}
-      <div>
-        <div className="mt-4 text-center text-red-400">
-          Here was a video explanation.
-        </div>
+      {/*Key Benefits of CallGauge AI’s White Labeling Feature*/}
+      <div className="mt-32 rounded-2xl bg-white bg-linear-115 from-[#fff1be] from-28% via-[#ee87cb] via-70% to-[#b060ff] p-6 shadow-lg sm:bg-linear-145">
+        <h2 className="my-8 text-center text-3xl font-bold sm:text-4xl">
+          Key Benefits of CallGauge AI’s White Labeling Feature
+        </h2>
 
-        <div className="overflow-hidden">
-          <Container className="pb-16">
-            <Screenshot
-              width={1116}
-              height={686}
-              // src="/screenshots/app.png" // Replace with actual CallGauge dashboard screenshot
-              src="/screenshots/dummy2.png" // Replace with actual CallGauge dashboard screenshot
-              className="mt-12 sm:max-w-[76rem]"
-            />
-          </Container>
+        <div className="mx-auto max-w-4xl px-6">
+          <ol className="list-inside list-decimal space-y-6 text-gray-700">
+            <li>
+              <strong>Custom Domain (Your URL, Not Ours)</strong>
+              <ul className="mt-2 ml-6 list-inside list-disc space-y-1">
+                <li>
+                  Use your own branded domain (e.g.,{' '}
+                  <strong> calls.youragency.com </strong>) so your clients
+                  interact directly with your brand.
+                </li>
+                <li>
+                  With a professional and customized URL, build your authority.
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <strong>Secure & Trusted Experience (SSL Included)</strong>
+
+              <ul className="mt-2 ml-6 list-inside list-disc space-y-1">
+                <li>
+                  After your domain setup, CallGauge AI will{' '}
+                  <strong> automatically install an SSL certificate </strong>{' '}
+                  ensuring all your client interactions are protected with HTTPS
+                  security.
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <strong>Seamless Client Access Under Your Brand</strong>
+              <ul className="mt-2 ml-6 list-inside list-disc space-y-1">
+                <li>
+                  Provide your clients with a{' '}
+                  <strong> fully branded portal</strong>—logo, colors and
+                  interface that reflect your business identity.
+                </li>
+                <li>
+                  Build long-term trust and retain clients by delivering a
+                  unified and professional experience.
+                </li>
+              </ul>
+            </li>
+          </ol>
         </div>
       </div>
 
@@ -184,6 +188,24 @@ export default function WhiteLabelingIntroduction() {
         </div>
       </div>
 
+      <section className="bg-gray-50 px-4 pt-28 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-4xl text-center">
+          <h2 className="mb-4 text-3xl font-bold text-gray-800">
+            Need Assistance? We’re Here to Help!
+          </h2>
+          <p className="mb-6 text-lg text-gray-600">
+            Our professional support team is always ready to assist you with
+            domain setup, DNS configurations, or any technical queries. Reach
+            out anytime for fast and friendly help.
+          </p>
+          {/*<a*/}
+          {/*  href="/contact"*/}
+          {/*  className="inline-block rounded-lg bg-blue-600 px-6 py-3 text-base font-semibold text-white shadow transition hover:bg-blue-700"*/}
+          {/*>*/}
+          {/*  Contact Support*/}
+          {/*</a>*/}
+        </div>
+      </section>
       {/*Sign up today for a free trial and get started!*/}
       <div className="my-32">
         <section className="relative isolate overflow-hidden rounded-2xl bg-linear-115 from-[#fff1be] from-28% via-[#ee87cb] via-70% to-[#b060ff] py-16 sm:bg-linear-145 sm:py-20">

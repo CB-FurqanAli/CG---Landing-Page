@@ -6,9 +6,9 @@ import { Navbar } from '@/components/navbar'
 import { Heading, Lead } from '@/components/text'
 
 export const metadata = {
-  title: 'Scalable Call Tracking Numbers',
+  title: ' White Label Call',
   description:
-    'Monitor hundreds or thousands of phone numbers without breaking the bank. Get local, toll-free, or vanity numbers with the industry’s most competitive pricing—perfect for agencies and businesses of all sizes.',
+    ' White Label Call Tracking Platform — Brand CallGauge AI as Your Own',
 }
 
 function HeroSection() {
@@ -17,14 +17,20 @@ function HeroSection() {
       <Container>
         <div className="text-center">
           <Heading as="h1" className="text-4xl md:text-5xl">
-            White Labeling Feature
+            White Label Call Tracking Platform — Brand CallGauge AI as Your Own
           </Heading>
+          <h2 className="mt-10 text-xl font-semibold">
+            Deliver a Fully Branded Call Tracking Experience to Your Clients
+          </h2>
           <Lead className="mx-auto mt-6 max-w-3xl text-lg text-gray-600">
-            Want a call tracking solution which you can brad as your own? With
-            Call Gauge AI you can white label the whole platform like custom
-            URL, colors, logo, interface and much more.
+            Want to provide call tracking services under your own brand? With
+            <strong> CallGauge AI’s White Labeling Feature </strong>, you can
+            customize the entire platform — from dashboard colors to custom URLs
+            and logo — making it look like your own SaaS product. Empower your
+            agency or business to scale without spending thousands on
+            development.
           </Lead>
-          <h2 className="mt-16 text-2xl font-semibold text-[#B867F9] md:text-3xl">
+          <h2 className="mt-16 text-2xl font-semibold md:text-3xl">
             Try Call Gauge AI today
           </h2>
           <Lead className="mx-auto mt-6 max-w-3xl text-lg text-gray-600">

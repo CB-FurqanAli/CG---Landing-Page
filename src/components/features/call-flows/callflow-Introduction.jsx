@@ -106,7 +106,7 @@ export default function CallFlowIntroduction() {
 
             <div>
               <h2 className="text-3xl font-bold sm:text-4xl">
-                🔁 Smart Call Forwarding
+                Smart Call Forwarding
               </h2>
               <div className="mt-8 space-y-5 leading-relaxed text-gray-700 sm:text-lg">
                 <p>
@@ -122,7 +122,7 @@ export default function CallFlowIntroduction() {
                     </li>
                     <li>
                       <strong>
-                        How long it rings (customizable 10–50 sec){' '}
+                        How long it rings (customizable 10–40 sec){' '}
                       </strong>
                     </li>
                     <li>
@@ -295,7 +295,7 @@ export default function CallFlowIntroduction() {
             <div className="w-full">
               <img
                 src="/call-flow/Multi-Ringing.png"
-                loading="lazy"
+                loading="Multi-Ringing"
                 alt="AI call analytics accurately measure call quality with Invoca"
                 className="feature-set_image"
               />
@@ -303,9 +303,7 @@ export default function CallFlowIntroduction() {
 
             {/* Right: Text Content */}
             <div>
-              <h2 className="text-3xl font-bold text-[#DF80D9] sm:text-4xl">
-                🔔 Multi-Ringing
-              </h2>
+              <h2 className="text-3xl font-bold sm:text-4xl">Multi-Ringing</h2>
               <div className="mt-8 space-y-5 leading-relaxed text-gray-700 sm:text-lg">
                 <p>
                   Speed up response times and reduce dropped calls by ringing up
