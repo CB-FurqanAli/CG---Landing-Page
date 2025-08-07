@@ -4,7 +4,7 @@ export default function CallFlowIntroduction() {
       <div>
         {/*Introduction*/}
         <div>
-          <div className="mb-16 text-center text-3xl font-bold text-[#E281D5] sm:text-4xl">
+          <div className="mb-16 text-center text-3xl font-bold sm:text-4xl">
             There will be an image of call flow and all its relevant features
           </div>
 
@@ -41,9 +41,8 @@ export default function CallFlowIntroduction() {
           <div className="grid grid-cols-1 gap-12 md:grid-cols-2 md:items-center">
             {/* Left: Image */}
             <div>
-              <div className="item-center flex text-3xl font-bold sm:text-4xl">
-                <h2>🎙</h2>
-                <h2 className="text-[#DF80D9]">Customized Greetings</h2>
+              <div className="text-3xl font-bold sm:text-4xl">
+                <h2>Customized Greetings</h2>
               </div>
 
               <div className="mt-8 space-y-5 leading-relaxed text-gray-700 sm:text-lg">
@@ -81,9 +80,9 @@ export default function CallFlowIntroduction() {
             {/* Right: Text Content */}
             <div className="w-full">
               <img
-                src="https://cdn.prod.website-files.com/5d82e225060d003d65ddae98/679a8b95e178179bada0d823_call-tracking-fs_3.webp"
+                src={'/call-flow/Greetings.png'}
                 loading="lazy"
-                alt="Activate call analytics data in your martech tools with Invoca integrations"
+                alt="Customized Greetings"
                 className="feature-set_image"
               />
             </div>
@@ -96,9 +95,9 @@ export default function CallFlowIntroduction() {
             {/* Left: Image */}
             <div className="w-full">
               <img
-                src="https://cdn.prod.website-files.com/5d82e225060d003d65ddae98/6799a27b9dac8826f2df2067_call-tracking-fs_4.webp"
+                src="/call-flow/Call-Forwarding.png"
                 loading="lazy"
-                alt="AI call analytics accurately measure call quality with Invoca"
+                alt="Smart Call Forwarding"
                 className="feature-set_image"
               />
             </div>
@@ -106,7 +105,7 @@ export default function CallFlowIntroduction() {
             {/* Right: Text Content */}
 
             <div>
-              <h2 className="text-3xl font-bold text-[#DF80D9] sm:text-4xl">
+              <h2 className="text-3xl font-bold sm:text-4xl">
                 🔁 Smart Call Forwarding
               </h2>
               <div className="mt-8 space-y-5 leading-relaxed text-gray-700 sm:text-lg">
@@ -295,7 +294,7 @@ export default function CallFlowIntroduction() {
 
             <div className="w-full">
               <img
-                src="https://cdn.prod.website-files.com/5d82e225060d003d65ddae98/6799a27b9dac8826f2df2067_call-tracking-fs_4.webp"
+                src="/call-flow/Multi-Ringing.png"
                 loading="lazy"
                 alt="AI call analytics accurately measure call quality with Invoca"
                 className="feature-set_image"

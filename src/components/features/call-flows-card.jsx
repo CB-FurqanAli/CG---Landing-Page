@@ -30,8 +30,8 @@ export default function CallFlowsCard() {
             {/* Representative Image */}
 
             <img
-              src="call-flow/flow.png" // Path to image
-              alt="Description of image" // Always use alt for accessibility
+              src={'call-flow/flow.png'}
+              alt="Call Flow"
               className="rounded-2xl object-cover"
             />
 
