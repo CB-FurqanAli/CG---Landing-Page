@@ -14,23 +14,23 @@ export const metadata = {
 
 function HeroSection() {
   return (
-    <div className="relative py-24">
+    <div className="relative pt-24 pb-16">
       <Container>
         <div className="text-center">
           <Heading as="h1" className="text-4xl md:text-5xl">
-            Client Management
+            Client Management Made Effortless
           </Heading>
-
-          <h3 className="mt-8 text-xl font-medium">
-            With best call tracking tool.
-          </h3>
+          <h2 className="mt-10 text-xl font-semibold">
+            With AI-Powered Call Tracking by CallGauge AI
+          </h2>
           <Lead className="mx-auto mt-6 max-w-3xl text-lg text-gray-600">
-            Call Gauge AI makes it easier for your business to handle clients
-            and manage campaigns all in one place. With our built-in, user
-            friendly client portal, you can provide your client direct access to
-            their calls, texts and voicemails.
+            CallGauge AI simplifies how you manage your clients and their
+            communications, all from one intuitive dashboard. Our built-in
+            client portal allows you to give your clients secure,{' '}
+            <strong> self-serve access to their calls </strong>, texts, and
+            voicemails — while you stay in full control.
           </Lead>
-          <h2 className="mt-16 text-2xl font-semibold text-[#B867F9] md:text-3xl">
+          <h2 className="mt-16 text-2xl font-semibold md:text-3xl">
             Try Call Gauge AI today
           </h2>
           <Lead className="mx-auto mt-6 max-w-3xl text-lg text-gray-600">

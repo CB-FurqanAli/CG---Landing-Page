@@ -12,20 +12,22 @@ export default function ClientManagementIntroduction() {
           </h2>
           <div className="mt-10 text-center text-lg leading-relaxed text-gray-600">
             <p className="mx-auto my-2 max-w-4xl">
-              Call Gauge AI is not just a call tracking tool, it is built to
-              manage clients effortlessly. Your clients will have their own
-              separate sub-user login. This allows them to easily view and
-              manage their calls and text messages, voicemails. which are
-              related to their numbers without your constant involvement.
+              CallGauge AI isn’t just a call tracking tool, it’s a complete{' '}
+              <strong> solution for client management </strong>. Designed for
+              agencies, resellers and businesses that serve multiple clients,
+              our platform enables you to assign each{' '}
+              <strong> client a dedicated sub-account </strong>. With this, they
+              can independently monitor their communications without needing
+              your constant assistance.
             </p>
           </div>
         </div>
       </div>
-      {/*What makes our client portal special?*/}
-      <div className="mt-40">
+      {/*What Makes Our Client Portal Stand Out?*/}
+      <div className="mt-32">
         {/*Section Title*/}
-        <h2 className="text-center text-3xl font-bold text-[#DF80D9] sm:text-4xl">
-          What makes our client portal special?
+        <h2 className="text-center text-3xl font-bold sm:text-4xl">
+          What Makes Our Client Portal Stand Out?
         </h2>
 
         {/*Feature Cards Grid */}
@@ -33,59 +35,60 @@ export default function ClientManagementIntroduction() {
           {/*Feature 1 */}
           <div className="rounded-2xl bg-[#F0B100] p-6 text-white shadow-lg">
             <h3 className="mb-2 text-xl font-semibold">
-              Individual Client Logins:
+              Individual Client Access
             </h3>
             <p>
-              Each client gets a unique sub-user login to access their own
-              calls, message and voicemails, nothing more nothing less.
+              Each client gets his own secure login to access only his assigned
+              data — including calls, SMS and voicemails. No unnecessary
+              exposure and no confusion.
             </p>
           </div>
 
           {/*Feature 2 */}
           <div className="rounded-2xl bg-[#B564FB] p-6 text-white shadow-lg">
             <h3 className="mb-2 text-xl font-semibold">
-              Transparency That Builds Trust:
+              Transparency That Builds Trust
             </h3>
             <p>
-              There would be no more blind spots. All the clients will get full
-              access to their communication history which reduces the back and
-              forth updates necessity and builds credibility.
+              Clients can view their communication history in real-time, which
+              eliminates guesswork and repetitive updates — helping you build
+              lasting trust and credibility.
             </p>
           </div>
 
           {/*Feature 3 */}
           <div className="rounded-2xl bg-[#EF8BCB] p-6 text-white shadow-lg">
             <h3 className="mb-2 text-xl font-semibold">
-              Real-Time Call Recording Access:
+              Instant Access to Call Recordings
             </h3>
             <p>
-              Clients can instantly listen to their own call recordings. This is
-              perfect for reviewing leads, resolving disputes and improving
-              customer services.
+              Clients can listen to their own calls anytime. Whether it’s for
+              lead verification, dispute resolution or service training, it’s
+              always available.
             </p>
           </div>
 
           {/*Feature 4 */}
           <div className="rounded-2xl bg-[#B564FB] p-6 text-white shadow-lg">
             <h3 className="mb-2 text-xl font-semibold">
-              Self-Service Simplicity:
+              Self-Serve Simplicity
             </h3>
             <p>
-              Clients can login any time to monitor their calls, view their
-              texts and listen to their voicemails saving you a lot of admin
-              work.
+              Your clients can log in anytime to monitor their activity
+              therefore, saving you time on administrative tasks while offering
+              them full visibility.
             </p>
           </div>
 
           {/*Feature 5 */}
           <div className="rounded-2xl bg-[#EF8BCB] p-6 text-white shadow-lg">
             <h3 className="mb-2 text-xl font-semibold">
-              “See What They See” Mode:
+              “See What They See” Mode
             </h3>
             <p>
-              You can instantly view the sub-account of your client exactly as
-              he does-without needing his login credentials. This is ideal for
-              onboarding, trouble-shooting and support.
+              Need to assist a client or provide a demo? Instantly access their
+              view without needing their credentials. It’s ideal for onboarding,
+              troubleshooting and support.
             </p>
           </div>
         </div>
@@ -103,30 +106,30 @@ export default function ClientManagementIntroduction() {
           </Container>
         </div>
       </div>
-      {/*Deliver premium client experience:*/}
+      {/*Deliver a Professional, Self-Branded Experience*/}
       <div className="mt-28">
         <div className="grid grid-cols-1 gap-12 md:grid-cols-2 md:items-center">
           {/* Left: Image */}
           <div>
             <h2 className="text-3xl font-bold text-[#DF80D9] sm:text-4xl">
-              Deliver premium client experience:
+              Deliver a Professional, Self-Branded Experience
             </h2>
 
             <div className="mt-8 space-y-5 leading-relaxed text-gray-700 sm:text-lg">
               <p>
-                Call Gauge AI’s client portal helps in developing a strong
-                client relationship. Clients feel respected, valued and heard
-                when they could login to their own accounts and access their
-                data. This increases client satisfaction and loyalty.Call Gauge
-                Pro’s client portal helps in developing a strong client
-                relationship. Clients feel respected, valued and heard when they
-                could login to their own accounts and access their data. This
-                increases client satisfaction and loyalty.
+                With CallGauge AI’s advanced client portal, you can offer your
+                clients a premium experience that makes them feel empowered and
+                respected. Clear data access = stronger relationships, reduced
+                support load and improved satisfaction.
               </p>
               <p>
-                In today’s fast paced world, clients want clarity and control.
-                Call Gauge pro armed you with tools by which you can exceed
-                those expectations and simplify your workflow.{' '}
+                Today’s clients expect transparency and control.{' '}
+                <strong>
+                  {' '}
+                  CallGauge AI helps you exceed those expectations with
+                  intelligent tools built to scale your business efficiently
+                </strong>
+                .
               </p>
             </div>
             <div className="mt-6">
