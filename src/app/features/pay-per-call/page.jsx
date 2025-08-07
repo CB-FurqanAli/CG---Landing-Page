@@ -17,13 +17,21 @@ function HeroSection() {
       <Container>
         <div className="text-center">
           <Heading as="h1" className="text-4xl md:text-5xl">
-            Pay per Call Feature
+            Pay Per Call Billing
           </Heading>
+          <h2 className="mt-10 text-xl font-semibold">
+            Automated Invoicing for Qualified Calls – Powered by CallGauge AI
+          </h2>
           <Lead className="mx-auto mt-6 max-w-3xl text-lg text-gray-600">
-            Use Call Gauge AI and automatically invoice your clients for
-            qualified calls.
+            Simplify your billing,{' '}
+            <strong>
+              {' '}
+              maximize your revenue. With CallGauge AI’s pay-per–call{' '}
+            </strong>{' '}
+            invoicing feature you can focus on scaling your business while all
+            the related tasks will be automatically handled.
           </Lead>
-          <h2 className="mt-16 text-2xl font-semibold text-[#B867F9] md:text-3xl">
+          <h2 className="mt-16 text-2xl font-semibold md:text-3xl">
             Try Call Gauge AI today
           </h2>
           <Lead className="mx-auto mt-6 max-w-3xl text-lg text-gray-600">

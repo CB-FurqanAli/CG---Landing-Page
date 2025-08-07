@@ -4,21 +4,22 @@ import { Screenshot } from '@/components/screenshot'
 export default function PayPerCallIntroduction() {
   return (
     <section className="mx-auto max-w-7xl bg-white px-6 py-12 md:grid-cols-2 md:items-center">
-      {/*Maximize revenue with Call Gauge AI’s Pay Per Call feature:*/}
+      {/*What is Pay Per Call Billing?*/}
       <div>
         <div className="grid grid-cols-1 gap-12 md:grid-cols-2 md:items-center">
           {/* Left: Image */}
           <div>
-            <h2 className="text-3xl font-bold text-[#DF80D9] sm:text-4xl">
-              Maximize revenue with Call Gauge AI’s Pay Per Call feature:
+            <h2 className="text-3xl font-bold sm:text-4xl">
+              What is Pay Per Call Billing?
             </h2>
 
             <div className="mt-8 space-y-5 leading-relaxed text-gray-700 sm:text-lg">
               <p>
-                Pay per call feature of Call Gauge AI makes invoicing for
-                qualified calls effortless. You don’t have to worry about
-                spreadsheets, manual invoices or chasing down payments. It’s all
-                automated, accurate billing that enhances your business revenue.
+                CallGauge AI’s <strong> Pay Per Call </strong> feature allows
+                you to charge clients automatically for qualified calls based on
+                your customized criteria. No more manual spreadsheets, delayed
+                invoicing or tracking calls one-by-one. We automate the entire
+                workflow with unmatched accuracy and full transparency.
               </p>
             </div>
             <div className="mt-6">
@@ -39,8 +40,76 @@ export default function PayPerCallIntroduction() {
           </div>
         </div>
       </div>
+
+      {/*Key Benefits of CallGauge AI’s White Labeling Feature*/}
+      <div className="mt-32 rounded-2xl bg-white bg-linear-115 from-[#fff1be] from-28% via-[#ee87cb] via-70% to-[#b060ff] p-6 shadow-lg sm:bg-linear-145">
+        <h2 className="my-8 text-center text-3xl font-bold sm:text-4xl">
+          Key Features of Our Pay Per Call Suite
+        </h2>
+
+        <div className="mx-auto max-w-4xl px-6">
+          <ol className="list-inside list-decimal space-y-6 text-gray-700">
+            {/*1st*/}
+            <li>
+              <strong>Seamless Stripe Integration</strong>
+              <ul className="mt-2 ml-6 list-inside list-disc space-y-1">
+                <li>
+                  Connect your Stripe account in seconds and start sending
+                  automated invoices. Funds are deposited directly into your
+                  Stripe account—no extra steps or delays.
+                </li>
+              </ul>
+            </li>
+            {/*2nd*/}
+            <li>
+              <strong>Automated Invoicing for Qualified Calls</strong>
+
+              <ul className="mt-2 ml-6 list-inside list-disc space-y-1">
+                <li>
+                  Define what qualifies as a billable call (e.g. over 2
+                  minutes), and CallGauge AI will generate and send professional
+                  invoices to your clients — all on autopilot.
+                </li>
+              </ul>
+            </li>
+            {/*3rd*/}
+            <li>
+              <strong>Custom Billing Schedules</strong>
+              <ul className="mt-2 ml-6 list-inside list-disc space-y-1">
+                <li>
+                  Set your preferred billing frequency — weekly, monthly, or
+                  custom — to match your business needs and cash flow cycles.
+                </li>
+              </ul>
+            </li>
+            {/*4th*/}
+            <li>
+              <strong>Flexible Billing Rules</strong>
+              <ul className="mt-2 ml-6 list-inside list-disc space-y-1">
+                <li>
+                  You’re in control. Set call duration thresholds or other
+                  qualification metrics to ensure you&#39;re only billing for
+                  real, high-quality leads.
+                </li>
+              </ul>
+            </li>
+            {/*5th*/}
+            <li>
+              <strong>Client-Specific Configuration</strong>
+              <ul className="mt-2 ml-6 list-inside list-disc space-y-1">
+                <li>
+                  Assign unique phone numbers to each client and create
+                  individual billing rules per client or per number. Perfect for
+                  agencies managing multiple accounts.
+                </li>
+              </ul>
+            </li>
+          </ol>
+        </div>
+      </div>
+
       {/*Here’s what included:*/}
-      <div className="mt-40">
+      <div className="mt-32">
         <div className="mx-auto max-w-7xl px-6">
           <div className="my-16 text-center">
             <h2 className="text-4xl font-bold text-gray-900">
@@ -152,79 +221,80 @@ export default function PayPerCallIntroduction() {
           </Container>
         </div>
       </div>
-      {/*How Stripe Integration works:*/}
+
+      {/*How It Works: Stripe Integration in Action*/}
       <div className="mt-32">
         <h2 className="text-center text-3xl font-bold sm:text-4xl">
-          How Stripe Integration works:
+          How It Works: Stripe Integration in Action
         </h2>
 
         <div className="mt-10 text-center text-lg leading-relaxed text-gray-600">
           <div className="mt-16 grid grid-cols-1 gap-6 text-white sm:grid-cols-2 md:grid-cols-3">
             <ul className="list-disc rounded-2xl bg-[#EF8BCB] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
               <li className="text-left">
-                Set your billing frequency like weekly or monthly whatever your
-                preference is.
+                Choose your billing cycle (weekly/monthly).
               </li>
               <li className="text-left">
-                Define what a qualified call is. (e.g. above 120 seconds)
+                Define what counts as a qualified call (e.g. calls over 120
+                seconds).
               </li>
             </ul>
 
             <ul className="list-disc rounded-2xl bg-[#EF8BCB] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
               <li className="text-left">Connect your Stripe account.</li>
               <li className="text-left">
-                Call Gauge AI will track calls and sends automated invoices
-                accordingly.
+                CallGauge AI tracks calls and auto-generates invoices.
               </li>
             </ul>
 
             <ul className="list-disc rounded-2xl bg-[#EF8BCB] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
               <li className="text-left">
-                Clients receive a payable invoice through email.
+                Clients receive their invoice via email.
               </li>
               <li className="text-left">
-                Payments will go directly to your Stripe account.
+                Payments land directly in your Stripe account.
               </li>
             </ul>
           </div>
         </div>
       </div>
 
-      {/*Why use Call Gauge AI’s Pay Per Call feature?*/}
+      {/*Why Use CallGauge AI’s Pay Per Call?*/}
       <div className="mt-40">
         {/*Section Title*/}
         <h2 className="text-center text-3xl font-bold text-[#DF80D9] sm:text-4xl">
-          Why use Call Gauge AI’s Pay Per Call feature?
+          Why Use CallGauge AI’s Pay Per Call?
         </h2>
 
         {/*Feature Cards Grid */}
         <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {/*Feature 1 */}
           <div className="rounded-2xl bg-[#F0B100] p-6 text-white shadow-lg">
-            <h3 className="mb-2 text-xl font-semibold">Save time:</h3>
-            <p>
-              Time-consuming invoicing tasks will be automated to save time.
-            </p>
+            <h3 className="mb-2 text-xl font-semibold">⏳ Save Time</h3>
+            <p>Say goodbye to the tasks related to manual billings</p>
           </div>
 
           {/*Feature 2 */}
           <div className="rounded-2xl bg-[#B564FB] p-6 text-white shadow-lg">
-            <h3 className="mb-2 text-xl font-semibold">Improve cash flow:</h3>
-            <p>Get paid faster and more reliably.</p>
+            <h3 className="mb-2 text-xl font-semibold">💸 Improve Cash Flow</h3>
+            <p>
+              Get paid faster withAI enhanced automated and timely invoicing.
+            </p>
           </div>
 
           {/*Feature 3 */}
           <div className="rounded-2xl bg-[#EF8BCB] p-6 text-white shadow-lg">
-            <h3 className="mb-2 text-xl font-semibold">Eliminate errors:</h3>
-            <p>Get rid of the mistakes that could happen manually.</p>
+            <h3 className="mb-2 text-xl font-semibold">
+              ✔️ Eliminate Human Errors
+            </h3>
+            <p>Accurate invoicing reduces billing disputes.</p>
           </div>
           {/*Feature 4 */}
           <div className="rounded-2xl bg-[#EF8BCB] p-6 text-white shadow-lg">
-            <h3 className="mb-2 text-xl font-semibold">Boost transparency:</h3>
-            <p>
-              Due to clear and professional invoices to the clients,
-              transparency increases.
-            </p>
+            <h3 className="mb-2 text-xl font-semibold">
+              🔍 Increase Transparency
+            </h3>
+            <p>Clients receive clear, itemized invoices they can trust.</p>
           </div>
         </div>
       </div>
