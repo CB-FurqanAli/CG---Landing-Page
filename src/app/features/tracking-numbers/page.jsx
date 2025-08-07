@@ -75,7 +75,7 @@ function TrackingNumbersContent() {
 
         {/* Right: Text Content */}
         <div>
-          <h2 className="text-3xl font-bold text-[#DF80D9] sm:text-4xl">
+          <h2 className="text-3xl font-bold sm:text-4xl">
             What Are Call Tracking Numbers?
           </h2>
 

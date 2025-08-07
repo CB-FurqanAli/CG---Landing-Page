@@ -12,7 +12,7 @@ import { Navbar } from '@/components/navbar'
 import { Heading, Lead, Subheading } from '@/components/text'
 
 export const metadata = {
-  title: 'Features',
+  title: 'Feature',
   description:
     'Discover CallGauge’s powerful call tracking features: affordable numbers, advanced call flows, voicemail tracking, analytics, and more—all at unbeatable prices.',
 }

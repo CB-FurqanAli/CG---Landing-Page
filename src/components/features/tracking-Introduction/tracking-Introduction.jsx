@@ -179,7 +179,7 @@ export default function TrackingIntroduction() {
 
           <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {/*Feature 1 */}
-            <div className="rounded-2xl bg-[#B564FB] p-6 text-white shadow-lg">
+            <div className="rounded-2xl bg-[#F0B100] p-6 text-white shadow-lg">
               <h3 className="mb-2 text-xl font-semibold">
                 Advertising Agencies
               </h3>
@@ -189,7 +189,7 @@ export default function TrackingIntroduction() {
             </div>
 
             {/*Feature 2 */}
-            <div className="rounded-2xl bg-[#B564FB] p-6 text-white shadow-lg">
+            <div className="rounded-2xl bg-[#EF8BCB] p-6 text-white shadow-lg">
               <h3 className="mb-2 text-xl font-semibold">Sales Teams</h3>
               <p>Qualify leads faster with contextual data before answering.</p>
             </div>
@@ -209,7 +209,7 @@ export default function TrackingIntroduction() {
               <p>Track regional campaigns by using local tracking numbers.</p>
             </div>
             {/*Feature 5 */}
-            <div className="rounded-2xl bg-[#B564FB] p-6 text-white shadow-lg">
+            <div className="rounded-2xl bg-[#F0B100] p-6 text-white shadow-lg">
               <h3 className="mb-2 text-xl font-semibold">
                 E-commerce & Online Retailers
               </h3>
@@ -286,156 +286,7 @@ export default function TrackingIntroduction() {
             </div>
           </div>
         </div>
-        update
-        {/*Why call tracking is essential?*/}
-        <div className="mt-32">
-          <h2 className="text-center text-3xl font-bold sm:text-4xl">
-            Why call tracking is essential?
-          </h2>
 
-          <div className="mt-10 text-center text-lg leading-relaxed text-gray-600">
-            <p className="mx-auto my-2 max-w-4xl">
-              Call tracking plays an important role when you want to know the
-              following details:
-            </p>
-
-            <div className="mt-16 grid grid-cols-1 gap-6 text-white sm:grid-cols-2 md:grid-cols-3">
-              <ul className="list-disc rounded-2xl bg-[#EF8BCB] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
-                <li className="text-left">
-                  Identify which of your campaigns is most efficient.
-                </li>
-                <li className="text-left">
-                  Analyze which ads generate real leads.
-                </li>
-              </ul>
-
-              <ul className="list-disc rounded-2xl bg-[#EF8BCB] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
-                <li className="text-left">
-                  Route your calls to the relevant team member automatically.
-                </li>
-                <li className="text-left">
-                  Understand call patterns by location, time and device.
-                </li>
-              </ul>
-
-              <ul className="list-disc rounded-2xl bg-[#EF8BCB] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
-                <li className="text-left">
-                  Learn who your best customers are.
-                </li>
-                <li className="text-left">
-                  Minimize your cost by using features like automated greetings.
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div className="mx-auto mt-16 max-w-4xl text-center text-lg leading-relaxed text-gray-600">
-            <p className="my-2">
-              For example, when you have business in New York and running an ad
-              campaign in Los Angeles, call tracking can show you exactly how
-              well your campaign is converting.
-            </p>
-          </div>
-        </div>
-        {/*What are the benefits of call tracking?*/}
-        <div className="mt-32">
-          <h2 className="text-center text-3xl font-bold sm:text-4xl">
-            What are the benefits of call tracking?
-          </h2>
-
-          <div className="mt-10 text-center leading-relaxed">
-            <p className="mx-auto my-2 max-w-4xl text-lg text-gray-600">
-              You can’t improve your marketing strategies until you don’t know
-              which the most effective ones are. If you are not tracking down
-              your phone calls, then you are definitely missing out important
-              details regarding your customers and revenue generating
-              opportunities.
-            </p>
-            <h2 className="mt-8 text-xl font-semibold">
-              Here are some benefits call tracking offers you to increase your
-              ROI.
-            </h2>
-
-            <div className="mt-8 grid grid-cols-1 gap-6 text-lg text-gray-600 sm:grid-cols-2 md:grid-cols-3">
-              <ul className="list-disc rounded-2xl bg-[#FDDBC2] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
-                <li className="text-left">
-                  Identify the areas where your best customers are calling from.
-                </li>
-                <li className="text-left">
-                  Discover the peak calling time of your customers.
-                </li>
-                <li className="text-left">
-                  Learn how your prospects found your business.
-                </li>
-              </ul>
-
-              <ul className="list-disc rounded-2xl bg-[#FDDBC2] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
-                <li className="text-left">
-                  Reduce your telephone cost by using automated answering
-                  messages.
-                </li>
-                <li className="text-left">
-                  Enhance your call context with insights form live chat data.
-                </li>
-                <li className="text-left">Set up conference calls easily.</li>
-              </ul>
-
-              <ul className="list-disc rounded-2xl bg-[#FDDBC2] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
-                <li className="text-left">
-                  Direct your customers to the relevant agent based on the
-                  product or service.
-                </li>
-                <li className="text-left">
-                  Track your conversations with customers to improve customer
-                  services.
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        {/*How paid search optimized by using call tracking numbers?*/}
-        <div className="mt-32">
-          <h2 className="text-center text-3xl font-bold sm:text-4xl">
-            How paid search optimized by using call tracking numbers?
-          </h2>
-          <div className="mt-10 text-center text-lg leading-relaxed text-gray-600">
-            <p className="mx-auto my-2 max-w-4xl">
-              Now businesses can maximize the impact of their paid search
-              campaigns by pairing them up with call tracking phone numbers. By
-              assigning unique tracking numbers to each campaign, ads or keyword
-              groups you can:
-            </p>
-            <div className="mt-16 grid grid-cols-1 gap-6 text-white sm:grid-cols-2 md:grid-cols-3">
-              <ul className="list-disc rounded-2xl bg-[#b483e6] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
-                <li className="text-left">
-                  Cut out expenses where they are wasted.
-                </li>
-                <li className="text-left">
-                  Discover which keywords generate most calls via online ads.
-                </li>
-              </ul>
-
-              <ul className="list-disc rounded-2xl bg-[#B564FB] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
-                <li className="text-left">
-                  Increase sales opportunities by effectively segmenting target
-                  markets and hence resulting in increased ROI.
-                </li>
-              </ul>
-
-              <ul className="list-disc rounded-2xl bg-[#B564FB] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
-                <li className="text-left">
-                  Shift budgets to the most effective campaigns from less
-                  effective ones.
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div className="mx-auto mt-16 max-w-4xl text-center text-lg leading-relaxed text-gray-600">
-            <p className="my-2">
-              In nutshell, call tracking is data-driven marketing at its finest.
-            </p>
-          </div>
-        </div>
         {/*Grow your business with call tracking.*/}
         <div className="mt-32">
           <h2 className="text-center text-3xl font-bold sm:text-4xl">
@@ -448,17 +299,17 @@ export default function TrackingIntroduction() {
               following:
             </p>
             <div className="mt-16 grid grid-cols-1 gap-6 text-white sm:grid-cols-2 md:grid-cols-3">
-              <ul className="list-disc rounded-2xl bg-[#F0B100] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
+              <ul className="list-disc rounded-2xl bg-[#B564FB] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
                 <li className="text-left">Ads on your website.</li>
                 <li className="text-left">A sales coupon and promotions.</li>
               </ul>
 
-              <ul className="list-disc rounded-2xl bg-[#F0B100] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
+              <ul className="list-disc rounded-2xl bg-[#B564FB] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
                 <li className="text-left">
                   Information you share on trade shows.
                 </li>
               </ul>
-              <ul className="list-disc rounded-2xl bg-[#F0B100] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
+              <ul className="list-disc rounded-2xl bg-[#B564FB] px-8 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)]">
                 <li className="text-left">Lead generation forms.</li>
               </ul>
             </div>
