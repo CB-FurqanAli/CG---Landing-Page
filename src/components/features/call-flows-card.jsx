@@ -26,13 +26,13 @@ export default function CallFlowsCard() {
 
           {/* Right Dashboard Mockup */}
 
-          <div className="relative overflow-hidden rounded-3xl p-4">
+          <div className="relative overflow-hidden">
             {/* Representative Image */}
 
             <img
               src="call-flow/flow.png" // Path to image
               alt="Description of image" // Always use alt for accessibility
-              className="rounded-2xl object-cover shadow-xl"
+              className="rounded-2xl object-cover"
             />
 
             {/*<div>*/}
