@@ -344,6 +344,38 @@ export default function CallFlowIntroduction() {
           </div>
         </div>
 
+        {/*AI-Powered Call Tree for Smarter Call Routing*/}
+        <div className="mt-40">
+          <div className="grid grid-cols-1 gap-12 md:grid-cols-2 md:items-center">
+            {/* Left: Image */}
+            <div>
+              <h2 className="text-3xl font-bold sm:text-4xl">
+                AI-Powered Call Tree for Smarter Call Routing
+              </h2>
+              <div className="mt-8 space-y-5 leading-relaxed text-gray-600 sm:text-lg">
+                <p>
+                  Guide your callers to the right department instantly with our
+                  AI-powered Call Tree. Using keypad prompts, customers can
+                  choose from a menu of options—like Sales, Support, or
+                  Billing—so every call is routed to the right team without
+                  delays. Customize voice prompts, assign unique numbers, and
+                  deliver a smoother, faster caller experience.
+                </p>
+              </div>
+            </div>
+
+            {/* Right: Text Content */}
+            <div className="w-full">
+              <img
+                src="/call-flow/call-tree.png"
+                loading="lazy"
+                alt="AI-Powered Call Tree for Smarter Call Routing"
+                className="feature-set_image border-gray-400"
+              />
+            </div>
+          </div>
+        </div>
+
         {/*Additional features & settings:*/}
         <div className="mt-40">
           {/*Section Title*/}

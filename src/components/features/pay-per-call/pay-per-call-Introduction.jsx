@@ -1,6 +1,3 @@
-import { Container } from '@/components/container'
-import { Screenshot } from '@/components/screenshot'
-
 export default function PayPerCallIntroduction() {
   return (
     <section className="mx-auto max-w-7xl bg-white px-6 py-12 md:grid-cols-2 md:items-center">
@@ -108,25 +105,6 @@ export default function PayPerCallIntroduction() {
         </div>
       </div>
 
-      {/*Here was a video explanation.*/}
-      <div className="">
-        <div className="mt-4 text-center text-red-400">
-          Here was a video explanation.
-        </div>
-
-        <div className="overflow-hidden">
-          <Container className="pb-16">
-            <Screenshot
-              width={1116}
-              height={686}
-              // src="/screenshots/app.png" // Replace with actual CallGauge dashboard screenshot
-              src="/screenshots/dummy2.png" // Replace with actual CallGauge dashboard screenshot
-              className="mt-12 sm:max-w-[76rem]"
-            />
-          </Container>
-        </div>
-      </div>
-
       {/*How It Works: Stripe Integration in Action*/}
       <div className="mt-32">
         <h2 className="text-center text-3xl font-bold sm:text-4xl">
@@ -200,6 +178,25 @@ export default function PayPerCallIntroduction() {
               🔍 Increase Transparency
             </h3>
             <p>Clients receive clear, itemized invoices they can trust.</p>
+          </div>
+        </div>
+      </div>
+
+      <div className="bg-gray-50 pt-32">
+        <div className="container mx-auto max-w-4xl px-6 text-center">
+          <h2 className="mb-4 text-3xl font-bold">
+            Take Control of Your Call-Based Revenue
+          </h2>
+          <p className="mb-6 text-lg text-gray-600">
+            With{' '}
+            <span className="font-semibold text-blue-600">CallGauge AI</span>,
+            you’re not just tracking calls — you’re monetizing them smarter and
+            faster. Whether you’re an agency, telecom reseller, or service
+            provider, our <span className="font-semibold">Pay Per Call</span>{' '}
+            feature is designed to scale with your business.
+          </p>
+          <div className="mb-6 flex items-center justify-center gap-3 text-sm text-gray-600">
+            <span>✅ No credit card needed — just results.</span>
           </div>
         </div>
       </div>

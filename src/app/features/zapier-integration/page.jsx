@@ -6,7 +6,7 @@ import { Navbar } from '@/components/navbar'
 import { Heading, Lead } from '@/components/text'
 
 export const metadata = {
-  title: 'Scalable Call Tracking Numbers',
+  title: 'Zapier Integration with CallGauge AI ',
   description:
     'Monitor hundreds or thousands of phone numbers without breaking the bank. Get local, toll-free, or vanity numbers with the industry’s most competitive pricing—perfect for agencies and businesses of all sizes.',
 }
@@ -24,12 +24,11 @@ function HeroSection() {
           </h2>
           <Lead className="mx-auto mt-6 max-w-3xl text-lg text-gray-600">
             Looking for an AI enriched call tracking platform that connects
-            effortlessly with your favorite tools?{' '}
-            <strong> CallGauge AI includes built-in Zapier support </strong>{' '}
-            across all plans—so you can automate workflows, sync call data and
-            connect with thousands of apps through{' '}
-            <strong> Zapier’s powerful automation engine </strong> without
-            writing a single line of code.
+            effortlessly with your favorite tools? CallGauge AI includes
+            built-in Zapier support across all plans, so you can automate
+            workflows, sync call data and connect with thousands of apps through
+            Zapier’s powerful automation engine without writing a single line of
+            code.
           </Lead>
           <h2 className="mt-16 text-2xl font-semibold md:text-3xl">
             Try Call Gauge AI today
