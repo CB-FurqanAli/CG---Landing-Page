@@ -145,8 +145,8 @@ export default function CallFlowIntroduction() {
           <div className="grid grid-cols-1 gap-12 md:grid-cols-2 md:items-center">
             {/* Left: Image */}
             <div>
-              <h2 className="text-3xl font-bold text-[#DF80D9] sm:text-4xl">
-                📩 AI Voicemail Routing
+              <h2 className="text-3xl font-bold sm:text-4xl">
+                AI Voicemail Routing
               </h2>
 
               <div className="mt-8 space-y-5 leading-relaxed text-gray-700 sm:text-lg">
@@ -191,7 +191,7 @@ export default function CallFlowIntroduction() {
             {/* Right: Text Content */}
             <div className="w-full">
               <img
-                src="https://cdn.prod.website-files.com/5d82e225060d003d65ddae98/679a8b95e178179bada0d823_call-tracking-fs_3.webp"
+                src="/call-flow/voiceemail.png"
                 loading="lazy"
                 alt="Activate call analytics data in your martech tools with Invoca integrations"
                 className="feature-set_image"
@@ -207,17 +207,17 @@ export default function CallFlowIntroduction() {
 
             <div className="w-full">
               <img
-                src="https://cdn.prod.website-files.com/5d82e225060d003d65ddae98/6799a27b9dac8826f2df2067_call-tracking-fs_4.webp"
+                src="/call-flow/Missed-Call-Texts.png"
                 loading="lazy"
-                alt="AI call analytics accurately measure call quality with Invoca"
+                alt="Missed Call Texts – Automated"
                 className="feature-set_image"
               />
             </div>
 
             {/* Right: Text Content */}
             <div>
-              <h2 className="text-3xl font-bold text-[#DF80D9] sm:text-4xl">
-                📲 Missed Call Texts – Automated
+              <h2 className="text-3xl font-bold sm:text-4xl">
+                Missed Call Texts – Automated
               </h2>
               <div className="mt-8 space-y-5 leading-relaxed text-gray-700 sm:text-lg">
                 <p>
@@ -251,8 +251,8 @@ export default function CallFlowIntroduction() {
           <div className="grid grid-cols-1 gap-12 md:grid-cols-2 md:items-center">
             {/* Left: Image */}
             <div>
-              <h2 className="text-3xl font-bold text-[#DF80D9] sm:text-4xl">
-                📧 Email Notifications & Automations
+              <h2 className="text-3xl font-bold sm:text-4xl">
+                Email Notifications & Automations
               </h2>
 
               <div className="mt-8 space-y-5 leading-relaxed text-gray-700 sm:text-lg">
@@ -278,10 +278,10 @@ export default function CallFlowIntroduction() {
             {/* Right: Text Content */}
             <div className="w-full">
               <img
-                src="https://cdn.prod.website-files.com/5d82e225060d003d65ddae98/679a8b95e178179bada0d823_call-tracking-fs_3.webp"
+                src="/call-flow/Email-Notifications.png"
                 loading="lazy"
-                alt="Activate call analytics data in your martech tools with Invoca integrations"
-                className="feature-set_image"
+                alt="Email Notifications & Automations"
+                className="feature-set_image border-gray-400"
               />
             </div>
           </div>
@@ -295,8 +295,8 @@ export default function CallFlowIntroduction() {
             <div className="w-full">
               <img
                 src="/call-flow/Multi-Ringing.png"
-                loading="Multi-Ringing"
-                alt="AI call analytics accurately measure call quality with Invoca"
+                loading=""
+                alt="Multi-Ringing"
                 className="feature-set_image"
               />
             </div>
@@ -347,7 +347,7 @@ export default function CallFlowIntroduction() {
         {/*Additional features & settings:*/}
         <div className="mt-40">
           {/*Section Title*/}
-          <h2 className="text-center text-3xl font-bold text-[#DF80D9] sm:text-4xl">
+          <h2 className="text-center text-3xl font-bold sm:text-4xl">
             Additional features & settings:
           </h2>
           <p className="mx-auto my-8 max-w-3xl text-center text-lg leading-relaxed text-gray-700">
@@ -430,7 +430,7 @@ export default function CallFlowIntroduction() {
         </div>
 
         {/*Want to setup a call flow for your business?*/}
-        <div className="mt-40">
+        <div className="mt-32">
           <h2 className="text-center text-3xl font-bold sm:text-4xl">
             Ready to Build Smarter Call Flows?
           </h2>

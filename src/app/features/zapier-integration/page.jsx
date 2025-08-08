@@ -17,14 +17,21 @@ function HeroSection() {
       <Container>
         <div className="text-center">
           <Heading as="h1" className="text-4xl md:text-5xl">
-            Zapier Integration in Call Gauge AI
+            Zapier Integration with CallGauge AI
           </Heading>
+          <h2 className="mt-10 text-xl font-semibold">
+            Automate Call Workflows with Tools You Already Use — No Code Needed
+          </h2>
           <Lead className="mx-auto mt-6 max-w-3xl text-lg text-gray-600">
-            Need a call tracking software with Zapier integration? You have
-            reached your destination as Call Gauge AI offers free Zapier in its
-            Plans.
+            Looking for an AI enriched call tracking platform that connects
+            effortlessly with your favorite tools?{' '}
+            <strong> CallGauge AI includes built-in Zapier support </strong>{' '}
+            across all plans—so you can automate workflows, sync call data and
+            connect with thousands of apps through{' '}
+            <strong> Zapier’s powerful automation engine </strong> without
+            writing a single line of code.
           </Lead>
-          <h2 className="mt-16 text-2xl font-semibold text-[#B867F9] md:text-3xl">
+          <h2 className="mt-16 text-2xl font-semibold md:text-3xl">
             Try Call Gauge AI today
           </h2>
           <Lead className="mx-auto mt-6 max-w-3xl text-lg text-gray-600">
