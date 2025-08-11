@@ -7,9 +7,9 @@ import { Navbar } from '@/components/navbar'
 import { Heading, Lead } from '@/components/text'
 
 export const metadata = {
-  title: 'Call Whispering with CallGauge AI',
+  title: 'Call Whispering by CallGauge AI – Instant Caller Insights',
   description:
-    'Monitor hundreds or thousands of phone numbers without breaking the bank. Get local, toll-free, or vanity numbers with the industry’s most competitive pricing—perfect for agencies and businesses of all sizes.',
+    'Know who’s calling and why—before you answer. With CallGauge AI’s Call Whispering, boost personalization, speed up sales and improve conversions.',
 }
 
 function HeroSection() {

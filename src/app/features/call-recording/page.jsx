@@ -7,9 +7,9 @@ import { Navbar } from '@/components/navbar'
 import { Heading, Lead } from '@/components/text'
 
 export const metadata = {
-  title: 'Call Recording ',
+  title: 'Never Miss a Call – AI Call Recording Made Easy – CallGauge AI',
   description:
-    'Master your inbound calls with CallGauge’s advanced call flow tools. Build custom routing, automate tasks, and enhance every call experience effortlessly.',
+    'Effortless AI call recording with crystal clarity & compliance. Access, share & store unlimited calls. Start your free trial today with CallGauge AI.',
 }
 
 function HeroSection() {
@@ -20,7 +20,7 @@ function HeroSection() {
           <Heading as="h1" className="text-4xl text-gray-900 md:text-5xl">
             Call Recording Enhanced by AI Precision
           </Heading>
-          <h2 className="my-3 text-xl font-semibold">
+          <h2 className="my-8 text-xl font-medium">
             Effortless, Reliable and Compliant Call Recording Feature for Every
             Business Size.
           </h2>

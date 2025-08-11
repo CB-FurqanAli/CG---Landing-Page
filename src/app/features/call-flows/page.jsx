@@ -7,9 +7,9 @@ import { Navbar } from '@/components/navbar'
 import { Heading, Lead } from '@/components/text'
 
 export const metadata = {
-  title: 'Advanced Call Flows',
+  title: 'Call Flows by CallGauge AI – Smart Routing & Automation',
   description:
-    'Master your inbound calls with CallGauge’s advanced call flow tools. Build custom routing, automate tasks, and enhance every call experience effortlessly.',
+    'Build AI-powered call flows with DNI, call trees, voicemail, SMS, and spam blocking—streamline routing and boost conversions effortlessly',
 }
 
 function HeroSection() {

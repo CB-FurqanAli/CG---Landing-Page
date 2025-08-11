@@ -111,7 +111,7 @@ export default function ClientManagementIntroduction() {
         <div className="grid grid-cols-1 gap-12 md:grid-cols-2 md:items-center">
           {/* Left: Image */}
           <div>
-            <h2 className="text-3xl font-bold text-[#DF80D9] sm:text-4xl">
+            <h2 className="text-3xl font-bold sm:text-4xl">
               Deliver a Professional, Self-Branded Experience
             </h2>
 
@@ -142,7 +142,7 @@ export default function ClientManagementIntroduction() {
           {/* Right: Text Content */}
           <div className="w-full">
             <img
-              src="https://cdn.prod.website-files.com/5d82e225060d003d65ddae98/679a8b95e178179bada0d823_call-tracking-fs_3.webp"
+              src="/call-flow/create-members.png"
               loading="lazy"
               alt="Activate call analytics data in your martech tools with Invoca integrations"
               className="feature-set_image"
