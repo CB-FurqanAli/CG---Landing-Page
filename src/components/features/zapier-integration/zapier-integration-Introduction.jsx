@@ -6,9 +6,7 @@ export default function ZapierIntegrationIntroduction() {
         <div className="container mx-auto grid max-w-7xl grid-cols-1 gap-12 px-6 md:grid-cols-2 md:items-center">
           {/* Left: Image */}
           <div>
-            <h2 className="text-3xl font-bold text-[#DF80D9] sm:text-4xl">
-              What is Zapier?
-            </h2>
+            <h2 className="text-3xl font-bold sm:text-4xl">What is Zapier?</h2>
 
             <div className="mt-8 space-y-5 leading-relaxed text-gray-700 sm:text-lg">
               <p>
@@ -213,9 +211,7 @@ export default function ZapierIntegrationIntroduction() {
 
           {/* Left: Image */}
           <div>
-            <h2 className="text-3xl font-bold text-[#DF80D9] sm:text-4xl">
-              Test and Publish
-            </h2>
+            <h2 className="text-3xl font-bold sm:text-4xl">Test and Publish</h2>
 
             <div className="mt-8 space-y-5 leading-relaxed text-gray-700 sm:text-lg">
               <p>

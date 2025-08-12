@@ -67,7 +67,7 @@ function TrackingNumbersContent() {
         {/* Left: Image */}
         <div className="w-full">
           <img
-            src="https://www.whatconverts.com/wp-content/uploads/2025/05/call-tracking-story-img.png"
+            src="/call-flow/call-tracking.png"
             alt="From Basic Call Tracking to Complete Marketing Attribution"
             className=""
           />

@@ -54,7 +54,7 @@ export default function CallRecordingIntroduction() {
             {/* Right: Text Content */}
             <div className="w-full">
               <img
-                src="https://cdn.prod.website-files.com/5d82e225060d003d65ddae98/679a8b95e178179bada0d823_call-tracking-fs_3.webp"
+                src="/call-flow/call-recording.png"
                 loading="lazy"
                 alt="Activate call analytics data in your martech tools with Invoca integrations"
                 className="feature-set_image"
