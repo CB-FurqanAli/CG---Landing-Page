@@ -7,9 +7,9 @@ import { Navbar } from '@/components/navbar'
 import { Heading, Lead } from '@/components/text'
 
 export const metadata = {
-  title: 'Scalable Call Tracking Numbers',
+  title: 'Manage Clients Effortlessly with AI Call Tracking',
   description:
-    'Monitor hundreds or thousands of phone numbers without breaking the bank. Get local, toll-free, or vanity numbers with the industry’s most competitive pricing—perfect for agencies and businesses of all sizes.',
+    'Empower clients with secure, real-time access to their calls, texts & voicemails. Build trust and save time with CallGauge AI’s branded client portal.',
 }
 
 function HeroSection() {

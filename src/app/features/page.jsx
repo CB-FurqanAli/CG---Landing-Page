@@ -4,6 +4,7 @@ import { default as CallFlowsCard } from '@/components/features/call-flows-card'
 import CustomGreetingsCards from '@/components/features/custom-greetings-cards'
 import DynamicNumberCard from '@/components/features/dynamic-number-card'
 import FeatureCards from '@/components/features/feature-cards'
+import FeatureCards1 from '@/components/features/feature-cards1'
 import ReportingCards from '@/components/features/reporting-cards'
 import WhiteLabelingCard from '@/components/features/white-labeling-card'
 import { Footer } from '@/components/footer'
@@ -135,10 +136,10 @@ function CallTrackingNumbers() {
         link="features/voicemail"
       />
       <FeatureCards
-        title="🔁 Number Porting"
-        description="Easily transfer existing numbers to CallGauge AI with no downtime."
+        title="💼 Pay-Per-Call Billing"
+        description="Charge clients for qualified calls automatically—performance-based pricing built in."
         icon="https://cdn.prod.website-files.com/5d82e225060d003d65ddae98/6799aa8fc3aab2b7fdbae39d_money-trend-up.svg"
-        link="#"
+        link="features/pay-per-call"
       />
     </div>
   )
@@ -154,16 +155,16 @@ function ClientPortal() {
         link="features/client-management"
       />
 
-      <FeatureCards
-        title="💼 Pay-Per-Call Billing"
-        description="Charge clients for qualified calls automatically—performance-based pricing built in."
-        icon="https://cdn.prod.website-files.com/5d82e225060d003d65ddae98/6799aa8fd2f07ac6bafd28e0_dollar-hand-holding.svg"
-        link="features/pay-per-call"
+      <FeatureCards1
+        title="🔁 Number Porting"
+        description="Easily transfer existing numbers to CallGauge AI with no downtime."
+        icon="https://cdn.prod.website-files.com/5d82e225060d003d65ddae98/6799aa8fc3aab2b7fdbae39d_money-trend-up.svg"
+        link="#"
       />
-      <FeatureCards
+      <FeatureCards1
         title="🧠 Spam Call Blocking"
         description="AI-powered filters block robocalls and spam before they waste your time."
-        icon="https://cdn.prod.website-files.com/5d82e225060d003d65ddae98/6799aa8fc3aab2b7fdbae39d_money-trend-up.svg"
+        icon="https://cdn.prod.website-files.com/5d82e225060d003d65ddae98/6799aa8fd2f07ac6bafd28e0_dollar-hand-holding.svg"
         link="#"
       />
     </div>

@@ -6,9 +6,9 @@ import { Navbar } from '@/components/navbar'
 import { Heading, Lead } from '@/components/text'
 
 export const metadata = {
-  title: 'Scalable Call Tracking Numbers',
+  title: 'Dynamic Number Insertion (DNI) Script Guide',
   description:
-    'Monitor hundreds or thousands of phone numbers without breaking the bank. Get local, toll-free, or vanity numbers with the industry’s most competitive pricing—perfect for agencies and businesses of all sizes.',
+    'Step-by-step DNI script setup for WordPress, Wix, Webflow & more. Track calls by source with AI-powered accuracy from CallGauge AI.',
 }
 
 function HeroSection() {

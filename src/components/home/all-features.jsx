@@ -2,7 +2,7 @@ import { integrations } from '@/config/data'
 
 export default function AllFeatures() {
   return (
-    <section className="bg-gray-100 px-4 py-16 text-white">
+    <section className="my-10 bg-gray-100 px-4 py-16 text-white">
       <div className="mx-auto max-w-6xl text-center">
         <h2 className="mb-12 text-3xl font-bold text-black sm:text-4xl">
           We offer all the features you need in a call tracking software at

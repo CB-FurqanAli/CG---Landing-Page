@@ -6,9 +6,9 @@ import { Navbar } from '@/components/navbar'
 import { Heading, Lead } from '@/components/text'
 
 export const metadata = {
-  title: ' White Label Call',
+  title: ' White Label Call Tracking Software',
   description:
-    ' White Label Call Tracking Platform — Brand CallGauge AI as Your Own',
+    'Customize CallGauge AI with your own brand, domain, and colors. Deliver a secure, branded call tracking platform to clients—hassle-free.',
 }
 
 function HeroSection() {

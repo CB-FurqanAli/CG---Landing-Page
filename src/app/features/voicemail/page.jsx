@@ -7,9 +7,9 @@ import { Navbar } from '@/components/navbar'
 import { Heading, Lead } from '@/components/text'
 
 export const metadata = {
-  title: 'Advanced Call Flows',
+  title: 'AI Voicemail Recording – Capture & Convert Missed Calls',
   description:
-    'Master your inbound calls with CallGauge’s advanced call flow tools. Build custom routing, automate tasks, and enhance every call experience effortlessly.',
+    'CallGauge AI turns missed calls into leads with smart voicemail, instant alerts, and organized follow-up tools. Try it free today.',
 }
 
 function HeroSection() {
