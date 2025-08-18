@@ -65,46 +65,46 @@ export const additionalFeatures = [
 export const integrations = [
   {
     name: 'Clean USA and Canadian phone number.',
-    icon: 'https://cdn-icons-png.flaticon.com/512/906/906361.png',
+    icon: '/icon/Clean-USA.png',
   },
   {
     name: 'AI powered Call tracking and Analytics.',
-    icon: 'https://cdn-icons-png.flaticon.com/512/906/906361.png',
+    icon: '/icon/AI-powered-Call.png',
   },
   {
     name: 'SMS & Call forwarding.',
-    icon: 'https://cdn-icons-png.flaticon.com/512/5968/5968520.png',
+    icon: '/icon/SMS & Call forwarding.png',
   },
   {
     name: 'Inbound call tracking.',
-    icon: 'https://cdn-icons-png.flaticon.com/512/2111/2111615.png',
+    icon: '/icon/Inbound call tracking.png',
   },
   {
     name: 'Effortless client management.',
-    icon: 'https://cdn-icons-png.flaticon.com/512/5968/5968872.png',
+    icon: '/icon/Effortless client.png',
   },
   {
     name: 'Free call recording.',
-    icon: 'https://cdn-icons-png.flaticon.com/512/5968/5968840.png',
+    icon: '/icon/call recording.png',
   },
   {
     name: 'Call whispering.',
-    icon: 'https://cdn-icons-png.flaticon.com/512/888/888879.png',
+    icon: '/icon/Call whispering.png',
   },
   {
     name: 'Missed call notifications',
-    icon: 'https://cdn-icons-png.flaticon.com/512/5968/5968789.png',
+    icon: '/icon/Missed call notifications.png',
   },
   {
     name: 'AI powered call transcriptions and summaries.',
-    icon: 'https://cdn-icons-png.flaticon.com/512/5968/5968789.png',
+    icon: '/icon/call transcriptions summaries.png',
   },
   {
     name: 'Fully automated reporting system.',
-    icon: 'https://cdn-icons-png.flaticon.com/512/5968/5968789.png',
+    icon: '/icon/automated reporting.png',
   },
   {
     name: 'And a lot more…..',
-    icon: 'https://cdn-icons-png.flaticon.com/512/5968/5968789.png',
+    icon: '/icon/And a lot more.png',
   },
 ]
