@@ -16,9 +16,9 @@ import {
 import Image from 'next/image'
 
 export const metadata = {
-  title: 'Pricing',
+  title: 'Pricing Plans | CallGauge AI Call Tracking & Analytics',
   description:
-    'Traditional call tracking services like CallRail charge $3.00+ per number. With CallGauge, you only pay $0.50 per number, allowing you to track more without stretching your budget.',
+    'Compare CallGauge AI pricing plans for call tracking, analytics, and automation. Affordable monthly and yearly options to scale your business with smart call recording, reporting, and integrations',
 }
 
 const tiers = [
@@ -214,11 +214,15 @@ const tiers = [
 function Header() {
   return (
     <Container className="mt-16">
-      <Heading as="h1">Affordable Call Tracking with CallGauge</Heading>
+      <Heading as="h1">Backed by AI. Priced for Performance.</Heading>
       <Lead className="mt-6 max-w-3xl">
-        Unlike CallRail, which charges $3.00+ per number, CallGauge offers
-        numbers at just $0.50 each, empowering you to scale your tracking
-        efforts without breaking the bank.
+        While most platforms charge{' '}
+        <strong> $3.00 or more per number, CallGauge AI </strong>
+        offers them at <strong> just $0.50 each. </strong> Track{' '}
+        <strong> 6x more numbers </strong>
+        for the same budget — thanks to CallGauge AI’s amazingly low pricing and
+        intelligent automation.
+        <br /> Smarter Pricing. Smarter Insights
       </Lead>
     </Container>
   )
