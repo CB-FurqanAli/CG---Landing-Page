@@ -1,4 +1,3 @@
-import { Bullets } from '@/components/bullets'
 import { Button } from '@/components/button'
 import { Container } from '@/components/container'
 import { FAQSection } from '@/components/FAQSection'
@@ -12,9 +11,7 @@ import { LogoCloud } from '@/components/logo-cloud'
 import WhoShould from '@/components/home/who-should '
 import WhyChoose from '@/components/home/why-choose'
 import { Navbar } from '@/components/navbar'
-import { Screenshot } from '@/components/screenshot'
 import { Testimonials } from '@/components/testimonials'
-import { Heading } from '@/components/text'
 import { ChevronRightIcon } from '@heroicons/react/16/solid'
 
 export const metadata = {
@@ -40,38 +37,44 @@ function Hero() {
           }
         />
         <div className="py-16 text-center md:py-24">
-          <h1 className="font-display text-4xl/[0.9] font-medium tracking-tight text-balance text-gray-950 sm:text-8xl/[1] md:text-7xl/[1]">
-            AI-Powered Call Tracking That Supercharge Your Business
+          <h1 className="text-5xl font-semibold tracking-tight text-balance text-gray-900 sm:text-7xl">
+            AI-Powered Call Tracking That Supercharges Your Business
           </h1>
-          <div className="mx-auto mt-8 max-w-xl text-center text-xl/7 font-medium text-gray-950/75 sm:text-xl/8">
+
+          {/* Subtitle / Supporting Text */}
+          <div className="mx-auto mt-8 max-w-3xl text-center text-lg leading-relaxed text-gray-700 sm:text-xl">
             <p>
-              With <strong>CallGauge AI </strong>, you can intelligently track
+              With <strong>CallGauge AI</strong>, you can intelligently track
               every{' '}
-              <strong>
-                phone call, text message, web form, and live chat{' '}
-              </strong>{' '}
+              <strong>phone call, text message, web form, and live chat</strong>{' '}
               — all from a single, unified dashboard.
             </p>
-            <p>
-              Leverage the power of <strong>artificial intelligence </strong> to
+            <p className="mt-4">
+              Leverage the power of <strong>artificial intelligence</strong> to
               capture, analyze, and optimize every customer interaction.
             </p>
-            <p>
+            <p className="mt-4">
               Turn more leads into revenue and grow faster — all for just{' '}
-              <strong>$0.50 per number </strong>, the most affordable rate in
-              the industry.
+              <strong>$0.50 per number</strong>, the most affordable rate in the
+              industry.
             </p>
           </div>
-          <div className="mt-12 flex flex-col justify-center gap-x-6 gap-y-4 sm:flex-row">
-            <Button href="#">Sign up free</Button>
-            <Button variant="secondary" href="#">
+
+          {/* CTA Buttons */}
+          <div className="mt-12 flex flex-col justify-center gap-4 sm:flex-row">
+            <Button href="#" className="px-8 py-3 text-lg font-semibold">
+              Sign up free
+            </Button>
+            <Button
+              variant="secondary"
+              href="#"
+              className="px-8 py-3 text-lg font-semibold"
+            >
               Watch a demo
             </Button>
-            {/*<Button variant="secondary" href="/pricing">*/}
-            {/*  See pricing*/}
-            {/*</Button>*/}
           </div>
-          <p className="mt-3 text-sm font-medium text-red-500 italic">
+          {/* Footnote */}
+          <p className="mt-4 text-sm font-medium text-red-500 italic">
             *No credit card needed
           </p>
         </div>
@@ -80,62 +83,155 @@ function Hero() {
   )
 }
 
-function FeatureSection() {
+function CallTrackingSuite() {
   return (
-    <div className="overflow-hidden">
-      <Container className="pb-16">
-        <Heading as="h2" className="mx-auto max-w-3xl">
-          All-in-One AI Call Tracking Suite
-        </Heading>
-        <h3 className="mt-12 text-center text-lg font-medium">
-          Smarter, faster, and more affordable than anything else.{' '}
-        </h3>{' '}
-        <Screenshot
-          width={1216}
-          height={786}
-          // src="/screenshots/app.png" // Replace with actual CallGauge dashboard screenshot
-          src="/screenshots/dummy2.png" // Replace with actual CallGauge dashboard screenshot
-          className="mt-16 sm:max-w-[76rem]"
-        />
-      </Container>
-    </div>
-  )
-}
+    <section className="relative bg-white py-16">
+      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+        {/* Heading */}
+        <div className="mx-auto max-w-3xl text-center">
+          <h2 className="text-4xl font-semibold tracking-tight text-balance text-gray-900 sm:text-5xl">
+            All-in-One AI Call Tracking Suite
+          </h2>
+          <p className="mt-8 text-lg leading-relaxed text-gray-700">
+            Smarter, faster, and more affordable than anything else.
+          </p>
+        </div>
 
-function BentoSection() {
-  return (
-    <Container>
-      <div className="grid gap-4 sm:mt-16 md:grid-cols-2 lg:grid-cols-3">
-        <Bullets
-          title="AI Attribution & Call Intelligence "
-          bullets="Instantly identify where your calls come from?"
-          bullets1="Use Dynamic Number Insertion (DNI) to connect campaigns to calls."
-          bullets2="AI-powered call transcription and summaries."
-          bullets3="Know which leads convert — and why?"
-          fade={['bottom']}
-          className="bg-[#FDE0C1] max-lg:rounded-tr-4xl"
-        />
-
-        <Bullets
-          title="Streamlined Call Operations"
-          bullets="Call Whisper, Call Recording, Voicemail, and SMS in one place."
-          bullets1="Automate call routing and follow-ups."
-          bullets2="Manage missed calls with instant alerts."
-          bullets3="Seamless AI transcription for every call."
-          fade={['bottom']}
-          className="bg-[#DF80D9] max-lg:rounded-t-4xl"
-        />
-        <Bullets
-          title="Effortless Client Management"
-          bullets="Give clients real-time dashboards with white-label access."
-          bullets1="Automate client billing with our Pay-Per-Call model."
-          bullets2="Handle 10x more accounts without extra workload."
-          bullets3="Build trust with branded portals and reporting."
-          fade={['bottom']}
-          className="bg-[#FBCFC5] max-lg:rounded-tr-4xl"
-        />
+        {/* Feature Sections */}
+        <div className="mt-12 space-y-10 divide-y divide-gray-200">
+          {/* Section 1 */}
+          <div className="grid gap-12 pt-12 lg:grid-cols-2 lg:gap-16">
+            <div className="space-y-6">
+              <span className="inline-flex items-center rounded-full bg-gradient-to-r from-[#FBCCC5] to-[#B767F4] px-3 py-1 text-sm font-medium text-white shadow-sm">
+                AI Attribution & Call Intelligence
+              </span>
+              <ul className="mt-6 space-y-4 text-base leading-relaxed text-gray-700">
+                <li className="flex items-start gap-3">
+                  <span className="flex h-6 w-6 items-center justify-center rounded-full bg-pink-100 text-pink-600">
+                    ✓
+                  </span>
+                  Instantly identify where your calls come from?
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="flex h-6 w-6 items-center justify-center rounded-full bg-pink-100 text-pink-600">
+                    ✓
+                  </span>
+                  Use Dynamic Number Insertion (DNI) to connect campaigns to
+                  calls.
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="flex h-6 w-6 items-center justify-center rounded-full bg-pink-100 text-pink-600">
+                    ✓
+                  </span>
+                  AI-powered call transcription and summaries.
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="flex h-6 w-6 items-center justify-center rounded-full bg-pink-100 text-pink-600">
+                    ✓
+                  </span>
+                  Know which leads convert — and why?
+                </li>
+              </ul>
+            </div>
+            <div className="relative rounded-2xl bg-gradient-to-br from-[#fff1be] via-[#ee87cb] to-[#b060ff] p-1 shadow-lg">
+              <div className="rounded-xl bg-white p-8">
+                <img
+                  src="https://www.whatconverts.com/wp-content/uploads/2021/07/call-tracking-numbers-hero-1000x700-1.jpg"
+                  alt="AI Attribution & Call Intelligence"
+                  className="rounded-lg"
+                />
+              </div>
+            </div>
+          </div>
+          {/* Section 2 */}
+          <div className="grid gap-12 pt-12 lg:grid-cols-2 lg:gap-16">
+            <div className="relative order-last rounded-2xl bg-gradient-to-br from-[#e0f7fa] to-[#b2ebf2] p-1 shadow-lg lg:order-first">
+              <div className="rounded-xl bg-white p-8">
+                <img
+                  src="https://www.whatconverts.com/wp-content/uploads/2021/07/call-tracking-numbers-hero-1000x700-1.jpg"
+                  alt="Call Operations"
+                  className="rounded-lg"
+                />
+              </div>
+            </div>
+            <div className="space-y-6">
+              <span className="inline-flex items-center rounded-full bg-gradient-to-r from-[#38bdf8] to-[#6366f1] px-3 py-1 text-sm font-medium text-white shadow-sm">
+                Streamlined Call Operations
+              </span>
+              <ul className="mt-6 space-y-4 text-base leading-relaxed text-gray-700">
+                <li className="flex items-start gap-3">
+                  <span className="flex h-6 w-6 items-center justify-center rounded-full bg-pink-100 text-pink-600">
+                    ✓
+                  </span>
+                  Call Whisper, Call Recording, Voicemail, and SMS in one place.
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="flex h-6 w-6 items-center justify-center rounded-full bg-pink-100 text-pink-600">
+                    ✓
+                  </span>{' '}
+                  Automate call routing and follow-ups.
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="flex h-6 w-6 items-center justify-center rounded-full bg-pink-100 text-pink-600">
+                    ✓
+                  </span>{' '}
+                  Manage missed calls with instant alerts.
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="flex h-6 w-6 items-center justify-center rounded-full bg-pink-100 text-pink-600">
+                    ✓
+                  </span>{' '}
+                  Seamless AI transcription for every call.
+                </li>
+              </ul>
+            </div>
+          </div>
+          {/* Section 3 */}
+          <div className="grid gap-12 pt-12 lg:grid-cols-2 lg:gap-16">
+            <div className="space-y-6">
+              <span className="inline-flex items-center rounded-full bg-gradient-to-r from-[#22c55e] to-[#15803d] px-3 py-1 text-sm font-medium text-white shadow-sm">
+                Effortless Client Management
+              </span>
+              <ul className="mt-6 space-y-4 text-base leading-relaxed text-gray-700">
+                <li className="flex items-start gap-3">
+                  <span className="flex h-6 w-6 items-center justify-center rounded-full bg-pink-100 text-pink-600">
+                    ✓
+                  </span>{' '}
+                  Give clients real-time dashboards with white-label access.
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="flex h-6 w-6 items-center justify-center rounded-full bg-pink-100 text-pink-600">
+                    ✓
+                  </span>{' '}
+                  Automate client billing with our Pay-Per-Call model.
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="flex h-6 w-6 items-center justify-center rounded-full bg-pink-100 text-pink-600">
+                    ✓
+                  </span>{' '}
+                  Handle 10x more accounts without extra workload.
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="flex h-6 w-6 items-center justify-center rounded-full bg-pink-100 text-pink-600">
+                    ✓
+                  </span>{' '}
+                  Build trust with branded portals and reporting.
+                </li>
+              </ul>
+            </div>
+            <div className="relative rounded-2xl bg-gradient-to-br from-[#fdf4ff] to-[#f3e8ff] p-1 shadow-lg">
+              <div className="rounded-xl bg-white p-8">
+                <img
+                  src="https://www.whatconverts.com/wp-content/uploads/2024/07/1_Featured-Image-1024x717.jpg"
+                  alt="Client Management"
+                  className="rounded-lg"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </Container>
+    </section>
   )
 }
 
@@ -147,10 +243,7 @@ export default function Home() {
         <Container className="mt-10">
           <LogoCloud />
         </Container>
-        <div className="bg-linear-to-b from-white from-50% to-gray-100 py-10 sm:py-20 md:py-24 lg:py-24">
-          <FeatureSection />
-          <BentoSection />
-        </div>
+        <CallTrackingSuite />
 
         <TrackMoreNumbers />
         <WhoShould />

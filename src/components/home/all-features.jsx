@@ -1,40 +1,104 @@
-import { integrations } from '@/config/data'
+import {
+  BarChart,
+  Bell,
+  Bot,
+  Headphones,
+  MessageSquare,
+  Mic,
+  Phone,
+  TrendingUp,
+  Users,
+} from 'lucide-react'
 
-export default function AllFeatures() {
+export default function FeaturesSection() {
+  const features = [
+    {
+      name: 'Clean USA & Canadian Numbers',
+      desc: 'Get verified local and toll-free numbers instantly.',
+      icon: Phone,
+    },
+    {
+      name: 'AI Powered Tracking & Analytics',
+      desc: 'Capture insights with call transcription & AI summaries.',
+      icon: Bot,
+    },
+    {
+      name: 'SMS & Call Forwarding',
+      desc: 'Route calls & texts seamlessly to your teams.',
+      icon: MessageSquare,
+    },
+    {
+      name: 'Inbound Call Tracking',
+      desc: 'Know exactly which campaign drove the call.',
+      icon: TrendingUp,
+    },
+    {
+      name: 'Effortless Client Management',
+      desc: 'White-label dashboards, billing, and reporting.',
+      icon: Users,
+    },
+    {
+      name: 'Free Call Recording',
+      desc: 'Record & store calls securely without extra costs.',
+      icon: Mic,
+    },
+    {
+      name: 'Call Whispering',
+      desc: 'Coach sales reps in real-time with call whisper.',
+      icon: Headphones,
+    },
+    {
+      name: 'Missed Call Notifications',
+      desc: 'Never lose a lead with instant missed-call alerts.',
+      icon: Bell,
+    },
+    {
+      name: 'Fully automated reporting system',
+      desc: 'Schedule reports & share insights effortlessly.',
+      icon: BarChart,
+    },
+  ]
+
   return (
-    <section className="my-10 bg-gray-100 px-4 py-16 text-white">
-      <div className="mx-auto max-w-6xl text-center">
-        <h2 className="mb-12 text-3xl font-bold text-black sm:text-4xl">
-          We offer all the features you need in a call tracking software at
-          lowest possible prices.
+    <section className="relative mt-12 bg-white px-6 py-20">
+      <div className="mx-auto max-w-7xl text-center">
+        <h2 className="text-3xl font-semibold tracking-tight text-balance text-gray-900 sm:text-5xl">
+          We offer all the features you need
         </h2>
+        <p className="mt-4 text-lg text-gray-700">
+          At the lowest possible prices — designed to scale with your business.
+        </p>
+      </div>
 
-        <div className="mb-10 grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-4">
-          {integrations.map((app, index) => (
-            <div
-              key={index}
-              className="flex items-center space-x-4 rounded-2xl bg-gradient-to-br from-[#1B1A33] to-[#2C2A42] px-5 py-5 shadow-[0_10px_30px_-10px_rgba(0,0,0,0.3)] hover:bg-gradient-to-br hover:from-[#3E3D4D] hover:to-[#373646]"
-            >
-              <img
-                src={app.icon}
-                alt={app.name}
-                className="h-12 w-12 rounded"
-              />
-              <div className="text-left">
-                <p className="text-sm font-medium">{app.name}</p>
-              </div>
+      {/* Features Grid */}
+      <div className="mx-auto mt-16 grid max-w-7xl gap-10 sm:grid-cols-2 lg:grid-cols-3">
+        {features.map((feature, i) => (
+          <div
+            key={i}
+            className="group rounded-xl border border-gray-200 bg-white p-8 shadow-sm transition duration-300 hover:shadow-lg"
+          >
+            <div className="mb-6 flex h-12 w-12 items-center justify-center rounded-lg bg-gradient-to-r from-orange-500 to-yellow-500 text-white">
+              <feature.icon className="h-6 w-6" />
             </div>
-          ))}
-        </div>
+            <h3 className="text-lg font-semibold text-gray-900">
+              {feature.name}
+            </h3>
+            <p className="mt-2 text-sm text-gray-700">{feature.desc}</p>
+          </div>
+        ))}
+      </div>
 
-        <div className="flex justify-center gap-6">
-          <button className="flex items-center gap-2 rounded-md border border-[#F15E16] bg-[#F15E16] px-6 py-3 text-lg font-medium text-black text-white transition-colors duration-200 hover:bg-[#d44f10]">
-            View interactive Demo
-          </button>
-          <button className="text-md flex items-center gap-1 font-medium text-red-500 italic">
-            No credit card needed.
-          </button>
-        </div>
+      {/* CTA */}
+      <div className="mt-16 flex flex-col items-center justify-center gap-6 sm:flex-row">
+        <a
+          href="#"
+          className="rounded-lg bg-gradient-to-r from-orange-500 to-yellow-500 px-8 py-4 text-lg font-semibold text-white shadow-md transition hover:bg-orange-600"
+        >
+          View Interactive Demo
+        </a>
+        <p className="text-md font-medium text-gray-500 italic">
+          No credit card needed.
+        </p>
       </div>
     </section>
   )
