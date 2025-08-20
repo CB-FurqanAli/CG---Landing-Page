@@ -21,7 +21,7 @@ export default function WhyChoose() {
   ]
 
   return (
-    <section className="bg-linear-115 from-[#fff1be] from-28% via-[#ee87cb] via-70% to-[#b060ff] p-8 sm:bg-linear-145 sm:p-12">
+    <section className="bg-linear-115 from-[#fff1be] from-28% via-[#ee87cb] via-70% to-[#b060ff] p-8 sm:bg-linear-145 sm:p-16">
       <div className="mb-12 text-center">
         <h2 className="text-3xl font-bold sm:text-4xl">
           Why Choose CallGauge AI?

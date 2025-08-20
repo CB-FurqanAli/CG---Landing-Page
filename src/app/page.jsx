@@ -3,11 +3,11 @@ import { Container } from '@/components/container'
 import { FAQSection } from '@/components/FAQSection'
 import { Footer } from '@/components/footer'
 import { Gradient } from '@/components/gradient'
-import AllFeatures from '@/components/home/all-features'
 import { TrackMoreNumbers } from '@/components/home/track-more-numbers'
 import { Link } from '@/components/link'
 import { LogoCloud } from '@/components/logo-cloud'
 
+import { FeaturesSection } from '@/components/home/all-features'
 import WhoShould from '@/components/home/who-should '
 import WhyChoose from '@/components/home/why-choose'
 import { Navbar } from '@/components/navbar'
@@ -245,10 +245,10 @@ export default function Home() {
         </Container>
         <CallTrackingSuite />
 
+        <FeaturesSection />
         <TrackMoreNumbers />
         <WhoShould />
         <WhyChoose />
-        <AllFeatures />
 
         <FAQSection />
       </main>

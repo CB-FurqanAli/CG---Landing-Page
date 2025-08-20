@@ -2,7 +2,6 @@
 
 import { Container } from '@/components/container'
 import { Heading, Subheading } from '@/components/text'
-import { ChevronDownIcon } from '@heroicons/react/16/solid'
 import { useState } from 'react'
 
 export function FAQSection() {
@@ -44,12 +43,6 @@ export function FAQSection() {
   const leftColumnFaqs = faqs.slice(0, Math.ceil(faqs.length / 2))
   const rightColumnFaqs = faqs.slice(Math.ceil(faqs.length / 2))
 
-  const toggleFAQ = (index, column) => {
-    const globalIndex =
-      column === 'left' ? index : index + leftColumnFaqs.length
-    setOpenIndex(openIndex === globalIndex ? null : globalIndex)
-  }
-
   return (
     <section className="bg-gray-50 py-24">
       <Container>
@@ -58,7 +51,7 @@ export function FAQSection() {
           <Heading as="h3" className="mx-auto mt-2 max-w-3xl">
             Everything you need to know about CallGauge.
           </Heading>
-          <p className="mx-auto mt-4 max-w-2xl text-lg text-gray-600">
+          <p className="mx-auto mt-8 max-w-2xl text-lg text-gray-700">
             We’ve compiled answers to the most common questions about our
             AI-powered call tracking platform.
           </p>
@@ -67,82 +60,138 @@ export function FAQSection() {
         <div className="mt-16 grid grid-cols-1 gap-8 md:grid-cols-2">
           {/* Left Column */}
           <div className="space-y-6">
-            {leftColumnFaqs.map((faq, index) => {
-              const isOpen = openIndex === index
-              return (
-                <div
-                  key={index}
-                  className="rounded-2xl border border-gray-100 bg-white shadow-md transition-all duration-300 hover:shadow-xl"
-                >
-                  <button
-                    onClick={() => toggleFAQ(index, 'left')}
-                    className="flex w-full items-center justify-between rounded-2xl p-6 text-left focus:outline-none"
-                  >
-                    <h4 className="text-lg font-semibold text-gray-900">
-                      {faq.question}
-                    </h4>
-                    <ChevronDownIcon
-                      className={`h-6 w-6 text-pink-600 transition-transform duration-300 ${
-                        isOpen ? 'rotate-180' : ''
-                      }`}
-                    />
-                  </button>
-                  <div
-                    className={`transition-all duration-500 ease-in-out ${
-                      isOpen
-                        ? 'max-h-96 p-6 pt-0 opacity-100'
-                        : 'max-h-0 opacity-0'
-                    } overflow-hidden`}
-                  >
-                    <p className="text-base leading-7 text-gray-700">
-                      {faq.answer}
-                    </p>
-                  </div>
-                </div>
-              )
-            })}
+            {leftColumnFaqs.map((faq, index) => (
+              <div
+                key={index}
+                className="rounded-2xl border border-gray-100 bg-white p-6 shadow-md transition-all duration-300 hover:shadow-xl"
+              >
+                <h4 className="text-lg font-semibold text-gray-900">
+                  {faq.question}
+                </h4>
+                <p className="mt-3 text-base leading-7 text-gray-700">
+                  {faq.answer}
+                </p>
+              </div>
+            ))}
           </div>
 
           {/* Right Column */}
           <div className="space-y-6">
-            {rightColumnFaqs.map((faq, index) => {
-              const globalIndex = index + leftColumnFaqs.length
-              const isOpen = openIndex === globalIndex
-              return (
-                <div
-                  key={index}
-                  className="rounded-2xl border border-gray-100 bg-white shadow-md transition-all duration-300 hover:shadow-xl"
-                >
-                  <button
-                    onClick={() => toggleFAQ(index, 'right')}
-                    className="flex w-full items-center justify-between rounded-2xl p-6 text-left focus:outline-none"
-                  >
-                    <h4 className="text-lg font-semibold text-gray-900">
-                      {faq.question}
-                    </h4>
-                    <ChevronDownIcon
-                      className={`h-6 w-6 text-pink-600 transition-transform duration-300 ${
-                        isOpen ? 'rotate-180' : ''
-                      }`}
-                    />
-                  </button>
-                  <div
-                    className={`transition-all duration-500 ease-in-out ${
-                      isOpen
-                        ? 'max-h-96 p-6 pt-0 opacity-100'
-                        : 'max-h-0 opacity-0'
-                    } overflow-hidden`}
-                  >
-                    <p className="text-base leading-7 text-gray-700">
-                      {faq.answer}
-                    </p>
-                  </div>
-                </div>
-              )
-            })}
+            {rightColumnFaqs.map((faq, index) => (
+              <div
+                key={index}
+                className="rounded-2xl border border-gray-100 bg-white p-6 shadow-md transition-all duration-300 hover:shadow-xl"
+              >
+                <h4 className="text-lg font-semibold text-gray-900">
+                  {faq.question}
+                </h4>
+                <p className="mt-3 text-base leading-7 text-gray-700">
+                  {faq.answer}
+                </p>
+              </div>
+            ))}
           </div>
         </div>
       </Container>
     </section>
   )
 }
+
+//
+//   const leftColumnFaqs = faqs.slice(0, Math.ceil(faqs.length / 2))
+//   const rightColumnFaqs = faqs.slice(Math.ceil(faqs.length / 2))
+//
+//   const toggleFAQ = (index, column) => {
+//     const globalIndex =
+//       column === 'left' ? index : index + leftColumnFaqs.length
+//     setOpenIndex(openIndex === globalIndex ? null : globalIndex)
+//   }
+//
+//   return (
+//     <Container className="py-24">
+//       <Subheading>Frequently Asked Questions</Subheading>
+//       <Heading as="h3" className="mt-2 max-w-3xl">
+//         Everything you need to know about CallGauge.
+//       </Heading>
+//       <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-2">
+//         {/* Left Column */}
+//         <div className="space-y-4">
+//           {leftColumnFaqs.map((faq, index) => (
+//             <div
+//               key={index}
+//               className="rounded-xl bg-white shadow-md transition-all duration-300 hover:shadow-lg"
+//             >
+//               <button
+//                 onClick={() => toggleFAQ(index, 'left')}
+//                 className="flex w-full items-center justify-between rounded-xl p-5 text-left focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 focus:outline-none"
+//                 aria-expanded={openIndex === index}
+//                 aria-controls={`faq-answer-${index}-left`}
+//               >
+//                 <h4 className="pr-6 text-base font-semibold text-gray-900 sm:text-lg">
+//                   {faq.question}
+//                 </h4>
+//                 <ChevronDownIcon
+//                   className={`h-5 w-5 text-gray-600 transition-transform duration-300 ${
+//                     openIndex === index ? 'rotate-180' : ''
+//                   }`}
+//                 />
+//               </button>
+//               <div
+//                 id={`faq-answer-${index}-left`}
+//                 className={`transition-all duration-300 ease-in-out ${
+//                   openIndex === index
+//                     ? 'max-h-96 p-5 opacity-100'
+//                     : 'max-h-0 opacity-0'
+//                 } overflow-hidden`}
+//               >
+//                 <p className="border-l-4 border-pink-600 pl-4 text-base leading-7 text-gray-800 sm:text-lg">
+//                   {faq.answer}
+//                 </p>
+//               </div>
+//             </div>
+//           ))}
+//         </div>
+//
+//         {/* Right Column */}
+//         <div className="space-y-4">
+//           {rightColumnFaqs.map((faq, index) => (
+//             <div
+//               key={index}
+//               className="rounded-xl bg-white shadow-md transition-all duration-300 hover:shadow-lg"
+//             >
+//               <button
+//                 onClick={() => toggleFAQ(index, 'right')}
+//                 className="flex w-full items-center justify-between rounded-xl p-5 text-left focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 focus:outline-none"
+//                 aria-expanded={openIndex === index + leftColumnFaqs.length}
+//                 aria-controls={`faq-answer-${index}-right`}
+//               >
+//                 <h4 className="pr-6 text-base font-semibold text-gray-900 sm:text-lg">
+//                   {faq.question}
+//                 </h4>
+//                 <ChevronDownIcon
+//                   className={`h-5 w-5 text-gray-600 transition-transform duration-300 ${
+//                     openIndex === index + leftColumnFaqs.length
+//                       ? 'rotate-180'
+//                       : ''
+//                   }`}
+//                 />
+//               </button>
+//               <div
+//                 id={`faq-answer-${index}-right`}
+//                 className={`transition-all duration-300 ease-in-out ${
+//                   openIndex === index + leftColumnFaqs.length
+//                     ? 'max-h-96 p-5 opacity-100'
+//                     : 'max-h-0 opacity-0'
+//                 } overflow-hidden`}
+//               >
+//                 <p className="border-l-4 border-pink-600 pl-4 text-base leading-7 text-gray-800 sm:text-lg">
+//                   {faq.answer}
+//                 </p>
+//               </div>
+//             </div>
+//           ))}
+//         </div>
+//       </div>
+//     </Container>
+//   )
+// }
