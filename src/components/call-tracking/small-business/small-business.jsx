@@ -1,40 +1,39 @@
 import { Screenshot } from '@/components/screenshot'
 import {
-  FileAudio,
+  Brain,
+  DollarSign,
   FileText,
-  Gauge,
-  Link2,
-  Megaphone,
+  PhoneCall,
+  PhoneForwarded,
   Rocket,
-  Target,
   TrendingUp,
+  User2,
   User2Icon,
   UserCheck,
 } from 'lucide-react'
 
-export default function MarketersPage() {
+export default function SmallBusinessPage() {
   return (
     <section className="bg-gradient-to-br from-white to-gray-50 text-gray-800">
       {/* Hero Section */}
       <div className="mx-auto max-w-7xl px-6 py-20 text-center">
         <h1 className="text-4xl font-semibold sm:text-5xl">
-          Call Tracking for Marketers – Powered by{' '}
+          Call Tracking for Small Businesses – Powered by{' '}
           <span className="text-orange-600">AI</span>
         </h1>
         <h2 className="mx-auto mt-8 max-w-4xl text-xl font-semibold sm:text-2xl">
-          Maximize Campaign ROI, Optimize Spend and Turn Every Call Into Data
+          Get More Customers, Track Marketing ROI, and Never Miss a Call Again
         </h2>
         <p className="mx-auto mt-6 max-w-3xl text-lg text-gray-600">
-          When you are a marketer, you are always judged by your performance.
-          That means you have to prove ROI, cut wasted spend, and scale what
-          works best. With <strong> CallGauge AI </strong>, you get more than
-          call tracking i.e.you unlock{' '}
+          When you are a small business owner, every lead matters. You simply
+          can’t afford to waste money on ads that don’t work or miss calls from
+          potential customers. With CallGauge AI, you get more than just call
+          tracking i.e. you get{' '}
           <strong>
             {' '}
-            AI-powered attribution, customer insights, and automation{' '}
+            AI-powered insights, call management, and simple reporting{' '}
           </strong>{' '}
-          designed to help marketers{' '}
-          <strong> optimize campaigns and deliver measurable results. </strong>
+          that helps you grow your business with confidence.
         </p>
         <div className="mt-8 flex flex-col justify-center gap-4 sm:flex-row">
           <button className="rounded-lg bg-orange-500 px-6 py-3 font-medium text-white shadow-md transition hover:bg-orange-700">
@@ -48,35 +47,34 @@ export default function MarketersPage() {
       {/* Why Agencies Choose */}
       <div className="mx-auto max-w-7xl px-6 py-16">
         <h2 className="mb-12 text-center text-3xl font-bold">
-          Why Marketers Choose CallGauge AI
+          Why Small Businesses Choose CallGauge AI
         </h2>
         <div className="grid gap-10 md:grid-cols-2">
           <div className="space-y-6">
             <FeatureCard
               number="1"
-              title="Track Every Lead Back to Its Source "
-              desc="Now you don’t have to second-guess your results ever again. CallGauge AI automatically attributes every call back to the ad, keyword, landing page, or campaign that generated it. You’ll know exactly which clicks drive real conversations and which simply don’t. "
+              title="Know Exactly Which Ads Work"
+              desc="This is the time when you have to stop guessing where your calls come from. CallGauge AI tracks every call back to the ad, website, or campaign that generated it. This means you’ll know exactly which marketing campaign brings in paying customers and which is just draining out your budget."
             />
             <FeatureCard
               number="2"
-              title="Optimize Campaigns in Real Time"
-              desc="With instant attribution and AI-powered analytics, you can identify underperforming ads cut down you spend on them. While you can easily identify and double down on top-performing ones. Stop wasting spend on low-quality traffic and start scaling high-converting campaigns faster. "
+              title=" Never Miss Another Opportunity"
+              desc="These days, missed calls mean missed business. With call forwarding, voicemail-to-text, and instant notifications, CallGauge AI ensures you never actually miss a lead. With all these features you (or your team) can respond quickly and capture more leads."
             />
             <FeatureCard
               number="3"
-              title="Get Customer Insights Beyond Clicks"
-              desc="Now, in present times it’s not just about who called, it’s about why. CallGauge AI transcribes and analyzes every conversation to reveal information about customer intent, sentiment, and lead quality. These insights help you fine-tune your messaging, landing pages, and sales strategies"
+              title="Impress Customers With a Professional Call Flow"
+              desc="With our platform, even small businesses can sound big. Use  our custom greetings, call menus, and call routing to give every caller a polished and personalized experience, without needing a call center."
             />
             <FeatureCard
               number="4"
-              title="Simplify Reporting With AI"
-              desc="4. Simplify Reporting With AI
-                Now there will be no more messy spreadsheets or manual reports. Generate customizable, white-labeled reports that clearly show ROI. Share them with stakeholders to prove the value of your campaigns without putting any extra effort on your end. "
+              title="Simplify Your Marketing Decisions"
+              desc="With AI-powered reports, you’ll see exactly how many calls turned into real leads or sales. This makes it easy to decide where to spend more and where to cut back."
             />
             <FeatureCard
               number="5"
-              title="Automate the Busywork"
-              desc="From AI call scoring to lead qualification and integration with tools like Zapier, CallGauge AI eliminates repetitive tasks. That means you could  spend more time optimizing and less time managing data. "
+              title="Affordable Pricing Built for Growth "
+              desc="Unlike other platforms that charge $3+ per number, CallGauge AI gives you call tracking phone  numbers for only $0.50 each—so you can track more ads, test new strategies, and grow without breaking the bank."
             />
           </div>
           <div className="flex items-center justify-center">
@@ -97,46 +95,42 @@ export default function MarketersPage() {
           <div className="mb-14 text-center">
             <h2 className="text-2xl font-bold text-gray-900 md:text-3xl">
               Key Features for{' '}
-              <span className="text-indigo-600">Service Providers</span>
+              <span className="text-indigo-600">Small Businesses</span>
             </h2>
-            <p className="mx-auto mt-4 max-w-2xl text-gray-600">
-              Powerful tools designed to help service-based businesses capture
-              more leads, build trust, and never miss an opportunity.
-            </p>
           </div>
 
           {/* Features Grid */}
           <div className="mx-auto grid max-w-7xl gap-8 md:grid-cols-2 lg:grid-cols-3">
             {[
               {
-                title: 'Dynamic Number Insertion (DNI)',
-                desc: ' Attribute calls to exact ads and keywords.',
-                icon: Megaphone,
+                title: 'Call Attribution',
+                desc: 'See which ads and campaigns drive real calls',
+                icon: PhoneCall,
               },
               {
-                title: ' AI Transcription & Analysis',
-                desc: 'Capture customer intent and sentiment. ',
-                icon: FileAudio,
-              },
-              {
-                title: ' Real-Time Attribution',
-                desc: 'Know which campaigns drive real leads instantly.',
-                icon: Gauge,
-              },
-              {
-                title: ' White-Labeled Reporting',
-                desc: 'Show ROI in reports branded with your logo.',
+                title: 'Voicemail-to-Text',
+                desc: 'Quickly read messages on the go.',
                 icon: FileText,
               },
               {
-                title: 'Lead Scoring Automation',
-                desc: 'Quickly identify high-value leads. ',
+                title: 'Affordable Pricing',
+                desc: 'Track more numbers at a fraction of the cost.',
+                icon: DollarSign,
+              },
+              {
+                title: 'Call Forwarding & Routing',
+                desc: 'Never miss a customer call.',
+                icon: PhoneForwarded,
+              },
+              {
+                title: 'Custom Greetings & Menus',
+                desc: 'Present a professional image.',
                 icon: UserCheck,
               },
               {
-                title: 'CRM & Ad Platform Integrations',
-                desc: ' Sync data with your existing marketing stack. ',
-                icon: Link2,
+                title: 'AI Call Insights',
+                desc: ' Understand customer intent and lead quality.',
+                icon: Brain,
               },
             ].map((feature, i) => (
               <div
@@ -164,11 +158,11 @@ export default function MarketersPage() {
           <div>
             <h2 className="mb-6 text-2xl font-bold text-gray-900 md:text-3xl">
               The ROI Advantage for{' '}
-              <span className="text-indigo-600">Marketers</span>
+              <span className="text-indigo-600">Small Businesses </span>
             </h2>
             <p className="max-w-xl leading-relaxed text-gray-600">
-              With CallGauge AI, marketers don’t just track calls — they
-              optimize campaigns for maximum ROI.
+              With CallGauge AI, you don’t just get call tracking but you get a
+              smarter way to grow your business:
             </p>
           </div>
 
@@ -177,8 +171,8 @@ export default function MarketersPage() {
             {[
               {
                 step: '1',
-                title: 'Reduce Wasted Ad Spend',
-                desc: 'Reduce wasted ad expense by cutting poor-performing channels.',
+                title: 'Spend Smarter on Ads',
+                desc: 'Spend your money only on those ads that generate customers. ',
                 icon: (
                   <path
                     strokeLinecap="round"
@@ -191,22 +185,22 @@ export default function MarketersPage() {
               },
               {
                 step: '2',
-                title: 'Scale Winning Campaigns',
-                desc: 'Scale campaigns that drive real phone leads.',
+                title: 'Never Miss a Lead',
+                desc: 'Capture every opportunity with our missed call alerts and smart routing. ',
                 icon: (
                   <path
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     strokeWidth="2"
-                    d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
+                    d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                   />
                 ),
                 className: 'mt-6',
               },
               {
                 step: '3',
-                title: 'Prove ROI Easily',
-                desc: 'Prove ROI to clients, stakeholders, or leadership teams.',
+                title: 'Professional Brand Image',
+                desc: 'Look more professional with customized greetings and call flows. ',
                 icon: (
                   <path
                     strokeLinecap="round"
@@ -219,14 +213,14 @@ export default function MarketersPage() {
               },
               {
                 step: '4',
-                title: ' Sharpen Targeting',
-                desc: 'Gain insights into customer conversations for sharper targeting.',
+                title: 'Big Insights, Small Business Price',
+                desc: 'Get insights that used to be available only to big companies, now we them at small business prices. ',
                 icon: (
                   <path
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     strokeWidth="2"
-                    d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                    d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
                   />
                 ),
                 className: 'mt-6',
@@ -267,25 +261,25 @@ export default function MarketersPage() {
           <div className="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
             {[
               {
-                icon: <Target className="h-10 w-10 text-blue-600" />,
-                title: 'Digital Marketers',
-                desc: 'Attribute calls to campaigns for smarter optimization. ',
+                icon: <User2 className="h-10 w-10 text-blue-600" />,
+                title: 'Home Service Providers ',
+                desc: 'Plumbers, electricians, contractors, and more. ',
               },
               {
                 icon: <TrendingUp className="h-10 w-10 text-blue-600" />,
-                title: 'Performance Marketers',
-                desc: 'Maximize ROI with real-time insights.',
+                title: 'Local Healthcare Practices ',
+                desc: 'Dentists, clinics, and wellness centers.',
               },
               {
                 icon: <User2Icon className="h-10 w-10 text-blue-600" />,
-                title: 'In-House Marketing Teams',
-                desc: 'Prove results to leadership and secure more budget.',
+                title: 'Restaurants & Hospitality',
+                desc: 'Track calls from online ads and local listings.',
               },
 
               {
                 icon: <Rocket className="h-10 w-10 text-blue-600" />,
-                title: 'Growth Marketers',
-                desc: 'Turn customer calls into a powerful data source for scaling',
+                title: ' Any Local Business',
+                desc: 'That depends on phone calls to generate sales.',
               },
             ].map((item, i) => (
               <div
@@ -307,20 +301,22 @@ export default function MarketersPage() {
       <div className="mx-auto my-20 max-w-7xl px-6 text-center lg:px-8">
         {/* Heading */}
         <h2 className="text-2xl font-semibold tracking-tight text-balance text-gray-900 sm:text-4xl">
-          Turn Calls Into Marketing{' '}
-          <span className="text-indigo-600"> Intelligence</span>
+          Grow Smarter Without{' '}
+          <span className="text-indigo-600">Complexity</span>
         </h2>
 
         {/* Subtext */}
         <p className="mx-auto mt-6 max-w-3xl text-lg leading-relaxed text-gray-700">
-          With CallGauge AI, every call becomes a data point you can optimize, a
-          lead you can score, and a conversion you can prove.
+          You don’t need to have a big marketing team to take advantage of call
+          tracking. With CallGauge AI, small businesses get easy-to-use,
+          <strong> affordable tools powered by AI </strong> to win more
+          customers and grow with confidence.
         </p>
 
         {/* Highlight Card */}
         <div className="mx-auto mt-10 max-w-2xl rounded-2xl border border-indigo-100 bg-white p-8 shadow-xl">
           <p className="text-lg font-semibold text-gray-900">
-            Try CallGauge AI Free
+            Try CallGauge AI Free Today
             <span className="block text-indigo-600">
               Get $15 free credit to test the platform. No credit card required.
             </span>
