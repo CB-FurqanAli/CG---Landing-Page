@@ -1,5 +1,5 @@
-import AgenciesPage from '@/components/agencies/agencies'
-import { AgenciesFAQ } from '@/components/agencies/agencies-faq'
+import AgenciesPage from '@/components/call-tracking/agencies/agencies'
+import { AgenciesFAQ } from '@/components/call-tracking/agencies/agencies-faq'
 import { Container } from '@/components/container'
 import { Footer } from '@/components/footer'
 import { GradientBackground } from '@/components/gradient'
