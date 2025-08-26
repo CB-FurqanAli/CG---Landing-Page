@@ -13,7 +13,6 @@ export function SmallBusinessFaq() {
       answer:
         'Yes! Our platform is specially designed to be simple and user-friendly. You don’t need technical skills or a team to get started.',
     },
-
     {
       question: ' How can call tracking help my business grow? ',
       answer:

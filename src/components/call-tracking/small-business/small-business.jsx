@@ -81,7 +81,7 @@ export default function SmallBusinessPage() {
             <Screenshot
               width={1116}
               height={686}
-              src="/call-flow/marketers-page.png"
+              src="/call-flow/small-business.png"
               alt=""
               className="ml-16 sm:max-w-[76rem]"
             />
