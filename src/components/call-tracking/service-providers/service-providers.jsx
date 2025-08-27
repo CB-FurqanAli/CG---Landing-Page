@@ -42,6 +42,9 @@ export default function ServiceProvidersPage() {
             View Demo
           </button>
         </div>
+        <p className="mt-4 text-sm font-medium text-red-500 italic">
+          *No credit card needed
+        </p>
       </div>
 
       {/* Why Agencies Choose */}

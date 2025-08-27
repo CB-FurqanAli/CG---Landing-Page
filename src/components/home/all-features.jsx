@@ -1,6 +1,7 @@
 'use client'
 
 import { CheckCircleIcon } from '@heroicons/react/24/solid'
+import Link from 'next/link'
 
 export function FeaturesSection() {
   const features = [
@@ -38,9 +39,12 @@ export function FeaturesSection() {
           </ul>
 
           <div className="mt-10 flex items-center gap-6">
-            <button className="rounded-md bg-orange-500 px-6 py-3 text-lg font-semibold shadow-md transition hover:bg-orange-600">
+            <Link
+              href={'/demo'}
+              className="rounded-md bg-orange-500 px-6 py-3 text-lg font-semibold shadow-md transition hover:bg-orange-600"
+            >
               View Interactive Demo
-            </button>
+            </Link>
             <p className="text-gray-400 italic">No credit card needed.</p>
           </div>
         </div>
