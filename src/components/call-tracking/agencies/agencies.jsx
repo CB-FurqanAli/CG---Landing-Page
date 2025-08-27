@@ -255,7 +255,7 @@ export default function AgenciesPage() {
           <p className="text-lg font-semibold text-gray-900">
             Experience call tracking freedom with CallGauge AI
             <span className="block text-indigo-600">
-              Today sign up and get $15 free to experience our platform.
+              Sign up free and instantly get $15 to explore our platform
             </span>
           </p>
         </div>
