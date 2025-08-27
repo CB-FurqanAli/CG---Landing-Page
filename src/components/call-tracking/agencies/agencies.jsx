@@ -40,6 +40,9 @@ export default function AgenciesPage() {
             View Demo
           </button>
         </div>
+        <p className="mt-4 text-sm font-medium text-red-500 italic">
+          *No credit card needed
+        </p>
       </div>
 
       {/* Why Agencies Choose */}
@@ -250,9 +253,9 @@ export default function AgenciesPage() {
         {/* Highlight Card */}
         <div className="mx-auto mt-10 max-w-2xl rounded-2xl border border-indigo-100 bg-white p-8 shadow-xl">
           <p className="text-lg font-semibold text-gray-900">
-            Experience call tracking freedom with
+            Experience call tracking freedom with CallGauge AI
             <span className="block text-indigo-600">
-              no hidden fees, no caps, and just $0.50 per number.
+              Today sign up and get $15 free to experience our platform.
             </span>
           </p>
         </div>
@@ -272,6 +275,9 @@ export default function AgenciesPage() {
             Watch a demo
           </a>
         </div>
+        <p className="mt-4 text-sm font-medium text-red-500 italic">
+          *No credit card needed
+        </p>
       </div>
     </section>
   )
