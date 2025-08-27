@@ -90,10 +90,10 @@ export default function CallFlowIntroduction() {
         </div>
 
         {/* Smart Call Forwarding*/}
-        <div className="mt-40">
+        <div className="mt-32">
           <div className="grid grid-cols-1 gap-12 md:grid-cols-2 md:items-center">
-            {/* Left: Image */}
-            <div className="w-full">
+            {/* Image (default second on mobile, first on desktop) */}
+            <div className="order-2 w-full md:order-1">
               <img
                 src="/call-flow/Call-Forwarding.png"
                 loading="lazy"
@@ -102,9 +102,8 @@ export default function CallFlowIntroduction() {
               />
             </div>
 
-            {/* Right: Text Content */}
-
-            <div>
+            {/* Text Content (default first on mobile, second on desktop) */}
+            <div className="order-1 md:order-2">
               <h2 className="text-3xl font-bold sm:text-4xl">
                 Smart Call Forwarding
               </h2>
@@ -115,21 +114,17 @@ export default function CallFlowIntroduction() {
                   logic, you control:
                 </p>
 
-                <div>
-                  <ul className="list-inside list-disc space-y-2 text-gray-700">
-                    <li>
-                      <strong>Who gets the call</strong>
-                    </li>
-                    <li>
-                      <strong>
-                        How long it rings (customizable 10–40 sec){' '}
-                      </strong>
-                    </li>
-                    <li>
-                      <strong>What happens if no one picks up</strong>
-                    </li>
-                  </ul>
-                </div>
+                <ul className="list-inside list-disc space-y-2 text-gray-700">
+                  <li>
+                    <strong>Who gets the call</strong>
+                  </li>
+                  <li>
+                    <strong>How long it rings (customizable 10–40 sec)</strong>
+                  </li>
+                  <li>
+                    <strong>What happens if no one picks up</strong>
+                  </li>
+                </ul>
 
                 <p className="text-gray-500">
                   CallGauge AI ensures your calls never go unanswered or
@@ -141,7 +136,7 @@ export default function CallFlowIntroduction() {
         </div>
 
         {/* AI Voicemail Routing*/}
-        <div className="mt-40">
+        <div className="mt-32">
           <div className="grid grid-cols-1 gap-12 md:grid-cols-2 md:items-center">
             {/* Left: Image */}
             <div>
@@ -201,11 +196,11 @@ export default function CallFlowIntroduction() {
         </div>
 
         {/*Missed Call Texts – Automated*/}
-        <div className="mt-40">
+        <div className="mt-32">
           <div className="grid grid-cols-1 gap-12 md:grid-cols-2 md:items-center">
             {/* Left: Image */}
 
-            <div className="w-full">
+            <div className="order-2 w-full md:order-1">
               <img
                 src="/call-flow/Missed-Call-Texts.png"
                 loading="lazy"
@@ -215,7 +210,7 @@ export default function CallFlowIntroduction() {
             </div>
 
             {/* Right: Text Content */}
-            <div>
+            <div className="order-1 md:order-2">
               <h2 className="text-3xl font-bold sm:text-4xl">
                 Missed Call Texts – Automated
               </h2>
@@ -247,7 +242,7 @@ export default function CallFlowIntroduction() {
         </div>
 
         {/*Email Notifications & Automations*/}
-        <div className="mt-40">
+        <div className="mt-32">
           <div className="grid grid-cols-1 gap-12 md:grid-cols-2 md:items-center">
             {/* Left: Image */}
             <div>
@@ -288,11 +283,11 @@ export default function CallFlowIntroduction() {
         </div>
 
         {/*Multi-Ringing*/}
-        <div className="mt-40">
+        <div className="mt-32">
           <div className="grid grid-cols-1 gap-12 md:grid-cols-2 md:items-center">
             {/* Left: Image */}
 
-            <div className="w-full">
+            <div className="order-2 w-full md:order-1">
               <img
                 src="/call-flow/Multi-Ringing.png"
                 loading=""
@@ -302,7 +297,7 @@ export default function CallFlowIntroduction() {
             </div>
 
             {/* Right: Text Content */}
-            <div>
+            <div className="order-1 md:order-2">
               <h2 className="text-3xl font-bold sm:text-4xl">Multi-Ringing</h2>
               <div className="mt-8 space-y-5 leading-relaxed text-gray-700 sm:text-lg">
                 <p>
@@ -345,7 +340,7 @@ export default function CallFlowIntroduction() {
         </div>
 
         {/*AI-Powered Call Tree for Smarter Call Routing*/}
-        <div className="mt-40">
+        <div className="mt-32">
           <div className="grid grid-cols-1 gap-12 md:grid-cols-2 md:items-center">
             {/* Left: Image */}
             <div>
@@ -377,7 +372,7 @@ export default function CallFlowIntroduction() {
         </div>
 
         {/*Additional features & settings:*/}
-        <div className="mt-40">
+        <div className="mt-32">
           {/*Section Title*/}
           <h2 className="text-center text-3xl font-bold sm:text-4xl">
             Additional features & settings:
