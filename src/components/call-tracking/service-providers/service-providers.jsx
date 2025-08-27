@@ -260,9 +260,9 @@ export default function ServiceProvidersPage() {
         {/* Highlight Card */}
         <div className="mx-auto mt-10 max-w-2xl rounded-2xl border border-indigo-100 bg-white p-8 shadow-xl">
           <p className="text-lg font-semibold text-gray-900">
-            Try CallGauge AI Free Today
+            Experience call tracking freedom with CallGauge AI
             <span className="block text-indigo-600">
-              Get $15 free credit to test the platform. No credit card required.
+              Sign up free and instantly get $15 to explore our platform
             </span>
           </p>
         </div>
@@ -282,6 +282,9 @@ export default function ServiceProvidersPage() {
             Watch a demo
           </a>
         </div>
+        <p className="mt-4 text-sm font-medium text-red-500 italic">
+          *No credit card needed
+        </p>
       </div>
     </section>
   )
