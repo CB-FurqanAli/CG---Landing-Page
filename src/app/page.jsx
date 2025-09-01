@@ -12,9 +12,7 @@ import { Link } from '@/components/link'
 import { LogoCloud } from '@/components/logo-cloud'
 import { Navbar } from '@/components/navbar'
 import { Testimonials } from '@/components/testimonials'
-import { Card, CardContent } from '@/components/ui/card'
 import { ChevronRightIcon } from '@heroicons/react/16/solid'
-import { Bot, PhoneCall, Users } from 'lucide-react'
 
 export const metadata = {
   title: ' Call Tracking Made Simple – CallGauge AI',
@@ -85,79 +83,6 @@ function Hero() {
   )
 }
 
-function CallTrackingSuite() {
-  return (
-    <div className="my-20 bg-gray-50 text-gray-900">
-      <div className="mx-auto max-w-3xl text-center">
-        <h2 className="text-3xl leading-tight font-semibold tracking-tight text-gray-900 sm:text-4xl lg:text-[41px]">
-          All-in-One AI Call Tracking Suite
-        </h2>
-        <p className="mt-6 text-lg leading-relaxed text-gray-700">
-          Smarter, faster, and more affordable than anything else.
-        </p>
-      </div>
-
-      {/* Features Section */}
-      <section className="container mx-auto grid gap-12 px-6 py-20 md:grid-cols-3">
-        {/* Card 1 */}
-        <Card className="rounded-2xl shadow-sm transition-transform hover:-translate-y-1 hover:shadow-lg">
-          <CardContent className="p-6">
-            <PhoneCall className="mb-4 h-10 w-10 text-orange-500" />
-            <h3 className="mb-2 text-xl font-semibold">
-              AI Attribution & Call Intelligence
-            </h3>
-            <ul className="list-disc space-y-2 px-4 text-base text-gray-600">
-              <li>Instantly identify where your calls come from?</li>
-              <li>
-                Use Dynamic Number Insertion (DNI) to connect campaigns to
-                calls.
-              </li>
-              <li>AI-powered call transcription and summaries.</li>
-              <li>Know which leads convert — and why?</li>
-            </ul>
-          </CardContent>
-        </Card>
-
-        {/* Card 2 */}
-        <Card className="rounded-2xl shadow-sm transition-transform hover:-translate-y-1 hover:shadow-lg">
-          <CardContent className="p-6">
-            <Bot className="mb-4 h-10 w-10 text-orange-500" />
-            <h3 className="mb-2 text-xl font-semibold">
-              Streamlined Call Operations
-            </h3>
-            <ul className="list-disc space-y-2 px-4 text-base text-gray-600">
-              <li>
-                Call Whisper, Call Recording, Voicemail, and SMS in one place.
-              </li>
-              <li>Automate call routing and follow-ups.</li>
-              <li>Manage missed calls with instant alerts.</li>
-              <li>Seamless AI transcription for every call.</li>
-            </ul>
-          </CardContent>
-        </Card>
-
-        {/* Card 3 */}
-        <Card className="rounded-2xl shadow-sm transition-transform hover:-translate-y-1 hover:shadow-lg">
-          <CardContent className="p-6">
-            <Users className="mb-4 h-10 w-10 text-blue-500" />
-            <h3 className="mb-2 text-xl font-semibold">
-              Effortless Client Management
-            </h3>
-            <ul className="list-disc space-y-2 px-4 text-base text-gray-600">
-              <li>
-                Give clients real-time dashboards with white-label access.
-              </li>
-              <li>Automate client billing with our Pay-Per-Call model.</li>
-              <li>Handle 10x more accounts without extra workload.</li>
-              <li>Build trust with branded portals and reporting.</li>
-            </ul>
-          </CardContent>
-        </Card>
-      </section>
-    </div>
-  )
-}
-
 export default function Home() {
   return (
     <div className="overflow-hidden">
@@ -166,7 +91,6 @@ export default function Home() {
         <Container className="mt-10">
           <LogoCloud />
         </Container>
-        <CallTrackingSuite />
         <CallTracking />
         <FeaturesSection />
         <TrackMoreNumbers />

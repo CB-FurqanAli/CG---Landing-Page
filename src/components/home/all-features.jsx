@@ -17,7 +17,7 @@ export function FeaturesSection() {
   ]
 
   return (
-    <section className="relative bg-gradient-to-br from-[#0F172A] via-[#1E293B] to-[#0F172A] py-24 text-white">
+    <section className="relative bg-gradient-to-br from-[#0F172A] via-[#1E293B] to-[#0F172A] py-20 text-white">
       <div className="mx-auto grid max-w-7xl grid-cols-1 items-center gap-16 px-6 lg:grid-cols-2 lg:px-8">
         {/* Left Content */}
         <div className="max-w-xl">

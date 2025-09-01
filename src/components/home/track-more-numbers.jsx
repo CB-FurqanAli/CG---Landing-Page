@@ -2,7 +2,7 @@ import { Button } from '@/components/button'
 
 export const TrackMoreNumbers = () => {
   return (
-    <section className="relative bg-gradient-to-br from-indigo-50 via-white to-purple-50 py-20">
+    <section className="relative bg-gradient-to-br from-indigo-50 via-white to-purple-50 pt-32 pb-20">
       <div className="mx-auto max-w-7xl px-6 text-center lg:px-8">
         {/* Heading */}
         <h2 className="text-3xl font-semibold tracking-tight text-balance text-gray-900 sm:text-[41px]">
