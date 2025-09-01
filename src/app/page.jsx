@@ -1,18 +1,20 @@
+import CallTracking from '@/components/asd'
 import { Button } from '@/components/button'
 import { Container } from '@/components/container'
 import { FAQSection } from '@/components/FAQSection'
 import { Footer } from '@/components/footer'
 import { Gradient } from '@/components/gradient'
-import { TrackMoreNumbers } from '@/components/home/track-more-numbers'
-import { Link } from '@/components/link'
-import { LogoCloud } from '@/components/logo-cloud'
-
 import { FeaturesSection } from '@/components/home/all-features'
+import { TrackMoreNumbers } from '@/components/home/track-more-numbers'
 import WhoShould from '@/components/home/who-should '
 import WhyChoose from '@/components/home/why-choose'
+import { Link } from '@/components/link'
+import { LogoCloud } from '@/components/logo-cloud'
 import { Navbar } from '@/components/navbar'
 import { Testimonials } from '@/components/testimonials'
+import { Card, CardContent } from '@/components/ui/card'
 import { ChevronRightIcon } from '@heroicons/react/16/solid'
+import { Bot, PhoneCall, Users } from 'lucide-react'
 
 export const metadata = {
   title: ' Call Tracking Made Simple – CallGauge AI',
@@ -85,153 +87,74 @@ function Hero() {
 
 function CallTrackingSuite() {
   return (
-    <section className="relative bg-white py-16">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        {/* Heading */}
-        <div className="mx-auto max-w-3xl text-center">
-          <h2 className="text-4xl font-semibold tracking-tight text-balance text-gray-900 sm:text-5xl">
-            All-in-One AI Call Tracking Suite
-          </h2>
-          <p className="mt-8 text-lg leading-relaxed text-gray-700">
-            Smarter, faster, and more affordable than anything else.
-          </p>
-        </div>
-
-        {/* Feature Sections */}
-        <div className="mt-12 space-y-10 divide-y divide-gray-200">
-          {/* Section 1 */}
-          <div className="grid gap-12 pt-12 lg:grid-cols-2 lg:gap-16">
-            <div className="space-y-6">
-              <span className="inline-flex items-center rounded-full bg-gradient-to-r from-[#FBCCC5] to-[#B767F4] px-3 py-1 text-sm font-medium text-white shadow-sm">
-                AI Attribution & Call Intelligence
-              </span>
-              <ul className="mt-6 space-y-4 text-base leading-relaxed text-gray-700">
-                <li className="flex items-start gap-3">
-                  <span className="flex h-6 w-6 items-center justify-center rounded-full bg-pink-100 text-pink-600">
-                    ✓
-                  </span>
-                  Instantly identify where your calls come from?
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="flex h-6 w-6 items-center justify-center rounded-full bg-pink-100 text-pink-600">
-                    ✓
-                  </span>
-                  Use Dynamic Number Insertion (DNI) to connect campaigns to
-                  calls.
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="flex h-6 w-6 items-center justify-center rounded-full bg-pink-100 text-pink-600">
-                    ✓
-                  </span>
-                  AI-powered call transcription and summaries.
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="flex h-6 w-6 items-center justify-center rounded-full bg-pink-100 text-pink-600">
-                    ✓
-                  </span>
-                  Know which leads convert — and why?
-                </li>
-              </ul>
-            </div>
-            <div className="relative rounded-2xl bg-gradient-to-br from-[#fff1be] via-[#ee87cb] to-[#b060ff] p-1 shadow-lg">
-              <div className="rounded-xl bg-white p-8">
-                <img
-                  src="https://www.whatconverts.com/wp-content/uploads/2021/07/call-tracking-numbers-hero-1000x700-1.jpg"
-                  alt="AI Attribution & Call Intelligence"
-                  className="rounded-lg"
-                />
-              </div>
-            </div>
-          </div>
-          {/* Section 2 */}
-          <div className="grid gap-12 pt-12 lg:grid-cols-2 lg:gap-16">
-            <div className="relative order-last rounded-2xl bg-gradient-to-br from-[#e0f7fa] to-[#b2ebf2] p-1 shadow-lg lg:order-first">
-              <div className="rounded-xl bg-white p-8">
-                <img
-                  src="https://www.whatconverts.com/wp-content/uploads/2021/07/call-tracking-numbers-hero-1000x700-1.jpg"
-                  alt="Call Operations"
-                  className="rounded-lg"
-                />
-              </div>
-            </div>
-            <div className="space-y-6">
-              <span className="inline-flex items-center rounded-full bg-gradient-to-r from-[#38bdf8] to-[#6366f1] px-3 py-1 text-sm font-medium text-white shadow-sm">
-                Streamlined Call Operations
-              </span>
-              <ul className="mt-6 space-y-4 text-base leading-relaxed text-gray-700">
-                <li className="flex items-start gap-3">
-                  <span className="flex h-6 w-6 items-center justify-center rounded-full bg-pink-100 text-pink-600">
-                    ✓
-                  </span>
-                  Call Whisper, Call Recording, Voicemail, and SMS in one place.
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="flex h-6 w-6 items-center justify-center rounded-full bg-pink-100 text-pink-600">
-                    ✓
-                  </span>{' '}
-                  Automate call routing and follow-ups.
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="flex h-6 w-6 items-center justify-center rounded-full bg-pink-100 text-pink-600">
-                    ✓
-                  </span>{' '}
-                  Manage missed calls with instant alerts.
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="flex h-6 w-6 items-center justify-center rounded-full bg-pink-100 text-pink-600">
-                    ✓
-                  </span>{' '}
-                  Seamless AI transcription for every call.
-                </li>
-              </ul>
-            </div>
-          </div>
-          {/* Section 3 */}
-          <div className="grid gap-12 pt-12 lg:grid-cols-2 lg:gap-16">
-            <div className="space-y-6">
-              <span className="inline-flex items-center rounded-full bg-gradient-to-r from-[#22c55e] to-[#15803d] px-3 py-1 text-sm font-medium text-white shadow-sm">
-                Effortless Client Management
-              </span>
-              <ul className="mt-6 space-y-4 text-base leading-relaxed text-gray-700">
-                <li className="flex items-start gap-3">
-                  <span className="flex h-6 w-6 items-center justify-center rounded-full bg-pink-100 text-pink-600">
-                    ✓
-                  </span>{' '}
-                  Give clients real-time dashboards with white-label access.
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="flex h-6 w-6 items-center justify-center rounded-full bg-pink-100 text-pink-600">
-                    ✓
-                  </span>{' '}
-                  Automate client billing with our Pay-Per-Call model.
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="flex h-6 w-6 items-center justify-center rounded-full bg-pink-100 text-pink-600">
-                    ✓
-                  </span>{' '}
-                  Handle 10x more accounts without extra workload.
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="flex h-6 w-6 items-center justify-center rounded-full bg-pink-100 text-pink-600">
-                    ✓
-                  </span>{' '}
-                  Build trust with branded portals and reporting.
-                </li>
-              </ul>
-            </div>
-            <div className="relative rounded-2xl bg-gradient-to-br from-[#fdf4ff] to-[#f3e8ff] p-1 shadow-lg">
-              <div className="rounded-xl bg-white p-8">
-                <img
-                  src="https://www.whatconverts.com/wp-content/uploads/2024/07/1_Featured-Image-1024x717.jpg"
-                  alt="Client Management"
-                  className="rounded-lg"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
+    <div className="my-20 bg-gray-50 text-gray-900">
+      <div className="mx-auto max-w-3xl text-center">
+        <h2 className="text-3xl leading-tight font-semibold tracking-tight text-gray-900 sm:text-4xl lg:text-[41px]">
+          All-in-One AI Call Tracking Suite
+        </h2>
+        <p className="mt-6 text-lg leading-relaxed text-gray-700">
+          Smarter, faster, and more affordable than anything else.
+        </p>
       </div>
-    </section>
+
+      {/* Features Section */}
+      <section className="container mx-auto grid gap-12 px-6 py-20 md:grid-cols-3">
+        {/* Card 1 */}
+        <Card className="rounded-2xl shadow-sm transition-transform hover:-translate-y-1 hover:shadow-lg">
+          <CardContent className="p-6">
+            <PhoneCall className="mb-4 h-10 w-10 text-orange-500" />
+            <h3 className="mb-2 text-xl font-semibold">
+              AI Attribution & Call Intelligence
+            </h3>
+            <ul className="list-disc space-y-2 px-4 text-base text-gray-600">
+              <li>Instantly identify where your calls come from?</li>
+              <li>
+                Use Dynamic Number Insertion (DNI) to connect campaigns to
+                calls.
+              </li>
+              <li>AI-powered call transcription and summaries.</li>
+              <li>Know which leads convert — and why?</li>
+            </ul>
+          </CardContent>
+        </Card>
+
+        {/* Card 2 */}
+        <Card className="rounded-2xl shadow-sm transition-transform hover:-translate-y-1 hover:shadow-lg">
+          <CardContent className="p-6">
+            <Bot className="mb-4 h-10 w-10 text-orange-500" />
+            <h3 className="mb-2 text-xl font-semibold">
+              Streamlined Call Operations
+            </h3>
+            <ul className="list-disc space-y-2 px-4 text-base text-gray-600">
+              <li>
+                Call Whisper, Call Recording, Voicemail, and SMS in one place.
+              </li>
+              <li>Automate call routing and follow-ups.</li>
+              <li>Manage missed calls with instant alerts.</li>
+              <li>Seamless AI transcription for every call.</li>
+            </ul>
+          </CardContent>
+        </Card>
+
+        {/* Card 3 */}
+        <Card className="rounded-2xl shadow-sm transition-transform hover:-translate-y-1 hover:shadow-lg">
+          <CardContent className="p-6">
+            <Users className="mb-4 h-10 w-10 text-blue-500" />
+            <h3 className="mb-2 text-xl font-semibold">
+              Effortless Client Management
+            </h3>
+            <ul className="list-disc space-y-2 px-4 text-base text-gray-600">
+              <li>
+                Give clients real-time dashboards with white-label access.
+              </li>
+              <li>Automate client billing with our Pay-Per-Call model.</li>
+              <li>Handle 10x more accounts without extra workload.</li>
+              <li>Build trust with branded portals and reporting.</li>
+            </ul>
+          </CardContent>
+        </Card>
+      </section>
+    </div>
   )
 }
 
@@ -244,7 +167,7 @@ export default function Home() {
           <LogoCloud />
         </Container>
         <CallTrackingSuite />
-
+        <CallTracking />
         <FeaturesSection />
         <TrackMoreNumbers />
         <WhoShould />

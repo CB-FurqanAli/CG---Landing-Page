@@ -1,7 +1,7 @@
 'use client'
 
 import { Container } from '@/components/container'
-import { Heading, Subheading } from '@/components/text'
+import { Heading } from '@/components/text'
 import { useState } from 'react'
 
 export function FAQSection() {
@@ -47,8 +47,7 @@ export function FAQSection() {
     <section className="bg-gray-50 py-24">
       <Container>
         <div className="text-center">
-          <Subheading>Frequently Asked Questions</Subheading>
-          <Heading as="h3" className="mx-auto mt-2 max-w-3xl">
+          <Heading as="h3" className="mx-auto mt-2 max-w-4xl">
             Everything you need to know about CallGauge.
           </Heading>
           <p className="mx-auto mt-8 max-w-2xl text-lg text-gray-700">
@@ -96,102 +95,3 @@ export function FAQSection() {
     </section>
   )
 }
-
-//
-//   const leftColumnFaqs = faqs.slice(0, Math.ceil(faqs.length / 2))
-//   const rightColumnFaqs = faqs.slice(Math.ceil(faqs.length / 2))
-//
-//   const toggleFAQ = (index, column) => {
-//     const globalIndex =
-//       column === 'left' ? index : index + leftColumnFaqs.length
-//     setOpenIndex(openIndex === globalIndex ? null : globalIndex)
-//   }
-//
-//   return (
-//     <Container className="py-24">
-//       <Subheading>Frequently Asked Questions</Subheading>
-//       <Heading as="h3" className="mt-2 max-w-3xl">
-//         Everything you need to know about CallGauge.
-//       </Heading>
-//       <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-2">
-//         {/* Left Column */}
-//         <div className="space-y-4">
-//           {leftColumnFaqs.map((faq, index) => (
-//             <div
-//               key={index}
-//               className="rounded-xl bg-white shadow-md transition-all duration-300 hover:shadow-lg"
-//             >
-//               <button
-//                 onClick={() => toggleFAQ(index, 'left')}
-//                 className="flex w-full items-center justify-between rounded-xl p-5 text-left focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 focus:outline-none"
-//                 aria-expanded={openIndex === index}
-//                 aria-controls={`faq-answer-${index}-left`}
-//               >
-//                 <h4 className="pr-6 text-base font-semibold text-gray-900 sm:text-lg">
-//                   {faq.question}
-//                 </h4>
-//                 <ChevronDownIcon
-//                   className={`h-5 w-5 text-gray-600 transition-transform duration-300 ${
-//                     openIndex === index ? 'rotate-180' : ''
-//                   }`}
-//                 />
-//               </button>
-//               <div
-//                 id={`faq-answer-${index}-left`}
-//                 className={`transition-all duration-300 ease-in-out ${
-//                   openIndex === index
-//                     ? 'max-h-96 p-5 opacity-100'
-//                     : 'max-h-0 opacity-0'
-//                 } overflow-hidden`}
-//               >
-//                 <p className="border-l-4 border-pink-600 pl-4 text-base leading-7 text-gray-800 sm:text-lg">
-//                   {faq.answer}
-//                 </p>
-//               </div>
-//             </div>
-//           ))}
-//         </div>
-//
-//         {/* Right Column */}
-//         <div className="space-y-4">
-//           {rightColumnFaqs.map((faq, index) => (
-//             <div
-//               key={index}
-//               className="rounded-xl bg-white shadow-md transition-all duration-300 hover:shadow-lg"
-//             >
-//               <button
-//                 onClick={() => toggleFAQ(index, 'right')}
-//                 className="flex w-full items-center justify-between rounded-xl p-5 text-left focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 focus:outline-none"
-//                 aria-expanded={openIndex === index + leftColumnFaqs.length}
-//                 aria-controls={`faq-answer-${index}-right`}
-//               >
-//                 <h4 className="pr-6 text-base font-semibold text-gray-900 sm:text-lg">
-//                   {faq.question}
-//                 </h4>
-//                 <ChevronDownIcon
-//                   className={`h-5 w-5 text-gray-600 transition-transform duration-300 ${
-//                     openIndex === index + leftColumnFaqs.length
-//                       ? 'rotate-180'
-//                       : ''
-//                   }`}
-//                 />
-//               </button>
-//               <div
-//                 id={`faq-answer-${index}-right`}
-//                 className={`transition-all duration-300 ease-in-out ${
-//                   openIndex === index + leftColumnFaqs.length
-//                     ? 'max-h-96 p-5 opacity-100'
-//                     : 'max-h-0 opacity-0'
-//                 } overflow-hidden`}
-//               >
-//                 <p className="border-l-4 border-pink-600 pl-4 text-base leading-7 text-gray-800 sm:text-lg">
-//                   {faq.answer}
-//                 </p>
-//               </div>
-//             </div>
-//           ))}
-//         </div>
-//       </div>
-//     </Container>
-//   )
-// }

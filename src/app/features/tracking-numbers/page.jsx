@@ -1,3 +1,4 @@
+import { Button } from '@/components/button'
 import { Container } from '@/components/container'
 import TrackingIntroduction from '@/components/features/tracking-Introduction/tracking-Introduction'
 import { Footer } from '@/components/footer' // Using your updated Footer
@@ -43,17 +44,22 @@ function HeroSection() {
           <Lead className="mx-auto mt-6 max-w-3xl text-lg text-gray-600">
             You will get $15 for free in your account to test our platform!
           </Lead>
-          <div className="mt-10 gap-4">
-            <a
-              href={'#'}
-              className="text-md inline-flex items-center rounded-xl border border-[#DE85DB] bg-gradient-to-r from-[#FBCCC5] to-[#B767F4] px-6 py-2 font-semibold transition-colors duration-200 hover:bg-gradient-to-r hover:from-[#F9C1C7] hover:to-[#DB7EDD]"
+          <div className="mt-12 flex flex-col justify-center gap-4 sm:flex-row">
+            <Button href="#" className="px-8 py-3 text-lg font-semibold">
+              Start for free
+            </Button>
+            <Button
+              variant="secondary"
+              href="#"
+              className="px-8 py-3 text-lg font-semibold"
             >
-              Get Started Free
-            </a>
-            <p className="mt-2 font-semibold text-red-600">
-              *No credit card required
-            </p>
+              Watch a demo
+            </Button>
           </div>
+          {/* Footnote */}
+          <p className="mt-4 text-sm font-medium text-red-500 italic">
+            *No credit card needed
+          </p>
         </div>
       </Container>
     </div>

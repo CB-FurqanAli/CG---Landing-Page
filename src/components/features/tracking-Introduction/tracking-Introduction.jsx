@@ -1,3 +1,5 @@
+import { Button } from '@/components/button'
+
 export default function TrackingIntroduction() {
   return (
     <section className="mx-auto max-w-7xl bg-white px-6 py-20 md:grid-cols-2 md:items-center">
@@ -401,17 +403,15 @@ export default function TrackingIntroduction() {
             </h2>
           </div>
 
-          <div className="mt-12 gap-4 text-center">
-            <a
-              href={'#'}
-              className="text-md inline-flex items-center rounded-xl border border-[#DE85DB] bg-gradient-to-r from-[#FBCCC5] to-[#B767F4] px-6 py-2 font-semibold transition-colors duration-200 hover:bg-gradient-to-r hover:from-[#F9C1C7] hover:to-[#DB7EDD]"
-            >
-              Get Started Free
-            </a>
-            <p className="mt-2 font-semibold text-red-600">
-              *No credit card required
-            </p>
+          <div className="mt-12 flex flex-col justify-center gap-4 sm:flex-row">
+            <Button href="#" className="px-8 py-3 text-lg font-semibold">
+              Start for free
+            </Button>
           </div>
+          {/* Footnote */}
+          <p className="mx-auto mt-4 text-center font-medium text-red-500 italic">
+            *No credit card needed
+          </p>
         </div>
         {/*Make your callers feel valued and track every touch point*/}
         <div className="mt-32">
@@ -508,12 +508,10 @@ export default function TrackingIntroduction() {
             </p>
 
             <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row sm:gap-6">
-              <a
-                href="#"
-                className="rounded-xl bg-[#F15E16] px-6 py-3 text-base font-semibold text-white shadow-lg transition hover:bg-orange-600"
-              >
+              <Button href="#" className="px-8 py-3 text-lg font-semibold">
                 Start a Free Trial
-              </a>
+              </Button>
+              {/* Footnote */}
               <p className="text-sm">✅ 14-day money back guarantee</p>
             </div>
           </div>

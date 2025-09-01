@@ -1,9 +1,11 @@
+import { Button } from '@/components/button'
+
 export const TrackMoreNumbers = () => {
   return (
     <section className="relative bg-gradient-to-br from-indigo-50 via-white to-purple-50 py-20">
       <div className="mx-auto max-w-7xl px-6 text-center lg:px-8">
         {/* Heading */}
-        <h2 className="text-4xl font-semibold tracking-tight text-balance text-gray-900 sm:text-5xl">
+        <h2 className="text-3xl font-semibold tracking-tight text-balance text-gray-900 sm:text-[41px]">
           Track <span className="text-indigo-600">6x More Numbers</span> — Stay
           Within Budget
         </h2>
@@ -26,20 +28,22 @@ export const TrackMoreNumbers = () => {
         </div>
 
         {/* CTA Buttons */}
-        <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
-          <a
-            href="#"
-            className="rounded-xl bg-indigo-600 px-6 py-3 text-lg font-semibold text-white shadow-md transition hover:bg-indigo-700"
-          >
+        <div className="mt-12 flex flex-col justify-center gap-4 sm:flex-row">
+          <Button href="#" className="px-8 py-3 text-lg font-semibold">
             Start for free
-          </a>
-          <a
+          </Button>
+          <Button
+            variant="secondary"
             href="#"
-            className="rounded-xl border border-indigo-600 px-6 py-3 text-lg font-semibold text-indigo-600 shadow-sm transition hover:bg-indigo-50"
+            className="px-8 py-3 text-lg font-semibold"
           >
             Watch a demo
-          </a>
+          </Button>
         </div>
+        {/* Footnote */}
+        <p className="mt-4 text-sm font-medium text-red-500 italic">
+          *No credit card needed
+        </p>
       </div>
     </section>
   )

@@ -1,4 +1,5 @@
 'use client'
+import { Button } from '@/components/button'
 import { PortingFaq } from '@/components/porting/porting-faq'
 import { Sparkles } from 'lucide-react'
 
@@ -35,20 +36,19 @@ export default function PortingPage() {
           managing calls with AI-powered insights right away.
         </p>
 
-        <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
-          <a
-            href="#"
-            className="rounded-xl bg-indigo-600 px-6 py-3 text-lg font-semibold text-white shadow-md transition hover:bg-indigo-700"
-          >
+        <div className="mt-12 flex flex-col justify-center gap-4 sm:flex-row">
+          <Button href="#" className="px-8 py-3 text-lg font-semibold">
             Start for free
-          </a>
-          <a
+          </Button>
+          <Button
+            variant="secondary"
             href="#"
-            className="rounded-xl border border-indigo-600 px-6 py-3 text-lg font-semibold text-indigo-600 shadow-sm transition hover:bg-indigo-50"
+            className="px-8 py-3 text-lg font-semibold"
           >
             Watch a demo
-          </a>
+          </Button>
         </div>
+        {/* Footnote */}
         <p className="mt-4 text-sm font-medium text-red-500 italic">
           *No credit card needed
         </p>
@@ -99,20 +99,19 @@ export default function PortingPage() {
         </div>
 
         {/* CTA Buttons */}
-        <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
-          <a
-            href="#"
-            className="rounded-xl bg-indigo-600 px-6 py-3 text-lg font-semibold text-white shadow-md transition hover:bg-indigo-700"
-          >
+        <div className="mt-12 flex flex-col justify-center gap-4 sm:flex-row">
+          <Button href="#" className="px-8 py-3 text-lg font-semibold">
             Start for free
-          </a>
-          <a
+          </Button>
+          <Button
+            variant="secondary"
             href="#"
-            className="rounded-xl border border-indigo-600 px-6 py-3 text-lg font-semibold text-indigo-600 shadow-sm transition hover:bg-indigo-50"
+            className="px-8 py-3 text-lg font-semibold"
           >
             Watch a demo
-          </a>
+          </Button>
         </div>
+        {/* Footnote */}
         <p className="mt-4 text-sm font-medium text-red-500 italic">
           *No credit card needed
         </p>

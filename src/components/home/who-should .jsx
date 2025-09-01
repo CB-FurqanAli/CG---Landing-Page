@@ -4,7 +4,7 @@ export default function WhoShould() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         {/* Heading */}
         <div className="mx-auto max-w-3xl text-center">
-          <h2 className="text-4xl font-semibold tracking-tight text-balance text-gray-900 sm:text-5xl">
+          <h2 className="text-3xl font-semibold tracking-tight text-balance text-gray-900 sm:text-[41px]">
             Who Is CallGauge AI For?
           </h2>
           <p className="mt-6 text-lg leading-relaxed text-gray-700">
