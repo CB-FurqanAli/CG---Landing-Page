@@ -48,7 +48,7 @@ function CallTracking() {
   ]
 
   return (
-    <div className="bg-gradient-to-br from-gray-50 via-white to-blue-50/30 px-4 py-16 sm:py-20 lg:py-24">
+    <div className="bg-gradient-to-br from-gray-50 via-white to-blue-50/30 px-4 py-16 sm:py-20 lg:py-20">
       <div className="mx-auto max-w-7xl">
         {/* Header Section */}
         <div className="mx-auto mb-16 max-w-4xl text-center lg:mb-20">

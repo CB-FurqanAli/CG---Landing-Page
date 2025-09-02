@@ -1,13 +1,12 @@
-import CallTracking from '@/components/asd'
 import { Button } from '@/components/button'
 import { Container } from '@/components/container'
 import { FAQSection } from '@/components/FAQSection'
 import { Footer } from '@/components/footer'
 import { Gradient } from '@/components/gradient'
 import { FeaturesSection } from '@/components/home/all-features'
+import CallGaugeTargetAudience from '@/components/home/asd'
+import CallTracking from '@/components/home/CallTracking'
 import { TrackMoreNumbers } from '@/components/home/track-more-numbers'
-import WhoShould from '@/components/home/who-should '
-import WhyChoose from '@/components/home/why-choose'
 import { Link } from '@/components/link'
 import { LogoCloud } from '@/components/logo-cloud'
 import { Navbar } from '@/components/navbar'
@@ -36,24 +35,24 @@ function Hero() {
             </Link>
           }
         />
-        <div className="py-16 text-center md:py-24">
-          <h1 className="text-5xl font-semibold tracking-tight text-balance text-gray-900 sm:text-7xl">
+        <div className="py-16 text-center">
+          <h1 className="text-5xl font-semibold tracking-tight text-balance text-gray-900 sm:text-6xl">
             AI-Powered Call Tracking That Supercharges Your Business
           </h1>
 
           {/* Subtitle / Supporting Text */}
-          <div className="mx-auto mt-8 max-w-3xl text-center text-lg leading-relaxed text-gray-700 sm:text-xl">
+          <div className="mx-auto mt-6 max-w-3xl text-center text-lg leading-relaxed text-gray-700 sm:text-lg">
             <p>
               With <strong>CallGauge AI</strong>, you can intelligently track
               every{' '}
               <strong>phone call, text message, web form, and live chat</strong>{' '}
               — all from a single, unified dashboard.
             </p>
-            <p className="mt-4">
+            <p className="mt-2">
               Leverage the power of <strong>artificial intelligence</strong> to
               capture, analyze, and optimize every customer interaction.
             </p>
-            <p className="mt-4">
+            <p className="mt-2">
               Turn more leads into revenue and grow faster — all for just{' '}
               <strong>$0.50 per number</strong>, the most affordable rate in the
               industry.
@@ -91,12 +90,13 @@ export default function Home() {
         <Container className="mt-10">
           <LogoCloud />
         </Container>
+        <CallGaugeTargetAudience />
         <CallTracking />
         <FeaturesSection />
         <TrackMoreNumbers />
-        <WhoShould />
-        <WhyChoose />
+        {/*<WhoShould />*/}
 
+        {/*<WhyChoose />*/}
         <FAQSection />
       </main>
       <Testimonials />
