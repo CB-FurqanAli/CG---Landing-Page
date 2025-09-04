@@ -90,10 +90,11 @@ export default function Home() {
         <Container className="mt-10">
           <LogoCloud />
         </Container>
-        <CallGaugeTargetAudience />
         <CallTracking />
-        <FeaturesSection />
         <TrackMoreNumbers />
+        <FeaturesSection />
+        <CallGaugeTargetAudience />
+
         {/*<WhoShould />*/}
 
         {/*<WhyChoose />*/}
