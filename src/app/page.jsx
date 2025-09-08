@@ -7,6 +7,7 @@ import { FeaturesSection } from '@/components/home/all-features'
 import CallGaugeTargetAudience from '@/components/home/asd'
 import CallTracking from '@/components/home/CallTracking'
 import { TrackMoreNumbers } from '@/components/home/track-more-numbers'
+import WhoShould from '@/components/home/who-should '
 import { Link } from '@/components/link'
 import { LogoCloud } from '@/components/logo-cloud'
 import { Navbar } from '@/components/navbar'
@@ -35,27 +36,18 @@ function Hero() {
             </Link>
           }
         />
-        <div className="py-16 text-center">
+        <div className="py-20 text-center">
           <h1 className="text-5xl font-semibold tracking-tight text-balance text-gray-900 sm:text-6xl">
-            AI-Powered Call Tracking That Supercharges Your Business
+            Finally Know Which Marketing Campaigns Drive Phone Calls
           </h1>
 
           {/* Subtitle / Supporting Text */}
           <div className="mx-auto mt-6 max-w-3xl text-center text-lg leading-relaxed text-gray-700 sm:text-lg">
             <p>
-              With <strong>CallGauge AI</strong>, you can intelligently track
-              every{' '}
-              <strong>phone call, text message, web form, and live chat</strong>{' '}
-              — all from a single, unified dashboard.
-            </p>
-            <p className="mt-2">
-              Leverage the power of <strong>artificial intelligence</strong> to
-              capture, analyze, and optimize every customer interaction.
-            </p>
-            <p className="mt-2">
-              Turn more leads into revenue and grow faster — all for just{' '}
-              <strong>$0.50 per number</strong>, the most affordable rate in the
-              industry.
+              Stop wasting ad spend on campaigns that don’t convert. With
+              CallGauge AI, track and attribute every call in less than 5
+              minutes and unlock AI insights like transcriptions, sentiment and
+              lead scoring to double down on the ads that actually deliver ROI.
             </p>
           </div>
 
@@ -72,10 +64,17 @@ function Hero() {
               Watch a demo
             </Button>
           </div>
-          {/* Footnote */}
-          <p className="mt-4 text-sm font-medium text-red-500 italic">
-            *No credit card needed
-          </p>
+          <div className="mt-6 flex flex-col items-center justify-center gap-4 font-medium sm:flex-row">
+            <p>✅ Setup in less than 5 minutes</p>
+            <p>✅ No credit card required</p>
+            <p>✅ Cancel anytime</p>
+          </div>
+          <div>
+            <p>
+              Live dashboard preview — see which campaigns drive calls,
+              conversions, and ROI.
+            </p>
+          </div>
         </div>
       </Container>
     </div>
@@ -95,7 +94,7 @@ export default function Home() {
         <FeaturesSection />
         <CallGaugeTargetAudience />
 
-        {/*<WhoShould />*/}
+        <WhoShould />
 
         {/*<WhyChoose />*/}
         <FAQSection />
