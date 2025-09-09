@@ -83,7 +83,7 @@ export default function CustomerSuccess() {
                 <span className="ml-2 text-sm text-gray-600">{t.rating}.0</span>
               </div>
               <p className="mb-6 leading-relaxed text-gray-600 italic">
-                "{t.quote}"
+                {t.quote}
               </p>
               <div className="flex items-center">
                 <div
