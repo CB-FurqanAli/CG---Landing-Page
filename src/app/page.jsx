@@ -3,11 +3,12 @@ import { Container } from '@/components/container'
 import { FAQSection } from '@/components/FAQSection'
 import { Footer } from '@/components/footer'
 import { Gradient } from '@/components/gradient'
-import { FeaturesSection } from '@/components/home/all-features'
-import CallGaugeTargetAudience from '@/components/home/asd'
-import CallTracking from '@/components/home/CallTracking'
-import { TrackMoreNumbers } from '@/components/home/track-more-numbers'
-import WhoShould from '@/components/home/who-should '
+import CallToAction from '@/components/home/all-features'
+import Features from '@/components/home/asd'
+import CallAttributionProblem from '@/components/home/CallTracking'
+import CallAttributionSolution from '@/components/home/track-more-numbers'
+import CustomerSuccess from '@/components/home/who-should '
+import HeroSection from '@/components/home/why-choose'
 import { Link } from '@/components/link'
 import { LogoCloud } from '@/components/logo-cloud'
 import { Navbar } from '@/components/navbar'
@@ -89,15 +90,14 @@ export default function Home() {
         <Container className="mt-10">
           <LogoCloud />
         </Container>
-        <CallTracking />
-        <TrackMoreNumbers />
-        <FeaturesSection />
-        <CallGaugeTargetAudience />
+        <CallAttributionProblem />
+        <CallAttributionSolution />
+        <CallToAction />
+        <Features />
 
-        <WhoShould />
-
-        {/*<WhyChoose />*/}
+        <CustomerSuccess />
         <FAQSection />
+        <HeroSection />
       </main>
       <Testimonials />
       <Footer />

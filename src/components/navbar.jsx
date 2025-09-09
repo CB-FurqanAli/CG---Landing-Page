@@ -42,15 +42,10 @@ function NavigateWithScroll({ href, children, scrollTarget }) {
 const links = [
   { href: '/features', label: 'Features', id: 'features-nav' },
   { href: '/pricing', label: 'Pricing', id: 'pricing-nav' },
-  { href: '/company', label: 'Company', id: 'company-nav' },
-  { href: '#', label: 'Login', id: 'login-nav' },
-  { href: '/demo', label: 'Demo', id: 'demo-nav' },
-  {
-    href: '/pricing',
-    label: 'Try it free',
-    scrollTo: 'pricing-cards',
-    id: 'try-free-nav',
-  },
+  { href: '/company', label: 'industries', id: 'company-nav' },
+  { href: '#', label: 'Solutions', id: 'login-nav' },
+  { href: '#', label: 'Blogs', id: 'login-nav' },
+  // { href: '/demo', label: 'Demo', id: 'demo-nav' },
 ]
 
 function DesktopNav() {
