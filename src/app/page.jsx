@@ -13,7 +13,6 @@ import SolutionSection from '@/components/home/SolutionSection'
 import { Link } from '@/components/link'
 import { LogoCloud } from '@/components/logo-cloud'
 import { Navbar } from '@/components/navbar'
-import { Testimonials } from '@/components/testimonials'
 import { ChevronRightIcon } from '@heroicons/react/16/solid'
 
 export const metadata = {
@@ -100,10 +99,10 @@ export default function Home() {
         <CallToAction />
         <Features />
         <CustomerSuccess />
-        <FAQSection />
         <FinalCTA />
+        <FAQSection />
       </main>
-      <Testimonials />
+      {/*<Testimonials />*/}
       <Footer />
     </div>
   )
