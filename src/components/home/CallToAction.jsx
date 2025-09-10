@@ -39,13 +39,13 @@ export default function CallToAction() {
             Watch a Demo
           </Button>
         </div>
-        <div className="mt-6 flex flex-col items-center justify-center gap-4 font-medium sm:flex-row">
+        <div className="mt-8 flex flex-col items-center justify-center gap-4 font-medium sm:flex-row">
           <p>✅ No credit card required</p>
           <p>✅ Setup in less than 5 minutes</p>
           <p>✅ Cancel anytime</p>
         </div>
         {/* Stats */}
-        <div className="mx-auto grid max-w-2xl grid-cols-1 gap-8 border-t border-white/20 pt-8 sm:grid-cols-3">
+        <div className="mx-auto grid max-w-2xl grid-cols-1 gap-8 border-t border-white/20 pt-4 sm:grid-cols-3">
           {[
             { stat: '247%', desc: 'Avg ROI Increase' },
             { stat: '98%', desc: 'Attribution Accuracy' },

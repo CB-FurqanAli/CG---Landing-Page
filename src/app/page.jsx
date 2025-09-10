@@ -40,7 +40,7 @@ function Hero() {
         />
         <div className="py-20 text-center">
           <span className="font-medium">
-            Ai-Powered Call Tracking & Attribution
+            AI-Powered Call Tracking & Attribution
           </span>
           <h1 className="text-5xl font-semibold tracking-tight text-balance text-gray-900 sm:text-6xl">
             Finally Know Which Marketing Campaigns Drive Phone Calls
