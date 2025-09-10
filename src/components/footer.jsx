@@ -11,19 +11,16 @@ function CallToAction() {
     <div className="relative pt-20 pb-16 text-center sm:py-24">
       <hgroup>
         <Subheading>Get Started</Subheading>
-        <p className="mt-6 text-3xl font-medium tracking-tight text-gray-950 sm:text-5xl">
-          Ready to Take Control?
-          <br />
-          Launch Your Free Trial Now.
+        <p className="mt-6 text-3xl font-semibold text-gray-950 sm:text-5xl">
+          Still have questions?
         </p>
       </hgroup>
-      <p className="mx-auto mt-6 max-w-xs text-sm/6 text-gray-500">
-        Experience the most cost-effective call tracking solution with
-        CallGauge.
+      <p className="mx-auto mt-6 max-w-lg text-lg text-gray-500">
+        Get personalized answers in a 15-minute demo
       </p>
       <div className="mt-6">
         <Button className="w-full sm:w-auto" href="#">
-          Start for Free
+          Schedule Demo
         </Button>
       </div>
     </div>
@@ -31,7 +28,7 @@ function CallToAction() {
 }
 
 function SitemapHeading({ children }) {
-  return <h3 className="text-sm/6 font-medium text-gray-950/50">{children}</h3>
+  return <h3 className="text-lg font-medium text-gray-950/50">{children}</h3>
 }
 
 function SitemapLinks({ children }) {
@@ -43,7 +40,7 @@ function SitemapLink(props) {
     <li>
       <Link
         {...props}
-        className="font-medium text-gray-950 data-hover:text-gray-950/75"
+        className="font-medium text-gray-950 hover:underline data-hover:text-gray-950/75"
       />
     </li>
   )
@@ -52,48 +49,49 @@ function SitemapLink(props) {
 function Sitemap() {
   return (
     <>
-      <div>
-        <SitemapHeading>Solutions</SitemapHeading>
+      <div className="lg:ml-16">
+        <SitemapHeading>Product</SitemapHeading>
         <SitemapLinks>
-          <SitemapLink href="/pricing">Pricing Plans</SitemapLink>
-          <SitemapLink href="/features">Features Overview</SitemapLink>
-          <SitemapLink href="/features/call-flows">Call Flows</SitemapLink>
-          <SitemapLink href="/features/tracking-numbers">
-            Call Tracking Numbers
-          </SitemapLink>
+          <SitemapLink href="/features">Features</SitemapLink>
+          <SitemapLink href="/pricing">Pricing</SitemapLink>
+          <SitemapLink href="/pricing">Integrations</SitemapLink>
+          <SitemapLink href="/pricing">API</SitemapLink>
+
+          {/*<SitemapLink href="/features/call-flows">Call Flows</SitemapLink>*/}
+          {/*<SitemapLink href="/features/tracking-numbers">*/}
+          {/*  Call Tracking Numbers*/}
+          {/*</SitemapLink>*/}
         </SitemapLinks>
       </div>
-      <div>
-        <SitemapHeading>Who We Serve</SitemapHeading>
-        <SitemapLinks>
-          <SitemapLink href="/call-tracking/agencies">Agencies</SitemapLink>
-          <SitemapLink href="/call-tracking/marketers">Marketers</SitemapLink>
-          <SitemapLink href="/call-tracking/small-business">
-            Small Businesses
-          </SitemapLink>
-          <SitemapLink href="/call-tracking/service-providers">
-            Service Providers
-          </SitemapLink>
-        </SitemapLinks>
-      </div>
-      <div>
+      {/*<div>*/}
+      {/*  <SitemapHeading>Who We Serve</SitemapHeading>*/}
+      {/*  <SitemapLinks>*/}
+      {/*    <SitemapLink href="/call-tracking/agencies">Agencies</SitemapLink>*/}
+      {/*    <SitemapLink href="/call-tracking/marketers">Marketers</SitemapLink>*/}
+      {/*    <SitemapLink href="/call-tracking/small-business">*/}
+      {/*      Small Businesses*/}
+      {/*    </SitemapLink>*/}
+      {/*    <SitemapLink href="/call-tracking/service-providers">*/}
+      {/*      Service Providers*/}
+      {/*    </SitemapLink>*/}
+      {/*  </SitemapLinks>*/}
+      {/*</div>*/}
+      <div className="lg:ml-24">
         <SitemapHeading>Resources</SitemapHeading>
         <SitemapLinks>
           <SitemapLink href="/blog">Blog</SitemapLink>
-          <SitemapLink href="/support-center">Support Center</SitemapLink>
-          <SitemapLink href="/porting">Port Your Numbers</SitemapLink>
-          <SitemapLink href="/callrail-alternative">
-            CallGauge vs. CallRail
-          </SitemapLink>
+          <SitemapLink href="/support-center">Help Center</SitemapLink>
+          <SitemapLink href="/porting">Case Studies</SitemapLink>
+          <SitemapLink href="/callrail-alternative">Webinars</SitemapLink>
         </SitemapLinks>
       </div>
-      <div>
+      <div className="lg:ml-24">
         <SitemapHeading>Company</SitemapHeading>
         <SitemapLinks>
-          <SitemapLink href="/company">About Us</SitemapLink>
+          <SitemapLink href="/company">About</SitemapLink>
           <SitemapLink href="/contact">Contact</SitemapLink>
-          <SitemapLink href="/terms-of-use">Terms of Use</SitemapLink>
-          <SitemapLink href="/privacy">Privacy Notice</SitemapLink>
+          <SitemapLink href="/terms-of-use">Careers</SitemapLink>
+          <SitemapLink href="/privacy">Privacy</SitemapLink>
         </SitemapLinks>
       </div>
     </>
@@ -180,6 +178,12 @@ export function Footer() {
                 <div className="col-span-2 flex">
                   <PlusGridItem className="pt-6 lg:pb-6">
                     <Logo className="h-9" />
+                    <div>
+                      <h2 className="mt-6 max-w-[350px] text-lg font-medium">
+                        AI-Powered Call Tracking That Delivers ROI for Every
+                        Business.
+                      </h2>
+                    </div>
                   </PlusGridItem>
                 </div>
                 <div className="col-span-2 grid grid-cols-2 gap-x-8 gap-y-12 lg:col-span-4 lg:grid-cols-subgrid lg:pt-6">

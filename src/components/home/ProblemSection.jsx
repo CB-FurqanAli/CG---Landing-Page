@@ -1,17 +1,18 @@
 'use client'
 // app/components/CallAttributionProblem.tsx
-export default function CallAttributionProblem() {
+export default function ProblemSection() {
   return (
     <section className="bg-gray-50 py-20">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         {/* Heading */}
         <div className="mb-16 text-center">
           <h2 className="mb-6 text-3xl font-bold text-gray-900 lg:text-4xl">
-            The Phone Call Attribution Problem Every Marketer Faces
+            The Call Attribution Gap That’s Costing Marketing ROI
           </h2>
           <p className="mx-auto max-w-3xl text-xl text-gray-600">
-            You&apos;re spending thousands on ads, but when customers call, you
-            have no idea which campaign drove that lead. Sound familiar?
+            You spend thousands on ads, but without call attribution you can’t
+            see which campaigns actually drive phone calls. That blind spot
+            wastes ad spend, hides real performance, and eats away at your ROI.
           </p>
         </div>
 
@@ -21,19 +22,19 @@ export default function CallAttributionProblem() {
             {
               icon: '😵',
               title: 'No Call Attribution',
-              text: "Phone calls worth $100K+ per month, but you can't connect them to specific campaigns or keywords.",
+              text: 'Without attribution, $100K in phone leads can look like $0 in your reports — leaving your best campaigns invisible.',
               bg: 'bg-red-100',
             },
             {
               icon: '💸',
               title: 'Wasted Ad Spend',
-              text: 'Pouring budget into campaigns that might not drive phone calls, while under-funding the ones that do.',
+              text: 'Thousands wasted on ads that don’t convert — while the ones driving real revenue go unnoticed.',
               bg: 'bg-yellow-100',
             },
             {
               icon: '📊',
               title: 'Incomplete Data',
-              text: 'Google Analytics shows website conversions, but misses 60% of your actual revenue from phone leads.',
+              text: 'Up to 60% of revenue from phone calls is missing in your reports — decisions made blind, ROI lost.',
               bg: 'bg-blue-100',
             },
           ].map((item, i) => (
@@ -58,26 +59,26 @@ export default function CallAttributionProblem() {
         <div className="mx-auto max-w-4xl rounded-2xl border border-gray-200 bg-white p-8 text-center">
           <h3 className="mb-4 text-2xl font-bold text-gray-900">The Result?</h3>
           <p className="mb-6 text-lg text-gray-600">
-            You&apos;re flying blind with your marketing spend, making decisions
-            based on incomplete data, and missing out on thousands in potential
-            revenue.
+            Without call attribution, you’re flying blind, making decisions
+            based on incomplete data, wasting ad spend and losing out on
+            thousands in revenue.
           </p>
 
           <div className="grid grid-cols-1 gap-6 text-center sm:grid-cols-3">
             {[
               {
                 stat: '78%',
-                desc: 'of mobile searches result in phone calls',
+                desc: 'of mobile searches result in phone calls, yet most go unattributed.',
                 color: 'text-red-600',
               },
               {
                 stat: '65%',
-                desc: "of marketing budgets can't be properly attributed",
+                desc: 'of marketing budgets lack proper attribution to phone leads.',
                 color: 'text-yellow-600',
               },
               {
                 stat: '10-15x',
-                desc: 'higher conversion rate for phone calls vs web forms',
+                desc: 'higher conversion rate for phone calls compared to web forms.',
                 color: 'text-blue-600',
               },
             ].map((item, i) => (

@@ -1,45 +1,51 @@
 'use client'
 
+import { Button } from '@/components/button'
+
 export default function CallToAction() {
   return (
-    <section className="bg-gradient-to-br from-[#0066ff] via-[#0052cc] to-[#003d99] py-20 text-white">
+    <section className="bg-linear-115 from-[#fff1be] from-28% via-[#ee87cb] via-70% to-[#b060ff] py-20 sm:bg-linear-145">
       <div className="mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
         {/* Badge */}
-        <div className="mb-8 inline-flex items-center rounded-full bg-white/20 px-6 py-2 backdrop-blur-sm">
+        <div className="mb-8 inline-flex items-center rounded-full bg-[#C7A19E] px-6 py-2">
           <span className="mr-3 h-2 w-2 rounded-full bg-green-400"></span>
-          <span className="text-sm font-medium">Ready to Start Tracking?</span>
+          <span className="text-sm font-medium text-white">
+            Ready to Start Tracking Smarter?
+          </span>
         </div>
 
         {/* Heading */}
-        <h2 className="mb-6 text-4xl font-bold lg:text-5xl">
-          Stop Guessing. Start Tracking.
+        <h2 className="mx-auto mb-6 max-w-4xl text-3xl font-bold lg:text-4xl">
+          Stop Wasting Ad Spend. Start Maximizing ROI with AI Attribution.
         </h2>
 
         {/* Subheading */}
-        <p className="mx-auto mb-10 max-w-3xl text-xl text-blue-100 lg:text-2xl">
-          Join 2,500+ businesses who stopped wasting ad spend and started
-          optimizing with complete call attribution. See results in your first
-          week.
+        <p className="mx-auto mb-10 max-w-3xl text-lg lg:text-xl">
+          Join businesses who are cutting wasted ad spend and optimizing with
+          complete call attribution using CallGauge AI. Start seeing results in
+          your first week.
         </p>
 
         {/* CTA Buttons */}
-        <div className="mb-8 flex flex-col justify-center gap-4 sm:flex-row">
-          <a
+        <div className="mt-12 flex flex-col justify-center gap-4 sm:flex-row">
+          <Button href="#" className="px-8 py-3 text-lg font-semibold">
+            Start Free Trial
+          </Button>
+          <Button
+            variant="secondary"
             href="#"
-            className="rounded-xl bg-white px-10 py-5 text-xl font-bold text-blue-500 shadow-lg transition hover:scale-105 hover:bg-gray-50"
+            className="px-8 py-3 text-lg font-semibold"
           >
-            Start Your 14-Day Free Trial
-          </a>
-          <a
-            href="/contact"
-            className="rounded-xl border-2 border-white/30 px-8 py-4 font-semibold text-white transition-all hover:bg-white/10"
-          >
-            Schedule a Demo
-          </a>
+            Watch a Demo
+          </Button>
         </div>
-
+        <div className="mt-6 flex flex-col items-center justify-center gap-4 font-medium sm:flex-row">
+          <p>✅ No credit card required</p>
+          <p>✅ Setup in less than 5 minutes</p>
+          <p>✅ Cancel anytime</p>
+        </div>
         {/* Stats */}
-        <div className="mx-auto mt-12 grid max-w-2xl grid-cols-1 gap-8 border-t border-white/20 pt-8 sm:grid-cols-3">
+        <div className="mx-auto grid max-w-2xl grid-cols-1 gap-8 border-t border-white/20 pt-8 sm:grid-cols-3">
           {[
             { stat: '247%', desc: 'Avg ROI Increase' },
             { stat: '98%', desc: 'Attribution Accuracy' },

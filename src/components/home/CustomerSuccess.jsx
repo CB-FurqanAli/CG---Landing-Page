@@ -1,3 +1,6 @@
+import { Container } from '@/components/container'
+import { LogoCloud } from '@/components/logo-cloud'
+
 const stats = [
   { value: '247%', label: 'Average ROI Increase', color: 'text-green-600' },
   { value: '98%', label: 'Attribution Accuracy', color: 'text-blue-600' },
@@ -9,7 +12,7 @@ const testimonials = [
   {
     rating: 5,
     quote:
-      'CallGauge helped us identify that our Facebook ads were driving 40% more qualified calls than Google Ads. We shifted $20K budget and increased our ROI by 180%.',
+      'Within the first week, we discovered which campaigns were actually driving high-quality calls. Shifting our budget stopped the waste and boosted ROI immediately.',
     initials: 'MJ',
     color: 'bg-blue-500',
     name: 'Michael Johnson',
@@ -18,7 +21,7 @@ const testimonials = [
   {
     rating: 5,
     quote:
-      'Setup took 10 minutes and we immediately started seeing which campaigns were working. The AI call analysis alone saved us 20 hours per week.',
+      'Setup took minutes, not hours. With AI call analysis, we finally see which ads convert into real revenue — and our team saves dozens of hours every month.',
     initials: 'SC',
     color: 'bg-green-500',
     name: 'Sarah Chen',
@@ -27,11 +30,11 @@ const testimonials = [
   {
     rating: 5,
     quote:
-      'The AI call analysis is incredible. It automatically scores our leads and tells us which calls are most likely to convert. Our sales team is 3x more efficient now.',
+      'CallGauge AI gave us the attribution clarity we’d been missing. Now we can prove marketing ROI with hard data, not assumptions — and leadership trusts our reports.',
     initials: 'DR',
     color: 'bg-purple-500',
     name: 'David Rodriguez',
-    role: 'VP Marketing, Enterprise Solutions',
+    role: 'VP Marketing, Enterprise Solutions ',
   },
 ]
 
@@ -47,11 +50,13 @@ export default function CustomerSuccess() {
             </span>
           </div>
           <h2 className="mb-6 text-3xl font-bold text-gray-900 lg:text-4xl">
-            Join 2,500+ Businesses Growing with CallGauge AI
+            See How Teams Improve ROI with CallGauge AI
           </h2>
           <p className="mx-auto max-w-3xl text-xl text-gray-600">
-            See how companies like yours increased ROI and improved marketing
-            performance with complete call attribution.
+            Businesses of all sizes use CallGauge AI to eliminate wasted ad
+            spend, optimize campaigns, and prove ROI with AI-powered
+            attribution. Here’s what real results look like when you track every
+            call with confidence.
           </p>
         </div>
 
@@ -102,22 +107,17 @@ export default function CustomerSuccess() {
 
         {/* Logos */}
         <div className="mt-16 border-t border-gray-200 pt-12">
-          <div className="mb-8 text-center">
-            <p className="mb-6 text-gray-500">
-              Trusted by companies of all sizes
-            </p>
-            <div className="flex flex-wrap items-center justify-center gap-8 opacity-50">
-              {Array(5)
-                .fill('Company Logo')
-                .map((logo, i) => (
-                  <div
-                    key={i}
-                    className="flex h-12 w-20 items-center justify-center rounded bg-gray-200 text-xs font-medium text-gray-400"
-                  >
-                    {logo}
-                  </div>
-                ))}
+          <div className="text-center">
+            <div className="inline-flex rounded-full bg-green-100 px-4 py-2">
+              <span className="text-sm font-semibold text-green-800">
+                Trusted by companies of all sizes
+              </span>
             </div>
+          </div>
+          <div>
+            <Container>
+              <LogoCloud />
+            </Container>
           </div>
         </div>
       </div>

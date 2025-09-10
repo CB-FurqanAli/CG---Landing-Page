@@ -3,12 +3,13 @@ import { Container } from '@/components/container'
 import { FAQSection } from '@/components/FAQSection'
 import { Footer } from '@/components/footer'
 import { Gradient } from '@/components/gradient'
-import CallToAction from '@/components/home/all-features'
-import Features from '@/components/home/asd'
-import CallAttributionProblem from '@/components/home/CallTracking'
-import CallAttributionSolution from '@/components/home/track-more-numbers'
-import CustomerSuccess from '@/components/home/who-should '
-import HeroSection from '@/components/home/why-choose'
+import CallToAction from '@/components/home/CallToAction'
+
+import CustomerSuccess from '@/components/home/CustomerSuccess'
+import Features from '@/components/home/features'
+import FinalCTA from '@/components/home/FinalCTA'
+import ProblemSection from '@/components/home/ProblemSection'
+import SolutionSection from '@/components/home/SolutionSection'
 import { Link } from '@/components/link'
 import { LogoCloud } from '@/components/logo-cloud'
 import { Navbar } from '@/components/navbar'
@@ -38,6 +39,9 @@ function Hero() {
           }
         />
         <div className="py-20 text-center">
+          <span className="font-medium">
+            Ai-Powered Call Tracking & Attribution
+          </span>
           <h1 className="text-5xl font-semibold tracking-tight text-balance text-gray-900 sm:text-6xl">
             Finally Know Which Marketing Campaigns Drive Phone Calls
           </h1>
@@ -90,14 +94,14 @@ export default function Home() {
         <Container className="mt-10">
           <LogoCloud />
         </Container>
-        <CallAttributionProblem />
-        <CallAttributionSolution />
+        <ProblemSection />
+        <SolutionSection />
+        {/*<CallAttributionSolution />*/}
         <CallToAction />
         <Features />
-
         <CustomerSuccess />
         <FAQSection />
-        <HeroSection />
+        <FinalCTA />
       </main>
       <Testimonials />
       <Footer />

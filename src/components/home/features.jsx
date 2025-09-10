@@ -1,71 +1,75 @@
 'use client'
+import { Button } from '@/components/button'
+
 const features = [
   {
     icon: '🎯',
     color: 'bg-blue-500',
-    title: 'Dynamic Number Insertion',
+    title: 'Call Flows & Smart Routing',
     description:
-      'Automatically show different phone numbers to visitors from different campaigns. Track every call back to its exact source with 98% accuracy.',
+      'Stop losing leads to missed or misdirected calls. With intelligent greetings, round-robin, multi-ring, and after-hours rules, CallGauge AI ensures every caller reaches the right person or team.',
+    lastline:
+      '➡ Capture more opportunities and convert more conversations into revenue.',
     points: [
-      'Real-time number swapping',
-      'Campaign-specific tracking',
-      'Keyword-level attribution',
+      'Intelligent greetings & menus',
+      'Round-robin & multi-ring routing',
+      'After-hours & fallback rules',
     ],
   },
   {
     icon: '🤖',
     color: 'bg-green-500',
-    title: 'AI Call Analysis',
+    title: 'Call Recording & AI Search',
     description:
-      'Automatically transcribe, analyze, and score every phone call. Get insights on call quality, customer intent, and conversion likelihood.',
+      'Go beyond basic recordings. CallGauge AI captures every conversation in high quality with MP3 downloads, while AI‑powered transcripts and summaries turn calls into searchable insights.',
+    lastline:
+      '➡ Turn conversations into insights that improve compliance, training, and marketing impact.',
     points: [
-      '99% accurate transcription',
-      'Sentiment analysis',
-      'Lead quality scoring',
-    ],
-  },
-  {
-    icon: '📊',
-    color: 'bg-purple-500',
-    title: 'Multi-Touch Attribution',
-    description:
-      'See the complete customer journey from first click to phone call. Credit all touchpoints that contributed to the conversion.',
-    points: [
-      'First-touch attribution',
-      'Last-touch attribution',
-      'Linear attribution models',
-    ],
-  },
-  {
-    icon: '🔗',
-    color: 'bg-orange-500',
-    title: 'Native Integrations',
-    description:
-      'Seamlessly connect with 50+ platforms you already use. Sync call data automatically to your CRM, analytics, and ad platforms.',
-    points: [
-      'Salesforce & HubSpot',
-      'Google Analytics & Ads',
-      'Facebook & LinkedIn',
+      'High‑quality MP3 recordings',
+      'AI‑powered transcripts & summaries',
+      'Searchable call history',
     ],
   },
   {
     icon: '📈',
     color: 'bg-teal-500',
-    title: 'Advanced Reporting',
+    title: 'Automations That Save Time',
     description:
-      'Create custom dashboards and reports that show exactly which marketing efforts drive the most valuable phone leads.',
-    points: ['Custom dashboards', 'ROI calculations', 'Automated reporting'],
+      'Scale your marketing impact without adding extra work. CallGauge AI connects to your CRM, email, Slack, and 5,000+ apps through Zapier to trigger instant follow‑ups, update records, and share call details — all with zero coding.',
+    lastline:
+      '➡ Eliminate busywork and focus on the activities that actually grow your ROI.',
+    points: [
+      'Instant follow‑ups & alerts',
+      'CRM updates & data sync',
+      'Works with 5,000+ apps via Zapier',
+    ],
   },
   {
-    icon: '🎙️',
-    color: 'bg-red-500',
-    title: 'Call Recording & Management',
+    icon: '📊',
+    color: 'bg-purple-500',
+    title: 'Spam Blocking & Press‑1 Filters',
     description:
-      'Record all calls for quality assurance and training. Set up custom call routing, whispers, and voicemail systems.',
+      'Don’t let spam eat into your ad budget. CallGauge AI blocks robo‑calls with AI filters and press‑1 screening, keeping your attribution clean and budgets optimize.',
+    lastline:
+      '➡ Protect your campaigns and ensure every dollar spent delivers real performance.',
     points: [
-      'Automatic call recording',
-      'Smart call routing',
-      'Call whisper features',
+      'AI-powered spam detection',
+      'Press‑1 caller verification',
+      'Accurate attribution protection',
+    ],
+  },
+  {
+    icon: '🔗',
+    color: 'bg-orange-500',
+    title: 'White Label & Client Portal',
+    description:
+      'Give clients full transparency under your own brand. Agencies can deliver dashboards, branded reports, and secure logins while keeping CallGauge AI invisible.',
+    lastline:
+      '➡ Protect your campaigns and ensure every dollar spent delivers real performance.',
+    points: [
+      'Custom dashboards & reports',
+      'Client logins & permissions',
+      'White‑label branding',
     ],
   },
 ]
@@ -82,11 +86,12 @@ export default function Features() {
             </span>
           </div>
           <h2 className="mb-6 text-3xl font-bold text-gray-900 lg:text-4xl">
-            Everything You Need for Complete Call Attribution
+            Features That Turn Every Call Into Measurable ROI
           </h2>
           <p className="mx-auto max-w-3xl text-xl text-gray-600">
-            Advanced features that work together to give you the most
-            comprehensive call tracking solution on the market.
+            From call routing to reporting, <strong> CallGauge AI </strong>{' '}
+            ensures every lead is tracked, attributed, and optimized for maximum
+            ROI.
           </p>
         </div>
 
@@ -123,18 +128,16 @@ export default function Features() {
                   </li>
                 ))}
               </ul>
+              <p className="mt-4 text-sm font-medium">{feature.lastline}</p>
             </div>
           ))}
         </div>
 
         {/* CTA */}
-        <div className="mt-12 text-center">
-          <a
-            href="#"
-            className="rounded-xl bg-blue-500 px-10 py-5 text-xl font-bold text-white shadow-lg transition hover:scale-105 hover:bg-blue-500"
-          >
+        <div className="mt-12 flex flex-col justify-center gap-4 sm:flex-row">
+          <Button href="#" className="px-8 py-3 text-lg font-semibold">
             Try All Features Free for 14 Days
-          </a>
+          </Button>
         </div>
       </div>
     </section>
