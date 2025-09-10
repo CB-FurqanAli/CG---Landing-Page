@@ -11,7 +11,6 @@ import FinalCTA from '@/components/home/FinalCTA'
 import ProblemSection from '@/components/home/ProblemSection'
 import SolutionSection from '@/components/home/SolutionSection'
 import { Link } from '@/components/link'
-import { LogoCloud } from '@/components/logo-cloud'
 import { Navbar } from '@/components/navbar'
 import { ChevronRightIcon } from '@heroicons/react/16/solid'
 
@@ -90,12 +89,11 @@ export default function Home() {
     <div className="overflow-hidden">
       <Hero />
       <main>
-        <Container className="mt-10">
-          <LogoCloud />
-        </Container>
+        {/*<Container className="mt-10">*/}
+        {/*  <LogoCloud />*/}
+        {/*</Container>*/}
         <ProblemSection />
         <SolutionSection />
-        {/*<CallAttributionSolution />*/}
         <CallToAction />
         <Features />
         <CustomerSuccess />
