@@ -39,7 +39,7 @@ export function Subheading({
 export function Lead({ className, ...props }) {
   return (
     <p
-      className={clsx(className, 'text-2xl font-medium text-gray-500')}
+      className={clsx(className, 'text-2xl font-medium text-gray-600')}
       {...props}
     />
   )

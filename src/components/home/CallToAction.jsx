@@ -27,7 +27,7 @@ export default function CallToAction() {
         </p>
 
         {/* CTA Buttons */}
-        <div className="mt-12 flex flex-col justify-center gap-4 sm:flex-row">
+        <div className="my-8 flex flex-col justify-center gap-4 sm:flex-row">
           <Button href="#" className="px-8 py-3 text-lg font-semibold">
             Start Free Trial
           </Button>
@@ -39,7 +39,7 @@ export default function CallToAction() {
             Watch a Demo
           </Button>
         </div>
-        <div className="mt-8 flex flex-col items-center justify-center gap-4 font-medium sm:flex-row">
+        <div className="flex flex-col items-center justify-center gap-4 font-medium sm:flex-row">
           <p>✅ No credit card required</p>
           <p>✅ Setup in less than 5 minutes</p>
           <p>✅ Cancel anytime</p>

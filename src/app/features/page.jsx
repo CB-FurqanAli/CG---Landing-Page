@@ -24,32 +24,29 @@ function HeroSection() {
       <Container>
         <div className="text-center">
           <Heading as="h1" className="text-4xl md:text-5xl">
-            CallGauge AI – Core Features
+            Every Feature You Need to Master Call Attribution
           </Heading>
-          <Lead className="mx-auto mt-6 max-w-3xl text-lg">
-            Built with AI at its core, CallGauge AI helps you track, analyze,
-            and automate every call-driven interaction with ease.
+          <Lead className="mx-auto mt-6 max-w-3xl text-xl">
+            Discover how CallGauge AI transforms phone calls into actionable
+            marketing insights with advanced tracking, attribution, and
+            AI-powered analytics.
           </Lead>
-          <div className="mt-10 flex justify-center gap-4">
-            <button className="flex items-center gap-2 rounded-xl border border-[#F0B100] bg-yellow-400 px-6 py-3 text-lg font-semibold text-black transition-colors duration-200 hover:bg-yellow-500">
-              Start for free
-              <svg
-                className="h-4 w-4"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M9 5l7 7-7 7"
-                />
-              </svg>
-            </button>
-            <button className="rounded-xl border border-[#DE85DB] bg-gradient-to-r from-[#FBCCC5] to-[#B767F4] px-6 py-3 text-lg font-semibold transition-colors duration-200 hover:bg-gradient-to-r hover:from-[#F9C1C7] hover:to-[#DB7EDD]">
+          <div className="my-8 flex flex-col justify-center gap-4 sm:flex-row">
+            <Button href="#" className="px-8 py-3 text-lg font-semibold">
+              Sign up free
+            </Button>
+            <Button
+              variant="secondary"
+              href="#"
+              className="px-8 py-3 text-lg font-semibold"
+            >
               Watch a demo
-            </button>
+            </Button>
+          </div>
+          <div className="flex flex-col items-center justify-center gap-4 font-medium sm:flex-row">
+            <p>✅ Setup in less than 5 minutes</p>
+            <p>✅ No credit card required</p>
+            <p>✅ Cancel anytime</p>
           </div>
         </div>
       </Container>

@@ -3,78 +3,87 @@
 
 const features = [
   {
-    id: 'tracking',
     title: 'Advanced Call Tracking',
     description:
-      'Dynamic and static phone number tracking with real-time call routing and international support.',
+      '\n' +
+      'Advanced Call Tracking\n' +
+      'Stop guessing where calls come from. CallGauge AI uses Dynamic Number Insertion (DNI) and smart routing so every caller reaches the right team and every call is attributed.',
     icon: '📞',
     color: 'from-blue-500 to-blue-600',
     points: [
-      'Dynamic number insertion',
-      'Local & toll-free numbers',
-      'Advanced call routing',
+      'Dynamic number insertion (98% attribution accuracy)\n',
+      'Local & toll-free numbers with instant porting\n',
+      'Round-robin, multi-ring, after-hours rules\n',
     ],
     dotColor: 'bg-blue-500',
   },
   {
-    id: 'attribution',
-    title: 'Source Attribution',
+    title: 'Attribution & ROI Reporting\n',
     description:
-      'Multi-touch attribution modeling to understand your complete customer journey and marketing effectiveness.',
+      'Stop wasting budget on campaigns that don’t deliver. CallGauge AI shows exactly which channels, ads, and keywords generate real revenue, so you can double down on what works.\n' +
+      '\n',
     icon: '🎯',
     color: 'from-purple-500 to-purple-600',
     points: [
-      'Multi-touch attribution',
-      'UTM parameter tracking',
-      'Cross-device attribution',
+      'Source & keyword tracking with UTM capture\n',
+      'ROI reporting tied directly to conversions\n',
+      'Channel & campaign performance comparison\n',
     ],
     dotColor: 'bg-purple-500',
   },
   {
-    id: 'ai-insights',
-    title: 'AI-Powered Insights',
+    title: 'AI-Powered Insights\n',
     description:
-      'Advanced AI analysis for call transcription, sentiment analysis, and lead scoring to optimize conversions.',
+      'Go beyond call logs. CallGauge AI transcribes every conversation with 95%+ accuracy, detects customer sentiment and scores leads automatically, so your team knows where to focus.\n' +
+      '\n',
     icon: '🤖',
     color: 'from-green-500 to-green-600',
     points: [
-      'Real-time transcription',
-      'Sentiment & intent analysis',
-      'AI lead scoring',
+      'Real-time transcription with speaker detection\n',
+      'Sentiment & intent analysis for buying signals\n',
+      'AI lead scoring to identify high-value leads\n',
     ],
     dotColor: 'bg-green-500',
   },
   {
-    id: 'integrations',
-    title: 'Platform Integrations',
+    title: 'Seamless Integrations\n',
     description:
-      'Seamless connections with 50+ CRMs, ad platforms, and analytics tools for unified marketing operations.',
+      'Eliminate silos. CallGauge AI connects natively to CRMs, ad platforms and 5,000+ apps keeping your data in sync and your team in flow.\n' +
+      '\n',
     icon: '🔗',
     color: 'from-orange-500 to-orange-600',
-    points: ['CRM integrations', 'Ad platform sync', 'Webhook automation'],
+    points: [
+      'Direct CRM integrations (HubSpot, Salesforce, Zoho)\n',
+      'Ad platform sync (Google, Facebook, LinkedIn)\n',
+      'Automations via Zapier, Slack & webhooks\n',
+    ],
     dotColor: 'bg-orange-500',
   },
   {
-    id: 'analytics',
-    title: 'Advanced Analytics',
+    title: 'Analytics & Dashboards\n',
     description:
-      'Comprehensive reporting and custom dashboards with real-time data and actionable insights.',
+      'Get clarity at a glance. CallGauge AI delivers real-time dashboards and automated reports that reveal ROI, conversions and call performance across every channel.\n' +
+      '\n',
     icon: '📊',
     color: 'from-red-500 to-red-600',
-    points: ['Custom dashboards', 'Real-time reporting', 'ROI calculations'],
+    points: [
+      'Custom dashboards by client or campaign\n',
+      'Automated branded reports on schedule\n',
+      'ROI, CPA, and revenue tracking by channel\n',
+    ],
     dotColor: 'bg-red-500',
   },
   {
-    id: 'security',
-    title: 'Enterprise Security',
+    title: 'Spam Blocking & Call Filtering\n',
     description:
-      'Bank-level security with GDPR compliance, encryption, and enterprise-grade data protection.',
+      'Keep your reports clean and budgets safe. CallGauge AI blocks spam and robo-calls with AI detection and Press-1 filters, so only real leads show up in your attribution.\n' +
+      '\n',
     icon: '🔒',
     color: 'from-indigo-500 to-indigo-600',
     points: [
-      'End-to-end encryption',
-      'GDPR & HIPAA compliant',
-      '99.9% uptime SLA',
+      'AI-powered spam & robo-call detection\n',
+      'Press-1 filters to screen low-quality calls\n',
+      'Accurate data for reliable attribution',
     ],
     dotColor: 'bg-indigo-500',
   },
@@ -82,16 +91,17 @@ const features = [
 
 export default function CallFlowsCard() {
   return (
-    <section className="bg-white py-20">
+    <section className="bg-white py-16">
       <div className="mx-auto max-w-7xl px-6">
         {/* Heading */}
         <div className="mb-16 text-center">
-          <h2 className="mb-6 text-4xl font-black tracking-tight text-gray-900 lg:text-5xl">
+          <h2 className="mb-6 text-3xl font-bold text-gray-900 lg:text-4xl">
             Complete Call Tracking Suite
           </h2>
           <p className="mx-auto max-w-3xl text-xl leading-relaxed text-gray-600">
-            Everything you need to track, attribute, analyze, and optimize phone
-            call conversions across all your marketing channels.
+            CallGauge AI gives you complete visibility into every phone lead,
+            turning calls into measurable ROI with accurate attribution and
+            real-time analytics.
           </p>
         </div>
 
