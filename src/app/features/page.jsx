@@ -23,29 +23,29 @@ function HeroSection() {
     <div className="relative py-24">
       <Container>
         <div className="text-center">
-          <Heading as="h1" className="text-4xl md:text-5xl">
-            Every Feature You Need to Master Call Attribution
+          <Heading as="h1" className="mx-auto max-w-5xl text-4xl md:text-5xl">
+            AI-Powered Features That Redefine Call Tracking & Attribution
           </Heading>
           <Lead className="mx-auto mt-6 max-w-3xl text-xl">
-            Discover how CallGauge AI transforms phone calls into actionable
-            marketing insights with advanced tracking, attribution, and
-            AI-powered analytics.
+            CallGauge AI turns every call into actionable insights with advanced
+            attribution, real-time analytics, and AI-powered reporting, so you
+            can maximize ROI with confidence.
           </Lead>
           <div className="my-8 flex flex-col justify-center gap-4 sm:flex-row">
             <Button href="#" className="px-8 py-3 text-lg font-semibold">
-              Sign up free
+              Start Free Trial
             </Button>
             <Button
               variant="secondary"
               href="#"
               className="px-8 py-3 text-lg font-semibold"
             >
-              Watch a demo
+              Watch a Demo
             </Button>
           </div>
           <div className="flex flex-col items-center justify-center gap-4 font-medium sm:flex-row">
-            <p>✅ Setup in less than 5 minutes</p>
             <p>✅ No credit card required</p>
+            <p>✅ Setup in less than 5 minutes</p>
             <p>✅ Cancel anytime</p>
           </div>
         </div>
