@@ -20,7 +20,7 @@ export const metadata = {
 
 function HeroSection() {
   return (
-    <div className="relative py-24">
+    <div className="relative py-16">
       <Container>
         <div className="text-center">
           <div className="glass-effect mb-1 inline-flex items-center rounded-full bg-gray-100 px-6 py-3 text-sm">
