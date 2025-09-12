@@ -23,6 +23,11 @@ function HeroSection() {
     <div className="relative py-24">
       <Container>
         <div className="text-center">
+          <div className="glass-effect mb-1 inline-flex items-center rounded-full bg-gray-100 px-6 py-3 text-sm">
+            <span className="font-semibold">
+              🚀 Advanced Call Tracking & Analytics
+            </span>
+          </div>
           <Heading as="h1" className="mx-auto max-w-5xl text-4xl md:text-5xl">
             AI-Powered Features That Redefine Call Tracking & Attribution
           </Heading>
