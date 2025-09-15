@@ -1,4 +1,3 @@
-// components/FeaturesSection.jsx
 'use client'
 
 const features = [
@@ -89,7 +88,7 @@ const features = [
   },
 ]
 
-export default function CallFlowsCard() {
+export default function CallTrackingSuite() {
   return (
     <section className="bg-white py-16">
       <div className="mx-auto max-w-7xl px-6">

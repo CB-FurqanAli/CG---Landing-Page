@@ -1,11 +1,12 @@
 import { Button } from '@/components/button'
 import { Container } from '@/components/container'
-import { default as CallFlowsCard } from '@/components/features/call-flows-card'
+import CallTrackingSuite from '@/components/features/CallTrackingSuite'
 import CustomGreetingsCards from '@/components/features/custom-greetings-cards'
 import DynamicNumberCard from '@/components/features/dynamic-number-card'
 import FeatureCards from '@/components/features/feature-cards'
 import FeatureCards1 from '@/components/features/feature-cards1'
 import ReportingCards from '@/components/features/reporting-cards'
+import TrackingSection from '@/components/features/TrackingSection'
 import WhiteLabelingCard from '@/components/features/white-labeling-card'
 import { Footer } from '@/components/footer'
 import { GradientBackground } from '@/components/gradient'
@@ -91,32 +92,6 @@ function CTASection() {
           </div>
         </div>
       </Container>
-    </div>
-  )
-}
-
-function AutoMations() {
-  return (
-    <div className="mx-auto mb-30 grid max-w-7xl grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-      <FeatureCards
-        title="🔊 Call Recording"
-        description="Automatically record every call, replay anytime, and download MP3 files for sharing."
-        icon="https://cdn.prod.website-files.com/5d82e225060d003d65ddae98/6799aa8fd2f07ac6bafd28e0_dollar-hand-holding.svg"
-        link="features/call-recording"
-      />
-      <FeatureCards
-        title="⚡ Zapier Integration"
-        description="Connect CallGauge AI to 5,000+ apps and trigger automated workflows instantly."
-        icon="https://cdn.prod.website-files.com/5d82e225060d003d65ddae98/6799aa8fb9830683d5eb4f37_horizontal-bar-chart.svg"
-        link="features/zapier-integration"
-      />
-
-      <FeatureCards
-        title="📣 Call Whisper"
-        description="Hear caller details before the conversation starts for better context."
-        icon="https://cdn.prod.website-files.com/5d82e225060d003d65ddae98/6799aa8fc3aab2b7fdbae39d_money-trend-up.svg"
-        link="features/call-whispering"
-      />
     </div>
   )
 }
@@ -265,11 +240,10 @@ export default function Features() {
       <HeroSection />
 
       <div>
-        <CallFlowsCard />
+        <CallTrackingSuite />
       </div>
 
-      <AutoMations />
-
+      <TrackingSection />
       <div>
         <DynamicNumberCard />
       </div>
