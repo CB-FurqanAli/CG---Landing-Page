@@ -12,7 +12,9 @@ export default function AnalyticsSection() {
 
             <h2 className="mb-8 text-4xl leading-tight font-black tracking-tight text-gray-900 lg:text-5xl">
               Transform Data Into{' '}
-              <span className="gradient-text">Marketing Gold</span>
+              <span className="bg-gradient-to-br from-indigo-500 via-violet-500 to-fuchsia-500 bg-clip-text text-transparent">
+                Marketing Gold
+              </span>
             </h2>
 
             <p className="mb-10 text-xl leading-relaxed text-gray-600">
