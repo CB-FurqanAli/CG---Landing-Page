@@ -1,17 +1,16 @@
 import { Button } from '@/components/button'
 import { Container } from '@/components/container'
+import { default as AiInsights } from '@/components/features/AiInsights'
+import AnalyticsSection from '@/components/features/AnalyticsSection'
+import AttributionSection from '@/components/features/AttributionSection'
+import CallToActionFeatures from '@/components/features/CallToActionFeatures'
 import CallTrackingSuite from '@/components/features/CallTrackingSuite'
-import CustomGreetingsCards from '@/components/features/custom-greetings-cards'
-import DynamicNumberCard from '@/components/features/dynamic-number-card'
-import FeatureCards from '@/components/features/feature-cards'
-import FeatureCards1 from '@/components/features/feature-cards1'
-import ReportingCards from '@/components/features/reporting-cards'
 import TrackingSection from '@/components/features/TrackingSection'
-import WhiteLabelingCard from '@/components/features/white-labeling-card'
+import Integrations from '@/components/features/white-labeling-card'
 import { Footer } from '@/components/footer'
 import { GradientBackground } from '@/components/gradient'
 import { Navbar } from '@/components/navbar'
-import { Heading, Lead, Subheading } from '@/components/text'
+import { Heading, Lead } from '@/components/text'
 
 export const metadata = {
   title: 'CallGauge AI Features – Smart Call Tracking & Automation',
@@ -60,176 +59,6 @@ function HeroSection() {
   )
 }
 
-function CTASection() {
-  return (
-    <div className="bg-gray-50 py-24">
-      <Container>
-        <div className="text-center">
-          <Subheading className="text-gray-500">Get Started Today</Subheading>
-          <Heading as="h2" className="mt-2 text-3xl text-gray-900 md:text-4xl">
-            Experience CallGauge Risk-Free
-          </Heading>
-          <p className="mx-auto mt-6 max-w-2xl text-lg text-gray-600">
-            Sign up now and get $20 free credit to explore all features—no
-            commitment required.
-          </p>
-          <div className="mt-10 flex justify-center gap-4">
-            <Button className="w-full sm:w-auto" href="#">
-              Try CallGauge Now
-            </Button>
-            <Button
-              href="#demo"
-              variant="outline"
-              className="border-gray-300 text-gray-700 transition-all duration-300 hover:bg-gray-100"
-            >
-              Watch Demo
-            </Button>
-          </div>
-          <div className="mt-4">
-            <p className="text-sm text-gray-500">
-              No credit card required • Instant access
-            </p>
-          </div>
-        </div>
-      </Container>
-    </div>
-  )
-}
-
-function CallTrackingNumbers() {
-  return (
-    <div className="mx-auto mb-30 grid max-w-7xl grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-      <FeatureCards
-        title="🔢 Call Tracking Numbers"
-        description="Add unlimited numbers in minutes—scale effortlessly at just $0.40 per number."
-        icon="https://cdn.prod.website-files.com/5d82e225060d003d65ddae98/6799aa8fb9830683d5eb4f37_horizontal-bar-chart.svg"
-        link="features/tracking-numbers"
-      />
-
-      <FeatureCards
-        title="📥 Voicemail Routing"
-        description="Send unanswered calls to voicemail or set delayed voicemail routing."
-        icon="https://cdn.prod.website-files.com/5d82e225060d003d65ddae98/6799aa8fd2f07ac6bafd28e0_dollar-hand-holding.svg"
-        link="features/voicemail"
-      />
-      <FeatureCards
-        title="💼 Pay-Per-Call Billing"
-        description="Charge clients for qualified calls automatically—performance-based pricing built in."
-        icon="https://cdn.prod.website-files.com/5d82e225060d003d65ddae98/6799aa8fc3aab2b7fdbae39d_money-trend-up.svg"
-        link="features/pay-per-call"
-      />
-    </div>
-  )
-}
-
-function ClientPortal() {
-  return (
-    <div className="mx-auto mb-30 grid max-w-7xl grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-      <FeatureCards
-        title="🔐 Client Portal"
-        description="Give clients their own dashboard to view calls, messages, and reports."
-        icon="https://cdn.prod.website-files.com/5d82e225060d003d65ddae98/6799aa8fb9830683d5eb4f37_horizontal-bar-chart.svg"
-        link="features/client-management"
-      />
-
-      <FeatureCards1
-        title="🔁 Number Porting"
-        description="Easily transfer existing numbers to CallGauge AI with no downtime."
-        icon="https://cdn.prod.website-files.com/5d82e225060d003d65ddae98/6799aa8fc3aab2b7fdbae39d_money-trend-up.svg"
-        link="#"
-      />
-      <FeatureCards1
-        title="🧠 Spam Call Blocking"
-        description="AI-powered filters block robocalls and spam before they waste your time."
-        icon="https://cdn.prod.website-files.com/5d82e225060d003d65ddae98/6799aa8fd2f07ac6bafd28e0_dollar-hand-holding.svg"
-        link="#"
-      />
-    </div>
-  )
-}
-
-function Reporting() {
-  return (
-    <div className="flex items-center justify-center px-4">
-      <div className="mx-auto grid max-w-7xl grid-cols-1 gap-20 px-4 sm:grid-cols-2 lg:grid-cols-3">
-        <ReportingCards
-          title="📊 Reporting & Analytics"
-          description="Track performance metrics in real time with clean, AI-powered dashboards."
-          image="/feature-page/Reporting -Analytics.jpeg"
-        />
-        <ReportingCards
-          title="🔄 Press-1 Filtering"
-          description="Block spam by requiring callers to press 1 before connecting."
-          image="/feature-page/Press-1.jfif"
-        />
-        <ReportingCards
-          title="💬 SMS Forwarding"
-          description="Forward incoming text messages to any phone number you choose."
-          image="/feature-page/sms-forwarding.jfif"
-        />
-      </div>
-    </div>
-  )
-}
-
-function VoiceMails() {
-  return (
-    <div className="flex items-center justify-center px-4">
-      <div className="mx-auto grid max-w-7xl grid-cols-1 gap-20 px-4 sm:grid-cols-2 lg:grid-cols-3">
-        <ReportingCards
-          title="🔔 Voicemail Notifications"
-          description="Receive instant alerts with embedded voicemail recordings for quick follow-ups."
-          image="/feature-page/voicemail-noti.png"
-        />
-        <ReportingCards
-          title="📨 Missed Call Alerts"
-          description="Never lose a lead—get notified instantly when a call is missed."
-          image="/feature-page/call-alerts.jfif"
-        />
-        <ReportingCards
-          title="🛠️ Automations"
-          description="Use AI and triggers to automate repetitive tasks across the call workflow."
-          image="feature-page/automations.jfif"
-        />
-      </div>
-    </div>
-  )
-}
-
-function CustomGreeting() {
-  return (
-    <div className="mx-auto my-48 grid max-w-7xl gap-10 px-4 sm:grid-cols-1 lg:grid-cols-2">
-      <CustomGreetingsCards
-        title="🤖 AI Call Summaries"
-        description="Get transcribed calls with one-line AI summaries and key bullet points."
-        image="/feature-page/ai-summaries.jfif"
-      />
-      <CustomGreetingsCards
-        title="👋 Custom Greetings"
-        description="Upload audio or use text-to-speech for professional greeting messages."
-        image="/feature-page/custom-greetings.jfif"
-      />
-    </div>
-  )
-}
-
-function EmailCall() {
-  return (
-    <div className="mx-auto my-48 grid max-w-7xl gap-10 px-4 sm:grid-cols-1 lg:grid-cols-2">
-      <CustomGreetingsCards
-        title="📤 Email Call Details"
-        description="Send call recordings and data instantly via email to any recipient."
-        image="/feature-page/email-call.jpeg"
-      />
-      <CustomGreetingsCards
-        title="📈 Auto-Reports"
-        description="Send scheduled reports to clients or team members automatically."
-        image="/feature-page/auto-reports.png"
-      />
-    </div>
-  )
-}
-
 export default function Features() {
   return (
     <main className="overflow-hidden">
@@ -245,24 +74,15 @@ export default function Features() {
 
       <TrackingSection />
       <div>
-        <DynamicNumberCard />
+        <AttributionSection />
       </div>
 
-      <CallTrackingNumbers />
-      <WhiteLabelingCard />
-      <ClientPortal />
-
+      <AiInsights />
+      <Integrations />
       <div>
-        <CustomGreeting />
-        <Reporting />
+        <AnalyticsSection />
+        <CallToActionFeatures />
       </div>
-
-      <div>
-        <EmailCall />
-        <VoiceMails />
-      </div>
-
-      <CTASection />
       <Footer />
     </main>
   )

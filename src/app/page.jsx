@@ -3,8 +3,8 @@ import { Container } from '@/components/container'
 import { FAQSection } from '@/components/FAQSection'
 import { Footer } from '@/components/footer'
 import { Gradient } from '@/components/gradient'
-import CallToAction from '@/components/home/CallToAction'
 
+import CallToActionHome from '@/components/home/CallToActionHome'
 import CustomerSuccess from '@/components/home/CustomerSuccess'
 import Features from '@/components/home/features'
 import FinalCTA from '@/components/home/FinalCTA'
@@ -94,7 +94,7 @@ export default function Home() {
         {/*</Container>*/}
         <ProblemSection />
         <SolutionSection />
-        <CallToAction />
+        <CallToActionHome />
         <Features />
         <CustomerSuccess />
         <FinalCTA />

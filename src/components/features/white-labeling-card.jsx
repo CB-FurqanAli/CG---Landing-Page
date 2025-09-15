@@ -1,37 +1,118 @@
-import { Link } from '@/components/link'
+'use client'
 
-export default function WhiteLabelingCard() {
+export default function Integrations() {
   return (
-    <div className="bg-white">
-      <div className="container mx-auto px-4 py-20">
-        <div className="mx-auto grid max-w-7xl grid-cols-1 items-center gap-12 rounded-3xl bg-gradient-to-r from-[#fff1be] via-[#ee87cb] to-[#b060ff] p-12 shadow-lg sm:bg-gradient-to-tr lg:grid-cols-2">
-          {/* Left Content */}
-          <div className="space-y-6">
-            <h2 className="text-3xl leading-tight font-bold sm:text-4xl">
-              🌐 White Labeling
-            </h2>
-            <p className="max-w-xl text-base leading-relaxed text-gray-800 sm:text-lg">
-              Customize the platform with your branding and domain for a
-              seamless client experience.
-            </p>
-            <Link
-              href={'/features/white-labeling'}
-              className="text-md inline-flex items-center rounded-xl border border-[#DE85DB] bg-gradient-to-r from-[#FBCCC5] to-[#B767F4] px-6 py-2 font-semibold text-gray-900 shadow-md transition-transform duration-200 hover:scale-[1.05] hover:from-[#F9C1C7] hover:to-[#DB7EDD]"
-            >
-              View details
-            </Link>
+    <section id="integrations" className="bg-white py-20">
+      <div className="mx-auto max-w-7xl px-6">
+        {/* Header */}
+        <div className="mb-16 text-center">
+          <div className="mb-8 inline-flex items-center rounded-full bg-orange-100 px-6 py-3">
+            <span className="font-bold text-orange-800">🔗 INTEGRATIONS</span>
           </div>
+          <h2 className="mb-8 text-4xl font-black tracking-tight text-gray-900 lg:text-5xl">
+            Connect With Your{' '}
+            <span className="bg-gradient-to-br from-indigo-500 via-violet-500 to-fuchsia-500 bg-clip-text text-transparent">
+              Entire Tech Stack
+            </span>
+          </h2>
+          <p className="mx-auto max-w-3xl text-xl leading-relaxed text-gray-600">
+            Seamlessly integrate CallGauge AI with 50+ CRMs, ad platforms,
+            analytics tools, and marketing automation systems for unified
+            operations.
+          </p>
+        </div>
 
-          {/* Representative Image */}
-          <div className="flex justify-center lg:justify-end">
-            <img
-              src="/feature-page/white-labeling.png"
-              alt="White labeling feature preview"
-              className="max-h-96 w-full rounded-xl object-cover shadow-2xl"
-            />
+        {/* Integration Categories */}
+        <div className="mb-16 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
+          {[
+            {
+              icon: '🏢',
+              gradient: 'from-blue-500 to-blue-600',
+              title: 'CRM Systems',
+              desc: 'Salesforce, HubSpot, Pipedrive, Zoho, and more',
+            },
+            {
+              icon: '📈',
+              gradient: 'from-green-500 to-green-600',
+              title: 'Analytics',
+              desc: 'Google Analytics, Adobe Analytics, Mixpanel',
+            },
+            {
+              icon: '🎯',
+              gradient: 'from-purple-500 to-purple-600',
+              title: 'Ad Platforms',
+              desc: 'Google Ads, Facebook, LinkedIn, Microsoft Ads',
+            },
+            {
+              icon: '⚡',
+              gradient: 'from-red-500 to-red-600',
+              title: 'Automation',
+              desc: 'Zapier, Make, Custom APIs, Webhooks',
+            },
+          ].map((cat, i) => (
+            <div key={i} className="text-center">
+              <div
+                className={`h-20 w-20 bg-gradient-to-br ${cat.gradient} mx-auto mb-4 flex items-center justify-center rounded-3xl`}
+              >
+                <span className="text-2xl text-white">{cat.icon}</span>
+              </div>
+              <h3 className="mb-2 text-xl font-bold text-gray-900">
+                {cat.title}
+              </h3>
+              <p className="text-sm text-gray-600">{cat.desc}</p>
+            </div>
+          ))}
+        </div>
+
+        {/* Popular Integrations */}
+        <div className="rounded-3xl bg-gray-50 p-8 lg:p-12">
+          <h3 className="mb-8 text-center text-3xl font-bold text-gray-900">
+            Popular Integrations
+          </h3>
+
+          <div className="grid grid-cols-2 gap-6 md:grid-cols-4 lg:grid-cols-6">
+            {[
+              { label: 'Salesforce', initials: 'SF', color: 'blue' },
+              { label: 'HubSpot', initials: 'HS', color: 'orange' },
+              { label: 'Pipedrive', initials: 'PD', color: 'green' },
+              { label: 'Google Ads', initials: 'G', color: 'red' },
+              { label: 'Facebook', initials: 'F', color: 'blue' },
+              { label: 'LinkedIn', initials: 'Li', color: 'blue' },
+              { label: 'Google Analytics', initials: 'GA', color: 'yellow' },
+              { label: 'Zapier', initials: 'Z', color: 'purple' },
+              { label: 'Shopify', initials: 'SH', color: 'indigo' },
+              { label: 'WordPress', initials: 'WP', color: 'blue' },
+              { label: 'Slack', initials: 'SL', color: 'green' },
+              { label: 'More', initials: '+38', color: 'gray' },
+            ].map((integration, i) => (
+              <div
+                key={i}
+                className="cursor-pointer rounded-2xl bg-white p-6 text-center transition-all duration-300 hover:shadow-lg"
+              >
+                <div
+                  className={`h-12 w-12 bg-${integration.color}-100 mx-auto mb-3 flex items-center justify-center rounded-xl`}
+                >
+                  <span
+                    className={`text-${integration.color}-600 text-lg font-bold`}
+                  >
+                    {integration.initials}
+                  </span>
+                </div>
+                <div className="text-sm font-medium text-gray-900">
+                  {integration.label}
+                </div>
+              </div>
+            ))}
           </div>
         </div>
+
+        {/* CTA */}
+        <div className="mt-12 text-center">
+          <button className="rounded-xl bg-orange-600 px-8 py-4 text-lg font-bold text-white transition-all duration-300 hover:-translate-y-1 hover:bg-orange-700 hover:shadow-xl">
+            Browse All Integrations
+          </button>
+        </div>
       </div>
-    </div>
+    </section>
   )
 }

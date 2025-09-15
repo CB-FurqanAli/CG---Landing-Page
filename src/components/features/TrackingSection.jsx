@@ -13,7 +13,9 @@ export default function TrackingSection() {
 
             <h2 className="mb-8 text-4xl leading-tight font-black tracking-tight text-gray-900 lg:text-5xl">
               Never Miss Another{' '}
-              <span className="gradient-text">Conversion Opportunity</span>
+              <span className="bg-gradient-to-br from-[#6366f1] via-[#8b5cf6] to-[#a855f7] bg-clip-text text-transparent">
+                Conversion Opportunity
+              </span>
             </h2>
 
             <p className="mb-10 text-xl leading-relaxed text-gray-600">
