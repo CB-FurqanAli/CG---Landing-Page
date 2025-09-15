@@ -44,15 +44,15 @@ export default function AiInsights() {
                 <div className="text-sm">
                   <span className="font-medium text-blue-600">Customer:</span>{' '}
                   <span className="text-gray-800">
-                    "Hi, I'm interested in your premium plan for my marketing
-                    agency..."
+                    &quot;Hi, I&apos;m interested in your premium plan for my
+                    marketing agency...&quot;
                   </span>
                 </div>
                 <div className="text-sm">
                   <span className="font-medium text-green-600">Agent:</span>{' '}
                   <span className="text-gray-800">
-                    "Great! Our premium plan includes advanced attribution and
-                    unlimited tracking numbers..."
+                    &quot Great! Our premium plan includes advanced attribution
+                    and unlimited tracking numbers...&quot
                   </span>
                 </div>
               </div>
@@ -118,7 +118,8 @@ export default function AiInsights() {
                   </span>
                 </div>
                 <div className="text-xs text-gray-600">
-                  Keywords: "budget approved", "when can we start", "pricing"
+                  Keywords: &quot; budget approved &quot;, &quot; when can we
+                  start &quot;, &quot; pricing &quot;
                 </div>
               </div>
             </div>
