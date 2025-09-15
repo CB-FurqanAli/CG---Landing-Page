@@ -1,4 +1,4 @@
-// components/AiInsights.tsx
+'use client'
 export default function AiInsights() {
   return (
     <section id="ai-insights" className="bg-gray-50 py-20">

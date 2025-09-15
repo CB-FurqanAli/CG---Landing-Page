@@ -5,8 +5,8 @@ import AnalyticsSection from '@/components/features/AnalyticsSection'
 import AttributionSection from '@/components/features/AttributionSection'
 import CallToActionFeatures from '@/components/features/CallToActionFeatures'
 import CallTrackingSuite from '@/components/features/CallTrackingSuite'
+import Integrations from '@/components/features/Integrations'
 import TrackingSection from '@/components/features/TrackingSection'
-import Integrations from '@/components/features/white-labeling-card'
 import { Footer } from '@/components/footer'
 import { GradientBackground } from '@/components/gradient'
 import { Navbar } from '@/components/navbar'
@@ -68,21 +68,17 @@ export default function Features() {
       </Container>
       <HeroSection />
 
-      <div>
-        <CallTrackingSuite />
-      </div>
-
+      <CallTrackingSuite />
       <TrackingSection />
-      <div>
-        <AttributionSection />
-      </div>
 
+      <AttributionSection />
       <AiInsights />
+
       <Integrations />
-      <div>
-        <AnalyticsSection />
-        <CallToActionFeatures />
-      </div>
+      <AnalyticsSection />
+
+      <CallToActionFeatures />
+
       <Footer />
     </main>
   )
