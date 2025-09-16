@@ -3,16 +3,16 @@
 export default function AttributionSection() {
   const features = [
     {
-      title: 'Multi-Touch Attribution Models',
-      desc: 'First-touch, last-touch, linear, time-decay, and custom attribution models to understand true campaign impact.',
+      title: 'Attribution Models',
+      desc: 'See the complete customer journey with first-touch, last-touch, linear, and multi-touch attribution, so you know which touch points actually drive conversions.',
     },
     {
-      title: 'Cross-Device Tracking',
-      desc: 'Follow customers across desktop, mobile, and tablet to capture the complete conversion path.',
+      title: 'ROI & ROAS Reporting',
+      desc: 'Go beyond call counts. Track revenue, ROI, and ROAS at the campaign and channel level to prove marketing impact with confidence.',
     },
     {
-      title: 'UTM & Campaign Tracking',
-      desc: 'Automatic UTM parameter capture and campaign tagging for granular source attribution.',
+      title: 'Pay Per Call',
+      desc: 'Turn calls into a revenue stream. With built-in pay-per-call billing, you can charge clients for qualified leads and track performance transparently.',
     },
   ]
 
@@ -120,16 +120,17 @@ export default function AttributionSection() {
             </div>
 
             <h2 className="mb-6 text-4xl leading-tight font-black tracking-tight text-gray-900 lg:text-5xl">
-              See the Complete{' '}
+              Attribution & ROI{' '}
               <span className="bg-gradient-to-br from-[#6366f1] via-[#8b5cf6] to-[#a855f7] bg-clip-text text-transparent">
-                Customer Journey
+                Reporting
               </span>
             </h2>
 
             <p className="mb-10 text-xl leading-relaxed text-gray-600">
-              Advanced multi-touch attribution reveals how every marketing
-              touchpoint contributes to phone call conversions, giving you the
-              insights to optimize your budget allocation.
+              Get clarity on the true impact of your marketing. CallGauge AI
+              connects every call to the campaign, keyword, or channel that
+              drove it, so you can measure performance with precision and prove
+              ROI with confidence.
             </p>
 
             <div className="space-y-6">

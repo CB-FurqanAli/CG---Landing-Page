@@ -12,32 +12,33 @@ export default function TrackingSection() {
             </div>
 
             <h2 className="mb-8 text-4xl leading-tight font-black tracking-tight text-gray-900 lg:text-5xl">
-              Never Miss Another{' '}
+              Advanced Call{' '}
               <span className="bg-gradient-to-br from-[#6366f1] via-[#8b5cf6] to-[#a855f7] bg-clip-text text-transparent">
-                Conversion Opportunity
+                Tracking
               </span>
             </h2>
 
             <p className="mb-10 text-xl leading-relaxed text-gray-600">
-              Track every phone call with precision using dynamic number
-              insertion, static tracking numbers, and advanced call routing that
-              ensures you never lose a lead.
+              Stop losing leads to missed or misattributed calls. CallGauge AI
+              combines Dynamic Number Insertion, smart call flows, and global
+              number coverage so every call is tracked with 98% accuracy and
+              routed to the right person.
             </p>
 
             {/* Feature List */}
             <div className="space-y-6">
               {[
                 {
-                  title: 'Dynamic Number Insertion',
-                  desc: 'Automatically display different phone numbers based on visitor source, giving you precise attribution for every channel.',
+                  title: 'Dynamic Number Insertion (DNI)',
+                  desc: 'Assign unique numbers to each visitor and capture UTM tags from your ads, so you know exactly which campaign, keyword, or channel drove every call.',
                 },
                 {
-                  title: 'Smart Call Routing',
-                  desc: 'Route calls to the right team members based on source, time, location, or custom rules to maximize conversion rates.',
+                  title: 'Call Flows & Smart Routing',
+                  desc: 'Route callers using IVR menus, round-robin, multi-ring, and after-hours rules to ensure no opportunity is missed.',
                 },
                 {
-                  title: 'Global Number Support',
-                  desc: 'Local, toll-free, and international numbers in 60+ countries with instant provisioning and number porting.',
+                  title: 'Call Tracking Numbers',
+                  desc: 'Scale with unlimited local or toll-free numbers as your campaigns grow, with international coverage and seamless number porting, so you never miss a lead.',
                 },
               ].map((item, i) => (
                 <div key={i} className="flex items-start space-x-4">

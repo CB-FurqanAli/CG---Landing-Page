@@ -9,15 +9,16 @@ export default function AiInsights() {
             <span className="font-bold text-green-800">🤖 AI INSIGHTS</span>
           </div>
           <h2 className="mb-8 text-4xl font-black tracking-tight text-gray-900 lg:text-5xl">
-            Turn Every Call Into{' '}
+            AI-Powered{' '}
             <span className="bg-gradient-to-br from-indigo-500 via-violet-500 to-fuchsia-500 bg-clip-text text-transparent">
-              Actionable Intelligence
+              Insights
             </span>
           </h2>
           <p className="mx-auto max-w-3xl text-xl leading-relaxed text-gray-600">
-            Our advanced AI analyzes every conversation to provide
-            transcription, sentiment analysis, lead scoring, and conversion
-            insights that help you optimize your sales process.
+            Every phone call holds valuable data. CallGauge AI uses advanced AI
+            to turn conversations into searchable transcripts, real-time
+            coaching, and predictive insights, so you can convert more calls
+            into revenue.
           </p>
         </div>
 
