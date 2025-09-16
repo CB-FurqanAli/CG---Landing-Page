@@ -44,7 +44,7 @@ const links = [
   { href: '/pricing', label: 'Pricing', id: 'pricing-nav' },
   { href: '/company', label: 'industries', id: 'company-nav' },
   { href: '#', label: 'Solutions', id: 'login-nav' },
-  { href: '#', label: 'Blogs', id: 'login-nav' },
+  { href: '#', label: 'Blogs', id: 'login-iu' },
   // { href: '/demo', label: 'Demo', id: 'demo-nav' },
 ]
 

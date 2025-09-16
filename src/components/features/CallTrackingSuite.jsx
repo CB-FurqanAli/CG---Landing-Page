@@ -1,7 +1,9 @@
+// components/FeaturesSection.jsx
 'use client'
 
 const features = [
   {
+    id: '1',
     title: 'Advanced Call Tracking',
     description:
       '\n' +
@@ -17,6 +19,7 @@ const features = [
     dotColor: 'bg-blue-500',
   },
   {
+    id: '2',
     title: 'Attribution & ROI Reporting\n',
     description:
       'Stop wasting budget on campaigns that don’t deliver. CallGauge AI shows exactly which channels, ads, and keywords generate real revenue, so you can double down on what works.\n' +
@@ -31,6 +34,7 @@ const features = [
     dotColor: 'bg-purple-500',
   },
   {
+    id: '3',
     title: 'AI-Powered Insights\n',
     description:
       'Go beyond call logs. CallGauge AI transcribes every conversation with 95%+ accuracy, detects customer sentiment and scores leads automatically, so your team knows where to focus.\n' +
@@ -45,6 +49,7 @@ const features = [
     dotColor: 'bg-green-500',
   },
   {
+    id: '4',
     title: 'Seamless Integrations\n',
     description:
       'Eliminate silos. CallGauge AI connects natively to CRMs, ad platforms and 5,000+ apps keeping your data in sync and your team in flow.\n' +
@@ -59,6 +64,7 @@ const features = [
     dotColor: 'bg-orange-500',
   },
   {
+    id: '5',
     title: 'Analytics & Dashboards\n',
     description:
       'Get clarity at a glance. CallGauge AI delivers real-time dashboards and automated reports that reveal ROI, conversions and call performance across every channel.\n' +
@@ -73,6 +79,7 @@ const features = [
     dotColor: 'bg-red-500',
   },
   {
+    id: '6',
     title: 'Spam Blocking & Call Filtering\n',
     description:
       'Keep your reports clean and budgets safe. CallGauge AI blocks spam and robo-calls with AI detection and Press-1 filters, so only real leads show up in your attribution.\n' +

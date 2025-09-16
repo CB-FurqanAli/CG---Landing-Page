@@ -62,23 +62,23 @@ function HeroSection() {
 export default function Features() {
   return (
     <main className="overflow-hidden">
-      <GradientBackground />
+      <div className="pointer-events-none absolute inset-0 z-0">
+        <GradientBackground />
+      </div>
       <Container>
         <Navbar />
       </Container>
       <HeroSection />
-
       <CallTrackingSuite />
       <TrackingSection />
 
       <AttributionSection />
+
       <AiInsights />
-
       <Integrations />
+
       <AnalyticsSection />
-
       <CallToActionFeatures />
-
       <Footer />
     </main>
   )

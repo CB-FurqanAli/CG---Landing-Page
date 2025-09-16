@@ -11,31 +11,32 @@ export default function AnalyticsSection() {
             </div>
 
             <h2 className="mb-8 text-4xl leading-tight font-black tracking-tight text-gray-900 lg:text-5xl">
-              Transform Data Into{' '}
+              Analytics &{' '}
               <span className="bg-gradient-to-br from-indigo-500 via-violet-500 to-fuchsia-500 bg-clip-text text-transparent">
-                Marketing Gold
+                Dashboards
               </span>
             </h2>
 
             <p className="mb-10 text-xl leading-relaxed text-gray-600">
-              Build custom dashboards, generate automated reports, and get
-              real-time insights that drive marketing decisions and optimize ROI
-              across all channels.
+              Turn call data into actionable insights. CallGauge AI gives you
+              real-time dashboards and automated reports that track ROI,
+              conversions, and channel performance, so you can make smarter
+              decisions, faster.
             </p>
 
             <div className="space-y-6">
               {[
                 {
-                  title: 'Custom Dashboard Builder',
-                  desc: 'Drag-and-drop dashboard creation with 40+ widgets and real-time data visualization for every stakeholder.',
+                  title: 'Custom Dashboards',
+                  desc: 'Build client- or campaign-specific dashboards to visualize call volume, conversions, and ROI in one place.',
                 },
                 {
                   title: 'Automated Reporting',
-                  desc: 'Schedule white-label reports for clients and stakeholders with customizable branding and data filters.',
+                  desc: 'Save hours of manual work with branded, scheduled reports delivered straight to your inbox or your clients.',
                 },
                 {
-                  title: 'ROI & Revenue Tracking',
-                  desc: 'Advanced revenue attribution and ROI calculations with cost-per-acquisition analysis by channel.',
+                  title: 'Revenue & ROI Tracking',
+                  desc: 'Go beyond call counts. Track CPA, ROAS, and revenue by channel in real time to prove marketing impact.',
                 },
               ].map((item, idx) => (
                 <div key={idx} className="flex items-start space-x-4">
