@@ -1,18 +1,21 @@
 'use client'
-
+import Link from 'next/link'
 export default function AttributionSection2() {
   const features = [
     {
       title: 'Attribution Models',
       desc: 'See the complete customer journey with first-touch, last-touch, linear, and multi-touch attribution, so you know which touch points actually drive conversions.',
+      link: '#',
     },
     {
       title: 'ROI & ROAS Reporting',
       desc: 'Go beyond call counts. Track revenue, ROI, and ROAS at the campaign and channel level to prove marketing impact with confidence.',
+      link: '#',
     },
     {
       title: 'Pay Per Call',
       desc: 'Turn calls into a revenue stream. With built-in pay-per-call billing, you can charge clients for qualified leads and track performance transparently.',
+      link: 'features/pay-per-call',
     },
   ]
 
@@ -146,16 +149,22 @@ export default function AttributionSection2() {
                     <p className="leading-relaxed text-gray-600">
                       {feature.desc}
                     </p>
+                    <Link
+                      href={feature.link}
+                      className="mt-2 inline-block font-bold text-purple-500 hover:underline"
+                    >
+                      Learn More →
+                    </Link>
                   </div>
                 </div>
               ))}
             </div>
 
-            <div className="mt-10">
-              <button className="rounded-xl bg-purple-600 px-8 py-4 text-lg font-bold text-white transition-all duration-300 hover:-translate-y-1 hover:bg-purple-700 hover:shadow-xl">
-                Explore Attribution Models
-              </button>
-            </div>
+            {/*<div className="mt-10">*/}
+            {/*  <button className="rounded-xl bg-purple-600 px-8 py-4 text-lg font-bold text-white transition-all duration-300 hover:-translate-y-1 hover:bg-purple-700 hover:shadow-xl">*/}
+            {/*    Explore Attribution Models*/}
+            {/*  </button>*/}
+            {/*</div>*/}
           </div>
         </div>
       </div>

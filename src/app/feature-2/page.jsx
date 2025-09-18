@@ -5,6 +5,7 @@ import AnalyticsSection2 from '@/components/feature-2/AnalyticsSection'
 import AttributionSection2 from '@/components/feature-2/AttributionSection'
 import CallToActionFeatures2 from '@/components/feature-2/CallToActionFeatures'
 import CallTrackingSuite2 from '@/components/feature-2/CallTrackingSuite'
+import PowerUsers2 from '@/components/feature-2/PowerUsers'
 import TrackingSection2 from '@/components/feature-2/TrackingSection'
 import { Footer } from '@/components/footer'
 import { GradientBackground } from '@/components/gradient'
@@ -72,7 +73,7 @@ export default function Features() {
       <TrackingSection2 />
 
       <AttributionSection2 />
-
+      <PowerUsers2 />
       <AiInsights2 />
       {/*<Integrations2 />*/}
 

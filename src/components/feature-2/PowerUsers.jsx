@@ -1,51 +1,49 @@
 // components/TrackingSection.tsx
 import Link from 'next/link'
-export default function TrackingSection2() {
+export default function PowerUsers2() {
   return (
     <section className="bg-gray-50 py-20">
       <div className="mx-auto max-w-7xl px-6">
         <div className="grid grid-cols-1 items-center gap-16 lg:grid-cols-2">
           {/* Left Content */}
           <div>
-            <div className="mb-8 inline-flex items-center rounded-full bg-blue-100 px-6 py-3">
-              <span className="font-bold text-blue-800">📞 CALL TRACKING</span>
+            <div className="mb-8 inline-flex items-center rounded-full bg-green-100 px-6 py-3">
+              <span className="font-bold text-green-800">👤 Power Users</span>
             </div>
 
             <h2 className="mb-8 text-4xl leading-tight font-black tracking-tight text-gray-900 lg:text-5xl">
-              Advanced Call{' '}
+              More Features for Agencies &{' '}
               <span className="bg-gradient-to-br from-[#6366f1] via-[#8b5cf6] to-[#a855f7] bg-clip-text text-transparent">
-                Tracking
+                Power Users
               </span>
             </h2>
 
             <p className="mb-10 text-xl leading-relaxed text-gray-600">
-              Stop losing leads to missed or misattributed calls. CallGauge AI
-              combines Dynamic Number Insertion, smart call flows, and global
-              number coverage so every call is tracked with 98% accuracy and
-              routed to the right person.
+              Extend CallGauge AI with advanced tools built for agencies and
+              businesses that need complete control and flexibility.
             </p>
 
             {/* Feature List */}
             <div className="space-y-6">
               {[
                 {
-                  title: 'Dynamic Number Insertion (DNI)',
-                  desc: 'Assign unique numbers to each visitor and capture UTM tags from your ads, so you know exactly which campaign, keyword, or channel drove every call.',
-                  link: 'features/dni',
+                  title: 'White Labeling',
+                  desc: 'Deliver a seamless client experience by rebranding CallGauge AI as your own. Customize dashboards, reports, and domains so your clients see your brand while CallGauge AI powers the technology.',
+                  link: 'features/white-labeling',
                 },
                 {
-                  title: 'Call Flows & Smart Routing',
-                  desc: 'Route callers using IVR menus, round-robin, multi-ring, and after-hours rules to ensure no opportunity is missed.',
-                  link: 'features/call-flows',
+                  title: 'Client Portal',
+                  desc: 'Cut down on manual reporting. Give clients secure logins to view their calls, messages, and reports in real time, offering full transparency and stronger trust.',
+                  link: 'features/client-management',
                 },
                 {
-                  title: 'Call Tracking Numbers',
-                  desc: 'Scale with unlimited local or toll-free numbers as your campaigns grow, with international coverage and seamless number porting, so you never miss a lead.',
-                  link: 'features/tracking-numbers',
+                  title: 'Number Porting',
+                  desc: 'Switching platforms shouldn’t interrupt your business. Transfer existing numbers to CallGauge AI with zero downtime so your campaigns and customer experience run smoothly.',
+                  link: '#',
                 },
               ].map((item, i) => (
                 <div key={i} className="flex items-start space-x-4">
-                  <div className="mt-1 flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-lg bg-blue-500">
+                  <div className="mt-1 flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-lg bg-green-500">
                     <span className="text-sm font-bold text-white">✓</span>
                   </div>
                   <div>
@@ -55,7 +53,7 @@ export default function TrackingSection2() {
                     <p className="leading-relaxed text-gray-600">{item.desc}</p>
                     <Link
                       href={item.link}
-                      className="mt-2 inline-block font-bold text-blue-600 hover:underline"
+                      className="mt-2 inline-block font-bold text-green-600 hover:underline"
                     >
                       Learn More →
                     </Link>
