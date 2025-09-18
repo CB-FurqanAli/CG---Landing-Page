@@ -28,29 +28,41 @@ export default function Integrations2() {
             {
               icon: '🏢',
               gradient: 'from-blue-500 to-blue-600',
-              title: 'CRM Systems',
-              desc: 'Salesforce, HubSpot, Pipedrive, Zoho, and more',
+              title: 'AI Transcription',
+              desc: 'Get 95%+ accurate transcriptions with speaker detection, timestamps, and keyword search to analyze conversations faster.',
             },
             {
               icon: '📈',
               gradient: 'from-green-500 to-green-600',
-              title: 'Analytics',
-              desc: 'Google Analytics, Adobe Analytics, Mixpanel',
+              title: 'Sentiment & Intent Analysis',
+              desc: 'Detect emotions and buying signals automatically, so your team can prioritize urgent leads and respond with the right context.',
             },
             {
               icon: '🎯',
               gradient: 'from-purple-500 to-purple-600',
-              title: 'Ad Platforms',
-              desc: 'Google Ads, Facebook, LinkedIn, Microsoft Ads',
+              title: 'AI Lead Scoring',
+              desc: 'Automatically rank calls based on intent, sentiment, and past conversion patterns, helping sales focus on the highest-value opportunities.',
             },
             {
               icon: '⚡',
               gradient: 'from-red-500 to-red-600',
-              title: 'Automation',
-              desc: 'Zapier, Make, Custom APIs, Webhooks',
+              title: 'Direct CRM Sync',
+              desc: 'Keep sales teams aligned with native integrations for Salesforce, HubSpot, Zoho, and more, so call data flows directly into your CRM.',
+            },
+            {
+              icon: '👇',
+              gradient: 'from-pink-500 to-pink-600',
+              title: 'Ad Platform Integration',
+              desc: 'Connect with Google Ads, Meta, and LinkedIn to track ROI and optimize campaigns with complete attribution data.',
+            },
+            {
+              icon: '🖥️',
+              gradient: 'from-orange-500 to-orange-600',
+              title: 'Webhooks & APIs',
+              desc: 'Build custom workflows and real-time automations at scale using CallGauge AI’s flexible APIs and webhook support.',
             },
           ].map((cat, i) => (
-            <div key={i} className="text-center">
+            <div key={i} className="mt-4 text-center">
               <div
                 className={`h-20 w-20 bg-gradient-to-br ${cat.gradient} mx-auto mb-4 flex items-center justify-center rounded-3xl`}
               >
@@ -62,48 +74,6 @@ export default function Integrations2() {
               <p className="text-sm text-gray-600">{cat.desc}</p>
             </div>
           ))}
-        </div>
-
-        {/* Popular Integrations */}
-        <div className="rounded-3xl bg-gray-50 p-8 lg:p-12">
-          <h3 className="mb-8 text-center text-3xl font-bold text-gray-900">
-            Popular Integrations
-          </h3>
-
-          <div className="grid grid-cols-2 gap-6 md:grid-cols-4 lg:grid-cols-6">
-            {[
-              { label: 'Salesforce', initials: 'SF', color: 'blue' },
-              { label: 'HubSpot', initials: 'HS', color: 'orange' },
-              { label: 'Pipedrive', initials: 'PD', color: 'green' },
-              { label: 'Google Ads', initials: 'G', color: 'red' },
-              { label: 'Facebook', initials: 'F', color: 'blue' },
-              { label: 'LinkedIn', initials: 'Li', color: 'blue' },
-              { label: 'Google Analytics', initials: 'GA', color: 'yellow' },
-              { label: 'Zapier', initials: 'Z', color: 'purple' },
-              { label: 'Shopify', initials: 'SH', color: 'indigo' },
-              { label: 'WordPress', initials: 'WP', color: 'blue' },
-              { label: 'Slack', initials: 'SL', color: 'green' },
-              { label: 'More', initials: '+38', color: 'gray' },
-            ].map((integration, i) => (
-              <div
-                key={i}
-                className="cursor-pointer rounded-2xl bg-white p-6 text-center transition-all duration-300 hover:shadow-lg"
-              >
-                <div
-                  className={`h-12 w-12 bg-${integration.color}-100 mx-auto mb-3 flex items-center justify-center rounded-xl`}
-                >
-                  <span
-                    className={`text-${integration.color}-600 text-lg font-bold`}
-                  >
-                    {integration.initials}
-                  </span>
-                </div>
-                <div className="text-sm font-medium text-gray-900">
-                  {integration.label}
-                </div>
-              </div>
-            ))}
-          </div>
         </div>
 
         {/* CTA */}
