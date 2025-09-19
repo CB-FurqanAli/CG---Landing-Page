@@ -124,7 +124,7 @@ const SuccessJourneySection = () => {
           <p className="mx-auto max-w-3xl text-lg leading-relaxed text-gray-600">
             GravityWrite brings everything together in one intelligent platform
             that understands ROI, not just writing. Our AI creates content
-            that's factually accurate, SEO-optimized, and designed.
+            that&#39;s factually accurate, SEO-optimized, and designed.
           </p>
         </div>
 
