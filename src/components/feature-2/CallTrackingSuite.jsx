@@ -6,7 +6,6 @@ const features = [
     id: '1',
     title: ' Advanced Call Tracking',
     description:
-      '\n' +
       ' Stop guessing where calls come from. CallGauge AI combines Dynamic Number Insertion (DNI) and smart routing so every call is attributed with 98% accuracy and reaches the right team.',
     icon: '📞',
     color: 'from-blue-500 to-blue-600',
@@ -19,31 +18,29 @@ const features = [
   },
   {
     id: '2',
-    title: 'Attribution & ROI Reporting\n',
+    title: 'calling: Smart Call Flows & Routing',
     description:
-      'Stop wasting budget on campaigns that don’t deliver. CallGauge AI shows exactly which channels, ads, and keywords generate real revenue, so you can double down on what works.\n' +
-      '\n',
+      'Build reliable call flows that connect every caller to the right person fast. With drag and drop controls and intelligent routing, you will never miss an opportunity.',
     icon: '🎯',
     color: 'from-purple-500 to-purple-600',
     points: [
-      'Source & keyword tracking with UTM capture\n',
-      'ROI reporting tied directly to conversions\n',
-      'Channel & campaign performance comparison\n',
+      'Flow Builder including IVR, multi ring, and voicemail',
+      'Recording and Whispering',
+      'Spam Filters and Alerts',
     ],
     dotColor: 'bg-purple-500',
   },
   {
     id: '3',
-    title: 'AI-Powered Insights\n',
+    title: 'Transcription & Voicemail',
     description:
-      'Go beyond call logs. CallGauge AI transcribes every conversation with 95%+ accuracy, detects customer sentiment and scores leads automatically, so your team knows where to focus.\n' +
-      '\n',
+      'Never miss context or a missed call. CallGauge AI gives you a centralized inbox for recordings and AI-powered transcripts so every conversation is easy to review and act on.',
     icon: '🤖',
     color: 'from-green-500 to-green-600',
     points: [
-      'Real-time transcription with speaker detection\n',
-      'Sentiment & intent analysis for buying signals\n',
-      'AI lead scoring to identify high-value leads\n',
+      'Voicemail inbox with recordings, duration and source tracking',
+      ' AI transcripts with speaker identification when recording is enabled',
+      ' Forward SMS to email for centralized updates',
     ],
     dotColor: 'bg-green-500',
   },

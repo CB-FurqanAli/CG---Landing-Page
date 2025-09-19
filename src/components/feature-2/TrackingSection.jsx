@@ -19,10 +19,11 @@ export default function TrackingSection2() {
             </h2>
 
             <p className="mb-10 text-xl leading-relaxed text-gray-600">
-              Stop losing leads to missed or misattributed calls. CallGauge AI
-              combines Dynamic Number Insertion, smart call flows, and global
-              number coverage so every call is tracked with 98% accuracy and
-              routed to the right person.
+              Stop guessing where your calls come from or losing leads along the
+              way. CallGauge AI combines static numbers, DNI pools, and smart
+              call flows to ensure every call is tracked with 98% accuracy,
+              attributed to the right source and routed to the right person in
+              real time.
             </p>
 
             {/* Feature List */}
@@ -30,17 +31,16 @@ export default function TrackingSection2() {
               {[
                 {
                   title: 'Dynamic Number Insertion (DNI)',
-                  desc: 'Assign unique numbers to each visitor and capture UTM tags from your ads, so you know exactly which campaign, keyword, or channel drove every call.',
+                  desc: ' Automatically swap numbers on your site using pools to capture campaign and channel tracking tags with 98% attribution accuracy.',
                   link: 'features/dni',
                 },
                 {
-                  title: 'Call Flows & Smart Routing',
-                  desc: 'Route callers using IVR menus, round-robin, multi-ring, and after-hours rules to ensure no opportunity is missed.',
-                  link: 'features/call-flows',
+                  title: 'Call Detail Capture',
+                  desc: 'Get full visibility into each call, including caller and destination, direction, duration, cost, status, and source (Google Ads, Organic, Direct, Radio, etc.).',
                 },
                 {
                   title: 'Call Tracking Numbers',
-                  desc: 'Scale with unlimited local or toll-free numbers as your campaigns grow, with international coverage and seamless number porting, so you never miss a lead.',
+                  desc: 'Set up local or toll-free numbers in the U.S. & Canada as your campaigns grow, with area code search, pattern matching, and real-time status tracking.',
                   link: 'features/tracking-numbers',
                 },
               ].map((item, i) => (
@@ -53,12 +53,15 @@ export default function TrackingSection2() {
                       {item.title}
                     </h4>
                     <p className="leading-relaxed text-gray-600">{item.desc}</p>
-                    <Link
-                      href={item.link}
-                      className="mt-2 inline-block font-bold text-blue-600 hover:underline"
-                    >
-                      Learn More →
-                    </Link>
+                    {/* only show Learn More if link exists */}
+                    {item.link && (
+                      <Link
+                        href={item.link}
+                        className="mt-2 inline-block font-bold text-blue-600 hover:underline"
+                      >
+                        Learn More →
+                      </Link>
+                    )}
                   </div>
                 </div>
               ))}

@@ -8,38 +8,40 @@ export default function PowerUsers2() {
           {/* Left Content */}
           <div>
             <div className="mb-8 inline-flex items-center rounded-full bg-green-100 px-6 py-3">
-              <span className="font-bold text-green-800">👤 Power Users</span>
+              <span className="font-bold text-green-800">
+                👤 Transcription & Voicemail
+              </span>
             </div>
 
             <h2 className="mb-8 text-4xl leading-tight font-black tracking-tight text-gray-900 lg:text-5xl">
-              More Features for Agencies &{' '}
+              Never Lose Context, Even on{' '}
               <span className="bg-gradient-to-br from-[#6366f1] via-[#8b5cf6] to-[#a855f7] bg-clip-text text-transparent">
-                Power Users
+                Missed Calls
               </span>
             </h2>
 
             <p className="mb-10 text-xl leading-relaxed text-gray-600">
-              Extend CallGauge AI with advanced tools built for agencies and
-              businesses that need complete control and flexibility.
+              Turn missed calls into opportunities with CallGauge AI. Voicemails
+              and AI transcripts are stored in one place, giving your team
+              instant context to act faster, follow up smarter, and close more
+              deals with confidence.
             </p>
 
             {/* Feature List */}
             <div className="space-y-6">
               {[
                 {
-                  title: 'White Labeling',
-                  desc: 'Deliver a seamless client experience by rebranding CallGauge AI as your own. Customize dashboards, reports, and domains so your clients see your brand while CallGauge AI powers the technology.',
+                  title: 'AI Transcription',
+                  desc: ' Accurate transcripts with speaker identification make conversations easy to review and analyze.',
+                },
+                {
+                  title: 'SMS to Email Forwarding',
+                  desc: ' Forward text updates tied to your tracking numbers directly to your inbox for centralized access.',
+                },
+                {
+                  title: 'Voicemail Inbox',
+                  desc: 'Store and review all recordings with caller details, duration, and source tracking.',
                   link: 'features/white-labeling',
-                },
-                {
-                  title: 'Client Portal',
-                  desc: 'Cut down on manual reporting. Give clients secure logins to view their calls, messages, and reports in real time, offering full transparency and stronger trust.',
-                  link: 'features/client-management',
-                },
-                {
-                  title: 'Number Porting',
-                  desc: 'Switching platforms shouldn’t interrupt your business. Transfer existing numbers to CallGauge AI with zero downtime so your campaigns and customer experience run smoothly.',
-                  link: '#',
                 },
               ].map((item, i) => (
                 <div key={i} className="flex items-start space-x-4">
@@ -51,12 +53,14 @@ export default function PowerUsers2() {
                       {item.title}
                     </h4>
                     <p className="leading-relaxed text-gray-600">{item.desc}</p>
-                    <Link
-                      href={item.link}
-                      className="mt-2 inline-block font-bold text-green-600 hover:underline"
-                    >
-                      Learn More →
-                    </Link>
+                    {item.link && (
+                      <Link
+                        href={item.link}
+                        className="mt-2 inline-block font-bold text-blue-600 hover:underline"
+                      >
+                        Learn More →
+                      </Link>
+                    )}
                   </div>
                 </div>
               ))}
