@@ -618,6 +618,7 @@ export default function Pricing({ searchParams }) {
       <Container>
         <Navbar />
       </Container>
+      {/*<CallGaugePricing />*/}
       <Header />
       <PricingCards />
       <PricingTable selectedTier={tier} />

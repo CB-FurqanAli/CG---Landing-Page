@@ -17,8 +17,8 @@ export default function CallToActionFeatures2() {
 
         {/* Subheading */}
         <p className="mb-12 text-xl leading-relaxed font-medium text-white/90 lg:text-2xl">
-          With CallGauge AI’s advanced features—attribution, AI insights, and
-          real-time reporting—you’ll finally see the true impact of your
+          With CallGauge AI’s advanced features, attribution, AI insights, and
+          real time reporting, you’ll finally see the true impact of your
           marketing.
         </p>
 
