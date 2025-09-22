@@ -8,13 +8,15 @@ export default function TrackingSection2() {
           {/* Left Content */}
           <div>
             <div className="mb-8 inline-flex items-center rounded-full bg-blue-100 px-6 py-3">
-              <span className="font-bold text-blue-800">📞 CALL TRACKING</span>
+              <span className="font-bold text-blue-800">
+                📞 Advanced Call Tracking
+              </span>
             </div>
 
             <h2 className="mb-8 text-4xl leading-tight font-black tracking-tight text-gray-900 lg:text-5xl">
-              Advanced Call{' '}
+              Never Miss Another{' '}
               <span className="bg-gradient-to-br from-[#6366f1] via-[#8b5cf6] to-[#a855f7] bg-clip-text text-transparent">
-                Tracking
+                Conversion Opportunity
               </span>
             </h2>
 

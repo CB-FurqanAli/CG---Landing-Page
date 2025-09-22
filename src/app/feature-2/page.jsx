@@ -123,8 +123,8 @@ export default function Features() {
       <PowerUsers2 />
       <CallToActionHome />
       <Integrations2 />
-      <AiInsights2 />
       <AnalyticsSection2 />
+      <AiInsights2 />
       <CallToActionFeatures2 />
       <Footer />
     </main>

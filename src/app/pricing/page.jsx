@@ -622,7 +622,6 @@ export default function Pricing({ searchParams }) {
       <PricingCards />
       <PricingTable selectedTier={tier} />
       <Testimonial />
-      {/*<PricingComparison />*/}
       <ComparisonPage />
       <FAQSection />
       {/*<FrequentlyAskedQuestions />*/}

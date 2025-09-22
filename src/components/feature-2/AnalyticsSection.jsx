@@ -1,4 +1,6 @@
 'use client'
+import Link from 'next/link'
+
 export default function AnalyticsSection2() {
   return (
     <section id="analytics" className="bg-gray-50 py-20">
@@ -7,36 +9,45 @@ export default function AnalyticsSection2() {
           {/* Left Content */}
           <div>
             <div className="mb-8 inline-flex items-center rounded-full bg-red-100 px-6 py-3">
-              <span className="font-bold text-red-800">📊 ANALYTICS</span>
+              <span className="font-bold text-red-800">
+                Secure Access & Control
+              </span>
             </div>
 
             <h2 className="mb-8 text-4xl leading-tight font-black tracking-tight text-gray-900 lg:text-5xl">
-              Analytics &{' '}
+              Keep Data Protected and{' '}
               <span className="bg-gradient-to-br from-indigo-500 via-violet-500 to-fuchsia-500 bg-clip-text text-transparent">
-                Dashboards
+                Clients Confident
               </span>
             </h2>
 
             <p className="mb-10 text-xl leading-relaxed text-gray-600">
-              Turn call data into actionable insights. CallGauge AI gives you
-              real-time dashboards and automated reports that track ROI,
-              conversions, and channel performance, so you can make smarter
-              decisions, faster.
+              CallGauge AI safeguards every call and customer detail with
+              enterprise-level security while empowering you with full
+              visibility and control. From role-based permissions to secure
+              portals, your business and your clients stay protected at every
+              step.
             </p>
 
             <div className="space-y-6">
               {[
                 {
-                  title: 'Custom Dashboards',
-                  desc: 'Build client- or campaign-specific dashboards to visualize call volume, conversions, and ROI in one place.',
+                  title: 'Role-Based Access',
+                  desc: 'Define permissions by role so each team member gets the access they need—nothing more.',
+                },
+
+                {
+                  title: 'Encrypted Call Storage',
+                  desc: 'All calls are stored securely with encryption, keeping sensitive data protected and compliant.',
                 },
                 {
-                  title: 'Automated Reporting',
-                  desc: 'Save hours of manual work with branded, scheduled reports delivered straight to your inbox or your clients.',
+                  title: 'Activity Logs',
+                  desc: 'Track every login, change, and action with detailed activity logs for auditing and accountability.',
                 },
                 {
-                  title: 'Revenue & ROI Tracking',
-                  desc: 'Go beyond call counts. Track CPA, ROAS, and revenue by channel in real time to prove marketing impact.',
+                  title: 'Client Portal',
+                  desc: 'Provide clients with their own secure dashboards and reports to build trust and deliver transparency.',
+                  link: '#',
                 },
               ].map((item, idx) => (
                 <div key={idx} className="flex items-start space-x-4">
@@ -48,15 +59,17 @@ export default function AnalyticsSection2() {
                       {item.title}
                     </h4>
                     <p className="leading-relaxed text-gray-600">{item.desc}</p>
+                    {item.link && (
+                      <Link
+                        href={item.link}
+                        className="mt-2 inline-block font-bold text-blue-600 hover:underline"
+                      >
+                        Learn More →
+                      </Link>
+                    )}
                   </div>
                 </div>
               ))}
-            </div>
-
-            <div className="mt-10">
-              <button className="rounded-xl bg-red-600 px-8 py-4 text-lg font-bold text-white transition-all duration-300 hover:-translate-y-1 hover:bg-red-700 hover:shadow-xl">
-                Explore Analytics Suite
-              </button>
             </div>
           </div>
 
