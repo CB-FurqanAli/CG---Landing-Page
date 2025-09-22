@@ -1,10 +1,11 @@
 import { Button } from '@/components/button'
 import { Container } from '@/components/container'
+import { FAQSection } from '@/components/FAQSection'
 import { Footer } from '@/components/footer'
 import { Gradient, GradientBackground } from '@/components/gradient'
 import { Link } from '@/components/link'
-import { LogoCloud } from '@/components/logo-cloud'
 import { Navbar } from '@/components/navbar'
+import ComparisonPage from '@/components/pricing/comparison'
 import { ScrollHandler } from '@/components/ScrollHandler'
 import { Heading, Lead, Subheading } from '@/components/text'
 import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
@@ -22,6 +23,7 @@ export const metadata = {
 }
 
 const tiers = [
+  // Business
   {
     name: 'Business',
     slug: 'business',
@@ -83,6 +85,7 @@ const tiers = [
       { section: 'Addons', name: 'Port numbers in', value: 'FREE' },
     ],
   },
+  // Client Pro
   {
     name: 'Client Pro',
     slug: 'client-pro',
@@ -144,6 +147,7 @@ const tiers = [
       { section: 'Addons', name: 'Port numbers in', value: 'FREE' },
     ],
   },
+  // Unlimited
   {
     name: 'Unlimited',
     slug: 'unlimited',
@@ -239,7 +243,7 @@ function PricingCards() {
             <PricingCard key={tierIndex} tier={tier} />
           ))}
         </div>
-        <LogoCloud className="mt-24" />
+        {/*<LogoCloud className="mt-24" />*/}
       </Container>
     </div>
   )
@@ -618,7 +622,10 @@ export default function Pricing({ searchParams }) {
       <PricingCards />
       <PricingTable selectedTier={tier} />
       <Testimonial />
-      <FrequentlyAskedQuestions />
+      {/*<PricingComparison />*/}
+      <ComparisonPage />
+      <FAQSection />
+      {/*<FrequentlyAskedQuestions />*/}
       <Footer />
     </main>
   )

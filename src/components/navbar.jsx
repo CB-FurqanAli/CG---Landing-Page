@@ -40,11 +40,12 @@ function NavigateWithScroll({ href, children, scrollTarget }) {
 }
 
 const links = [
+  { href: '/', label: 'Home', id: 'Home-nav' },
   { href: '/features', label: 'Features', id: 'features-nav' },
   { href: '/pricing', label: 'Pricing', id: 'pricing-nav' },
-  { href: '/company', label: 'industries', id: 'company-nav' },
-  { href: '#', label: 'Solutions', id: 'login-nav' },
-  { href: '#', label: 'Blogs', id: 'login-iu' },
+  { href: '/login', label: 'Login', id: 'login-nav' },
+  // { href: '/company', label: 'industries', id: 'company-nav' },
+  // { href: '#', label: 'Blogs', id: 'login-iu' },
   // { href: '/demo', label: 'Demo', id: 'demo-nav' },
 ]
 
