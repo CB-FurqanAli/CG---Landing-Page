@@ -643,7 +643,7 @@ export default function Pricing({ searchParams }) {
       <Container>
         <Navbar />
       </Container>
-      {/*<PricingPage />*/}
+
       <Header />
       <PricingSection />
       <UsagePricingTransparency />
@@ -655,7 +655,6 @@ export default function Pricing({ searchParams }) {
       <PricingTable selectedTier={tier} />
       <Testimonial />
       <FAQSection />
-      {/*<FrequentlyAskedQuestions />*/}
       <Footer />
     </main>
   )
