@@ -60,7 +60,7 @@ export default function FeatureComparison() {
             Compare Plans
           </h2>
           <p className="text-lg text-gray-600">
-            See what's included in each plan
+            See what&#39;s included in each plan
           </p>
         </div>
 
