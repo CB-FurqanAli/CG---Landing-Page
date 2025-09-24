@@ -5,7 +5,12 @@ import { Footer } from '@/components/footer'
 import { Gradient, GradientBackground } from '@/components/gradient'
 import { Link } from '@/components/link'
 import { Navbar } from '@/components/navbar'
-import ComparisonPage from '@/components/pricing/comparison'
+import CustomerSwitchTestimonials from '@/components/pricing/CustomerSwitchTestimonials'
+import FaqSection from '@/components/pricing/FaqSection'
+import FeatureComparison from '@/components/pricing/FeatureComparison'
+import PricingCalculator from '@/components/pricing/PricingCalculator'
+import PricingSection from '@/components/pricing/PricingSection'
+import UsagePricingTransparency from '@/components/pricing/UsagePricingTransparency'
 import { ScrollHandler } from '@/components/ScrollHandler'
 import { Heading, Lead, Subheading } from '@/components/text'
 import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
@@ -217,18 +222,38 @@ const tiers = [
 
 function Header() {
   return (
-    <Container className="mt-16">
-      <Heading as="h1">Backed by AI. Priced for Performance.</Heading>
-      <Lead className="mt-6 max-w-3xl">
-        While most platforms charge{' '}
-        <strong> $3.00 or more per number, CallGauge AI </strong>
-        offers them at <strong> just $0.50 each. </strong> Track{' '}
-        <strong> 6x more numbers </strong>
-        for the same budget — thanks to CallGauge AI’s amazingly low pricing and
-        intelligent automation.
-        <br /> Smarter Pricing. Smarter Insights
-      </Lead>
-    </Container>
+    <div className="relative py-16">
+      <Container>
+        <div className="text-center">
+          <Heading as="h1" className="mx-auto max-w-5xl text-4xl md:text-5xl">
+            Simple, Transparent Pricing. Backed by AI.
+          </Heading>
+          <Lead className="mx-auto mt-6 max-w-3xl text-xl">
+            Start tracking calls in minutes with pricing that scales as you
+            grow. No hidden fees, no surprise charges, and no long term
+            contracts. Get smarter automation and AI powered insights at the
+            lowest cost in the industry.
+          </Lead>
+          <div className="my-8 flex flex-col justify-center gap-4 sm:flex-row">
+            <Button href="#" className="px-8 py-3 text-lg font-semibold">
+              Start Free 30 Day Trial
+            </Button>
+            <Button
+              variant="secondary"
+              href="#"
+              className="px-8 py-3 text-lg font-semibold"
+            >
+              Schedule a Demo
+            </Button>
+          </div>
+          <div className="flex flex-col items-center justify-center gap-4 font-medium sm:flex-row">
+            <p>✅ No credit card required</p>
+            <p>✅ Setup in less than 5 minutes</p>
+            <p>✅ Cancel anytime</p>
+          </div>
+        </div>
+      </Container>
+    </div>
   )
 }
 
@@ -618,12 +643,17 @@ export default function Pricing({ searchParams }) {
       <Container>
         <Navbar />
       </Container>
-      {/*<CallGaugePricing />*/}
+      {/*<PricingPage />*/}
       <Header />
+      <PricingSection />
+      <UsagePricingTransparency />
+      <PricingCalculator />
+      <FeatureComparison />
+      <CustomerSwitchTestimonials />
+      <FaqSection />
       <PricingCards />
       <PricingTable selectedTier={tier} />
       <Testimonial />
-      <ComparisonPage />
       <FAQSection />
       {/*<FrequentlyAskedQuestions />*/}
       <Footer />
