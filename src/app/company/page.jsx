@@ -11,7 +11,6 @@ import img1 from '/public/company/1.jpg'
 import img2 from '/public/company/2.jpg'
 import img3 from '/public/company/3.jpg'
 import img4 from '/public/company/4.jpg'
-import testimonialsVeronica from '/public/testimonials/veronica-winton.jpg'
 
 export const metadata = {
   title: 'Company',
@@ -360,26 +359,26 @@ function Values() {
             </Button>
           </div>
         </div>
-        <div className="relative flex aspect-square flex-col justify-end overflow-hidden rounded-3xl sm:aspect-5/4 lg:aspect-3/4">
-          <Image
-            src={testimonialsVeronica}
-            alt=""
-            className="absolute inset-0 object-cover"
-          />
-          <div
-            aria-hidden="true"
-            className="absolute inset-0 rounded-3xl bg-linear-to-t from-black from-10% to-75% ring-1 ring-gray-950/10 ring-inset lg:from-25%"
-          />
-          <div className="relative p-10">
-            <p className="text-white sm:text-xl/7">
-              “Our values shape every decision, ensuring we deliver tools that
-              are affordable, simple, and innovative.”
-            </p>
-            <p className="mt-6 border-t border-white/20 pt-6 text-sm/6 font-medium text-white">
-              CallGauge Team
-            </p>
-          </div>
-        </div>
+        {/*<div className="relative flex aspect-square flex-col justify-end overflow-hidden rounded-3xl sm:aspect-5/4 lg:aspect-3/4">*/}
+        {/*  <Image*/}
+        {/*    src={}*/}
+        {/*    alt=""*/}
+        {/*    className="absolute inset-0 object-cover"*/}
+        {/*  />*/}
+        {/*  <div*/}
+        {/*    aria-hidden="true"*/}
+        {/*    className="absolute inset-0 rounded-3xl bg-linear-to-t from-black from-10% to-75% ring-1 ring-gray-950/10 ring-inset lg:from-25%"*/}
+        {/*  />*/}
+        {/*  <div className="relative p-10">*/}
+        {/*    <p className="text-white sm:text-xl/7">*/}
+        {/*      “Our values shape every decision, ensuring we deliver tools that*/}
+        {/*      are affordable, simple, and innovative.”*/}
+        {/*    </p>*/}
+        {/*    <p className="mt-6 border-t border-white/20 pt-6 text-sm/6 font-medium text-white">*/}
+        {/*      CallGauge Team*/}
+        {/*    </p>*/}
+        {/*  </div>*/}
+        {/*</div>*/}
       </div>
     </Container>
   )

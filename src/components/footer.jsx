@@ -54,8 +54,8 @@ function Sitemap() {
         <SitemapLinks>
           <SitemapLink href="/features">Features</SitemapLink>
           <SitemapLink href="/pricing">Pricing</SitemapLink>
-          <SitemapLink href="/pricing">Integrations</SitemapLink>
-          <SitemapLink href="/pricing">API</SitemapLink>
+          <SitemapLink href="/integration">Integrations</SitemapLink>
+          <SitemapLink href="/api">API</SitemapLink>
 
           {/*<SitemapLink href="/features/call-flows">Call Flows</SitemapLink>*/}
           {/*<SitemapLink href="/features/tracking-numbers">*/}
@@ -76,13 +76,13 @@ function Sitemap() {
       {/*    </SitemapLink>*/}
       {/*  </SitemapLinks>*/}
       {/*</div>*/}
-      <div className="lg:ml-24">
+      <div className="lg:ml-20">
         <SitemapHeading>Resources</SitemapHeading>
         <SitemapLinks>
           <SitemapLink href="/blog">Blog</SitemapLink>
-          <SitemapLink href="/support-center">Help Center</SitemapLink>
+          <SitemapLink href="/support-center">Support Center</SitemapLink>
           <SitemapLink href="/porting">Case Studies</SitemapLink>
-          <SitemapLink href="/callrail-alternative">Webinars</SitemapLink>
+          <SitemapLink href="/webinars">Webinars</SitemapLink>
         </SitemapLinks>
       </div>
       <div className="lg:ml-24">

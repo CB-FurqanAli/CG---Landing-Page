@@ -8,22 +8,23 @@ export const metadata = {
   description:
     'Compare CallGauge and CallRail to find the best call tracking software for your business. Discover why CallGauge is the top alternative with affordable pricing and powerful features.',
 }
-// app/blog/page.jsx   (Next.js App Router)
-// or pages/blog.js    (Next.js Pages Router)
 
-function BlogPage() {
+// app/integrations/page.jsx  (Next.js App Router)
+// or pages/integrations.js  (Next.js Pages Router)
+
+function IntegrationPage() {
   return (
     <section className="flex min-h-screen items-center justify-center bg-gray-50 px-6">
-      <div className="max-w-2xl text-center">
+      <div className="text-center">
         <h1 className="mb-4 text-4xl font-bold text-gray-800">
-          📝 Blog Page In Progress
+          🚧 This page is currently in progress
         </h1>
         <p className="mb-6 text-lg text-gray-600">
-          Our blog is on the way! Soon you’ll find helpful articles, tutorials,
-          and updates right here. Stay tuned for fresh content.
+          Our team is building amazing integrations for you. <br />
+          Check back soon for updates!
         </p>
         <div className="flex justify-center">
-          <div className="h-12 w-12 animate-spin rounded-full border-t-4 border-solid border-purple-500"></div>
+          <div className="h-12 w-12 animate-spin rounded-full border-t-4 border-solid border-indigo-500"></div>
         </div>
       </div>
     </section>
@@ -37,7 +38,7 @@ export default function CallRailAlternative() {
       <Container>
         <Navbar />
       </Container>
-      <BlogPage />
+      <IntegrationPage />
       <Footer />
     </main>
   )
