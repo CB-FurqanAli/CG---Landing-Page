@@ -42,7 +42,7 @@ export default function TranscriptionVoicemail() {
                 {
                   title: 'Voicemail Inbox',
                   desc: 'Store and review all recordings with caller details, duration, and source tracking.',
-                  link: 'features/white-labeling',
+                  link: 'features/voicemail',
                 },
               ].map((item, i) => (
                 <div key={i} className="flex items-start space-x-4">

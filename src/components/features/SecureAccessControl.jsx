@@ -48,7 +48,7 @@ export default function SecureAccessControl() {
                 {
                   title: 'Client Portal',
                   desc: 'Provide clients with their own secure dashboards and reports to build trust and deliver transparency.',
-                  link: '#',
+                  link: 'features/client-management',
                 },
               ].map((item, idx) => (
                 <div key={idx} className="flex items-start space-x-4">

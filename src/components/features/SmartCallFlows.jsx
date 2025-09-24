@@ -5,17 +5,17 @@ export default function SmartCallFlows() {
     {
       title: 'Flow Builder',
       desc: ' Drag and drop widgets for IVR, scheduling, multi ring, greetings, voicemails, and more.',
-      link: '#',
+      link: 'features/call-flows',
     },
     {
       title: 'Call Recording',
       desc: ' Enable per flow with consent prompts, then access transcripts and searchable logs.',
-      link: '#',
+      link: 'features/call-recording',
     },
     {
       title: 'Call Whispering',
       desc: ' Coach agents in real time with short, private messages before connecting.',
-      link: 'features/pay-per-call',
+      link: 'features/call-whispering',
     },
   ]
 
