@@ -1,11 +1,10 @@
 import { Button } from '@/components/button'
 import { Container } from '@/components/container'
-import { FAQSection } from '@/components/FAQSection'
 import { Footer } from '@/components/footer'
 import { Gradient } from '@/components/gradient'
-
 import CallToActionHome from '@/components/home/CallToActionHome'
 import CustomerSuccess from '@/components/home/CustomerSuccess'
+import { FAQSection } from '@/components/home/FAQSection'
 import Features from '@/components/home/features'
 import FinalCTA from '@/components/home/FinalCTA'
 import ProblemSection from '@/components/home/ProblemSection'
@@ -100,7 +99,6 @@ export default function Home() {
         <FinalCTA />
         <FAQSection />
       </main>
-      {/*<Testimonials />*/}
       <Footer />
     </div>
   )

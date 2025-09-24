@@ -1,6 +1,6 @@
 'use client'
 
-export default function Integrations2() {
+export default function AnalyticsReports() {
   const categories = [
     {
       icon: '🏢',

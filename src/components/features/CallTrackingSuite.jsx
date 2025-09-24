@@ -4,92 +4,86 @@
 const features = [
   {
     id: '1',
-    title: 'Advanced Call Tracking',
+    title: ' Advanced Call Tracking',
     description:
-      '\n' +
-      'Advanced Call Tracking\n' +
-      'Stop guessing where calls come from. CallGauge AI uses Dynamic Number Insertion (DNI) and smart routing so every caller reaches the right team and every call is attributed.',
+      ' Stop guessing where calls come from. CallGauge AI combines Dynamic Number Insertion (DNI) and smart routing so every call is attributed with 98% accuracy and reaches the right team.',
     icon: '📞',
     color: 'from-blue-500 to-blue-600',
     points: [
-      'Dynamic number insertion (98% attribution accuracy)\n',
-      'Local & toll-free numbers with instant porting\n',
-      'Round-robin, multi-ring, after-hours rules\n',
+      'Local & toll-free numbers with area code search and real-time status',
+      'Dynamic Number Insertion (DNI) with 98% attribution accuracy',
+      'Complete call details: caller, duration, cost, status, and source',
     ],
     dotColor: 'bg-blue-500',
   },
   {
     id: '2',
-    title: 'Attribution & ROI Reporting\n',
+    title: 'Smart Call Flows & Routing',
     description:
-      'Stop wasting budget on campaigns that don’t deliver. CallGauge AI shows exactly which channels, ads, and keywords generate real revenue, so you can double down on what works.\n' +
-      '\n',
+      'Build reliable call flows that connect every caller to the right person fast. With drag and drop controls and intelligent routing, you will never miss an opportunity.',
     icon: '🎯',
     color: 'from-purple-500 to-purple-600',
     points: [
-      'Source & keyword tracking with UTM capture\n',
-      'ROI reporting tied directly to conversions\n',
-      'Channel & campaign performance comparison\n',
+      'Flow Builder including IVR, multi ring, and voicemail',
+      'Recording and Whispering',
+      'Spam Filters and Alerts',
     ],
     dotColor: 'bg-purple-500',
   },
   {
     id: '3',
-    title: 'AI-Powered Insights\n',
+    title: 'Transcription & Voicemail',
     description:
-      'Go beyond call logs. CallGauge AI transcribes every conversation with 95%+ accuracy, detects customer sentiment and scores leads automatically, so your team knows where to focus.\n' +
-      '\n',
+      'Never miss context or a missed call. CallGauge AI gives you a centralized inbox for recordings and AI-powered transcripts so every conversation is easy to review and act on.',
     icon: '🤖',
     color: 'from-green-500 to-green-600',
     points: [
-      'Real-time transcription with speaker detection\n',
-      'Sentiment & intent analysis for buying signals\n',
-      'AI lead scoring to identify high-value leads\n',
+      'Voicemail inbox with recordings, duration and source tracking',
+      ' AI transcripts with speaker identification when recording is enabled',
+      ' Forward SMS to email for centralized updates',
     ],
     dotColor: 'bg-green-500',
   },
   {
     id: '4',
-    title: 'Seamless Integrations\n',
+    title: 'Analytics & Reports',
     description:
-      'Eliminate silos. CallGauge AI connects natively to CRMs, ad platforms and 5,000+ apps keeping your data in sync and your team in flow.\n' +
-      '\n',
-    icon: '🔗',
-    color: 'from-orange-500 to-orange-600',
-    points: [
-      'Direct CRM integrations (HubSpot, Salesforce, Zoho)\n',
-      'Ad platform sync (Google, Facebook, LinkedIn)\n',
-      'Automations via Zapier, Slack & webhooks\n',
-    ],
-    dotColor: 'bg-orange-500',
-  },
-  {
-    id: '5',
-    title: 'Analytics & Dashboards\n',
-    description:
-      'Get clarity at a glance. CallGauge AI delivers real-time dashboards and automated reports that reveal ROI, conversions and call performance across every channel.\n' +
-      '\n',
+      ' Make data-driven decisions with analytics that match what you see in the app. CallGauge AI transforms raw call activity into actionable insights for smarter marketing and sales performance.',
     icon: '📊',
     color: 'from-red-500 to-red-600',
     points: [
-      'Custom dashboards by client or campaign\n',
-      'Automated branded reports on schedule\n',
-      'ROI, CPA, and revenue tracking by channel\n',
+      'Call volume and trends by day, week, or hour with top sources and numbers',
+      'Attribution and ROI insights using DNI and UTM tracking with conversion and cost analysis',
+      'Team performance, caller locations, and demographics with automated scheduling',
     ],
     dotColor: 'bg-red-500',
   },
   {
-    id: '6',
-    title: 'Spam Blocking & Call Filtering\n',
+    id: '5',
+    title: 'Secure Access & Control',
     description:
-      'Keep your reports clean and budgets safe. CallGauge AI blocks spam and robo-calls with AI detection and Press-1 filters, so only real leads show up in your attribution.\n' +
-      '\n',
+      ' Protect sensitive call data with enterprise-grade safeguards while giving clients the transparency they need.',
+    icon: '🔗',
+    color: 'from-orange-500 to-orange-600',
+    points: [
+      'Role-based permissions to manage user access',
+      'Encrypted storage and secure client portals',
+      'Detailed activity logs for compliance and oversight',
+    ],
+    dotColor: 'bg-orange-500',
+  },
+
+  {
+    id: '6',
+    title: 'Number Porting',
+    description:
+      ' Bring your existing numbers to CallGauge AI without downtime and keep your campaigns running seamlessly.',
     icon: '🔒',
     color: 'from-indigo-500 to-indigo-600',
     points: [
-      'AI-powered spam & robo-call detection\n',
-      'Press-1 filters to screen low-quality calls\n',
-      'Accurate data for reliable attribution',
+      'Submit numbers, provider details, and Letter of Authorization directly in the app',
+      'Choose to port voice-only or voice with messaging, depending on your setup',
+      'Maintain uninterrupted service and marketing performance during the transfer',
     ],
     dotColor: 'bg-indigo-500',
   },
