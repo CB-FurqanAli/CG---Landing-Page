@@ -89,7 +89,7 @@ export default function Home() {
       <Hero />
       <main>
         {/*<Container className="mt-10">*/}
-        {/*  <LogoCloud />*/}
+        {/*<LogoCloud />*/}
         {/*</Container>*/}
         <ProblemSection />
         <SolutionSection />
