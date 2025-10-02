@@ -1,14 +1,5 @@
 'use client'
 
-/**
- * OptimizeROISectionDynamic (Next.js + Tailwind)
- * Fully responsive, dynamic feature grid using ONLY Tailwind.
- * - Edit features by changing the array (title, desc, theme, icon)
- * - Themes: blue | purple | green | orange
- * - Icons: growth | bars | arrows | clock
- * - Pixel-clean layout matching your original spacing
- */
-
 const COLOR_MAP = {
   blue: 'bg-blue-600',
   purple: 'bg-purple-600',
