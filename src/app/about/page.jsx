@@ -13,7 +13,7 @@ import img3 from '/public/company/3.jpg'
 import img4 from '/public/company/4.jpg'
 
 export const metadata = {
-  title: 'Company',
+  title: 'About',
   description:
     'We’re on a mission to empower businesses with affordable, scalable call tracking solutions that maximize ROI.',
 }
@@ -384,7 +384,7 @@ function Values() {
   )
 }
 
-export default function Company() {
+export default function About() {
   return (
     <main className="overflow-hidden">
       <GradientBackground />

@@ -81,16 +81,16 @@ function Sitemap() {
         <SitemapLinks>
           <SitemapLink href="/blog">Blog</SitemapLink>
           <SitemapLink href="/support-center">Support Center</SitemapLink>
-          <SitemapLink href="/porting">Case Studies</SitemapLink>
+          <SitemapLink href="/case-studies">Case Studies</SitemapLink>
           <SitemapLink href="/webinars">Webinars</SitemapLink>
         </SitemapLinks>
       </div>
       <div className="lg:ml-24">
         <SitemapHeading>Company</SitemapHeading>
         <SitemapLinks>
-          <SitemapLink href="/company">About</SitemapLink>
+          <SitemapLink href="/about">About</SitemapLink>
           <SitemapLink href="/contact">Contact</SitemapLink>
-          <SitemapLink href="/terms-of-use">Careers</SitemapLink>
+          <SitemapLink href="/careers">Careers</SitemapLink>
           <SitemapLink href="/privacy">Privacy</SitemapLink>
         </SitemapLinks>
       </div>

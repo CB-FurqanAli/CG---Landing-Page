@@ -1,16 +1,16 @@
 'use client'
 import { HelpCircle } from 'lucide-react'
 
-export function PortingFaq() {
+export function CaseStudiesFaq() {
   const faqs = [
     {
-      q: 'How long does the porting process take?',
+      q: 'How long does the case-studies process take?',
       a: 'Timelines depend on your current carrier. Mostly, if your details are accurate, your numbers can be moved over within 7–10 business days, after you submit a port request.',
     },
 
     {
       q: 'Is there a cost to port numbers into CallGauge AI?',
-      a: 'No, porting your phone numbers into CallGauge AI is completely free. If you ever decide to move your phone numbers out then you have to pay one-time fee that is $10 to unlock your numbers.',
+      a: 'No, case-studies your phone numbers into CallGauge AI is completely free. If you ever decide to move your phone numbers out then you have to pay one-time fee that is $10 to unlock your numbers.',
     },
     {
       q: 'Can I port numbers into a trial or free account?',
@@ -21,7 +21,7 @@ export function PortingFaq() {
       a: 'Typically, you’ll need your current provider’s details and a PIN to port your phone numbers. You can find the complete requirements inside our Port Request Form.',
     },
     {
-      q: 'How do I get my porting PIN from my existing provider?',
+      q: 'How do I get my case-studies PIN from my existing provider?',
       a: 'Most carriers require you to contact their support center and request a PIN to transfer your numbers.Once you have it, you can include it with your port request to CallGauge AI.',
     },
     {

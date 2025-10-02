@@ -1,11 +1,13 @@
 import { Button } from '@/components/button'
 import { Container } from '@/components/container'
+import FeaturesInAction from '@/components/demo/FeaturesInAction'
+import HeroSection from '@/components/demo/hero-section'
+import OptimizeROISectionDynamic from '@/components/demo/OptimizeROISection'
+import VideoSection from '@/components/demo/video-section'
+import WhatToExpectSection from '@/components/demo/WhatToExpectSection'
 import { Footer } from '@/components/footer'
 import { GradientBackground } from '@/components/gradient'
 import { Navbar } from '@/components/navbar'
-import { Heading, Subheading } from '@/components/text'
-import { CheckIcon, PlayIcon } from '@heroicons/react/16/solid'
-import DemoVideo from './DemoVideo' // Import the new client component
 
 export const metadata = {
   title: 'Demo',
@@ -13,160 +15,76 @@ export const metadata = {
     'Experience CallGauge’s scalable call tracking in a free, 5-minute interactive demo. See how we help businesses and agencies track thousands of calls at unbeatable prices.',
 }
 
-function DemoHero() {
+function FinalCTA() {
   return (
-    <div className="relative py-24 text-center">
-      <Container>
-        <Subheading className="text-gray-500">
-          5-Minute Interactive Demo
-        </Subheading>
-        <Heading as="h1" className="mt-2 text-4xl text-gray-900 md:text-5xl">
-          Call Tracking That Scales, Simplified
-        </Heading>
-        <p className="mx-auto mt-6 max-w-2xl text-lg text-gray-600">
-          See how CallGauge delivers enterprise-grade call tracking at a
-          fraction of the cost, empowering businesses and agencies to scale
-          effortlessly.
+    <section className="bg-gradient-to-br from-[#0F172A] via-[#1E293B] to-[#0F172A] py-20 text-white">
+      <div className="mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
+        {/* Heading */}
+        <h2 className="mb-4 text-3xl font-bold lg:text-4xl">
+          Ready to Stop Wasting Ad Spend?
+        </h2>
+
+        {/* Subtext */}
+        <p className="mx-auto mb-10 max-w-3xl text-lg leading-relaxed text-gray-100 lg:text-xl">
+          Join marketing teams who are finally seeing which campaigns actually
+          drive revenue.
         </p>
-        <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
-          <Button
-            href="#interactive-demo"
-            size="lg"
-            variant="primary"
-            className="inline-flex items-center gap-2"
-          >
-            <PlayIcon className="size-4" />
-            Start Demo Now
+
+        {/* CTAs */}
+        <div className="my-12 flex flex-col justify-center gap-4 sm:flex-row">
+          <Button href="#" className="px-8 py-3 text-lg font-semibold">
+            Schedule Your Demo
           </Button>
           <Button
+            variant="secondary"
             href="#"
-            variant="outline"
-            className="inline-flex items-center gap-2 border-gray-300 text-gray-700 transition-all duration-300 hover:bg-gray-100"
+            className="px-8 py-3 text-lg font-semibold text-white"
           >
-            Try Free for 7 Days
+            Start Free Trial
           </Button>
         </div>
-      </Container>
-    </div>
-  )
-}
 
-function DemoFeatures() {
-  return (
-    <div
-      className="mx-2 my-24 rounded-4xl bg-gray-900 bg-[url(/dot-texture.svg)] pt-16 pb-24 text-white lg:pt-12"
-      id="interactive-demo"
-    >
-      <Container>
-        <div className="lg:col-span-2">
-          <Heading as="h2" className="text-3xl text-white md:text-4xl">
-            Built for Your Success
-          </Heading>
-          <p className="mt-6 text-lg leading-relaxed text-gray-300">
-            CallGauge is more than just call tracking—it’s a growth engine for
-            your business. Designed to deliver powerful insights at an
-            affordable price, we help you optimize every call and scale with
-            confidence.
-          </p>
-          <ul className="mt-6 space-y-3 text-gray-200">
-            <li className="flex items-center gap-2">
-              <CheckIcon className="size-5 text-pink-600" />
-              Fast setup with numbers ready in seconds
-            </li>
-            <li className="flex items-center gap-2">
-              <CheckIcon className="size-5 text-pink-600" />
-              Cost-effective tracking starting at $0.50/month
-            </li>
-            <li className="flex items-center gap-2">
-              <CheckIcon className="size-5 text-pink-600" />
-              Live analytics for immediate decision-making
-            </li>
-            <li className="flex items-center gap-2">
-              <CheckIcon className="size-5 text-pink-600" />
-              Accurate attribution across all marketing channels
-            </li>
-            <li className="flex items-center gap-2">
-              <CheckIcon className="size-5 text-pink-600" />
-              Custom dashboards tailored to your needs
-            </li>
-            <li className="flex items-center gap-2">
-              <CheckIcon className="size-5 text-pink-600" />
-              Multi-user support for team collaboration
-            </li>
-          </ul>
-          <p className="mt-6 text-lg leading-relaxed text-gray-300">
-            Whether you’re a small business looking to grow or an agency
-            managing multiple clients, CallGauge adapts to your workflow.
-            Trusted by thousands of users globally, our platform ensures you get
-            the most out of every conversation.
-          </p>
+        {/* Stats */}
+        <div className="mb-10 grid grid-cols-2 gap-6 md:grid-cols-4">
+          {[
+            { value: '98%', label: 'Attribution Accuracy' },
+            { value: '<5 min', label: 'Average Setup Time' },
+            { value: '50+', label: 'Native Integrations' },
+            { value: '24/7', label: 'Customer Support' },
+          ].map((stat, i) => (
+            <div key={i} className="rounded-xl bg-white/5 p-4">
+              <div className="mb-1 text-2xl font-bold text-white">
+                {stat.value === '<5 min' ? <span>&lt;5 min</span> : stat.value}
+              </div>
+              <div className="text-sm text-blue-100">{stat.label}</div>
+            </div>
+          ))}
         </div>
-      </Container>
-    </div>
-  )
-}
 
-function CustomPricing() {
-  return (
-    <div className="py-16">
-      <Container>
-        <div className="text-center">
-          <Subheading className="text-gray-500">Need More?</Subheading>
-          <Heading as="h2" className="mt-2 text-3xl text-gray-900">
-            Custom Pricing for High Volume
-          </Heading>
-          <p className="mx-auto mt-6 max-w-xl text-lg text-gray-600">
-            Tracking thousands of calls? Get a tailored pricing plan that
-            matches your scale and goals.
-          </p>
-          <Button
-            href="/contact"
-            className="mt-8 bg-blue-600 text-white transition-all duration-300 hover:bg-blue-700"
-          >
-            Request a Quote
-          </Button>
+        {/* Bottom Features */}
+        <div className="flex flex-wrap items-center justify-center gap-8 border-t border-white/20 pt-8 text-sm text-blue-100">
+          {[
+            'No credit card required',
+            'Cancel anytime',
+            'Setup in 5 minutes',
+          ].map((item, i) => (
+            <div key={i} className="flex items-center">
+              <svg
+                className="mr-2 h-4 w-4"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                />
+              </svg>
+              {item}
+            </div>
+          ))}
         </div>
-      </Container>
-    </div>
-  )
-}
-
-function TrialCTA() {
-  return (
-    <div className="bg-gray-50 py-24">
-      <Container>
-        <div className="text-center">
-          <Subheading className="text-gray-500">Ready to Start?</Subheading>
-          <Heading as="h2" className="mt-2 text-3xl text-gray-900 md:text-4xl">
-            Experience CallGauge Risk-Free
-          </Heading>
-          <p className="mx-auto mt-6 max-w-2xl text-lg text-gray-600">
-            Sign up today and get $20 free credit to test everything—no
-            commitment needed.
-          </p>
-          <div className="mt-10 flex justify-center gap-4">
-            <Button
-              href="#"
-              size="lg"
-              variant="primary"
-              className="w-full sm:w-auto"
-            >
-              Try CallGauge Now
-            </Button>
-            <Button
-              href="#interactive-demo"
-              variant="outline"
-              className="border-gray-300 text-gray-700 transition-all duration-300 hover:bg-gray-100"
-            >
-              Replay Demo
-            </Button>
-          </div>
-          <p className="mt-4 text-sm text-gray-500">
-            No credit card required • Instant access
-          </p>
-        </div>
-      </Container>
-    </div>
+      </div>
+    </section>
   )
 }
 
@@ -177,11 +95,14 @@ export default function Demo() {
       <Container>
         <Navbar />
       </Container>
-      <DemoHero />
-      <DemoVideo />
-      <DemoFeatures />
-      <CustomPricing />
-      {/*<TrialCTA />*/}
+      <HeroSection />
+
+      <VideoSection youtubeUrl="https://youtu.be/nresBvpaVH0?si=BJMGfQVKfiPATo0Z" />
+
+      <WhatToExpectSection />
+      <FeaturesInAction />
+      <OptimizeROISectionDynamic />
+      <FinalCTA />
       <Footer />
     </main>
   )

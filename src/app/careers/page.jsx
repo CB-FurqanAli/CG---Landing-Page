@@ -4,23 +4,22 @@ import { GradientBackground } from '@/components/gradient'
 import { Navbar } from '@/components/navbar'
 
 export const metadata = {
-  title: 'CallGauge Support',
+  title: 'Careers',
   description:
-    'Unlock exceptional support for CallGauge. Dive into our FAQs or connect with our expert team—your success is our priority.',
+    'Review the Terms of Use for CallGauge, outlining the rules and conditions for using our call tracking services.',
 }
-
-function ContactPage() {
+function CareersPage() {
   return (
     <section className="flex min-h-screen items-center justify-center bg-white px-6">
       <div className="max-w-2xl text-center">
         <h1 className="mb-4 text-4xl font-bold text-gray-800">
-          📩 Contact Page In Progress
+          🚀 Careers Page In Progress
         </h1>
         <p className="mb-6 text-lg text-gray-600">
-          We’re setting up our contact channels at{' '}
+          We’re building an amazing team at{' '}
           <span className="font-semibold text-blue-600">CallGauge.ai</span>.
-          Soon you’ll be able to reach us directly for support, inquiries, and
-          partnerships.
+          Exciting career opportunities are coming soon — stay tuned for open
+          roles and ways to join us!
         </p>
         <div className="flex justify-center">
           <div className="h-12 w-12 animate-spin rounded-full border-t-4 border-solid border-blue-500"></div>
@@ -30,14 +29,14 @@ function ContactPage() {
   )
 }
 
-export default function Contact() {
+export default function Careers() {
   return (
     <main className="overflow-hidden">
       <GradientBackground />
       <Container>
         <Navbar />
       </Container>
-      <ContactPage />
+      <CareersPage />
       <Footer />
     </main>
   )

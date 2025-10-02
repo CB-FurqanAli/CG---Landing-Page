@@ -43,10 +43,10 @@ const links = [
   { href: '/', label: 'Home', id: 'Home-nav' },
   { href: '/features', label: 'Features', id: 'features-nav' },
   { href: '/pricing', label: 'Pricing', id: 'pricing-nav' },
+  { href: '/demo', label: 'Demo', id: 'demo-nav' },
   { href: 'https://app.callgauge.ai/login', label: 'Login', id: 'login-nav' },
-  // { href: '/company', label: 'industries', id: 'company-nav' },
+  // { href: '/about', label: 'industries', id: 'about-nav' },
   // { href: '#', label: 'Blogs', id: 'login-iu' },
-  // { href: '/demo', label: 'Demo', id: 'demo-nav' },
 ]
 
 function DesktopNav() {

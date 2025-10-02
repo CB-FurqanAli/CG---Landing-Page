@@ -10,7 +10,7 @@ export default function NumberPortingSection() {
     },
     {
       title: 'Zero Downtime Transfers',
-      desc: 'Maintain uninterrupted service during the porting process so your campaigns and client communications never miss a beat.',
+      desc: 'Maintain uninterrupted service during the case-studies process so your campaigns and client communications never miss a beat.',
     },
     {
       title: 'Self-Serve Port-In',

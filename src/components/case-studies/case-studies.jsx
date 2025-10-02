@@ -1,9 +1,9 @@
 'use client'
 import { Button } from '@/components/button'
-import { PortingFaq } from '@/components/porting/porting-faq'
+import { CaseStudiesFaq } from '@/components/case-studies/case-studies-faq'
 import { Sparkles } from 'lucide-react'
 
-export default function PortingPage() {
+export default function CaseStudiesFaqPage() {
   const features = [
     {
       text: ' Affordable Phone Numbers – Get local or toll-free numbers starting at just $0.50 per month.',
@@ -77,7 +77,7 @@ export default function PortingPage() {
       </div>
 
       {/* FAQ */}
-      <PortingFaq />
+      <CaseStudiesFaq />
 
       {/* CTA */}
       <div className="container mx-auto px-6 py-20 text-center lg:px-12">

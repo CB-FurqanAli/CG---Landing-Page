@@ -55,7 +55,7 @@ function Header() {
   )
 }
 
-function FinalCTA() {
+function FinalsCTA() {
   return (
     <section className="bg-gradient-to-br from-[#0F172A] via-[#1E293B] to-[#0F172A] py-20 text-white">
       <div className="mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
@@ -153,7 +153,7 @@ export default function Pricing() {
       <CustomerSwitchTestimonials />
       <FaqSection />
       <CompetitorComparison />
-      <FinalCTA />
+      <FinalsCTA />
       <Footer />
     </main>
   )
