@@ -10,7 +10,7 @@ export default function FeaturesInActionExact() {
             Features You&#39;ll See in Action
           </h2>
           <p className="mx-auto max-w-2xl text-lg text-slate-600">
-            Get a sneak peek at the powerful insights you'll unlock in your
+            Get a sneak peek at the powerful insights you&#39;ll unlock in your
             personalized demo
           </p>
         </div>
