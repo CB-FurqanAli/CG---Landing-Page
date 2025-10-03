@@ -55,7 +55,7 @@ function Sitemap() {
           <SitemapLink href="/features">Features</SitemapLink>
           <SitemapLink href="/pricing">Pricing</SitemapLink>
           <SitemapLink href="/integration">Integrations</SitemapLink>
-          <SitemapLink href="/api">API</SitemapLink>
+          <SitemapLink href="/my-api">API</SitemapLink>
 
           {/*<SitemapLink href="/features/call-flows">Call Flows</SitemapLink>*/}
           {/*<SitemapLink href="/features/tracking-numbers">*/}

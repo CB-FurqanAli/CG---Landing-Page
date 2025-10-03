@@ -96,9 +96,7 @@ export default function Demo() {
         <Navbar />
       </Container>
       <HeroSection />
-
       <VideoSection youtubeUrl="https://youtu.be/nresBvpaVH0?si=BJMGfQVKfiPATo0Z" />
-
       <WhatToExpectSection />
       <FeaturesInAction />
       <OptimizeROISectionDynamic />

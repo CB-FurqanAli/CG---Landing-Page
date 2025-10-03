@@ -57,9 +57,17 @@ export default function HeroSection({
     if (!isValid || loading) return
     setLoading(true)
     try {
-      // TODO: send to your API/CRM
-      console.log('Form submitted:', form)
-      setSubmitted(true)
+      const res = await fetch('/api/sendMail', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(form),
+      })
+
+      if (res.ok) {
+        setSubmitted(true)
+      } else {
+        alert('Failed to send email.')
+      }
     } catch (err) {
       console.error(err)
       alert('Something went wrong. Please try again.')
