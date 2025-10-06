@@ -43,7 +43,7 @@ function HeroSection() {
             </Button>
             <Button
               variant="secondary"
-              href="#"
+              href="/demo"
               className="px-8 py-3 text-lg font-semibold"
             >
               Watch a Demo
@@ -89,7 +89,7 @@ function CallToActionHome() {
           </Button>
           <Button
             variant="secondary"
-            href="#"
+            href="/demo"
             className="px-8 py-3 text-lg font-semibold"
           >
             Watch a Demo

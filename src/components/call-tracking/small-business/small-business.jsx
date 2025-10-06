@@ -42,7 +42,7 @@ export default function SmallBusinessPage() {
           </Button>
           <Button
             variant="secondary"
-            href="#"
+            href="/demo"
             className="px-8 py-3 text-lg font-semibold"
           >
             Watch a demo
@@ -339,7 +339,7 @@ export default function SmallBusinessPage() {
           </Button>
           <Button
             variant="secondary"
-            href="#"
+            href="/demo"
             className="px-8 py-3 text-lg font-semibold"
           >
             Watch a demo

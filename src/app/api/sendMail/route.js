@@ -15,7 +15,7 @@ export async function POST(req) {
 
     await transporter.sendMail({
       from: `"CallGauge Demo Form" <${process.env.MAIL_USER}>`,
-      to: 'raofurqanali1122@gmail.com', // <-- yahan aapka email
+      to: 'furqan.ali@callgauge.ai', // <-- yahan aapka email
       subject: 'New Demo Request from CallGauge Website',
       html: `
         <h2>New Demo Request</h2>
