@@ -18,7 +18,7 @@ function HeroSection() {
       <Container>
         <div className="text-center">
           <Heading as="h1" className="text-4xl md:text-5xl">
-            Call Tracking Numbers — Smart Call Analytics with CallGauge AI
+            Call Tracking Numbers—Smart Call Analytics with CallGauge AI
           </Heading>
 
           <h2 className="mt-10 text-xl font-semibold">

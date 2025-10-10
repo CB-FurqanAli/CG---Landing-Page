@@ -14,9 +14,9 @@ import { Navbar } from '@/components/navbar'
 import { ChevronRightIcon } from '@heroicons/react/16/solid'
 
 export const metadata = {
-  title: ' Call Tracking Made Simple – CallGauge AI',
+  title: 'AI Call Tracking & Attribution — CallGauge AI',
   description:
-    'Boost conversions with CallGauge AI. AI-powered call tracking, DNI, PPC, white labeling, voicemails—all from one affordable platform. Start free today!',
+    'Use AI to track, attribute, and analyze inbound calls. CallGauge AI ties phone calls to marketing campaigns and delivers real-time call analytics & ROI insights.',
 }
 
 function Hero() {

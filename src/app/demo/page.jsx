@@ -10,9 +10,10 @@ import { GradientBackground } from '@/components/gradient'
 import { Navbar } from '@/components/navbar'
 
 export const metadata = {
-  title: 'Demo',
+  title:
+    'Call Tracking Demo | AI-Powered Call Analytics & Attribution by CallGauge',
   description:
-    'Experience CallGauge’s scalable call tracking in a free, 5-minute interactive demo. See how we help businesses and agencies track thousands of calls at unbeatable prices.',
+    'See how CallGauge AI tracks every call, keyword, and campaign in real time. Watch our free interactive demo to explore smart call analytics, marketing attribution, and ROI optimization tools in action.',
 }
 
 function FinalCTA() {
