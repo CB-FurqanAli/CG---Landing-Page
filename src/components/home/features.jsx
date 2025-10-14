@@ -7,13 +7,16 @@ const features = [
     color: 'bg-blue-500',
     title: 'Call Flows & Smart Routing',
     description:
-      'Stop losing leads to missed or misdirected calls. With intelligent greetings, round-robin, multi-ring, and after-hours rules, CallGauge AI ensures every caller reaches the right person or team.',
+      'Stop losing leads to missed or\n' +
+      'misdirected calls. With intelligent greetings, round-robin distribution,\n' +
+      'multi-ring routing, and after-hours rules, CallGauge AI ensures every caller\n' +
+      'reaches the right person or team.\n',
     lastline:
-      '➡ Capture more opportunities and convert more conversations into revenue.',
+      '➡ Capture more opportunities and turn more conversations into revenue.',
     points: [
-      'Intelligent greetings & menus',
-      'Round-robin & multi-ring routing',
-      'After-hours & fallback rules',
+      'Intelligent Greetings and Menus',
+      'Round-Robin and Multi-Ring Routing',
+      'After-Hours and Fallback Rules',
     ],
   },
   {
@@ -21,13 +24,13 @@ const features = [
     color: 'bg-green-500',
     title: 'Call Recording & AI Search',
     description:
-      'Go beyond basic recordings. CallGauge AI captures every conversation in high quality with MP3 downloads, while AI‑powered transcripts and summaries turn calls into searchable insights.',
+      'Go beyond basic recordings. CallGauge AI captures every conversation in high quality with downloadable MP3 files, while AI-powered transcripts and summaries turn each call into searchable insights.',
     lastline:
-      '➡ Turn conversations into insights that improve compliance, training, and marketing impact.',
+      '➡ Turn every conversation into actionable insights that enhance compliance, training, and marketing performance.',
     points: [
-      'High‑quality MP3 recordings',
-      'AI‑powered transcripts & summaries',
-      'Searchable call history',
+      'High-Quality MP3 Recordings\n',
+      'AI-Powered Transcripts and Summaries\n',
+      'Searchable Call History\n',
     ],
   },
   {
@@ -35,13 +38,13 @@ const features = [
     color: 'bg-teal-500',
     title: 'Automations That Save Time',
     description:
-      'Scale your marketing impact without adding extra work. CallGauge AI connects to your CRM, email, Slack, and 5,000+ apps through Zapier to trigger instant follow‑ups, update records, and share call details — all with zero coding.',
+      'Scale your marketing impact without adding extra work. CallGauge AI connects with your CRM, email, Slack, and over 5,000 apps through Zapier to trigger instant follow-ups, update records, and share call details automatically — all with zero coding required.',
     lastline:
       '➡ Eliminate busywork and focus on the activities that actually grow your ROI.',
     points: [
-      'Instant follow‑ups & alerts',
-      'CRM updates & data sync',
-      'Works with 5,000+ apps via Zapier',
+      'Instant Follow-Ups and Alerts\n',
+      'CRM Updates and Data Sync\n',
+      'Works with Over 5,000 Apps via Zapier\n',
     ],
   },
   {
@@ -49,27 +52,27 @@ const features = [
     color: 'bg-purple-500',
     title: 'Spam Blocking & Press‑1 Filters',
     description:
-      'Don’t let spam eat into your ad budget. CallGauge AI blocks robo‑calls with AI filters and press‑1 screening, keeping your attribution clean and budgets optimize.',
+      'Don’t let spam calls drain your ad budget. CallGauge AI automatically blocks robo calls using AI-powered filters and Press-1 screening to keep your attribution clean and your budget optimized.',
     lastline:
-      '➡ Protect your campaigns and ensure every dollar spent delivers real performance.',
+      '➡ Protect your campaigns and ensure every dollar you spend delivers measurable performance.',
     points: [
-      'AI-powered spam detection',
-      'Press‑1 caller verification',
-      'Accurate attribution protection',
+      'AI-Powered Spam Detection\n',
+      'Press-1 Caller Verification\n',
+      'Accurate Attribution Protection\n',
     ],
   },
   {
     icon: '🔗',
     color: 'bg-orange-500',
-    title: 'White Label & Client Portal',
+    title: 'Client Portal and Branded Dashboards',
     description:
-      'Give clients full transparency under your own brand. Agencies can deliver dashboards, branded reports, and secure logins while keeping CallGauge AI invisible.',
+      'Give your clients full transparency with secure access to their performance data. The CallGauge AI Client Portal allows agencies to share real-time dashboards, detailed reports, and call insights under their own professional brand identity.',
     lastline:
-      '➡ Protect your campaigns and ensure every dollar spent delivers real performance.',
+      '➡ Build stronger client relationships through transparency, performance tracking, and effortless collaboration.',
     points: [
-      'Custom dashboards & reports',
-      'Client logins & permissions',
-      'White‑label branding',
+      'Custom Dashboards and Reports\n',
+      'Client Logins and Access Controls\n',
+      'White Label Branding (Coming Soon)\n',
     ],
   },
 ]

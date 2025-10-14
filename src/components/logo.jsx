@@ -14,5 +14,5 @@ export function Logo({ className }) {
 }
 
 export function Mark({ className }) {
-  return <Image src={logoMask} alt="CallGauge" />
+  return <Image src={logoMask} alt="CallGauge AI" />
 }

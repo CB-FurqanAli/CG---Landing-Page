@@ -9,14 +9,12 @@ import Features from '@/components/home/features'
 import FinalCTA from '@/components/home/FinalCTA'
 import ProblemSection from '@/components/home/ProblemSection'
 import SolutionSection from '@/components/home/SolutionSection'
-import { Link } from '@/components/link'
 import { Navbar } from '@/components/navbar'
-import { ChevronRightIcon } from '@heroicons/react/16/solid'
 
 export const metadata = {
-  title: 'AI Call Tracking & Attribution — CallGauge AI',
+  title: 'CallGauge AI – AI Call Tracking, Call Attribution & Analytics',
   description:
-    'Use AI to track, attribute, and analyze inbound calls. CallGauge AI ties phone calls to marketing campaigns and delivers real-time call analytics & ROI insights.',
+    'Track and attribute every phone call with AI-powered call tracking, call attribution & conversation analytics. Boost ROI. Free trial.',
 }
 
 function Hero() {
@@ -25,15 +23,15 @@ function Hero() {
       <Gradient className="absolute inset-2 bottom-0 rounded-4xl ring-1 ring-black/5 ring-inset" />
       <Container className="relative">
         <Navbar
-          banner={
-            <Link
-              href="#"
-              className="flex items-center gap-1 rounded-full bg-fuchsia-950/35 px-3 py-0.5 text-sm/6 font-medium text-white data-hover:bg-fuchsia-950/30"
-            >
-              White label CallGauge with your own URL ✨
-              <ChevronRightIcon className="size-4" />
-            </Link>
-          }
+        // banner={
+        //   <Link
+        //     href="#"
+        //     className="flex items-center gap-1 rounded-full bg-fuchsia-950/35 px-3 py-0.5 text-sm/6 font-medium text-white data-hover:bg-fuchsia-950/30"
+        //   >
+        //     White label CallGauge with your own URL ✨
+        //     <ChevronRightIcon className="size-4" />
+        //   </Link>
+        // }
         />
         <div className="py-20 text-center">
           <span className="font-medium">
@@ -46,10 +44,11 @@ function Hero() {
           {/* Subtitle / Supporting Text */}
           <div className="mx-auto mt-6 max-w-3xl text-center text-lg leading-relaxed text-gray-700 sm:text-lg">
             <p>
-              Stop wasting ad spend on campaigns that don’t convert. With
-              CallGauge AI, track and attribute every call in less than 5
-              minutes and unlock AI insights like transcriptions, sentiment and
-              lead scoring to double down on the ads that actually deliver ROI.
+              Stop wasting your efforts and hard earned money on campaigns that
+              don’t convert. With CallGauge AI, track and attribute every call
+              in less than 5 minutes and get access to AI insights like
+              transcriptions, sentiment and lead scoring so you can double down
+              your efforts on the ads that actually deliver ROI.
             </p>
           </div>
 

@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Disallow server/backend routes
+Disallow: /api/
+Disallow: /_next/
+Disallow: /server.js
+
+Sitemap: https://fluidsms.com/sitemap.xml

@@ -8,11 +8,12 @@ const features = [
     title: 'Dynamic Number Insertion (DNI)',
     description: (
       <>
-        Stop guessing which ads actually drive phone calls. DNI automatically
-        shows a unique number to each visitor based on their source, so you know
-        exactly where every lead comes from — with{' '}
-        <span className="font-semibold">98% attribution accuracy</span>.
-        Reallocate your spend instantly to the campaigns that deliver real ROI.
+        Stop guessing which of your ads actually drive phone calls. Dynamic
+        Number Insertion automatically displays a unique phone number to each
+        visitor based on their source, allowing you to track the exact origin of
+        every lead with up to 98% attribution accuracy. This helps you
+        reallocate your marketing spend instantly to the campaigns that deliver
+        real ROI.
       </>
     ),
   },
@@ -21,11 +22,11 @@ const features = [
     title: 'AI Call Summaries & Insights',
     description: (
       <>
-        AI turns raw phone calls into clear, one-line summaries with key
-        highlights, sentiment and lead scores — with{' '}
-        <span className="font-semibold">95%+ transcription accuracy</span>.
-        Identify your high-value leads in seconds and double down on the
-        campaigns that actually generate revenue.
+        AI transforms your phone calls into concise, one-line summaries
+        featuring key highlights, sentiment analysis and lead scores, all with
+        over 95% transcription accuracy. Identify your high-value leads in
+        seconds and focus your marketing on the campaigns that truly generate
+        revenue.
       </>
     ),
   },
@@ -34,10 +35,11 @@ const features = [
     title: 'Real-Time Analytics & ROI Attribution',
     description: (
       <>
-        Instant dashboards track call volume, conversions, and ROI by source
-        with <span className="font-semibold">98% attribution accuracy</span>.
-        Finally, make your spend decisions confidently based on complete data —
-        not guesswork.
+        See your marketing performance come to life with instant dashboards that
+        track call volume, conversions and ROI by source, all with up to 98%
+        attribution accuracy. Finally, you can make confident, data-backed
+        decisions knowing exactly where your marketing spend delivers real
+        results.
       </>
     ),
   },
@@ -46,10 +48,10 @@ const features = [
     title: 'Native Integrations',
     description: (
       <>
-        Plug CallGauge AI directly into your marketing stack — from Google Ads
-        to HubSpot, Salesforce and more. With Zapier and{' '}
-        <span className="font-semibold">5,000+ apps</span> ready to go, setup
-        takes less than 5 minutes, so you can start attributing ROI instantly.
+        Connect CallGauge AI directly with your existing marketing stack,
+        including Google Ads, HubSpot, Salesforce and many more. With Zapier and
+        over 5,000 ready to go apps, setup takes less than 5 minutes, allowing
+        you to start tracking and attributing ROI instantly.
       </>
     ),
   },
@@ -68,12 +70,12 @@ export default function SolutionSection() {
 
         {/* Heading */}
         <h2 className="mb-6 text-3xl font-bold text-gray-900 lg:text-4xl">
-          Complete Call Attribution — Accurate, Fast, Actionable
+          Complete Call Attribution: Accurate, Fast, and Actionable
         </h2>
         <p className="mx-auto mb-12 max-w-3xl text-xl text-gray-600">
-          Identify the campaigns, keywords and channels behind every phone lead
-          with <span className="font-semibold">98% accuracy</span>. Go live in
-          less than 5 minutes and use AI insights to double down on what drives
+          Identify the campaigns, keywords and channels that drive every phone
+          lead with up to 98% accuracy. Get started in just under 5 minutes and
+          use AI insights to double down your marketing efforts on what drives
           ROI.
         </p>
 
