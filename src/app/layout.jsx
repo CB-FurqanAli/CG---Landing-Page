@@ -2,8 +2,8 @@ import '@/styles/tailwind.css'
 
 export const metadata = {
   title: {
-    template: '%s - CallGauge',
-    default: 'CallGauge - Track Every Call',
+    template: '',
+    default: 'CallGauge AI - Track Every Call',
   },
 }
 

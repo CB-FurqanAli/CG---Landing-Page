@@ -31,7 +31,7 @@ export default function ProblemSection() {
             {
               icon: '💸',
               title: 'Wasted Ad Spend',
-              text: 'Thousands of your advertising dollars are lost on ads that fail to convert, while the campaigns that truly drive your trevenue remain unnoticed.',
+              text: 'Thousands of your advertising dollars are lost on ads that fail to convert, while the campaigns that truly drive your revenue remain unnoticed.',
               bg: 'bg-yellow-100',
             },
             {

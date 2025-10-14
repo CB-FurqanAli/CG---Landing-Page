@@ -10,7 +10,7 @@ export function Logo({ className }) {
     ease: 'easeInOut',
   }
 
-  return <Image src={logoMain} alt="" className="w-40" />
+  return <Image src={logoMain} alt="" className="w-60" />
 }
 
 export function Mark({ className }) {
