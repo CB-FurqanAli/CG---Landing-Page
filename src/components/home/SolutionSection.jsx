@@ -106,24 +106,25 @@ export default function SolutionSection() {
             The Result: Complete Marketing Clarity
           </h3>
           <p className="mx-auto mb-6 max-w-3xl text-lg text-gray-600">
-            With CallGauge AI, you’ll finally see the full picture of your
-            marketing performance:
+            With CallGauge AI, you finally see your marketing performance come
+            to life. Every call and campaign connects clearly, revealing which
+            ads truly drive your best leads.
           </p>
           <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
             {[
               {
                 stat: 'Maximize ROI',
-                desc: 'Invest only in campaigns that drive real phone leads.',
+                desc: 'Focus your time and budget on the campaigns that bring real customers instead of wasting spend on guesswork.',
                 color: 'text-green-600 mt-2.5 text-[28px]',
               },
               {
                 stat: '98%',
-                desc: 'Attribution accuracy — every call tied to the exact campaign, keyword, and channel.',
+                desc: 'Know exactly which campaign, keyword, or channel is behind every call so you can make smarter, faster decisions.',
                 color: 'text-blue-600',
               },
               {
                 stat: '5 min',
-                desc: 'Setup time — be live faster than other call tracking tools.',
+                desc: 'Go live in minutes with zero complexity and start seeing real attribution data right away.',
                 color: 'text-purple-600',
               },
             ].map((item, i) => (
