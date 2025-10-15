@@ -5,7 +5,8 @@ export const metadata = {
     default: 'CallGauge AI - Track Every Call',
     template: '',
   },
-  description: '',
+  description:
+    'AI-powered call tracking, transcription, and analytics for businesses in the USA, UK, and Canada. Optimize marketing and performance with CallGauge AI.',
   keywords: [
     'AI call tracking',
     'call analytics',
