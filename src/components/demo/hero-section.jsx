@@ -6,7 +6,7 @@ import { useMemo, useState } from 'react'
 export default function HeroSection({
   eyebrow = 'See Results in Your First Week',
   headline = 'See Exactly Which Campaigns Drive Your Best Calls',
-  subcopy = "Get a personalized demo and discover how CallGauge AI's up to 98% accurate attribution stops wasted ad spend and maximizes your marketing ROI.",
+  subcopy = 'Get a personalized demo and discover how CallGauge AI’s attribution accuracy of up to 98% eliminates wasted ad spend and maximizes your marketing ROI.',
   bullets = [
     {
       title: 'See Your Complete Attribution Picture',

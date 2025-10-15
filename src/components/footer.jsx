@@ -19,7 +19,7 @@ function CallToAction() {
         Get personalized answers in a 15-minute demo
       </p>
       <div className="mt-6">
-        <Button className="w-full sm:w-auto" href="#">
+        <Button className="w-full sm:w-auto" href="/demo">
           Schedule Demo
         </Button>
       </div>
