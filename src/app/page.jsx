@@ -14,7 +14,7 @@ import { Navbar } from '@/components/navbar'
 export const metadata = {
   title: 'CallGauge AI – AI Call Tracking, Call Attribution & Analytics',
   description:
-    'Track and attribute every phone call with AI-powered call tracking, call attribution & conversation analytics. Boost ROI. Free trial.',
+    'Use CallGauge AI to track & attribute every phone call to your marketing campaigns in under 5 mins. Get AI transcripts, lead scoring & full ROI visibility.',
 }
 
 function Hero() {
