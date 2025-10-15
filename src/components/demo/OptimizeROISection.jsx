@@ -131,7 +131,7 @@ const DEFAULT_FEATURES = [
     icon: 'bars',
   },
   {
-    title: '50+ Integrations',
+    title: '5+ Integrations',
     desc: 'Connect Google Ads, HubSpot, Salesforce & more',
     theme: 'green',
     icon: 'arrows',

@@ -132,22 +132,15 @@ export default function FeaturesInActionExact() {
         {/* Feature 2: AI Call Insights */}
         <div className="mb-20 grid items-center gap-12 lg:grid-cols-2">
           <div className="order-2 lg:order-1">
-            {/* Screenshot Placeholder 2 */}
-            {/* Replace with: <img src="/images/ai-insights-screenshot.jpg" alt="AI Call Insights and Transcription" loading="lazy" className="rounded-xl shadow-2xl border border-slate-200" width={600} height={400} /> */}
-            <div
-              className="img-placeholder flex items-center justify-center rounded-xl border border-slate-200 bg-gradient-to-br from-indigo-500 to-purple-600 p-6 text-center text-white shadow-2xl"
-              style={{ minHeight: 400 }}
-            >
-              <div>
-                <p className="mb-2 font-semibold">🤖 AI Insights Screenshot</p>
-                <p className="text-sm opacity-80">
-                  Replace with: ai-insights-screenshot.jpg
-                  <br />
-                  Recommended size: 1200x800px
-                  <br />
-                  Optimized JPG &lt;200KB
-                </p>
-              </div>
+            <div className="order-2 lg:order-1">
+              <img
+                src="/demo/Call Summaries.png"
+                alt="Customized Greetings - AI Call Insights and Transcription"
+                loading="lazy"
+                width={600}
+                height={400}
+                className="h-auto w-full rounded-xl border border-slate-200 object-cover shadow-2xl"
+              />
             </div>
           </div>
           <div className="order-1 lg:order-2">

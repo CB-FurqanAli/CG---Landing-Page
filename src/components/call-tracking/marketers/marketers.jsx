@@ -46,7 +46,7 @@ export default function MarketersPage() {
             href="/demo"
             className="px-8 py-3 text-lg font-semibold"
           >
-            Watch a demo
+            Watch A Demo
           </Button>
         </div>
         {/* Footnote */}
@@ -331,7 +331,7 @@ export default function MarketersPage() {
           <p className="text-lg font-semibold text-gray-900">
             Experience call tracking freedom with CallGauge AI
             <span className="block text-indigo-600">
-              Sign up free and instantly get $15 to explore our platform
+              Sign Up Free and instantly get $15 to explore our platform
             </span>
           </p>
         </div>
@@ -346,7 +346,7 @@ export default function MarketersPage() {
             href="/demo"
             className="px-8 py-3 text-lg font-semibold"
           >
-            Watch a demo
+            Watch A Demo
           </Button>
         </div>
         {/* Footnote */}

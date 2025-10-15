@@ -53,7 +53,7 @@ function HeroSection() {
               href="/demo"
               className="px-8 py-3 text-lg font-semibold"
             >
-              Watch a demo
+              Watch A Demo
             </Button>
           </div>
           {/* Footnote */}

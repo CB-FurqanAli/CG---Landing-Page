@@ -46,7 +46,7 @@ function HeroSection() {
               href="/demo"
               className="px-8 py-3 text-lg font-semibold"
             >
-              Watch a Demo
+              Watch A Demo
             </Button>
           </div>
           <div className="flex flex-col items-center justify-center gap-4 font-medium sm:flex-row">
@@ -92,7 +92,7 @@ function CallToActionHome() {
             href="/demo"
             className="px-8 py-3 text-lg font-semibold"
           >
-            Watch a Demo
+            Watch A Demo
           </Button>
         </div>
         <div className="flex flex-col items-center justify-center gap-4 font-medium sm:flex-row">

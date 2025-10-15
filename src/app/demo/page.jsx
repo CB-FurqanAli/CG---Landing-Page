@@ -50,7 +50,7 @@ function FinalCTA() {
           {[
             { value: 'up to 98%', label: 'Attribution Accuracy' },
             { value: '<5 min', label: 'Average Setup Time' },
-            { value: '50+', label: 'Native Integrations' },
+            { value: '5+', label: 'Native Integrations' },
             { value: '24/7', label: 'Customer Support' },
           ].map((stat, i) => (
             <div key={i} className="rounded-xl bg-white/5 p-4">
@@ -97,7 +97,7 @@ export default function Demo() {
         <Navbar />
       </Container>
       <HeroSection />
-      <VideoSection youtubeUrl="https://youtu.be/kLV6Pimqfgs?si=TU06yYNTtbvRnvBh" />
+      <VideoSection youtubeUrl="https://youtu.be/9jo51nJrO0k?si=ogojsHKJXzGu6FwT" />
       <WhatToExpectSection />
       <FeaturesInAction />
       <OptimizeROISectionDynamic />

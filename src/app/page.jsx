@@ -55,14 +55,14 @@ function Hero() {
           {/* CTA Buttons */}
           <div className="my-8 flex flex-col justify-center gap-4 sm:flex-row">
             <Button href="#" className="px-8 py-3 text-lg font-semibold">
-              Sign up free
+              Sign Up Free
             </Button>
             <Button
               variant="secondary"
               href="/demo"
               className="px-8 py-3 text-lg font-semibold"
             >
-              Watch a demo
+              Watch A Demo
             </Button>
           </div>
           <div className="flex flex-col items-center justify-center gap-4 font-medium sm:flex-row">

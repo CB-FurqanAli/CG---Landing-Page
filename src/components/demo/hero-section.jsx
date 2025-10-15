@@ -18,7 +18,7 @@ export default function HeroSection({
     },
     {
       title: 'Setup in Under 5 Minutes',
-      desc: 'Seamless integrations with Google Ads, HubSpot, Salesforce, and 5,000+ apps',
+      desc: 'Seamless integrations with Google Ads, HubSpot, Salesforce, and 5+ apps',
     },
   ],
   testimonial = {
@@ -96,7 +96,7 @@ export default function HeroSection({
           </h1>
 
           {subcopy ? (
-            <p className="mb-8 text-lg text-slate-600 lg:text-xl">{subcopy}</p>
+            <p className="mb-8 text-lg text-slate-600 lg:text-lg">{subcopy}</p>
           ) : null}
 
           {/* Value Props */}
