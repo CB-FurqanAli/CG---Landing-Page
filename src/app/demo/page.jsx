@@ -48,7 +48,7 @@ function FinalCTA() {
         {/* Stats */}
         <div className="mb-10 grid grid-cols-2 gap-6 md:grid-cols-4">
           {[
-            { value: '98%', label: 'Attribution Accuracy' },
+            { value: 'up to 98%', label: 'Attribution Accuracy' },
             { value: '<5 min', label: 'Average Setup Time' },
             { value: '50+', label: 'Native Integrations' },
             { value: '24/7', label: 'Customer Support' },

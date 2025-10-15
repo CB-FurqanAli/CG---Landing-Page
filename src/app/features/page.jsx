@@ -108,7 +108,7 @@ function CallToActionHome() {
 export default function Features() {
   return (
     <main className="overflow-hidden">
-      <div className="pointer-events-none absolute inset-0 z-0">
+      <div>
         <GradientBackground />
       </div>
       <Container>

@@ -24,9 +24,9 @@ export default function AdvancedCallTracking() {
             <p className="mb-10 text-xl leading-relaxed text-gray-600">
               Stop guessing where your calls come from or losing leads along the
               way. CallGauge AI combines static numbers, DNI pools, and smart
-              call flows to ensure every call is tracked with 98% accuracy,
-              attributed to the right source and routed to the right person in
-              real time.
+              call flows to ensure every call is tracked with up to 98%
+              accuracy, attributed to the right source and routed to the right
+              person in real time.
             </p>
 
             {/* Feature List */}
@@ -34,7 +34,7 @@ export default function AdvancedCallTracking() {
               {[
                 {
                   title: 'Dynamic Number Insertion (DNI)',
-                  desc: ' Automatically swap numbers on your site using pools to capture campaign and channel tracking tags with 98% attribution accuracy.',
+                  desc: ' Automatically swap numbers on your site using pools to capture campaign and channel tracking tags with up to 98% attribution accuracy.',
                   link: 'features/dni',
                 },
                 {

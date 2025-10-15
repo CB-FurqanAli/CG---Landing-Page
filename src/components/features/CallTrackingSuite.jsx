@@ -6,12 +6,12 @@ const features = [
     id: '1',
     title: ' Advanced Call Tracking',
     description:
-      ' Stop guessing where calls come from. CallGauge AI combines Dynamic Number Insertion (DNI) and smart routing so every call is attributed with 98% accuracy and reaches the right team.',
+      ' Stop guessing where calls come from. CallGauge AI combines Dynamic Number Insertion (DNI) and smart routing so every call is attributed with up to 98% accuracy and reaches the right team.',
     icon: '📞',
     color: 'from-blue-500 to-blue-600',
     points: [
       'Local & toll-free numbers with area code search and real-time status',
-      'Dynamic Number Insertion (DNI) with 98% attribution accuracy',
+      'Dynamic Number Insertion (DNI) with up to 98% attribution accuracy',
       'Complete call details: caller, duration, cost, status, and source',
     ],
     dotColor: 'bg-blue-500',
