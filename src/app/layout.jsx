@@ -2,8 +2,24 @@ import '@/styles/tailwind.css'
 
 export const metadata = {
   title: {
-    template: '',
     default: 'CallGauge AI - Track Every Call',
+    template: '',
+  },
+  description: '',
+  keywords: [
+    'AI call tracking',
+    'call analytics',
+    'marketing attribution',
+    'call transcription',
+    'CallGauge',
+  ],
+  openGraph: {
+    title: 'CallGauge AI - Track Every Call',
+    description:
+      'AI-powered call tracking and analytics to help you convert more calls into customers. Ideal for businesses in the USA, UK, and Canada.',
+    url: 'https://cg-landing-page-eight.vercel.app',
+    siteName: 'CallGauge AI',
+    type: 'website',
   },
 }
 
@@ -15,19 +31,7 @@ export default function RootLayout({ children }) {
           rel="stylesheet"
           href="https://api.fontshare.com/css?f%5B%5D=switzer@400,500,600,700&amp;display=swap"
         />
-        {/*<link*/}
-        {/*  rel="alternate"*/}
-        {/*  type="application/rss+xml"*/}
-        {/*  title="The Radiant Blog"*/}
-        {/*  href="/blogss/feed.xml"*/}
-        {/*/>*/}
-        <link
-          rel="icon"
-          href="/favicon.ico?<generated>"
-          type="image/<generated>"
-          sizes="<generated>"
-        />
-        <title></title>
+        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
       </head>
       <body className="text-gray-950 antialiased">{children}</body>
     </html>
