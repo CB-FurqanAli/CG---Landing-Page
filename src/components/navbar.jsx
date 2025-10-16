@@ -42,9 +42,9 @@ function NavigateWithScroll({ href, children, scrollTarget }) {
 const links = [
   { href: '/', label: 'Home', id: 'Home-nav' },
   { href: '/features', label: 'Features', id: 'features-nav' },
-  { href: '/pricing', label: 'Pricing', id: 'pricing-nav' },
+  // { href: '/pricing', label: 'Pricing', id: 'pricing-nav' },
   { href: '/demo', label: 'Demo', id: 'demo-nav' },
-  { href: 'https://app.callgauge.ai/login', label: 'Login', id: 'login-nav' },
+  { href: '/login', label: 'Login', id: 'login-nav' },
   // { href: '/about', label: 'industries', id: 'about-nav' },
   // { href: '#', label: 'Blogs', id: 'login-iu' },
 ]
