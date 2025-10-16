@@ -71,19 +71,15 @@ export default function AdvancedCallTracking() {
             </div>
           </div>
           {/*Right Mockup*/}
-          <div className="relative">
-            <div className="rotate-2 transform rounded-3xl border border-gray-200 bg-white shadow-2xl transition-transform duration-500 hover:rotate-0">
-              <div className="overflow-hidden">
-                <div>
-                  <Screenshot
-                    width={1116}
-                    height={686}
-                    // src="/screenshots/app.png" // Replace with actual CallGauge dashboard screenshot
-                    src="/screenshots/dummy2.png" // Replace with actual CallGauge dashboard screenshot
-                    className="sm:max-w-[76rem]"
-                  />
-                </div>
-              </div>
+          <div className="relative flex items-center justify-center">
+            <div className="rotate-2 transform-gpu overflow-hidden rounded-3xl border border-gray-200 bg-white shadow-2xl transition-transform duration-500 hover:rotate-0">
+              <Screenshot
+                width={1116}
+                height={686}
+                alt="Never Miss Another Conversion Opportunity"
+                src="/features/conversion-opportunity.png"
+                className="h-auto w-full rounded-3xl sm:max-w-[76rem]"
+              />
             </div>
           </div>
         </div>

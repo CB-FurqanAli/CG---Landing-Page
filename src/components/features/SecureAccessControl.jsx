@@ -76,14 +76,13 @@ export default function SecureAccessControl() {
 
           {/* Right Dashboard Mockup */}
           <div className="relative">
-            <div className="rotate-2 transform rounded-3xl border border-gray-200 bg-white shadow-2xl transition-transform duration-500 hover:rotate-0">
+            <div className="transform rounded-3xl border border-gray-200 bg-white shadow-2xl transition-transform duration-500 hover:rotate-0">
               <div className="overflow-hidden">
                 <div>
                   <Screenshot
-                    width={1116}
-                    height={686}
-                    // src="/screenshots/app.png" // Replace with actual CallGauge dashboard screenshot
-                    src="/screenshots/dummy2.png" // Replace with actual CallGauge dashboard screenshot
+                    width={1024}
+                    height={920}
+                    src="/features/secure-access-control.png"
                     className="sm:max-w-[76rem]"
                   />
                 </div>

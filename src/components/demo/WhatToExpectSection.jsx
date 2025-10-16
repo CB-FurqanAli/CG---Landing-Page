@@ -12,22 +12,22 @@ const ICONS = {
 
 export default function WhatToExpectSection({
   title = 'What to Expect in Your Demo',
-  subtitle = 'A 30-minute personalized walkthrough tailored to your marketing goals and challenges',
+  subtitle = 'A personalized walkthrough tailored to your marketing goals and challenges',
   steps = [
     {
-      title: '1. Discovery (5 min)',
+      title: '1. Discovery',
       desc: "We'll learn about your current attribution challenges, marketing channels, and ROI goals",
       theme: 'blue',
       icon: 'calendar',
     },
     {
-      title: '2. Live Walkthrough (20 min)',
+      title: '2. Live Walkthrough',
       desc: 'See CallGauge AI in action with real examples relevant to your industry and use case',
       theme: 'purple',
       icon: 'play',
     },
     {
-      title: '3. Q&A & Next Steps (5 min)',
+      title: '3. Q&A & Next Steps',
       desc: 'Get answers to your questions and discuss implementation, integrations, and pricing',
       theme: 'green',
       icon: 'trend',

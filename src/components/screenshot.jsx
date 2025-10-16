@@ -1,7 +1,7 @@
 import { clsx } from 'clsx'
 import Image from 'next/image'
 
-export function Screenshot({ width, height, src, className }) {
+export function Screenshot({ width, height, alt, src, className }) {
   return (
     <div
       style={{ '--width': width, '--height': height }}
@@ -16,7 +16,7 @@ export function Screenshot({ width, height, src, className }) {
         src={src}
         width={width}
         height={height}
-        alt=""
+        alt={alt}
         className="rounded-[var(--radius)] shadow-2xl ring-1 ring-black/10"
       />
     </div>

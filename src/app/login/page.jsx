@@ -18,7 +18,7 @@ function LoginPage() {
         </h1>
         <p className="mb-6 text-lg text-gray-600">
           We’re currently working hard to bring you an amazing experience. Our
-          website is still under development — but you can get early access!
+          application is still under development — but you can get early access!
         </p>
         <p className="mb-8 text-lg text-gray-600">
           If you&#39;d like to **book in advance**, please visit our{' '}

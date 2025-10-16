@@ -69,14 +69,14 @@ export default function TranscriptionVoicemail() {
           </div>
 
           <div className="relative">
-            <div className="rotate-2 transform rounded-3xl border border-gray-200 bg-white p-4 shadow-2xl transition-transform duration-500 hover:rotate-0">
+            <div className="rounded-3xl border border-gray-200 bg-white p-4 shadow-2xl transition-transform duration-500 hover:rotate-0">
               <div className="overflow-hidden">
                 <div>
                   <Screenshot
-                    width={1116}
-                    height={686}
-                    // src="/screenshots/app.png" // Replace with actual CallGauge dashboard screenshot
-                    src="/screenshots/dummy2.png" // Replace with actual CallGauge dashboard screenshot
+                    width={1024}
+                    height={600}
+                    alt="Never Lose Context, Even on Missed Calls"
+                    src="/features/transcription-voicemail.png"
                     className="sm:max-w-[76rem]"
                   />
                 </div>
