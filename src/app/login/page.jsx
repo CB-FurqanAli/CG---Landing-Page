@@ -21,7 +21,7 @@ function LoginPage() {
           website is still under development — but you can get early access!
         </p>
         <p className="mb-8 text-lg text-gray-600">
-          If you'd like to **book in advance**, please visit our{' '}
+          If you&#39;d like to **book in advance**, please visit our{' '}
           <a
             href="/demo"
             className="font-semibold text-red-500 hover:underline"
