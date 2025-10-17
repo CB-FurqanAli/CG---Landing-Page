@@ -43,7 +43,7 @@ export default function MarketersPage() {
           </Button>
           <Button
             variant="secondary"
-            href="/demo"
+            href="/demo#target-section"
             className="px-8 py-3 text-lg font-semibold"
           >
             Watch A Demo
@@ -343,7 +343,7 @@ export default function MarketersPage() {
           </Button>
           <Button
             variant="secondary"
-            href="/demo"
+            href="/demo#target-section"
             className="px-8 py-3 text-lg font-semibold"
           >
             Watch A Demo

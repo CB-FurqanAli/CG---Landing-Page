@@ -8,6 +8,7 @@ import WhatToExpectSection from '@/components/demo/WhatToExpectSection'
 import { Footer } from '@/components/footer'
 import { GradientBackground } from '@/components/gradient'
 import { Navbar } from '@/components/navbar'
+import ScrollToHash from '@/components/scrolltohash'
 
 export const metadata = {
   title:
@@ -96,8 +97,12 @@ export default function Demo() {
       <Container>
         <Navbar />
       </Container>
+      {/* 👇 add client behavior */}
+      <ScrollToHash />
       <HeroSection />
-      <VideoSection youtubeUrl="https://youtu.be/987ol7EyC6s?si=ecde7VpyohivJ6rA" />
+      <div id="target-section">
+        <VideoSection youtubeUrl="https://youtu.be/987ol7EyC6s?si=ecde7VpyohivJ6rA" />
+      </div>
       <WhatToExpectSection />
       <FeaturesInAction />
       <OptimizeROISectionDynamic />
