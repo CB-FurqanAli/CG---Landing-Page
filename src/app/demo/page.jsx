@@ -39,7 +39,7 @@ function FinalCTA() {
           </Button>
           <Button
             variant="secondary"
-            href="#"
+            href="/login"
             className="px-8 py-3 text-lg font-semibold text-white"
           >
             Start Free Trial

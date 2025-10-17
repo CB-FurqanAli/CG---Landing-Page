@@ -24,7 +24,7 @@ export default function CallToActionFeatures() {
 
         {/* Buttons */}
         <div className="my-12 flex flex-col justify-center gap-4 sm:flex-row">
-          <Button href="#" className="px-8 py-3 text-lg font-semibold">
+          <Button href="/login" className="px-8 py-3 text-lg font-semibold">
             Start Free Trial
           </Button>
           <Button
