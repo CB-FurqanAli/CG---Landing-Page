@@ -24,7 +24,7 @@ const features = [
     icon: '🎯',
     color: 'from-purple-500 to-purple-600',
     points: [
-      'Flow Builder including IVR, multi ring, and voicemail',
+      'Flow Builder including multi ring, and voicemail',
       'Recording and Whispering',
       'Spam Filters and Alerts',
     ],
@@ -53,7 +53,7 @@ const features = [
     color: 'from-red-500 to-red-600',
     points: [
       'Call volume and trends by day, week, or hour with top sources and numbers',
-      'Attribution and ROI insights using DNI and UTM tracking with conversion and cost analysis',
+      'Attribution and ROI insights using DNI with conversion and cost analysis',
       'Team performance, caller locations, and demographics with automated scheduling',
     ],
     dotColor: 'bg-red-500',
