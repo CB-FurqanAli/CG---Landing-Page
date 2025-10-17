@@ -19,34 +19,6 @@ export default function NumberPortingSection() {
     },
   ]
 
-  const journey = [
-    {
-      iconBg: 'bg-blue-500',
-      icon: 'P',
-      title: 'Press 1 to Connect',
-      subtitle: 'Stop robocalls before they reach your team.',
-    },
-    {
-      connector: true,
-    },
-    {
-      iconBg: 'bg-blue-600',
-      icon: 'M',
-      title: 'Missed Call Alerts',
-      subtitle: ' Get instant SMS or email notifications with caller details.',
-    },
-    {
-      connector: true,
-    },
-    {
-      iconBg: 'bg-green-500',
-      icon: '📞',
-      title: 'Caller ID Masking',
-      subtitle:
-        'Show the tracking number as the caller ID for special routing needs.',
-    },
-  ]
-
   return (
     <section id="attribution" className="bg-white py-20">
       <div className="mx-auto max-w-7xl px-6">
@@ -56,10 +28,10 @@ export default function NumberPortingSection() {
             <div className="overflow-hidden">
               <div>
                 <Screenshot
-                  width={1116}
-                  height={686}
-                  // src="/screenshots/app.png" // Replace with actual CallGauge dashboard screenshot
-                  src="/screenshots/dummy2.png" // Replace with actual CallGauge dashboard screenshot
+                  width={1024}
+                  height={820}
+                  alt="Seamless Number Porting, Zero Interruptions"
+                  src="/features/number-porting.png"
                   className="sm:max-w-[76rem]"
                 />
               </div>
@@ -113,12 +85,6 @@ export default function NumberPortingSection() {
                 </div>
               ))}
             </div>
-
-            {/*<div className="mt-10">*/}
-            {/*  <button className="rounded-xl bg-purple-600 px-8 py-4 text-lg font-bold text-white transition-all duration-300 hover:-translate-y-1 hover:bg-purple-700 hover:shadow-xl">*/}
-            {/*    Explore Attribution Models*/}
-            {/*  </button>*/}
-            {/*</div>*/}
           </div>
         </div>
       </div>

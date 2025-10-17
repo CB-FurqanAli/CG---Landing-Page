@@ -17,7 +17,8 @@ export function Screenshot({ width, height, alt, src, className }) {
         width={width}
         height={height}
         alt={alt}
-        className="rounded-[var(--radius)] shadow-2xl ring-1 ring-black/10"
+        // rounded-[var(--radius)] shadow-2xl ring-1 ring-black/10
+        className=""
       />
     </div>
   )

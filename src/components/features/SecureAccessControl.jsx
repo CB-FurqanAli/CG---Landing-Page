@@ -75,13 +75,14 @@ export default function SecureAccessControl() {
           </div>
 
           {/* Right Dashboard Mockup */}
-          <div className="relative">
+          <div className="relative mt-20">
             <div className="transform rounded-3xl border border-gray-200 bg-white shadow-2xl transition-transform duration-500 hover:rotate-0">
               <div className="overflow-hidden">
                 <div>
                   <Screenshot
                     width={1024}
                     height={920}
+                    alt="Keep Data Protected and Clients Confident"
                     src="/features/secure-access-control.png"
                     className="sm:max-w-[76rem]"
                   />
