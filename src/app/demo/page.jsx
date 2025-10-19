@@ -11,10 +11,9 @@ import { Navbar } from '@/components/navbar'
 import ScrollToHash from '@/components/scrolltohash'
 
 export const metadata = {
-  title:
-    'Call Tracking Demo | AI-Powered Call Analytics & Attribution by CallGauge',
+  title: 'Call Tracking Demo | AI Call Analytics by CallGauge AI',
   description:
-    'See how CallGauge AI tracks every call, keyword, and campaign in real time. Watch our free interactive demo to explore smart call analytics, marketing attribution, and ROI optimization tools in action.',
+    'See how AI call tracking boosts ROI. Book your free CallGauge AI demo to track every call, reveal ad performance, and stop wasted marketing spend.',
 }
 
 function FinalCTA() {

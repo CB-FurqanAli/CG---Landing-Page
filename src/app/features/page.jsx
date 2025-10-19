@@ -14,9 +14,9 @@ import { Navbar } from '@/components/navbar'
 import { Heading, Lead } from '@/components/text'
 
 export const metadata = {
-  title: 'CallGauge AI Features – Smart Call Tracking & Automation',
+  title: 'AI Call Tracking & Attribution Software | CallGauge AI',
   description:
-    'Boost conversions with CallGauge AI. AI-powered call tracking, DNI, PPC, white labeling, voicemails—all from one affordable platform. Start free today!',
+    'Boost conversions with CallGauge AI. AI-powered call tracking, DNI, PPC, white labeling, voicemails—all from one affordable platform.',
 }
 
 function HeroSection() {

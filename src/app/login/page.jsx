@@ -4,9 +4,9 @@ import { GradientBackground } from '@/components/gradient'
 import { Navbar } from '@/components/navbar'
 
 export const metadata = {
-  title: 'Pricing Plans | CallGauge AI Call Tracking & Analytics',
+  title: 'Login | CallGauge AI – Call Tracking & Analytics Dashboard',
   description:
-    'Compare CallGauge AI pricing plans for call tracking, analytics, and automation. Affordable monthly and yearly options to scale your business with smart call recording, reporting, and integrations',
+    'Access your CallGauge AI dashboard to manage call tracking, analytics, and AI-powered attribution. Secure login for users in the USA, UK, and Canada.',
 }
 
 function LoginPage() {

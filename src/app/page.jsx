@@ -12,9 +12,9 @@ import SolutionSection from '@/components/home/SolutionSection'
 import { Navbar } from '@/components/navbar'
 
 export const metadata = {
-  title: 'CallGauge AI – AI Call Tracking, Call Attribution & Analytics',
+  title: 'CallGauge AI | AI Call Tracking, Call Attribution & Analytics',
   description:
-    'Use CallGauge AI to track & attribute every phone call to your marketing campaigns in under 5 mins. Get AI transcripts, lead scoring & full ROI visibility.',
+    'Use CallGauge AI to track & attribute every phone call to your marketing campaigns in under 5 minutes. Get AI transcripts, lead scoring & full ROI visibility.',
 }
 
 function Hero() {
