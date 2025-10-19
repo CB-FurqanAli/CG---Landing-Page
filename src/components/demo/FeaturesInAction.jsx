@@ -98,16 +98,14 @@ export default function FeaturesInActionExact() {
             </ul>
           </div>
           <div>
-            <div>
-              <img
-                src="/demo/attribution-dashboard.png"
-                alt="Customized Greetings - AI Call Insights and Transcription"
-                loading="lazy"
-                width={1024}
-                height={920}
-                className="h-auto w-full rounded-xl border border-slate-200 object-cover shadow-2xl"
-              />
-            </div>
+            <img
+              src="/demo/attribution-dashboard.png"
+              alt="Customized Greetings - AI Call Insights and Transcription"
+              loading="lazy"
+              width={1024}
+              height={920}
+              className="h-auto w-full rounded-xl border border-slate-200 object-cover shadow-2xl"
+            />
           </div>
         </div>
 
@@ -294,24 +292,15 @@ export default function FeaturesInActionExact() {
             </ul>
           </div>
           <div>
-            {/* Screenshot Placeholder 3 */}
-            {/* Replace with: <img src="/images/roi-analytics-screenshot.jpg" alt="Real-Time ROI Analytics Dashboard" loading="lazy" className="rounded-xl shadow-2xl border border-slate-200" width={600} height={400} /> */}
-            <div
-              className="img-placeholder flex items-center justify-center rounded-xl border border-slate-200 bg-gradient-to-br from-indigo-500 to-purple-600 p-6 text-center text-white shadow-2xl"
-              style={{ minHeight: 400 }}
-            >
-              <div>
-                <p className="mb-2 font-semibold">
-                  💰 ROI Analytics Screenshot
-                </p>
-                <p className="text-sm opacity-80">
-                  Replace with: roi-analytics-screenshot.jpg
-                  <br />
-                  Recommended size: 1200x800px
-                  <br />
-                  Optimized JPG &lt;200KB
-                </p>
-              </div>
+            <div>
+              <img
+                src="/demo/real-time-ROI.png"
+                alt="Optimize Marketing Spend with Confidence"
+                loading="lazy"
+                width={1024}
+                height={920}
+                className="h-auto w-full rounded-xl border border-slate-200 object-cover shadow-2xl"
+              />
             </div>
           </div>
         </div>
