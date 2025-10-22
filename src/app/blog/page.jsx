@@ -39,13 +39,16 @@ const loremIpsum = `
 export const featuredPosts = [
   {
     slug: 'new-call-routing-system',
-    title: 'Introducing Our New Call Routing System',
-    excerpt: 'Enhance your call management with our latest routing system.',
-    publishedAt: '2025-03-15T10:00:00Z',
-    mainImage: '/screenshots/coming-soon.png',
+    metaTitle: 'How to Track Google Ads Calls – Full Guide | CallGauge AI',
+    metaDescription: 'Step-by-step tutorial on connecting your Google Ads...',
+    title: 'Track Google Ads Phone Leads for Local Businesses | CallGauge AI',
+    excerpt:
+      'Learn how local service businesses in the UK, USA, and Canada can track and attribute phone leads from Google Ads in under 10 minutes. Start optimizing ad spend with CallGauge AI.',
+    publishedAt: '2025-10-22T10:00:00Z',
+    mainImage: '/blog/furqan.png',
     author: {
-      name: 'Celeste Vandermark',
-      image: '/team/celeste-vandermark.jpg',
+      name: 'Furqan Ali',
+      image: '/blog/furqan.png',
     },
     category: 'call-tracking-features',
     body: [
