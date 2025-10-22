@@ -5,6 +5,7 @@ import { GradientBackground } from '@/components/gradient'
 import { Link } from '@/components/link'
 import { Navbar } from '@/components/navbar'
 import { Heading, Lead, Subheading } from '@/components/text'
+import { featuredPosts } from '@/config/featuresPostData'
 import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
 import {
   CheckIcon,
@@ -21,107 +22,21 @@ export const metadata = {
     'Stay updated with CallGauge news, product tips, and insights to grow your business with smarter call tracking.',
 }
 
+const loremIpsum = `
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+`
 const postsPerPage = 5
 
 // Call tracking-specific categories
 export const categories = [
   { slug: 'call-tracking-features', title: 'Call Tracking Features' },
   { slug: 'call-analytics-insights', title: 'Call Analytics Insights' },
-  { slug: 'callgauge-updates', title: 'CallGauge AI Updates' },
+  { slug: 'callgauge-ai-updates', title: 'CallGauge AI Updates' },
 ]
 
 // Lorem Ipsum content for reuse
-const loremIpsum = `
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
-`
 
 // Hardcoded data with updated authors and images
-export const featuredPosts = [
-  {
-    slug: 'new-call-routing-system',
-    metaTitle: 'How to Track Google Ads Calls – Full Guide | CallGauge AI',
-    metaDescription: 'Step-by-step tutorial on connecting your Google Ads...',
-    title: 'Track Google Ads Phone Leads for Local Businesses | CallGauge AI',
-    excerpt:
-      'Learn how local service businesses in the UK, USA, and Canada can track and attribute phone leads from Google Ads in under 10 minutes. Start optimizing ad spend with CallGauge AI.',
-    publishedAt: '2025-10-22T10:00:00Z',
-    mainImage: '/blog/furqan.png',
-    author: {
-      name: 'Furqan Ali',
-      image: '/blog/furqan.png',
-    },
-    category: 'call-tracking-features',
-    body: [
-      {
-        _type: 'block',
-        style: 'normal',
-        children: [{ text: loremIpsum }],
-      },
-      {
-        _type: 'block',
-        style: 'h2',
-        children: [{ text: 'Benefits of Advanced Routing' }],
-      },
-      {
-        _type: 'block',
-        style: 'normal',
-        children: [{ text: loremIpsum + loremIpsum }],
-      },
-    ],
-  },
-  {
-    slug: 'deep-dive-call-analytics',
-    title: 'A Deep Dive into Call Analytics',
-    excerpt: 'Unlock actionable insights with CallGauge analytics.',
-    publishedAt: '2025-02-20T14:00:00Z',
-    mainImage: '/screenshots/coming-soon.png',
-    author: { name: 'Nolan Sheffield', image: '/team/nolan-sheffield.jpg' },
-    category: 'call-analytics-insights',
-    body: [
-      {
-        _type: 'block',
-        style: 'normal',
-        children: [{ text: loremIpsum + loremIpsum }],
-      },
-      {
-        _type: 'block',
-        style: 'blockquote',
-        children: [{ text: 'Analytics drive smarter decisions.' }],
-      },
-      {
-        _type: 'block',
-        style: 'normal',
-        children: [{ text: loremIpsum }],
-      },
-    ],
-  },
-  {
-    slug: 'callgauge-spring-update',
-    title: 'CallGauge Spring 2025 Update',
-    excerpt: 'New features and improvements in our latest release.',
-    publishedAt: '2025-01-10T09:00:00Z',
-    mainImage: '/screenshots/coming-soon.png',
-    author: { name: 'Courtney Henry', image: '/team/courtney-henry.jpg' },
-    category: 'callgauge-updates',
-    body: [
-      {
-        _type: 'block',
-        style: 'normal',
-        children: [{ text: loremIpsum }],
-      },
-      {
-        _type: 'block',
-        style: 'h2',
-        children: [{ text: 'What’s New' }],
-      },
-      {
-        _type: 'block',
-        style: 'normal',
-        children: [{ text: loremIpsum + loremIpsum }],
-      },
-    ],
-  },
-]
 
 export const allPosts = [
   ...featuredPosts,
