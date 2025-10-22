@@ -14,9 +14,20 @@ import { allPosts, categories } from '../page'
 
 export async function generateMetadata({ params }) {
   const post = allPosts.find((p) => p.slug === params.slug)
-  return post
-    ? { title: post.metaTitle, description: post.metaDescription }
-    : {}
+
+  if (!post) return {}
+
+  if (post.metaTitle && post.metaDescription) {
+    return {
+      title: post.metaTitle,
+      description: post.metaDescription,
+    }
+  }
+
+  return {
+    title: post.title,
+    description: post.excerpt,
+  }
 }
 
 export default function BlogPost({ params }) {
