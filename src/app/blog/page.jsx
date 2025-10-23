@@ -34,246 +34,251 @@ export const categories = [
   { slug: 'callgauge-ai-updates', title: 'CallGauge AI Updates' },
 ]
 
-// Lorem Ipsum content for reuse
-
-// Hardcoded data with updated authors and images
-
 export const allPosts = [
   ...featuredPosts,
-  {
-    slug: 'dynamic-number-insertion-guide',
-    title: 'Guide to Dynamic Number Insertion',
-    excerpt: 'How to track calls with dynamic numbers.',
-    publishedAt: '2024-12-05T11:00:00Z',
-    mainImage: '/screenshots/coming-soon.png',
-    author: { name: 'Dries Vincent', image: '/team/dries-vincent.jpg' },
-    category: 'call-tracking-features',
-    body: [
-      {
-        _type: 'block',
-        style: 'normal',
-        children: [{ text: loremIpsum + loremIpsum }],
-      },
-      {
-        _type: 'list',
-        style: 'bullet',
-        items: [
-          { children: [{ text: 'Step 1: Setup' }] },
-          { children: [{ text: 'Step 2: Track' }] },
-        ],
-      },
-      {
-        _type: 'block',
-        style: 'normal',
-        children: [{ text: loremIpsum }],
-      },
-    ],
-  },
-  {
-    slug: 'analyzing-call-duration',
-    title: 'Analyzing Call Duration for Better Insights',
-    excerpt: 'Learn what call duration tells you about your customers.',
-    publishedAt: '2024-11-18T13:00:00Z',
-    mainImage: '/screenshots/coming-soon.png',
-    author: {
-      name: 'Celeste Vandermark',
-      image: '/team/celeste-vandermark.jpg',
-    },
-    category: 'call-analytics-insights',
-    body: [
-      {
-        _type: 'block',
-        style: 'normal',
-        children: [{ text: loremIpsum }],
-      },
-      {
-        _type: 'block',
-        style: 'h3',
-        children: [{ text: 'Key Metrics' }],
-      },
-      {
-        _type: 'block',
-        style: 'normal',
-        children: [{ text: loremIpsum + loremIpsum }],
-      },
-    ],
-  },
-  {
-    slug: 'callgauge-year-in-review-2024',
-    title: 'CallGauge: 2024 Year in Review',
-    excerpt: 'Reflecting on a year of call tracking innovation.',
-    publishedAt: '2024-11-01T10:00:00Z',
-    mainImage: '/screenshots/coming-soon.png',
-    author: { name: 'Nolan Sheffield', image: '/team/nolan-sheffield.jpg' },
-    category: 'callgauge-updates',
-    body: [
-      {
-        _type: 'block',
-        style: 'normal',
-        children: [{ text: loremIpsum + loremIpsum }],
-      },
-      {
-        _type: 'block',
-        style: 'h2',
-        children: [{ text: 'Milestones' }],
-      },
-      {
-        _type: 'block',
-        style: 'normal',
-        children: [{ text: loremIpsum }],
-      },
-    ],
-  },
-  {
-    slug: 'call-source-tracking',
-    title: 'Tracking Call Sources Effectively',
-    excerpt: 'Identify where your calls are coming from.',
-    publishedAt: '2024-10-15T09:00:00Z',
-    mainImage: '/screenshots/coming-soon.png',
-    author: { name: 'Courtney Henry', image: '/team/courtney-henry.jpg' },
-    category: 'call-tracking-features',
-    body: [
-      {
-        _type: 'block',
-        style: 'normal',
-        children: [{ text: loremIpsum }],
-      },
-      {
-        _type: 'block',
-        style: 'normal',
-        children: [{ text: loremIpsum + loremIpsum }],
-      },
-    ],
-  },
-  {
-    slug: 'call-conversion-metrics',
-    title: 'Understanding Call Conversion Metrics',
-    excerpt: 'Measure conversions from your calls accurately.',
-    publishedAt: '2024-10-01T12:00:00Z',
-    mainImage: '/screenshots/coming-soon.png',
-    author: { name: 'Dries Vincent', image: '/team/dries-vincent.jpg' },
-    category: 'call-analytics-insights',
-    body: [
-      {
-        _type: 'block',
-        style: 'normal',
-        children: [{ text: loremIpsum + loremIpsum }],
-      },
-      {
-        _type: 'block',
-        style: 'h3',
-        children: [{ text: 'How to Measure' }],
-      },
-      {
-        _type: 'block',
-        style: 'normal',
-        children: [{ text: loremIpsum }],
-      },
-    ],
-  },
-  {
-    slug: 'callgauge-new-hires',
-    title: 'Welcoming New Hires to CallGauge',
-    excerpt: 'Meet our latest team members enhancing call tracking.',
-    publishedAt: '2024-09-20T10:00:00Z',
-    mainImage: '/screenshots/coming-soon.png',
-    author: {
-      name: 'Celeste Vandermark',
-      image: '/team/celeste-vandermark.jpg',
-    },
-    category: 'callgauge-updates',
-    body: [
-      {
-        _type: 'block',
-        style: 'normal',
-        children: [{ text: loremIpsum }],
-      },
-      {
-        _type: 'block',
-        style: 'normal',
-        children: [{ text: loremIpsum + loremIpsum }],
-      },
-    ],
-  },
-  {
-    slug: 'call-tracking-roi-tips',
-    title: 'Tips to Boost ROI with Call Tracking',
-    excerpt: 'Maximize your return on investment with these strategies.',
-    publishedAt: '2024-09-10T11:00:00Z',
-    mainImage: '/screenshots/coming-soon.png',
-    author: { name: 'Nolan Sheffield', image: '/team/nolan-sheffield.jpg' },
-    category: 'call-analytics-insights',
-    body: [
-      {
-        _type: 'block',
-        style: 'normal',
-        children: [{ text: loremIpsum + loremIpsum }],
-      },
-      {
-        _type: 'list',
-        style: 'bullet',
-        items: [
-          { children: [{ text: 'Tip 1' }] },
-          { children: [{ text: 'Tip 2' }] },
-        ],
-      },
-      {
-        _type: 'block',
-        style: 'normal',
-        children: [{ text: loremIpsum }],
-      },
-    ],
-  },
-  {
-    slug: 'call-recording-benefits',
-    title: 'Benefits of Call Recording in CallGauge',
-    excerpt: 'How call recording improves your business.',
-    publishedAt: '2024-08-25T09:00:00Z',
-    mainImage: '/screenshots/coming-soon.png',
-    author: { name: 'Courtney Henry', image: '/team/courtney-henry.jpg' },
-    category: 'call-tracking-features',
-    body: [
-      {
-        _type: 'block',
-        style: 'normal',
-        children: [{ text: loremIpsum }],
-      },
-      {
-        _type: 'block',
-        style: 'h2',
-        children: [{ text: 'Why Record Calls' }],
-      },
-      {
-        _type: 'block',
-        style: 'normal',
-        children: [{ text: loremIpsum + loremIpsum }],
-      },
-    ],
-  },
-  {
-    slug: 'callgauge-summer-update',
-    title: 'CallGauge Summer 2024 Update',
-    excerpt: 'Latest enhancements to our call tracking platform.',
-    publishedAt: '2024-08-10T10:00:00Z',
-    mainImage: '/screenshots/coming-soon.png',
-    author: {
-      name: 'Celeste Vandermark',
-      image: '/team/celeste-vandermark.jpg',
-    },
-    category: 'callgauge-updates',
-    body: [
-      {
-        _type: 'block',
-        style: 'normal',
-        children: [{ text: loremIpsum + loremIpsum }],
-      },
-      {
-        _type: 'block',
-        style: 'normal',
-        children: [{ text: loremIpsum }],
-      },
-    ],
-  },
+
+  // {
+  //   slug: 'dynamic-number-insertion-guide',
+  //   title: 'Guide to Dynamic Number Insertion',
+  //   excerpt: 'How to track calls with dynamic numbers.',
+  //   publishedAt: '2024-12-05T11:00:00Z',
+  //   mainImage: '/screenshots/coming-soon.png',
+  //   author: { name: 'Dries Vincent', image: '/team/dries-vincent.jpg' },
+  //   category: 'call-tracking-features',
+  //   body: [
+  //     {
+  //       _type: 'block',
+  //       style: 'normal',
+  //       children: [{ text: loremIpsum + loremIpsum }],
+  //     },
+  //     {
+  //       _type: 'list',
+  //       style: 'bullet',
+  //       items: [
+  //         { children: [{ text: 'Step 1: Setup' }] },
+  //         { children: [{ text: 'Step 2: Track' }] },
+  //       ],
+  //     },
+  //     {
+  //       _type: 'block',
+  //       style: 'normal',
+  //       children: [{ text: loremIpsum }],
+  //     },
+  //   ],
+  // },
+  //
+  // {
+  //   slug: 'analyzing-call-duration',
+  //   title: 'Analyzing Call Duration for Better Insights',
+  //   excerpt: 'Learn what call duration tells you about your customers.',
+  //   publishedAt: '2024-11-18T13:00:00Z',
+  //   mainImage: '/screenshots/coming-soon.png',
+  //   author: {
+  //     name: 'Celeste Vandermark',
+  //     image: '/team/celeste-vandermark.jpg',
+  //   },
+  //   category: 'call-analytics-insights',
+  //   body: [
+  //     {
+  //       _type: 'block',
+  //       style: 'normal',
+  //       children: [{ text: loremIpsum }],
+  //     },
+  //     {
+  //       _type: 'block',
+  //       style: 'h3',
+  //       children: [{ text: 'Key Metrics' }],
+  //     },
+  //     {
+  //       _type: 'block',
+  //       style: 'normal',
+  //       children: [{ text: loremIpsum + loremIpsum }],
+  //     },
+  //   ],
+  // },
+  //
+  // {
+  //   slug: 'callgauge-year-in-review-2024',
+  //   title: 'CallGauge: 2024 Year in Review',
+  //   excerpt: 'Reflecting on a year of call tracking innovation.',
+  //   publishedAt: '2024-11-01T10:00:00Z',
+  //   mainImage: '/screenshots/coming-soon.png',
+  //   author: { name: 'Nolan Sheffield', image: '/team/nolan-sheffield.jpg' },
+  //   category: 'callgauge-updates',
+  //   body: [
+  //     {
+  //       _type: 'block',
+  //       style: 'normal',
+  //       children: [{ text: loremIpsum + loremIpsum }],
+  //     },
+  //     {
+  //       _type: 'block',
+  //       style: 'h2',
+  //       children: [{ text: 'Milestones' }],
+  //     },
+  //     {
+  //       _type: 'block',
+  //       style: 'normal',
+  //       children: [{ text: loremIpsum }],
+  //     },
+  //   ],
+  // },
+  //
+  // {
+  //   slug: 'call-source-tracking',
+  //   title: 'Tracking Call Sources Effectively',
+  //   excerpt: 'Identify where your calls are coming from.',
+  //   publishedAt: '2024-10-15T09:00:00Z',
+  //   mainImage: '/screenshots/coming-soon.png',
+  //   author: { name: 'Courtney Henry', image: '/team/courtney-henry.jpg' },
+  //   category: 'call-tracking-features',
+  //   body: [
+  //     {
+  //       _type: 'block',
+  //       style: 'normal',
+  //       children: [{ text: loremIpsum }],
+  //     },
+  //     {
+  //       _type: 'block',
+  //       style: 'normal',
+  //       children: [{ text: loremIpsum + loremIpsum }],
+  //     },
+  //   ],
+  // },
+  //
+  // {
+  //   slug: 'call-conversion-metrics',
+  //   title: 'Understanding Call Conversion Metrics',
+  //   excerpt: 'Measure conversions from your calls accurately.',
+  //   publishedAt: '2024-10-01T12:00:00Z',
+  //   mainImage: '/screenshots/coming-soon.png',
+  //   author: { name: 'Dries Vincent', image: '/team/dries-vincent.jpg' },
+  //   category: 'call-analytics-insights',
+  //   body: [
+  //     {
+  //       _type: 'block',
+  //       style: 'normal',
+  //       children: [{ text: loremIpsum + loremIpsum }],
+  //     },
+  //     {
+  //       _type: 'block',
+  //       style: 'h3',
+  //       children: [{ text: 'How to Measure' }],
+  //     },
+  //     {
+  //       _type: 'block',
+  //       style: 'normal',
+  //       children: [{ text: loremIpsum }],
+  //     },
+  //   ],
+  // },
+  //
+  // {
+  //   slug: 'callgauge-new-hires',
+  //   title: 'Welcoming New Hires to CallGauge',
+  //   excerpt: 'Meet our latest team members enhancing call tracking.',
+  //   publishedAt: '2024-09-20T10:00:00Z',
+  //   mainImage: '/screenshots/coming-soon.png',
+  //   author: {
+  //     name: 'Celeste Vandermark',
+  //     image: '/team/celeste-vandermark.jpg',
+  //   },
+  //   category: 'callgauge-updates',
+  //   body: [
+  //     {
+  //       _type: 'block',
+  //       style: 'normal',
+  //       children: [{ text: loremIpsum }],
+  //     },
+  //     {
+  //       _type: 'block',
+  //       style: 'normal',
+  //       children: [{ text: loremIpsum + loremIpsum }],
+  //     },
+  //   ],
+  // },
+  //
+  // {
+  //   slug: 'call-tracking-roi-tips',
+  //   title: 'Tips to Boost ROI with Call Tracking',
+  //   excerpt: 'Maximize your return on investment with these strategies.',
+  //   publishedAt: '2024-09-10T11:00:00Z',
+  //   mainImage: '/screenshots/coming-soon.png',
+  //   author: { name: 'Nolan Sheffield', image: '/team/nolan-sheffield.jpg' },
+  //   category: 'call-analytics-insights',
+  //   body: [
+  //     {
+  //       _type: 'block',
+  //       style: 'normal',
+  //       children: [{ text: loremIpsum + loremIpsum }],
+  //     },
+  //     {
+  //       _type: 'list',
+  //       style: 'bullet',
+  //       items: [
+  //         { children: [{ text: 'Tip 1' }] },
+  //         { children: [{ text: 'Tip 2' }] },
+  //       ],
+  //     },
+  //     {
+  //       _type: 'block',
+  //       style: 'normal',
+  //       children: [{ text: loremIpsum }],
+  //     },
+  //   ],
+  // },
+  //
+  // {
+  //   slug: 'call-recording-benefits',
+  //   title: 'Benefits of Call Recording in CallGauge',
+  //   excerpt: 'How call recording improves your business.',
+  //   publishedAt: '2024-08-25T09:00:00Z',
+  //   mainImage: '/screenshots/coming-soon.png',
+  //   author: { name: 'Courtney Henry', image: '/team/courtney-henry.jpg' },
+  //   category: 'call-tracking-features',
+  //   body: [
+  //     {
+  //       _type: 'block',
+  //       style: 'normal',
+  //       children: [{ text: loremIpsum }],
+  //     },
+  //     {
+  //       _type: 'block',
+  //       style: 'h2',
+  //       children: [{ text: 'Why Record Calls' }],
+  //     },
+  //     {
+  //       _type: 'block',
+  //       style: 'normal',
+  //       children: [{ text: loremIpsum + loremIpsum }],
+  //     },
+  //   ],
+  // },
+  //
+  // {
+  //   slug: 'callgauge-summer-update',
+  //   title: 'CallGauge Summer 2024 Update',
+  //   excerpt: 'Latest enhancements to our call tracking platform.',
+  //   publishedAt: '2024-08-10T10:00:00Z',
+  //   mainImage: '/screenshots/coming-soon.png',
+  //   author: {
+  //     name: 'Celeste Vandermark',
+  //     image: '/team/celeste-vandermark.jpg',
+  //   },
+  //   category: 'callgauge-updates',
+  //   body: [
+  //     {
+  //       _type: 'block',
+  //       style: 'normal',
+  //       children: [{ text: loremIpsum + loremIpsum }],
+  //     },
+  //     {
+  //       _type: 'block',
+  //       style: 'normal',
+  //       children: [{ text: loremIpsum }],
+  //     },
+  //   ],
+  // },
 ]
 
 function FeaturedPosts() {
@@ -419,8 +424,6 @@ function Posts({ page, category }) {
                 {post.author.image && (
                   <img
                     alt={post.author.name}
-                    width={20}
-                    height={20}
                     src={post.author.image}
                     className="aspect-square size-6 rounded-full object-cover"
                   />

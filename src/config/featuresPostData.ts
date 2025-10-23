@@ -17,6 +17,7 @@ export const featuredPosts = [
     author: {
       name: 'Furqan Ali',
       image: '/blog/furqan.png',
+      facebook: '#',
     },
     category: 'call-tracking-features',
     body: [
@@ -339,56 +340,62 @@ export const featuredPosts = [
       },
     ],
   },
-  {
-    slug: 'deep-dive-call-analytics',
-    title: 'A Deep Dive into Call Analytics',
-    excerpt: 'Unlock actionable insights with CallGauge analytics.',
-    publishedAt: '2025-02-20T14:00:00Z',
-    mainImage: '/screenshots/coming-soon.png',
-    author: { name: 'Nolan Sheffield', image: '/team/nolan-sheffield.jpg' },
-    category: 'call-analytics-insights',
-    body: [
-      {
-        _type: 'block',
-        style: 'normal',
-        children: [{ text: loremIpsum + loremIpsum }],
-      },
-      {
-        _type: 'block',
-        style: 'blockquote',
-        children: [{ text: 'Analytics drive smarter decisions.' }],
-      },
-      {
-        _type: 'block',
-        style: 'normal',
-        children: [{ text: loremIpsum }],
-      },
-    ],
-  },
-  {
-    slug: 'callgauge-spring-update',
-    title: 'CallGauge Spring 2025 Update',
-    excerpt: 'New features and improvements in our latest release.',
-    publishedAt: '2025-01-10T09:00:00Z',
-    mainImage: '/screenshots/coming-soon.png',
-    author: { name: 'Courtney Henry', image: '/team/courtney-henry.jpg' },
-    category: 'callgauge-updates',
-    body: [
-      {
-        _type: 'block',
-        style: 'normal',
-        children: [{ text: loremIpsum }],
-      },
-      {
-        _type: 'block',
-        style: 'h2',
-        children: [{ text: 'What’s New' }],
-      },
-      {
-        _type: 'block',
-        style: 'normal',
-        children: [{ text: loremIpsum + loremIpsum }],
-      },
-    ],
-  },
+
+  // {
+  //   slug: 'deep-dive-call-analytics',
+  //   title: 'A Deep Dive into Call Analytics',
+  //   excerpt: 'Unlock actionable insights with CallGauge analytics.',
+  //   publishedAt: '2025-02-20T14:00:00Z',
+  //   mainImage: '/screenshots/coming-soon.png',
+  //   author: {
+  //     name: 'Nolan Sheffield',
+  //     image: '/team/nolan-sheffield.jpg',
+  //     facebook: 'https://www.facebook.com/furqan.ali',
+  //   },
+  //   category: 'call-analytics-insights',
+  //   body: [
+  //     {
+  //       _type: 'block',
+  //       style: 'normal',
+  //       children: [{ text: loremIpsum + loremIpsum }],
+  //     },
+  //     {
+  //       _type: 'block',
+  //       style: 'blockquote',
+  //       children: [{ text: 'Analytics drive smarter decisions.' }],
+  //     },
+  //     {
+  //       _type: 'block',
+  //       style: 'normal',
+  //       children: [{ text: loremIpsum }],
+  //     },
+  //   ],
+  // },
+
+  // {
+  //   slug: 'callgauge-spring-update',
+  //   title: 'CallGauge Spring 2025 Update',
+  //   excerpt: 'New features and improvements in our latest release.',
+  //   publishedAt: '2025-01-10T09:00:00Z',
+  //   mainImage: '/screenshots/coming-soon.png',
+  //   author: { name: 'Courtney Henry', image: '/team/courtney-henry.jpg' },
+  //   category: 'callgauge-updates',
+  //   body: [
+  //     {
+  //       _type: 'block',
+  //       style: 'normal',
+  //       children: [{ text: loremIpsum }],
+  //     },
+  //     {
+  //       _type: 'block',
+  //       style: 'h2',
+  //       children: [{ text: 'What’s New' }],
+  //     },
+  //     {
+  //       _type: 'block',
+  //       style: 'normal',
+  //       children: [{ text: loremIpsum + loremIpsum }],
+  //     },
+  //   ],
+  // },
 ]
