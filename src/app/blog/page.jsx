@@ -4,7 +4,7 @@ import { Footer } from '@/components/footer'
 import { GradientBackground } from '@/components/gradient'
 import { Link } from '@/components/link'
 import { Navbar } from '@/components/navbar'
-import { Heading, Lead, Subheading } from '@/components/text'
+import { Heading, Subheading } from '@/components/text'
 import { featuredPosts } from '@/config/featuresPostData'
 import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
 import {
@@ -293,8 +293,8 @@ function FeaturedPosts() {
                 <Image
                   alt={post.title}
                   src={post.mainImage}
-                  width={750}
-                  height={750}
+                  width={1024}
+                  height={1024}
                   className="aspect-3/2 w-full rounded-2xl object-cover"
                 />
               )}
@@ -419,6 +419,8 @@ function Posts({ page, category }) {
                 {post.author.image && (
                   <img
                     alt={post.author.name}
+                    width={20}
+                    height={20}
                     src={post.author.image}
                     className="aspect-square size-6 rounded-full object-cover"
                   />
@@ -522,13 +524,14 @@ export default function Blog({ searchParams }) {
       <Container>
         <Navbar />
         <Subheading className="mt-16">Blog</Subheading>
-        <Heading as="h1" className="mt-2">
-          What’s New at CallGauge
+        <Heading as="h1" className="mt-2 max-w-4xl">
+          CallGauge Blog: Insights, Tips, and Updates
         </Heading>
-        <Lead className="mt-6 max-w-3xl">
-          Stay updated with CallGauge news, product tips, and insights to grow
-          your business with smarter call tracking.
-        </Lead>
+        <p className="mt-6 max-w-3xl text-xl font-medium text-gray-600">
+          Get practical marketing advice, success stories, and product
+          announcements from CallGauge AI — designed to help marketers and
+          agencies track calls, improve conversions, and scale smarter.
+        </p>
       </Container>
       {page === 1 && !category && <FeaturedPosts />}
       <Container className="mt-16 pb-24">

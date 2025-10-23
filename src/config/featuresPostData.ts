@@ -6,14 +6,14 @@ export const featuredPosts = [
   {
     slug: 'new-call-routing-system',
     metaTitle:
-      'Track Google Ads Phone Leads in 10 Minutes | Call Tracking for Local Businesses',
+      'Track Google Ads Phone Leads in 3 Minutes | Call Tracking for Local Businesses',
     metaDescription:
       'Learn how small and local businesses in the UK, USA, and Canada can easily track phone call leads from Google Ads in minutes — no technical setup or coding required.',
     title: 'Stop Guessing Where Your Calls Come From',
     excerpt:
       'Uncover the simplest way to track phone leads from Google Ads. Connect every call to the campaign that made your phone ring — and stop wasting ad spend instantly.',
     publishedAt: '2025-10-22T10:00:00Z',
-    mainImage: '/blog/furqan.png',
+    mainImage: '/blog/stop-guessing.png',
     author: {
       name: 'Furqan Ali',
       image: '/blog/furqan.png',
@@ -26,13 +26,13 @@ export const featuredPosts = [
         children: [
           {
             text:
-              'If you run a small business that relies on phone calls — maybe a plumber in Manchester, a dental clinic in Toronto, or a roofing company in Texas — chances are you’re investing money in Google Ads.\n' +
+              'If you run a small business that relies on phone calls — maybe a plumber in Canada, a dental clinic in  Washington, or a roofing company in Texas — chances are you’re investing money in Google Ads.\n' +
               'You see clicks, impressions, and costs inside your Google Ads dashboard… but when the phone rings, you’re left guessing which campaign actually brought that customer in.\n' +
               '\n' +
               'That’s the problem: you can’t improve what you can’t measure.\n' +
               'Without proper tracking, most local businesses end up spending thousands every year on ads that don’t generate real calls.\n' +
               '\n' +
-              'The good news? Setting up call tracking is no longer complicated. You can now connect your Google Ads to real phone leads in less than 10 minutes — and see exactly which campaigns drive your best results.',
+              'The good news? Setting up call tracking is no longer complicated. You can now connect your Google Ads to real phone leads in less than 5 minutes — and see exactly which campaigns drive your best results.',
           },
         ],
       },
@@ -86,7 +86,7 @@ export const featuredPosts = [
         style: 'h2',
         children: [
           {
-            text: 'Step 1: Pick a Dedicated Tracking Number',
+            text: 'Step 1: Pick a Unique Tracking Number',
           },
         ],
       },
@@ -149,7 +149,7 @@ export const featuredPosts = [
         style: 'normal',
         children: [
           {
-            text: 'That means every call is traced back to its source, giving you precise attribution data without any manual effort.',
+            text: 'That means every call is traced back to its source, giving you detailed attribution data without any manual effort.',
           },
         ],
       },
@@ -288,7 +288,7 @@ export const featuredPosts = [
         style: 'normal',
         children: [
           {
-            text: 'In less than two weeks, most local businesses see a noticeable drop in wasted spend and a measurable lift in lead quality.',
+            text: 'In less than two weeks, most local businesses see a noticeable drop in wasted spend and a measurable increase in lead quality.',
           },
         ],
       },
@@ -307,10 +307,10 @@ export const featuredPosts = [
         children: [
           {
             text:
-              'A home-repair company in Birmingham ran three Google Ads campaigns: “plumbing emergencies,” “boiler repair,” and “bathroom installation.”\n' +
+              'for example: A home-repair company in Birmingham ran three Google Ads campaigns: “plumbing emergencies,” “boiler repair,” and “bathroom installation.”\n' +
               'By assigning a unique tracking number to each campaign, they discovered that 70% of profitable calls came from “boiler repair.”\n' +
               '\n' +
-              'They paused underperformed ads, doubled down on the top campaign, and saw a 35% improvement in conversion rates — without spending a penny more.',
+              'They paused underperformed ads, doubled down on the top campaign, and saw a 35% improvement in conversion rates —without spending any extra money.',
           },
         ],
       },
@@ -319,7 +319,7 @@ export const featuredPosts = [
         style: 'h2',
         children: [
           {
-            text: 'Final Thoughts',
+            text: 'Key Takeaways',
           },
         ],
       },
@@ -330,7 +330,7 @@ export const featuredPosts = [
           {
             text:
               'Call tracking is no longer just for big agencies or enterprise marketers.\n' +
-              'With the right tools, any small or local business can set it up in under 10 minutes and finally see which Google Ads campaigns drive real phone leads.\n' +
+              'With the right tools, any small or local business can set it up in under 5 minutes and finally see which Google Ads campaigns drive real phone leads.\n' +
               '\n' +
               'No guesswork, no spreadsheets — just clear, actionable data.\n' +
               'If you want to stop wasting budget and start focusing on what really works, it’s time to track your calls the smart way.',
