@@ -76,6 +76,8 @@ export default function BlogPost({ params }) {
                 {post.author.image && (
                   <img
                     alt={post.author.name}
+                    height="150"
+                    width="150"
                     src={post.author.image}
                     className="aspect-square size-6 rounded-full object-cover"
                   />
@@ -143,7 +145,7 @@ export default function BlogPost({ params }) {
                             return (
                               <h2
                                 key={index}
-                                className="mt-12 mb-10 text-2xl/8 font-medium tracking-tight text-gray-950"
+                                className="mt-12 mb-10 text-2xl/8 font-semibold tracking-tight text-gray-950"
                               >
                                 {block.children
                                   .map((child) => child.text)
@@ -154,7 +156,7 @@ export default function BlogPost({ params }) {
                             return (
                               <h3
                                 key={index}
-                                className="mt-12 mb-10 text-xl/8 font-medium tracking-tight text-gray-950"
+                                className="mt-6 mb-6 text-lg/8 font-medium tracking-tight text-gray-950"
                               >
                                 {block.children
                                   .map((child) => child.text)
