@@ -130,7 +130,7 @@ function SocialLinks() {
   return (
     <>
       <Link
-        href="https://facebook.com"
+        href="https://www.facebook.com/profile.php?id=61581012557790"
         target="_blank"
         aria-label="Visit us on Facebook"
         className="text-gray-950 data-hover:text-gray-950/75"
@@ -138,7 +138,7 @@ function SocialLinks() {
         <SocialIconFacebook className="size-4" />
       </Link>
       <Link
-        href="https://x.com"
+        href=""
         target="_blank"
         aria-label="Visit us on X"
         className="text-gray-950 data-hover:text-gray-950/75"
@@ -146,7 +146,7 @@ function SocialLinks() {
         <SocialIconX className="size-4" />
       </Link>
       <Link
-        href="https://linkedin.com"
+        href=""
         target="_blank"
         aria-label="Visit us on LinkedIn"
         className="text-gray-950 data-hover:text-gray-950/75"

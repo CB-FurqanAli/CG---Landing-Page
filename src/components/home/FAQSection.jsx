@@ -14,9 +14,9 @@ export function FAQSection() {
         'CallGauge can send an automatic SMS when you miss a call, alerting you or your client right away. You can also reply with a custom message, like offering a callback. This keeps you connected and responsive.',
     },
     {
-      question: 'How can I track phone calls online?',
+      question: 'How can I track my phone calls?',
       answer:
-        'Sign up for CallGauge in 30 seconds—no credit card needed. Get a local or toll-free number, forward calls to your phone, and use the online dashboard to record calls and see which campaigns are working.',
+        'Sign up for CallGauge in less then 30 seconds—no credit card needed. Get a local or toll-free number, forward calls to your phone, and use the online dashboard to record calls and see which campaigns are working.',
     },
     {
       question: 'How does call tracking help with marketing?',
@@ -36,7 +36,7 @@ export function FAQSection() {
     {
       question: 'How do I track calls on Google Ads?',
       answer:
-        'Use CallGauge to create landing pages with unique numbers for each Google Ad. Forward calls to your team and check the analytics to see which ads get the most calls, then tweak your strategy for better results.',
+        'Use CallGauge to assign unique tracking numbers to each of your Google Ads or landing pages. Every time someone calls through one of those numbers, CallGauge automatically attributes the call to the exact ad, keyword, or campaign that generated it. You can then review detailed analytics to see which ads drive the most valuable leads — and optimize your strategy for higher ROI.',
     },
   ]
 

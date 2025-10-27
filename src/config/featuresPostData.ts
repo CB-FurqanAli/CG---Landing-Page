@@ -16,7 +16,7 @@ export const featuredPosts = [
     author: {
       name: 'Furqan Ali',
       image: '/blog/furqan.png',
-      facebook: '#',
+      facebook: '',
     },
     category: 'call-tracking-features',
     body: [
