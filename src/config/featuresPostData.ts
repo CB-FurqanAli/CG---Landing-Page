@@ -4,8 +4,8 @@ const loremIpsum = `
 
 export const featuredPosts = [
   {
-    slug: 'track-google-ads-phone-leads-call-tracking-local-businesses',
-    metaTitle: 'track-google-ads-phone-leads-call-tracking-local-businesses',
+    slug: 'tracking-local-businesses',
+    metaTitle: 'track google ads phone leads call tracking local businesses',
     metaDescription:
       'Learn how small and local businesses in the UK, USA, and Canada can easily track phone call leads from Google Ads in minutes — no technical setup or coding required.',
     title: 'Stop Guessing Where Your Calls Come From',
