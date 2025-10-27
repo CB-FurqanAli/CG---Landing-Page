@@ -341,7 +341,7 @@ export const featuredPosts = [
   },
 
   {
-    slug: 'what-is-call-tracking-and-why-modern-marketers-use-it',
+    slug: 'what-is-call-tracking',
     metaTitle:
       'What Is Call Tracking & Why Modern Marketers Use It to Improve ROI',
     metaDescription:
@@ -351,10 +351,10 @@ export const featuredPosts = [
     excerpt:
       'Discover how call tracking software helps marketers, agencies, and small businesses measure campaign performance, track inbound calls, and improve ad ROI with actionable analytics.',
     publishedAt: '2025-10-24T10:00:00Z',
-    mainImage: '/blog/stop-guessing.png',
+    mainImage: '/blog/what-Is-call-tracking.png',
     author: {
       name: 'Kanwar Wajihuddin',
-      image: '#',
+      image: '',
     },
     category: 'call-tracking-features',
     body: [
