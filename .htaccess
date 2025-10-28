@@ -1,0 +1,5 @@
+PassengerAppRoot /home/calleeol/fluidsms.com
+PassengerBaseURI /
+PassengerNodejs /home/calleeol/nodevenv/fluidsms.com/18/bin/node
+PassengerAppType node
+PassengerStartupFile server.js

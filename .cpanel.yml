@@ -1,6 +1,8 @@
+
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/calleeol/fluidsms.com
-    - /bin/npm ci --prefix $DEPLOYPATH
-    - /bin/npm run build --prefix $DEPLOYPATH
-    - /bin/touch $DEPLOYPATH/tmp/restart.txt
+    - export APP_PATH=/home/calleeol/fluidsms.com
+    - cd $APP_PATH
+    - npm install --production=false
+    - npm run build
+    - touch tmp/restart.txt

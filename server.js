@@ -1,18 +1,13 @@
-// Lightweight Next.js server without Express
 const { createServer } = require('http')
 const next = require('next')
 
-const dev = false // production
-const app = next({ dev })
+const app = next({ dev: false })
 const handle = app.getRequestHandler()
-
-const PORT = process.env.PORT || 3000
 
 app.prepare().then(() => {
   createServer((req, res) => {
     handle(req, res)
-  }).listen(PORT, (err) => {
-    if (err) throw err
-    console.log(`> Ready on port ${PORT}`)
+  }).listen(3000, () => {
+    console.log('✅ Next.js app running on port 3000')
   })
 })
