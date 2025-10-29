@@ -118,11 +118,11 @@ function FeaturesSection() {
   return (
     <section
       id="features"
-      className="mt-20 bg-indigo-50 bg-[radial-gradient(circle_at_20%_20%,rgba(15,98,254,0.10),transparent_20%),radial-gradient(circle_at_80%_80%,rgba(99,102,241,0.06),transparent_30%)] py-24"
+      className="mt-20 bg-indigo-50 bg-[radial-gradient(circle_at_20%_20%,rgba(15,98,254,0.10),transparent_20%),radial-gradient(circle_at_80%_80%,rgba(99,102,241,0.06),transparent_30%)] py-20"
     >
       <div className="mx-auto max-w-7xl px-6">
         <h2 className="text-4xl font-semibold">What Makes Us Different</h2>
-        <p className="mt-2 max-w-2xl text-gray-600">
+        <p className="mt-4 max-w-2xl text-gray-600">
           CallGauge AI, is built for modern marketers who expect clarity, speed
           and effortless integration because true confidence begins with
           transparent data.
@@ -231,10 +231,10 @@ function Team() {
   return (
     <Container className="mt-20">
       <Subheading>Meet the team</Subheading>
-      <Heading as="h3" className="mt-2">
+      <h3 className="mt-2 text-3xl font-medium text-pretty text-gray-950 data-dark:text-white sm:text-4xl">
         Built by call tracking innovators.
-      </Heading>
-      <Lead className="mt-6 max-w-3xl">
+      </h3>
+      <Lead className="mt-6 max-w-3xl text-lg">
         CallGauge was founded by a team passionate about making call tracking
         accessible, with backing from investors who believe in affordable
         innovation.
