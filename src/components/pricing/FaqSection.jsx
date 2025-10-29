@@ -4,7 +4,7 @@ export default function FaqSection() {
   const faqs = [
     {
       q: 'How does the free trial work?',
-      a: 'Start with a 30-day free trial on any plan. No credit card required. You get full access to all features during your trial period.',
+      a: 'Start with a 14-day free trial on any plan. No credit card required. You get full access to all features during your trial period.',
     },
     {
       q: 'What happens if I exceed my included usage?',

@@ -21,28 +21,30 @@ export const metadata = {
 function Header() {
   return (
     <Container className="mt-16">
-      <Heading as="h1">
-        Empowering businesses with smarter call tracking.
-      </Heading>
-      <Lead className="mt-6 max-w-3xl">
-        We’re on a mission to empower businesses with affordable, scalable call
-        tracking solutions that maximize ROI.
+      <Heading as="h1">Building the Future of Marketing Clarity</Heading>
+      <Lead className="mt-6 max-w-3xl text-lg">
+        Every problem that refuses to be ignored, give rise to a great idea. For
+        us, it was watching marketers spend thousands of dollars on campaigns
+        without knowing which ones truly worked. Calls were being made, leads
+        were coming in, but the data told only half of the story. <br />
+        <br /> We built CallGauge AI to change that scenario for good. CallGauge
+        AI, a platform that helps marketers and agencies see the complete and
+        true picture, tracking every call back to its exact campaign, keyword
+        and channel with precision and speed. <br /> <br /> Our purpose is
+        simple: to replace guesswork with clarity and give every marketer the
+        confidence to make decisions backed by transparent and truthful data.
       </Lead>
       <section className="mt-16 grid grid-cols-1 lg:grid-cols-2 lg:gap-12">
         <div className="max-w-lg">
-          <h2 className="text-2xl font-medium tracking-tight">Our mission</h2>
-          <p className="mt-6 text-sm/6 text-gray-600">
-            At CallGauge, we’re dedicated to revolutionizing how businesses
-            track and optimize their inbound calls. Our mission is to provide
-            cost-effective tools that deliver actionable insights, helping
-            companies of all sizes grow without the burden of high costs or
-            complex systems.
+          <h2 className="text-2xl font-medium tracking-tight">Our Mission</h2>
+          <p className="mt-6 text-lg text-gray-600">
+            We are here to make marketing attribution transparent, accurate and
+            accessible to every business that grows through real conversations.
           </p>
-          <p className="mt-8 text-sm/6 text-gray-600">
-            We’re obsessed with simplicity and value—offering local numbers at
-            just $0.50 each and plans that scale with our customers’ needs. From
-            solo entrepreneurs to agencies managing multiple clients, we’re here
-            to make call tracking accessible, affordable, and powerful.
+          <p className="mt-8 text-lg text-gray-600">
+            We believe clarity is what drives confidence. When marketers can see
+            the truth behind every call, they can make smarter decisions that
+            help their businesses grow forward and faster.
           </p>
         </div>
         <div className="pt-20 lg:row-span-2 lg:-mr-16 xl:mr-auto">
@@ -112,6 +114,51 @@ function Header() {
   )
 }
 
+function FeaturesSection() {
+  return (
+    <section
+      id="features"
+      className="mt-20 bg-indigo-50 bg-[radial-gradient(circle_at_20%_20%,rgba(15,98,254,0.10),transparent_20%),radial-gradient(circle_at_80%_80%,rgba(99,102,241,0.06),transparent_30%)] py-24"
+    >
+      <div className="mx-auto max-w-7xl px-6">
+        <h2 className="text-4xl font-semibold">What Makes Us Different</h2>
+        <p className="mt-2 max-w-2xl text-gray-600">
+          CallGauge AI, is built for modern marketers who expect clarity, speed
+          and effortless integration because true confidence begins with
+          transparent data.
+        </p>
+
+        <div className="mt-8 grid grid-cols-1 gap-6 md:grid-cols-3">
+          <article className="rounded-lg bg-white/60 p-6 shadow-sm backdrop-blur-md">
+            <h3 className="font-semibold">98% Attribution Accuracy</h3>
+            <p className="mt-2 text-sm text-gray-600">
+              Achieve unparalleled precision with AI-powered attribution
+              modeling. Every call is traced to its true source, so you always
+              know which campaigns drive real results with complete certainty.
+            </p>
+          </article>
+
+          <article className="rounded-lg bg-white/60 p-6 shadow-sm backdrop-blur-md">
+            <h3 className="font-semibold">15-Minute Setup</h3>
+            <p className="mt-2 text-sm text-gray-600">
+              Go live in minutes, not weeks. Our streamlined onboarding gets you
+              tracking calls even before your coffee gets cold.
+            </p>
+          </article>
+
+          <article className="rounded-lg bg-white/60 p-6 shadow-sm backdrop-blur-md">
+            <h3 className="font-semibold">Integration-First Platform</h3>
+            <p className="mt-2 text-sm text-gray-600">
+              CallGauge AI connects with 50+ tools like HubSpot, Salesforce and
+              Google Ads so all of your data always stays in sync.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+  )
+}
+
 function Person({ name, description, img }) {
   return (
     <li className="flex items-center gap-4">
@@ -133,8 +180,56 @@ function Person({ name, description, img }) {
 }
 
 function Team() {
+  const team = [
+    {
+      name: 'Michael Foster',
+      role: 'Co-Founder / CTO',
+      image: '/team/michael-foster.jpg',
+    },
+    {
+      name: 'Dries Vincent',
+      role: 'Head of Sales',
+      image: '/team/dries-vincent.jpg',
+    },
+    {
+      name: 'Celeste Vandermark',
+      role: 'Lead Developer',
+      image: '/team/celeste-vandermark.jpg',
+    },
+    {
+      name: 'Courtney Henry',
+      role: 'Product Designer',
+      image: '/team/courtney-henry.jpg',
+    },
+    {
+      name: 'Marcus Eldridge',
+      role: 'Product Manager',
+      image: '/team/marcus-eldridge.jpg',
+    },
+    {
+      name: 'Whitney Francis',
+      role: 'Marketing Lead',
+      image: '/team/whitney-francis.jpg',
+    },
+    {
+      name: 'Leonard Krasner',
+      role: 'Senior Engineer',
+      image: '/team/leonard-krasner.jpg',
+    },
+    {
+      name: 'Nolan Sheffield',
+      role: 'UX Designer',
+      image: '/team/nolan-sheffield.jpg',
+    },
+    {
+      name: 'Emily Selman',
+      role: 'Customer Success Lead',
+      image: '/team/emily-selman.jpg',
+    },
+  ]
+
   return (
-    <Container className="mt-32">
+    <Container className="mt-20">
       <Subheading>Meet the team</Subheading>
       <Heading as="h3" className="mt-2">
         Built by call tracking innovators.
@@ -160,73 +255,51 @@ function Team() {
             thousands of clients. Our platform delivers insights at a fraction
             of the cost, helping customers track more and spend less.
           </p>
-          <div className="mt-6">
-            <Button className="w-full sm:w-auto" href="/contact">
-              Get in touch
-            </Button>
-          </div>
         </div>
-        <div className="max-lg:order-first max-lg:max-w-lg">
+        <div className="-mt-12 max-lg:order-first max-lg:max-w-lg">
           <div className="aspect-3/2 overflow-hidden rounded-xl shadow-xl outline-1 -outline-offset-1 outline-black/10">
             {/*<Image alt="" src={img5} className="block size-full object-cover" />*/}
             <Image alt="" src={img4} className="block size-full object-cover" />
           </div>
         </div>
       </div>
+
       <Subheading as="h3" className="mt-24">
         The team
       </Subheading>
       <hr className="mt-6 border-t border-gray-200" />
-      <ul
-        role="list"
-        className="mx-auto mt-16 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3"
-      >
-        <Person
-          name="Michael Foster"
-          description="Co-Founder / CTO"
-          img="/team/michael-foster.jpg"
-        />
-        <Person
-          name="Dries Vincent"
-          description="Head of Sales"
-          img="/team/dries-vincent.jpg"
-        />
-        <Person
-          name="Celeste Vandermark"
-          description="Lead Developer"
-          img="/team/celeste-vandermark.jpg"
-        />
-        <Person
-          name="Courtney Henry"
-          description="Product Designer"
-          img="/team/courtney-henry.jpg"
-        />
-        <Person
-          name="Marcus Eldridge"
-          description="Product Manager"
-          img="/team/marcus-eldridge.jpg"
-        />
-        <Person
-          name="Whitney Francis"
-          description="Marketing Lead"
-          img="/team/whitney-francis.jpg"
-        />
-        <Person
-          name="Leonard Krasner"
-          description="Senior Engineer"
-          img="/team/leonard-krasner.jpg"
-        />
-        <Person
-          name="Nolan Sheffield"
-          description="UX Designer"
-          img="/team/nolan-sheffield.jpg"
-        />
-        <Person
-          name="Emily Selman"
-          description="Customer Success Lead"
-          img="/team/emily-selman.jpg"
-        />
-      </ul>
+      <section id="team" className="py-12">
+        <div className="mx-auto max-w-7xl px-6">
+          <h2 className="text-2xl font-semibold">
+            Built by Innovators Who Believe in Clarity
+          </h2>
+          <p className="mt-2 max-w-3xl text-gray-600">
+            The team behind CallGauge AI brings over twelve years of combined
+            experience in analytics, AI and product development.
+            <br /> We’ve seen how confusing or incomplete data and inaccurate
+            call tracking hold marketing teams back. That’s why we’re creating a
+            smarter, more transparent platform that makes every decision clearer
+            to make and every result easier to trust.
+          </p>
+
+          <div className="mt-10 grid gap-6 sm:grid-cols-2 md:grid-cols-3">
+            {team.map((member, index) => (
+              <div
+                key={index}
+                className="rounded-lg bg-white p-6 text-center shadow"
+              >
+                <img
+                  src={member.image}
+                  alt={member.name}
+                  className="mx-auto h-20 w-20 rounded-full object-cover"
+                />
+                <h4 className="mt-4 font-semibold">{member.name}</h4>
+                <p className="text-sm text-gray-500">{member.role}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
     </Container>
   )
 }
@@ -359,26 +432,6 @@ function Values() {
             </Button>
           </div>
         </div>
-        {/*<div className="relative flex aspect-square flex-col justify-end overflow-hidden rounded-3xl sm:aspect-5/4 lg:aspect-3/4">*/}
-        {/*  <Image*/}
-        {/*    src={}*/}
-        {/*    alt=""*/}
-        {/*    className="absolute inset-0 object-cover"*/}
-        {/*  />*/}
-        {/*  <div*/}
-        {/*    aria-hidden="true"*/}
-        {/*    className="absolute inset-0 rounded-3xl bg-linear-to-t from-black from-10% to-75% ring-1 ring-gray-950/10 ring-inset lg:from-25%"*/}
-        {/*  />*/}
-        {/*  <div className="relative p-10">*/}
-        {/*    <p className="text-white sm:text-xl/7">*/}
-        {/*      “Our values shape every decision, ensuring we deliver tools that*/}
-        {/*      are affordable, simple, and innovative.”*/}
-        {/*    </p>*/}
-        {/*    <p className="mt-6 border-t border-white/20 pt-6 text-sm/6 font-medium text-white">*/}
-        {/*      CallGauge Team*/}
-        {/*    </p>*/}
-        {/*  </div>*/}
-        {/*</div>*/}
       </div>
     </Container>
   )
@@ -392,6 +445,8 @@ export default function About() {
         <Navbar />
       </Container>
       <Header />
+      <FeaturesSection />
+
       <Team />
       <Investors />
       <Values />

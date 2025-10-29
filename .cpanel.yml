@@ -1,4 +1,3 @@
-
 deployment:
   tasks:
     - export APP_PATH=/home/calleeol/fluidsms.com

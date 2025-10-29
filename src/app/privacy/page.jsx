@@ -168,7 +168,7 @@ function AdditionalFeatures() {
     },
     {
       title: 'Contact Us',
-      description: 'Reach us at privacy@callgauge.com with privacy questions.',
+      description: 'Reach us at  with privacy questions.',
     },
     {
       title: 'Effective Date',

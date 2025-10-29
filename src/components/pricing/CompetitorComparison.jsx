@@ -63,7 +63,7 @@ export default function CompetitorComparison() {
                       10 numbers, 1K minutes
                     </div>
                     <div className="text-xs font-semibold text-green-600">
-                      30-day free trial
+                      14-day free trial
                     </div>
                   </td>
                   <td className="p-6 text-center">

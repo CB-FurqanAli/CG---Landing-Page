@@ -3,7 +3,6 @@ import { Container } from '@/components/container'
 import { Footer } from '@/components/footer'
 import { Gradient } from '@/components/gradient'
 import CallToActionHome from '@/components/home/CallToActionHome'
-import CustomerSuccess from '@/components/home/CustomerSuccess'
 import { FAQSection } from '@/components/home/FAQSection'
 import Features from '@/components/home/features'
 import FinalCTA from '@/components/home/FinalCTA'
@@ -55,7 +54,7 @@ function Hero() {
           {/* CTA Buttons */}
           <div className="my-8 flex flex-col justify-center gap-4 sm:flex-row">
             <Button href="/login" className="px-8 py-3 text-lg font-semibold">
-              Sign Up Free asd
+              Sign Up Free
             </Button>
             <Button
               variant="secondary"
@@ -94,7 +93,7 @@ export default function Home() {
         <SolutionSection />
         <CallToActionHome />
         <Features />
-        <CustomerSuccess />
+        {/*<CustomerSuccess />*/}
         <FinalCTA />
         <FAQSection />
       </main>
