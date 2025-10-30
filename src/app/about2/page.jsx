@@ -11,7 +11,7 @@ import Image from 'next/image'
 import img1 from '/public/company/1.jpg'
 import img2 from '/public/company/2.jpg'
 import img3 from '/public/company/3.jpg'
-import img4 from '/public/company/4.jpg'
+import img4 from '/public/company/4.webp'
 
 export const metadata = {
   title: 'About',
@@ -27,8 +27,8 @@ function Header() {
         CallGauge AI is a call analytics and call tracking platform designed to
         give agencies and businesses complete visibility into which marketing
         efforts are truly driving results. We track your incoming calls, match
-        them to the campaigns that generated them, and deliver real-time
-        insights — so you can invest confidently in what actually works.
+        them to the campaigns that generated them, and deliver real time
+        insights so you can invest confidently in what actually works.
       </Lead>
       <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-12">
         <section className="font-inter bg-white py-20">
@@ -55,9 +55,9 @@ function Header() {
                   Our Mission
                 </h2>
                 <p className="text-lg leading-relaxed text-gray-700">
-                  Our mission is simple: To provide businesses with clear,
-                  accurate, and actionable performance data. We want marketers
-                  to make smarter decisions backed by evidence — not guesswork.
+                  Our mission is simple: To provide businesses with clear
+                  accurate and actionable performance data. We want marketers to
+                  make smarter decisions backed by evidence not guesswork.
                 </p>
               </div>
 
@@ -89,7 +89,7 @@ function Header() {
                 </h2>
                 <p className="text-lg leading-relaxed text-gray-700">
                   We envision a marketing landscape where clarity replaces
-                  confusion, and every decision is supported by real data — not
+                  confusion and every decision is supported by real data not
                   assumptions.
                 </p>
               </div>
@@ -196,12 +196,12 @@ function OurStorySection() {
             <p className="mb-6 text-lg leading-relaxed text-gray-700">
               The idea for <span className="font-semibold">CallGauge AI</span>{' '}
               came after working closely with businesses that regularly invested
-              in paid ads, SEO, and multiple campaigns — yet lacked a reliable
-              way to track which channels were generating their phone leads.
+              in paid ads, SEO, and multiple campaigns yet lacked a reliable way
+              to track which channels were generating their phone leads.
             </p>
 
             <p className="mb-8 text-lg leading-relaxed text-gray-700">
-              Great campaigns were performing, but they weren&apos;t getting the
+              Great campaigns were performing but they weren&apos;t getting the
               credit they deserved simply because the tracking wasn&apos;t
               there.
             </p>
@@ -294,7 +294,7 @@ function WhyChooseUs() {
     },
     {
       title: 'Built for Scale',
-      desc: 'Scalable, client-friendly, and designed for multi-account environments.',
+      desc: 'Scalable, client friendly, and designed for multi account environments.',
       cardBg: 'bg-gradient-to-br from-orange-50 to-red-50',
       iconWrap: 'bg-orange-600',
       icon: (
@@ -337,7 +337,7 @@ function WhyChooseUs() {
       ),
     },
     {
-      name: 'Service-Based Businesses',
+      name: 'Service Based Businesses',
       iconWrap: 'bg-blue-100',
       iconColor: 'text-blue-600',
       icon: (

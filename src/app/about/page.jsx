@@ -10,7 +10,7 @@ import Image from 'next/image'
 import img1 from '/public/company/1.jpg'
 import img2 from '/public/company/2.jpg'
 import img3 from '/public/company/3.jpg'
-import img4 from '/public/company/4.jpg'
+import img4 from '/public/company/4.webp'
 
 export const metadata = {
   title: 'About',

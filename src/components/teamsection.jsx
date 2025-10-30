@@ -4,9 +4,9 @@ import Image from 'next/image'
 
 export default function TeamSection() {
   const CEO = {
-    name: 'Your CEO Name',
+    name: 'Adnan Shabbir',
     role: 'Founder & CEO',
-    image: '/company/4.jpg',
+    image: '/company/4.webp',
     bio: 'Sets the vision and product direction, ensuring CallGauge AI delivers clarity and measurable impact for every customer.',
   }
 
@@ -14,7 +14,7 @@ export default function TeamSection() {
     {
       name: 'Michael Foster',
       role: 'Co-Founder / CTO',
-      image: '/team/michael-foster.jpg',
+      image: '',
     },
     {
       name: 'Dries Vincent',
@@ -71,8 +71,7 @@ export default function TeamSection() {
             </h2>
             <p className="mx-auto mt-4 max-w-4xl text-lg leading-relaxed text-gray-700 md:text-xl">
               Behind CallGauge AI is a team of builders, analysts, and
-              innovators who share one belief — clarity leads to better
-              decisions.
+              innovators who share one belief clarity leads to better decisions.
             </p>
           </div>
 
@@ -126,9 +125,9 @@ export default function TeamSection() {
           <div className="mt-16">
             <h3 className="text-2xl font-semibold text-gray-900">The Team</h3>
             <p className="mt-2 max-w-4xl text-gray-600">
-              We come from backgrounds in marketing, software engineering, data
+              We come from backgrounds in marketing software engineering, data
               analytics, and customer support. Every member of our team is
-              focused on one goal: helping businesses understand what truly
+              focused on one goal helping businesses understand what truly
               drives their growth.
             </p>
 
@@ -165,8 +164,8 @@ export default function TeamSection() {
             <div className="mx-auto mt-5 max-w-3xl space-y-6 text-gray-700">
               <p className="text-base leading-relaxed md:text-lg">
                 We work collaboratively, listen actively, and improve
-                continuously. We believe in transparency — both in our data and
-                in how we operate.
+                continuously. We believe in transparency both in our data and in
+                how we operate.
               </p>
               <p className="text-base leading-relaxed md:text-lg">
                 Every improvement we make, every feature we release, and every
