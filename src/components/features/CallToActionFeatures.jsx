@@ -6,17 +6,14 @@ export default function CallToActionFeatures() {
   return (
     <section className="bg-gradient-to-br from-[#0F172A] via-[#1E293B] to-[#0F172A] py-20 sm:bg-linear-145">
       {/* Decorative Dots Pattern */}
-      <div className="relative z-10 mx-auto max-w-4xl px-6 text-center">
+      <div className="relative z-10 mx-auto max-w-4xl px-6 text-center text-white">
         {/* Heading */}
-        <h2 className="mb-8 text-4xl leading-tight font-black tracking-tight text-white lg:text-6xl">
-          Turn Conversations Into
-          <span className="block bg-gradient-to-r from-yellow-300 to-orange-400 bg-clip-text text-transparent">
-            Revenue with Confidence
-          </span>
+        <h2 className="mb-4 text-3xl font-bold lg:text-4xl">
+          Turn Conversations Into Revenue with Confidence
         </h2>
 
-        {/* Subheading */}
-        <p className="mb-12 text-xl leading-relaxed font-medium text-white/90 lg:text-2xl">
+        {/* Subtext */}
+        <p className="mx-auto mb-10 max-w-3xl text-lg leading-relaxed text-gray-100 lg:text-xl">
           With CallGauge AI’s advanced features, attribution, AI insights, and
           real time reporting, you’ll finally see the true impact of your
           marketing.
@@ -37,7 +34,7 @@ export default function CallToActionFeatures() {
         </div>
 
         {/* Features */}
-        <div className="grid grid-cols-1 gap-8 text-center text-white/80 md:grid-cols-3">
+        <div className="grid grid-cols-1 text-center text-white/80 md:grid-cols-3">
           {/* Feature 1 */}
           <div className="flex flex-col items-center">
             <div className="glass-effect mb-4 flex h-16 w-16 items-center justify-center rounded-2xl bg-white/10">
