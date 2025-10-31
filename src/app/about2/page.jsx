@@ -6,7 +6,6 @@ import { Navbar } from '@/components/navbar'
 import { Heading, Lead } from '@/components/text'
 
 import { Button } from '@/components/button'
-import TeamSection from '@/components/teamsection'
 import Image from 'next/image'
 import img1 from '/public/company/1.jpg'
 import img2 from '/public/company/2.jpg'
@@ -561,7 +560,7 @@ export default function About2() {
       <Header />
       <OurStorySection />
       <WhyChooseUs />
-      <TeamSection />
+      {/*<TeamSection />*/}
       <CTA />
       <Footer />
     </main>
