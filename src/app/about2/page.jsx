@@ -14,9 +14,9 @@ import img3 from '/public/company/3.jpg'
 import img4 from '/public/company/4.webp'
 
 export const metadata = {
-  title: 'About',
+  title: 'About CallGauge AI | AI-Powered Call Tracking & Analytics',
   description:
-    'We’re on a mission to empower businesses with affordable, scalable call tracking solutions that maximize ROI.',
+    'Discover how CallGauge AI helps marketers and agencies achieve upto 98% attribution accuracy with AI-powered call tracking, analytics, and real-time insights.',
 }
 
 function Header() {
@@ -25,10 +25,10 @@ function Header() {
       <Heading as="h1">Building the Future of Marketing Clarity</Heading>
       <Lead className="mt-6 max-w-4xl text-lg">
         CallGauge AI is a call analytics and call tracking platform designed to
-        give agencies and businesses complete visibility into which marketing
-        efforts are truly driving results. We track your incoming calls, match
-        them to the campaigns that generated them, and deliver real time
-        insights so you can invest confidently in what actually works.
+        give agencies and businesses complete Clear view which campaigns are
+        genuinely delivering results. We track your incoming calls, match them
+        to the campaigns that generated them, and deliver real time insights so
+        you can invest confidently in what actually works.
       </Lead>
       <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-12">
         <section className="font-inter bg-white py-20">
@@ -55,9 +55,9 @@ function Header() {
                   Our Mission
                 </h2>
                 <p className="text-lg leading-relaxed text-gray-700">
-                  Our mission is simple: To provide businesses with clear
-                  accurate and actionable performance data. We want marketers to
-                  make smarter decisions backed by evidence not guesswork.
+                  Our mission is to deliver clear, accurate, and decision ready
+                  performance insights. We want marketers to make smarter
+                  decisions backed by evidence not guesswork.
                 </p>
               </div>
 
@@ -131,27 +131,28 @@ function Header() {
         </div>
       </div>
 
-      <div className="-mt-10 bg-[#f5f5f3] py-16">
+      <div className="mt-16 bg-[#f5f5f3] py-16 lg:-mt-12">
         <div className="mx-auto max-w-7xl px-6">
           <div className="grid grid-cols-1 gap-10 text-center sm:grid-cols-2 lg:grid-cols-4">
             {/* Stat 1 */}
             <div>
               <p className="text-4xl font-semibold text-gray-900 lg:text-5xl">
-                $<AnimatedNumber start={5} end={10} />M
+                $<AnimatedNumber start={1} end={10} />M
               </p>
               <p className="mt-2 text-base text-gray-600">
-                Annual recurring revenue reached in 2024 and growing
+                Annual average income is expected to reach and continue
+                increasing by 2026.
               </p>
             </div>
 
             {/* Stat 2 */}
             <div>
               <p className="text-4xl font-semibold text-gray-900 lg:text-5xl">
-                <AnimatedNumber start={8} end={15} />
+                <AnimatedNumber start={4} end={15} />
                 K+
               </p>
               <p className="mt-2 text-base text-gray-600">
-                Businesses trust CallGauge AI as their analytics platform
+                Our goal is to build trust with a growing number of businesses.
               </p>
             </div>
 
@@ -195,9 +196,10 @@ function OurStorySection() {
           <div className="rounded-2xl bg-white p-10 shadow-xl transition-transform duration-300 md:p-12">
             <p className="mb-6 text-lg leading-relaxed text-gray-700">
               The idea for <span className="font-semibold">CallGauge AI</span>{' '}
-              came after working closely with businesses that regularly invested
-              in paid ads, SEO, and multiple campaigns yet lacked a reliable way
-              to track which channels were generating their phone leads.
+              came after working closely with businesses that consistently
+              invested in paid ads, SEO, and multiple campaigns but didn&#39;t
+              have a reliable to track which channels were generating their
+              phone leads.
             </p>
 
             <p className="mb-8 text-lg leading-relaxed text-gray-700">
@@ -213,9 +215,9 @@ function OurStorySection() {
 
               <div className="space-y-4">
                 {[
-                  'Tracks phone calls with precise accuracy',
+                  'Tracks phone calls with accurate detail.',
                   'Connects calls to specific campaigns in real-time',
-                  'Integrates smoothly without technical complexity',
+                  'Integrates smoothly without technical difficulty',
                 ].map((item, i) => (
                   <div key={i} className="flex items-start">
                     <svg
@@ -252,7 +254,7 @@ function WhyChooseUs() {
   const benefits = [
     {
       title: 'Accurate Tracking',
-      desc: 'See exactly which campaigns are driving your calls — no assumptions.',
+      desc: 'See exactly which campaigns are driving your calls no estimations.',
       cardBg: 'bg-gradient-to-br from-blue-50 to-indigo-50',
       iconWrap: 'bg-blue-600',
       icon: (
@@ -294,7 +296,7 @@ function WhyChooseUs() {
     },
     {
       title: 'Built for Scale',
-      desc: 'Scalable, client friendly, and designed for multi account environments.',
+      desc: 'Scalable, client friendly, and designed for multi account workspaces.',
       cardBg: 'bg-gradient-to-br from-orange-50 to-red-50',
       iconWrap: 'bg-orange-600',
       icon: (
@@ -448,8 +450,8 @@ function WhyChooseUs() {
               Who We Serve
             </h2>
             <p className="mb-12 text-center text-xl text-gray-600">
-              CallGauge AI is ideal for organizations that rely on phone calls
-              as a primary lead source
+              CallGauge AI is suitable for organizations that depend on phone
+              calls as a primary lead source
             </p>
 
             <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
@@ -478,7 +480,8 @@ function WhyChooseUs() {
             </div>
 
             <p className="mt-12 text-center text-xl font-medium text-gray-700">
-              If calls matter to your business, CallGauge AI is built for you.
+              If calls important to your business, CallGauge AI is built for
+              you.
             </p>
           </div>
         </div>
