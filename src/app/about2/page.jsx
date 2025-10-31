@@ -159,7 +159,7 @@ function Header() {
             {/* Stat 3 */}
             <div>
               <p className="text-4xl font-semibold text-gray-900 lg:text-5xl">
-                <AnimatedNumber start={50} end={75} />
+                <AnimatedNumber start={20} end={75} />
                 M+
               </p>
               <p className="mt-2 text-base text-gray-600">
@@ -170,7 +170,7 @@ function Header() {
             {/* Stat 4 */}
             <div>
               <p className="text-4xl font-semibold text-gray-900 lg:text-5xl">
-                <AnimatedNumber start={20} end={40} />
+                <AnimatedNumber start={10} end={40} />
                 K+
               </p>
               <p className="mt-2 text-base text-gray-600">

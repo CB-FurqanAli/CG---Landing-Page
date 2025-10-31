@@ -12,49 +12,49 @@ export default function TeamSection() {
 
   const team = [
     {
-      name: 'Michael Foster',
+      name: 'Bilal Tufail',
       role: 'Co-Founder / CTO',
-      image: '',
+      image: '/team/dummy.png',
     },
     {
-      name: 'Dries Vincent',
+      name: 'Gulfaraz Arshad',
       role: 'Head of Sales',
-      image: '/team/dries-vincent.jpg',
+      image: '/team/dummy.png',
     },
     {
-      name: 'Celeste Vandermark',
+      name: 'Talish Bukhari',
       role: 'Lead Developer',
-      image: '/team/celeste-vandermark.jpg',
+      image: '/team/dummy.png',
     },
     {
-      name: 'Courtney Henry',
+      name: 'Tahira Bilal',
       role: 'Product Designer',
-      image: '/team/courtney-henry.jpg',
+      image: '/team/dummy.png',
     },
     {
-      name: 'Marcus Eldridge',
+      name: 'Furqan Ali',
       role: 'Product Manager',
-      image: '/team/marcus-eldridge.jpg',
+      image: '/blog/furqan.png',
     },
     {
-      name: 'Whitney Francis',
+      name: 'Muhammad Jahanzeb',
       role: 'Marketing Lead',
-      image: '/team/whitney-francis.jpg',
+      image: '/team/dummy.png',
     },
     {
-      name: 'Leonard Krasner',
+      name: 'Waqas Buzdar',
       role: 'Senior Engineer',
-      image: '/team/leonard-krasner.jpg',
+      image: '/team/dummy.png',
     },
     {
-      name: 'Nolan Sheffield',
+      name: 'Syed Kamran Mehdi',
       role: 'UX Designer',
-      image: '/team/nolan-sheffield.jpg',
+      image: '/team/dummy.png',
     },
     {
       name: 'Emily Selman',
       role: 'Customer Success Lead',
-      image: '/team/emily-selman.jpg',
+      image: '/team/dummy.png',
     },
   ]
 
